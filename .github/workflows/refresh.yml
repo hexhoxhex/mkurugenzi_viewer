@@ -19,18 +19,13 @@ concurrency:
 permissions:
   contents: write           # to push the refreshed data back to main
 
-# Opt into Node.js 24 for the JS-based actions (checkout, setup-python) so we
-# don't get the deprecation warning on every run. Forced default 2026-06-16.
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
-
 jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # Need the full history so commit + push works cleanly.
           fetch-depth: 1
@@ -38,7 +33,7 @@ jobs:
           persist-credentials: true
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
           # No cache: pip - we only install `requests` and caching that adds
