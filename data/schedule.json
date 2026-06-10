@@ -649,6 +649,10 @@
     "title": "Money in the Bank 150 at Berlin Raceway",
     "channels": [
       {
+        "id": "211",
+        "name": "Event PPV"
+      },
+      {
         "id": "5012",
         "name": "Floracing"
       }
@@ -660,6 +664,10 @@
     "title": "USAC Indiana Midget Week at Paragon Speedway",
     "channels": [
       {
+        "id": "212",
+        "name": "Event PPV"
+      },
+      {
         "id": "5005",
         "name": "Floracing"
       }
@@ -667,9 +675,35 @@
   },
   {
     "category": "PPV Events",
-    "time": "22:45",
-    "title": "Kankakee County Speedway",
+    "time": "22:15",
+    "title": "Appalachian LM Speedweek Action Track",
     "channels": [
+      {
+        "id": "213",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
+    "time": "22:15",
+    "title": "Millbridge Sprints",
+    "channels": [
+      {
+        "id": "214",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
+    "time": "22:45",
+    "title": "Summer Nationals Kankakee County Speedway",
+    "channels": [
+      {
+        "id": "215",
+        "name": "Event PPV"
+      },
       {
         "id": "5007",
         "name": "Floracing"
@@ -681,6 +715,10 @@
     "time": "23:15",
     "title": "Shale Crescent Dirt Cup at Muskingum County Speedway",
     "channels": [
+      {
+        "id": "216",
+        "name": "Event PPV"
+      },
       {
         "id": "5013",
         "name": "Floracing"
@@ -1311,7 +1349,7 @@
     "title": "United States - USL League One : Charlotte Independence vs Union Omaha",
     "channels": [
       {
-        "id": "69",
+        "id": "202",
         "name": "ESPN+ USA"
       }
     ]
