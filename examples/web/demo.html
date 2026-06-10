@@ -1,0 +1,266 @@
+<!doctype html>
+<!--
+  Consumer-side demo: fetches the published catalog + schedule directly from
+  raw.githubusercontent.com and renders a playable browser app.
+
+  Open this file in a browser (or host it) - it pulls the latest data live.
+
+  Clean links via URL hash routing:
+    #c=657      -> auto-open and play channel 657
+    #e=fifa%20mexico  -> open Schedule tab and filter to events matching "fifa mexico"
+    #group=usa  -> filter Channels to group containing "usa"
+
+  Copy this file into your own app and adapt the renderers; the fetch + play
+  logic is the same shape you'd use in a React/Vue/Svelte component.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>mkurugenzi viewer</title>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+<style>
+  :root { color-scheme: dark; --accent:#4a8fd6; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px system-ui,sans-serif; background:#0e0e10; color:#eee;
+         display:grid; grid-template-columns:340px 1fr; height:100vh; }
+  aside { border-right:1px solid #222; display:flex; flex-direction:column; min-height:0; }
+  header { padding:10px 12px; border-bottom:1px solid #222; }
+  header h1 { margin:0 0 6px; font-size:14px; color:#9cf; }
+  header .meta { font-size:11px; color:#888; }
+  .tabs { display:flex; border-bottom:1px solid #222; }
+  .tab { flex:1; padding:8px; background:#0e0e10; border:0; border-bottom:2px solid transparent;
+         color:#aaa; cursor:pointer; font:inherit; font-size:13px; }
+  .tab.active { color:#fff; border-bottom-color:var(--accent); background:#161618; }
+  .toolbar { padding:8px 12px; border-bottom:1px solid #222; display:flex; gap:6px; align-items:center; }
+  .toolbar input { flex:1; padding:6px 8px; background:#1a1a1d; border:1px solid #333; border-radius:4px; color:#eee; font:inherit; }
+  .toolbar select { padding:6px; background:#1a1a1d; border:1px solid #333; border-radius:4px; color:#eee; font:inherit; }
+  .pane { flex:1; overflow:auto; min-height:0; }
+  .pane.hidden { display:none; }
+  .row { padding:7px 12px; display:flex; align-items:center; gap:8px; cursor:pointer;
+         border-bottom:1px solid #1a1a1d; }
+  .row:hover { background:#1a1a1d; }
+  .row.active { background:#264f78; }
+  .row .logo { width:22px; height:22px; object-fit:contain; flex-shrink:0; background:#000; border-radius:2px; }
+  .row .name { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .row .group { font-size:10px; color:#9cf; }
+  main { display:flex; flex-direction:column; min-width:0; }
+  #video-wrap { flex:1; background:#000; display:flex; align-items:center; justify-content:center; }
+  video { width:100%; height:100%; object-fit:contain; }
+  #info { padding:10px 14px; border-top:1px solid #222; font:12px/1.4 ui-monospace,monospace; color:#aaa; min-height:60px; word-break:break-all; }
+  #info a { color:#9cf; }
+  .err { color:#f77; }
+  .cat { border-bottom:1px solid #1a1a1d; }
+  .cat-head { padding:8px 12px; cursor:pointer; background:#161618; font-weight:600;
+              display:flex; justify-content:space-between; align-items:center; }
+  .cat-head:hover { background:#1f1f22; }
+  .event { padding:8px 12px 10px 16px; border-top:1px solid #1a1a1d; }
+  .event-head { display:flex; gap:8px; }
+  .event-time { color:#9cf; font-family:ui-monospace,monospace; font-size:12px; min-width:48px; }
+  .event-title { flex:1; }
+  .event-chans { margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; padding-left:56px; }
+  .chip { font-size:11px; padding:3px 8px; border-radius:3px; background:var(--accent); color:#fff;
+          cursor:pointer; display:inline-flex; align-items:center; gap:5px; }
+  .chip:hover { filter:brightness(1.2); }
+  .chip.disabled { background:#2a2a2d; color:#666; cursor:not-allowed; }
+  .chip .chip-logo { width:14px; height:14px; object-fit:contain; background:#000; border-radius:2px; }
+  #share { margin-left:6px; font-size:11px; color:#888; cursor:pointer; text-decoration:underline; }
+</style>
+</head>
+<body>
+<aside>
+  <header>
+    <h1>mkurugenzi viewer</h1>
+    <div class="meta">
+      <span id="status">loading...</span>
+      <a id="share" title="Click to copy a deep link to the current selection">share link</a>
+    </div>
+  </header>
+  <div class="tabs">
+    <button class="tab active" data-tab="channels">Channels</button>
+    <button class="tab" data-tab="schedule">Schedule</button>
+  </div>
+  <div class="toolbar" id="channels-tools">
+    <input id="q" placeholder="Filter channels..." autofocus>
+    <select id="group"><option value="">All groups</option></select>
+  </div>
+  <div class="toolbar hidden" id="schedule-tools">
+    <input id="qs" placeholder="Search events / teams / channels...">
+  </div>
+  <div id="channels-pane" class="pane"></div>
+  <div id="schedule-pane" class="pane hidden"></div>
+</aside>
+<main>
+  <div id="video-wrap"><video id="video" controls muted autoplay playsinline></video></div>
+  <div id="info">Pick a channel or schedule event.</div>
+</main>
+<script>
+// ============ CONFIG: edit if you fork ============
+const REPO = 'hexhoxhex/mkurugenzi_viewer';
+const BRANCH = 'main';
+const DATA_BASE = `https://raw.githubusercontent.com/${REPO}/${BRANCH}`;
+const CHANNELS_URL = `${DATA_BASE}/data/channels.json`;
+const SCHEDULE_URL = `${DATA_BASE}/data/schedule.json`;
+// ==================================================
+
+const els = {
+  q: document.getElementById('q'),
+  qs: document.getElementById('qs'),
+  group: document.getElementById('group'),
+  status: document.getElementById('status'),
+  share: document.getElementById('share'),
+  video: document.getElementById('video'),
+  info: document.getElementById('info'),
+  chanPane: document.getElementById('channels-pane'),
+  schedPane: document.getElementById('schedule-pane'),
+  chanTools: document.getElementById('channels-tools'),
+  schedTools: document.getElementById('schedule-tools'),
+};
+
+let CHANNELS = [], SCHEDULE = [], byId = new Map();
+let hls = null, active = null;
+
+const esc = s => String(s).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[ch]);
+
+async function load() {
+  els.status.textContent = 'fetching catalog...';
+  const [c, s] = await Promise.all([
+    fetch(CHANNELS_URL).then(r => r.json()),
+    fetch(SCHEDULE_URL).then(r => r.json()),
+  ]);
+  // Filter to status='ok' only - playable now. Drop 'down'/'unreachable' for a consumer demo.
+  CHANNELS = c.filter(x => x.status === 'ok');
+  SCHEDULE = s;
+  byId = new Map(CHANNELS.map(x => [x.id, x]));
+  // populate group dropdown
+  const groups = [...new Set(CHANNELS.map(x => x.group).filter(Boolean))].sort();
+  els.group.innerHTML = '<option value="">All groups</option>' +
+    groups.map(g => `<option value="${esc(g)}">${esc(g)}</option>`).join('');
+  els.status.textContent = `${CHANNELS.length} live channels - ${SCHEDULE.length} scheduled events`;
+  renderChannels();
+  renderSchedule();
+  applyHash();
+}
+
+// ============ Channels ============
+function renderChannels() {
+  const q = els.q.value.trim().toLowerCase();
+  const g = els.group.value;
+  const filtered = CHANNELS.filter(c =>
+    (!q || c.name.toLowerCase().includes(q)) &&
+    (!g || c.group === g)
+  );
+  els.chanPane.innerHTML = filtered.map(c => `
+    <div class="row${active === c.id ? ' active' : ''}" data-id="${c.id}">
+      ${c.logo ? `<img class="logo" src="${esc(c.logo)}" loading="lazy" alt="" onerror="this.style.visibility='hidden'">` : '<span class="logo"></span>'}
+      <span class="name">${esc(c.name)}</span>
+      <span class="group">${esc(c.group || '')}</span>
+    </div>`).join('');
+  els.chanPane.querySelectorAll('.row').forEach(r => {
+    r.onclick = () => play(byId.get(r.dataset.id));
+  });
+}
+
+// ============ Schedule ============
+function renderSchedule() {
+  const q = els.qs.value.trim().toLowerCase();
+  const groups = new Map();
+  for (const e of SCHEDULE) {
+    if (q) {
+      const hay = (e.title + ' ' + e.category + ' ' + e.channels.map(c => c.name).join(' ')).toLowerCase();
+      if (!hay.includes(q)) continue;
+    }
+    if (!groups.has(e.category)) groups.set(e.category, []);
+    groups.get(e.category).push(e);
+  }
+  let html = '';
+  for (const [cat, events] of groups) {
+    events.sort((a, b) => a.time.localeCompare(b.time));
+    html += `<div class="cat"><div class="cat-head"><span>${esc(cat)}</span><span style="color:#888;font-weight:normal">${events.length}</span></div>`;
+    for (const e of events) {
+      const chips = e.channels.map(ch => {
+        const real = byId.get(ch.id);
+        const logo = real && real.logo ? `<img class="chip-logo" src="${esc(real.logo)}" onerror="this.remove()">` : '';
+        const cls = real ? 'chip' : 'chip disabled';
+        return `<span class="${cls}" data-cid="${ch.id}">${logo}${esc(ch.name)}</span>`;
+      }).join('');
+      html += `<div class="event">
+        <div class="event-head"><span class="event-time">${esc(e.time)}</span><span class="event-title">${esc(e.title)}</span></div>
+        <div class="event-chans">${chips}</div></div>`;
+    }
+    html += '</div>';
+  }
+  els.schedPane.innerHTML = html;
+  els.schedPane.querySelectorAll('.chip:not(.disabled)').forEach(c => {
+    c.onclick = () => {
+      const ch = byId.get(c.dataset.cid);
+      if (ch) play(ch);
+    };
+  });
+}
+
+// ============ Playback ============
+function play(c) {
+  if (!c) return;
+  active = c.id;
+  switchTab('channels');
+  renderChannels();
+  if (hls) { hls.destroy(); hls = null; }
+  els.info.innerHTML = `<strong>${esc(c.name)}</strong> &middot; <span style="color:#888">id ${c.id} &middot; ${esc(c.group || '')}</span><br>
+    <a href="${esc(c.stream_url)}" target="_blank" rel="noopener">${esc(c.stream_url)}</a>`;
+  if (Hls.isSupported()) {
+    hls = new Hls({ liveSyncDurationCount: 3 });
+    hls.loadSource(c.stream_url);
+    hls.attachMedia(els.video);
+    hls.on(Hls.Events.MANIFEST_PARSED, () => els.video.play().catch(()=>{}));
+    hls.on(Hls.Events.ERROR, (_, d) => {
+      if (d.fatal) els.info.innerHTML += `<br><span class="err">Playback failed: ${d.type}/${d.details}. The stream may have rotated since the last scrape.</span>`;
+    });
+  } else if (els.video.canPlayType('application/vnd.apple.mpegurl')) {
+    els.video.src = c.stream_url;
+    els.video.play().catch(()=>{});
+  }
+  setHash({c: c.id});
+}
+
+// ============ Tabs + hash routing ============
+function switchTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+  els.chanPane.classList.toggle('hidden', name !== 'channels');
+  els.schedPane.classList.toggle('hidden', name !== 'schedule');
+  els.chanTools.classList.toggle('hidden', name !== 'channels');
+  els.schedTools.classList.toggle('hidden', name !== 'schedule');
+}
+document.querySelectorAll('.tab').forEach(t =>
+  t.onclick = () => { switchTab(t.dataset.tab); setHash(t.dataset.tab === 'schedule' ? {tab: 'schedule'} : {}); });
+
+function setHash(obj) {
+  const parts = Object.entries(obj).map(([k, v]) => `${k}=${encodeURIComponent(v)}`);
+  history.replaceState(null, '', parts.length ? '#' + parts.join('&') : ' ');
+}
+function applyHash() {
+  const h = location.hash.replace(/^#/, '');
+  const params = Object.fromEntries(
+    h.split('&').filter(Boolean).map(s => { const i = s.indexOf('='); return [s.slice(0, i), decodeURIComponent(s.slice(i+1))]; })
+  );
+  if (params.tab === 'schedule') switchTab('schedule');
+  if (params.group) { els.group.value = params.group; renderChannels(); }
+  if (params.q) { els.q.value = params.q; renderChannels(); }
+  if (params.e) { switchTab('schedule'); els.qs.value = params.e; renderSchedule(); }
+  if (params.c && byId.has(params.c)) play(byId.get(params.c));
+}
+
+// ============ Wire-up ============
+els.q.oninput = () => { renderChannels(); setHash({q: els.q.value}); };
+els.qs.oninput = () => { renderSchedule(); setHash({tab:'schedule', e: els.qs.value}); };
+els.group.onchange = () => { renderChannels(); setHash({group: els.group.value}); };
+els.share.onclick = () => {
+  navigator.clipboard.writeText(location.href);
+  els.share.textContent = 'copied!';
+  setTimeout(() => els.share.textContent = 'share link', 1500);
+};
+window.addEventListener('hashchange', applyHash);
+
+load().catch(e => els.status.innerHTML = `<span class="err">Failed to load: ${esc(String(e))}</span>`);
+</script>
+</body>
+</html>

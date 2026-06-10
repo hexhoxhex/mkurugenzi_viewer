@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DaddyLive Channels & Schedule</title>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:14px system-ui,sans-serif; background:#0e0e10; color:#eee;
+         display:grid; grid-template-columns:380px 1fr; height:100vh; }
+  aside { border-right:1px solid #222; display:flex; flex-direction:column; min-height:0; }
+  #tabs { display:flex; border-bottom:1px solid #222; }
+  .tab { flex:1; padding:10px; background:#0e0e10; border:0; border-bottom:2px solid transparent;
+         color:#aaa; cursor:pointer; font:inherit; }
+  .tab.active { color:#fff; border-bottom-color:#4a8fd6; background:#161618; }
+  .tab:hover { background:#1a1a1d; }
+  .pane { flex:1; display:flex; flex-direction:column; min-height:0; }
+  .pane.hidden { display:none; }
+  .toolbar { padding:8px 12px; border-bottom:1px solid #222; display:flex; gap:8px;
+             flex-wrap:wrap; align-items:center; }
+  .toolbar input[type=text] { flex:1; min-width:140px; padding:6px 8px; background:#1a1a1d;
+              border:1px solid #333; border-radius:4px; color:#eee; }
+  .toolbar label { font-size:12px; color:#aaa; display:flex; align-items:center; gap:4px; }
+  button { padding:6px 10px; background:#1a1a1d; border:1px solid #333; color:#eee;
+           border-radius:4px; cursor:pointer; font-size:12px; }
+  button:hover { background:#264f78; }
+  .scroll { overflow:auto; flex:1; }
+  .row { padding:7px 12px; cursor:pointer; border-bottom:1px solid #1a1a1d;
+         display:flex; align-items:center; gap:8px; }
+  .row:hover { background:#1a1a1d; }
+  .row.active { background:#264f78; }
+  .row .logo { width:22px; height:22px; object-fit:contain; flex-shrink:0; background:#000; border-radius:2px; }
+  .row .logo.empty { background:#222; }
+  .row .name { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .badge { font-size:10px; padding:2px 6px; border-radius:3px; background:#333; color:#bbb;
+           font-family:ui-monospace,monospace; }
+  .badge.ok { background:#1f5e1f; color:#cfc; }
+  .badge.down { background:#5e3a1f; color:#fed; }
+  .badge.unreachable { background:#2a2a2d; color:#888; text-decoration:line-through; }
+  .badge.cors { background:#5e1f5e; color:#fcf; }
+  .badge.bad { background:#5e1f1f; color:#fcc; }
+  .badge.test { background:#5e4a1f; color:#fec; }
+  #count, #sched-count { color:#888; font-size:12px; padding:6px 12px; border-top:1px solid #222; }
+  main { display:flex; flex-direction:column; min-width:0; }
+  #video-wrap { flex:1; background:#000; position:relative; display:flex; align-items:center; justify-content:center; }
+  video, #frame { width:100%; height:100%; object-fit:contain; background:#000; border:0; }
+  #frame { display:none; }
+  #players { padding:8px 14px; border-top:1px solid #222; display:flex; gap:6px;
+             flex-wrap:wrap; align-items:center; background:#161618; }
+  #players .label { color:#888; font-size:12px; margin-right:4px; }
+  #players button { font-size:11px; padding:4px 9px; position:relative; }
+  #players button.active { background:#4a8fd6; border-color:#4a8fd6; color:#fff; }
+  #players button.avail { border-color:#1f5e1f; }
+  #players button.avail::after { content:""; position:absolute; top:3px; right:3px;
+            width:6px; height:6px; border-radius:50%; background:#3a3; }
+  #players button.unavail { border-color:#5e1f1f; opacity:0.5; }
+  #players button.unavail::after { content:""; position:absolute; top:3px; right:3px;
+            width:6px; height:6px; border-radius:50%; background:#a33; }
+  #players label.auto { color:#aaa; font-size:11px; margin-left:auto; display:flex;
+            align-items:center; gap:4px; }
+  #info { padding:10px 14px; border-top:1px solid #222; font-family:ui-monospace,monospace;
+          font-size:12px; color:#aaa; min-height:60px; word-break:break-all; }
+  #info .label { color:#888; }
+  #info .err { color:#f77; }
+  .cat { border-bottom:1px solid #1a1a1d; }
+  .cat-head { padding:8px 12px; cursor:pointer; background:#161618; font-weight:600;
+              display:flex; justify-content:space-between; align-items:center; }
+  .cat-head:hover { background:#1f1f22; }
+  .cat-head .caret { color:#888; transition:transform 0.15s; }
+  .cat.collapsed .cat-head .caret { transform:rotate(-90deg); }
+  .cat.collapsed .cat-body { display:none; }
+  .event { padding:8px 12px 10px 16px; border-top:1px solid #1a1a1d; }
+  .event-head { display:flex; gap:8px; align-items:center; }
+  .event-time { color:#9cf; font-family:ui-monospace,monospace; font-size:12px; min-width:48px; }
+  .event-title { flex:1; }
+  .event-chans { margin-top:6px; display:flex; flex-wrap:wrap; gap:4px; padding-left:56px; }
+  .chip { font-size:11px; padding:3px 8px; border-radius:3px; background:#264f78; color:#fff;
+          cursor:pointer; border:1px solid transparent; display:inline-flex; align-items:center; gap:5px; }
+  .chip:hover { background:#3a6fa8; }
+  .chip.disabled { background:#2a2a2d; color:#666; cursor:not-allowed; }
+  .chip .chip-logo { width:14px; height:14px; object-fit:contain; background:#000; border-radius:2px; }
+  .chip .b { font-size:9px; opacity:0.8; }
+</style>
+</head>
+<body>
+<aside>
+  <div id="tabs">
+    <button class="tab active" data-tab="channels">Channels</button>
+    <button class="tab" data-tab="schedule">Schedule</button>
+  </div>
+
+  <div class="pane" id="pane-channels">
+    <div class="toolbar">
+      <input type="text" id="q" placeholder="Filter channels..." autofocus>
+    </div>
+    <div class="toolbar">
+      <button id="test-all">Test visible</button>
+      <button id="reset">Reset status</button>
+      <label><input type="checkbox" id="live-only" checked> Live only</label>
+      <label><input type="checkbox" id="hide-unreach" checked> Hide unreachable</label>
+    </div>
+    <div id="list" class="scroll"></div>
+    <div id="count"></div>
+  </div>
+
+  <div class="pane hidden" id="pane-schedule">
+    <div class="toolbar">
+      <input type="text" id="qs" placeholder="Search events / teams...">
+    </div>
+    <div class="toolbar">
+      <button id="exp-all">Expand all</button>
+      <button id="coll-all">Collapse all</button>
+    </div>
+    <div id="schedule" class="scroll"></div>
+    <div id="sched-count"></div>
+  </div>
+</aside>
+<main>
+  <div id="video-wrap">
+    <video id="video" controls muted autoplay playsinline></video>
+    <iframe id="frame" allowfullscreen allow="autoplay; encrypted-media; fullscreen"></iframe>
+  </div>
+  <div id="players" style="display:none">
+    <span class="label">Player:</span>
+    <button data-p="hls" class="active" title="Direct hls.js playback of our scraped m3u8 URL">Direct</button>
+    <button data-p="stream"  title="Player 1">P1</button>
+    <button data-p="cast"    title="Player 2">P2</button>
+    <button data-p="watch"   title="Player 3">P3</button>
+    <button data-p="plus"    title="Player 4">P4</button>
+    <button data-p="casting" title="Player 5">P5</button>
+    <button data-p="player"  title="Player 6">P6</button>
+    <button id="cycle" title="Try the next available player">Next &#9654;</button>
+    <button id="open-tab" title="Open the current iframe URL in a new tab">Open &#8599;</button>
+    <label class="auto"><input type="checkbox" id="auto-fb" checked> Auto-fallback</label>
+  </div>
+  <div id="info"><span class="label">Pick a channel or schedule event on the left.</span></div>
+</main>
+<script>
+const DATA = __DATA__;
+const CHANNELS = DATA.channels;
+const SCHEDULE = DATA.schedule || [];
+const byId = new Map(CHANNELS.map(c => [c.id, c]));
+
+const listEl = document.getElementById('list');
+const qEl = document.getElementById('q');
+const qsEl = document.getElementById('qs');
+const scheduleEl = document.getElementById('schedule');
+const countEl = document.getElementById('count');
+const schedCountEl = document.getElementById('sched-count');
+const video = document.getElementById('video');
+const frame = document.getElementById('frame');
+const playersEl = document.getElementById('players');
+const info = document.getElementById('info');
+const liveOnlyEl = document.getElementById('live-only');
+const hideUnreachEl = document.getElementById('hide-unreach');
+
+let hls = null;
+let active = null;
+const status = new Map();
+
+for (const c of CHANNELS) if (c.status) status.set(c.id, c.status);
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[ch]);
+}
+
+function logoHtml(c, cls) {
+  if (c.logo) return `<img class="${cls}" src="${esc(c.logo)}" loading="lazy" alt="" onerror="this.style.visibility='hidden'">`;
+  return `<span class="${cls} empty"></span>`;
+}
+
+// ---------- tabs ----------
+function switchTab(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+  document.getElementById('pane-channels').classList.toggle('hidden', name !== 'channels');
+  document.getElementById('pane-schedule').classList.toggle('hidden', name !== 'schedule');
+}
+document.querySelectorAll('.tab').forEach(t => t.onclick = () => switchTab(t.dataset.tab));
+
+// ---------- channels list ----------
+function renderChannels() {
+  const q = qEl.value.trim().toLowerCase();
+  const liveOnly = liveOnlyEl.checked;
+  const hideUnreach = hideUnreachEl.checked;
+  const filtered = CHANNELS.filter(c => {
+    if (q && !c.name.toLowerCase().includes(q)) return false;
+    const st = status.get(c.id);
+    if (liveOnly && st !== 'ok') return false;
+    if (hideUnreach && st === 'unreachable') return false;
+    return true;
+  });
+  const okCount = CHANNELS.filter(c => status.get(c.id) === 'ok').length;
+  const downCount = CHANNELS.filter(c => status.get(c.id) === 'down').length;
+  const unreachCount = CHANNELS.filter(c => status.get(c.id) === 'unreachable').length;
+  listEl.innerHTML = '';
+  for (const c of filtered) {
+    const row = document.createElement('div');
+    row.className = 'row' + (active === c.id ? ' active' : '');
+    const st = status.get(c.id);
+    const badge = st ? `<span class="badge ${st}">${st}</span>` : '';
+    row.innerHTML = `${logoHtml(c, 'logo')}<span class="name" title="${esc(c.name)}">${esc(c.name)}</span>${badge}<span class="badge">#${c.id}</span>`;
+    row.onclick = () => play(c);
+    listEl.appendChild(row);
+  }
+  countEl.textContent = `${filtered.length} shown / ${CHANNELS.length} total - ${okCount} live, ${downCount} down, ${unreachCount} unreachable`;
+}
+
+// ---------- playback ----------
+async function probe(url) {
+  try {
+    const r = await fetch(url, { method: 'GET', mode: 'cors' });
+    const body = await r.text();
+    if (r.ok && body.startsWith('#EXTM3U')) return { kind: 'ok', code: r.status, body };
+    return { kind: 'down', code: r.status, body: body.slice(0, 120) };
+  } catch (e) {
+    return { kind: 'cors', code: 0, body: String(e) };
+  }
+}
+
+function showVideo() {
+  video.style.display = '';
+  frame.style.display = 'none';
+  frame.src = 'about:blank';
+}
+function showFrame(url) {
+  if (hls) { hls.destroy(); hls = null; }
+  try { video.pause(); } catch (e) {}
+  video.removeAttribute('src');
+  video.style.display = 'none';
+  frame.style.display = '';
+  frame.src = url;
+}
+
+async function playDirect(c, autoFallback) {
+  showVideo();
+  const targetUrl = (c.live_stream && c.live_stream.stream_url) || c.stream_url;
+  const source = (c.live_stream && c.live_stream.stream_url) ? 'headless-captured' : 'static-scraped';
+  info.innerHTML = `<span class="label">id ${c.id} - ${esc(c.name)}</span><br>${esc(targetUrl)}<br><span class="label">Source: ${source}. Probing...</span>`;
+  const p = await probe(targetUrl);
+  if (p.kind !== 'ok') {
+    status.set(c.id, p.kind);
+    if (autoFallback) {
+      const fb = firstAvailablePlayer(c);
+      const btn = playersEl.querySelector(`button[data-p="${fb}"]`);
+      info.innerHTML = `<span class="label">id ${c.id} - ${esc(c.name)}</span><br><span class="label">Direct returned HTTP ${p.code} - auto-fallback to Player ${btn ? btn.textContent : fb}</span>`;
+      setActiveBtn(fb);
+      playViaIframe(c, fb, btn || {textContent: fb});
+      renderChannels();
+      return;
+    }
+    const label = p.kind === 'down'
+      ? `Upstream returned HTTP ${p.code} - try P2-P6 fallback above`
+      : `Network/CORS error - try P2-P6 fallback above`;
+    info.innerHTML = `<span class="label">id ${c.id} - ${esc(c.name)}</span><br>${esc(c.stream_url)}<br><span class="err">${label}: ${esc(p.body)}</span>`;
+    renderChannels();
+    return;
+  }
+  info.innerHTML = `<span class="label">id ${c.id} - ${esc(c.name)}</span><br>${esc(targetUrl)}<br><span class="label">Source: ${source}. HTTP ${p.code} OK - direct hls.js playback</span>`;
+  if (hls) { hls.destroy(); hls = null; }
+  if (Hls.isSupported()) {
+    hls = new Hls({ liveSyncDurationCount: 3 });
+    hls.loadSource(targetUrl);
+    hls.attachMedia(video);
+    hls.on(Hls.Events.MANIFEST_PARSED, () => {
+      video.play().catch(()=>{});
+      status.set(c.id, 'ok');
+      renderChannels();
+    });
+    hls.on(Hls.Events.ERROR, (_, d) => {
+      if (d.fatal) {
+        status.set(c.id, 'bad');
+        info.innerHTML += `<br><span class="err">HLS error: ${d.type}/${d.details}</span>`;
+        renderChannels();
+      }
+    });
+  } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+    video.src = targetUrl;
+    video.play().catch(()=>{});
+  }
+}
+
+let frameLoadTimer = null;
+let currentFrameUrl = null;
+function playViaIframe(c, pathSeg, btn) {
+  const url = `https://dlhd.pk/${pathSeg}/stream-${c.id}.php`;
+  currentFrameUrl = url;
+  const p = (c.players || []).find(x => x.path === pathSeg);
+  const host = p && p.target_host ? p.target_host : '(unknown)';
+  showFrame(url);
+  const label = (btn && btn.textContent) || pathSeg;
+  info.innerHTML =
+    `<span class="label">id ${c.id} - ${esc(c.name)}</span><br>` +
+    `Iframe URL: <a href="${esc(url)}" target="_blank" rel="noopener">${esc(url)}</a><br>` +
+    `Backend: <span class="label">${esc(host)}</span><br>` +
+    `<span class="label">Player ${esc(label)} - loading iframe...</span>`;
+  if (frameLoadTimer) clearTimeout(frameLoadTimer);
+  let loaded = false;
+  frame.onload = () => {
+    loaded = true;
+    info.innerHTML =
+      `<span class="label">id ${c.id} - ${esc(c.name)}</span><br>` +
+      `Iframe URL: <a href="${esc(url)}" target="_blank" rel="noopener">${esc(url)}</a><br>` +
+      `Backend: <span class="label">${esc(host)}</span><br>` +
+      `<span class="label">Player ${esc(label)} iframe loaded. If video does not start, click inside the player or try Next.</span>`;
+  };
+  frameLoadTimer = setTimeout(() => {
+    if (!loaded) {
+      info.innerHTML +=
+        `<br><span class="err">Iframe has not fired load event in 8s - the backend (${esc(host)}) may be blocked, geo-restricted, or your ad-blocker is interfering. Try Next or Open in new tab.</span>`;
+    }
+  }, 8000);
+}
+
+function cycleToNextPlayer(c) {
+  const cur = playersEl.querySelector('button.active');
+  const order = ['stream','cast','watch','plus','casting','player'];
+  const currentPath = cur ? cur.dataset.p : 'hls';
+  const players = c.players || [];
+  const currentHost = currentPath === 'hls'
+    ? 'donis.'
+    : (players.find(p => p.path === currentPath) || {}).target_host || '';
+  let startIdx = (currentPath === 'hls') ? -1 : order.indexOf(currentPath);
+  for (let i = 1; i <= order.length; i++) {
+    const next = order[(startIdx + i) % order.length];
+    const np = players.find(p => p.path === next);
+    if (!np || !np.available) continue;
+    if (np.target_host && currentHost && np.target_host === currentHost) continue;
+    const btn = playersEl.querySelector(`button[data-p="${next}"]`);
+    setActiveBtn(next);
+    playViaIframe(c, next, btn);
+    return;
+  }
+  info.innerHTML += `<br><span class="err">No further player options to try.</span>`;
+}
+
+function setActiveBtn(which) {
+  playersEl.querySelectorAll('button').forEach(b => b.classList.toggle('active', b.dataset.p === which));
+}
+
+function paintPlayerButtons(c) {
+  const map = new Map((c.players || []).map(p => [p.path, p]));
+  playersEl.querySelectorAll('button').forEach(btn => {
+    btn.classList.remove('avail', 'unavail');
+    btn.title = btn.dataset.p === 'hls' ? 'Direct hls.js playback' : `Player ${btn.textContent}`;
+    if (btn.dataset.p === 'hls') return;
+    const p = map.get(btn.dataset.p);
+    if (!p) return;
+    btn.classList.add(p.available ? 'avail' : 'unavail');
+    if (p.target_host) btn.title += ' -> ' + p.target_host;
+  });
+}
+
+function firstAvailablePlayer(c) {
+  const players = c.players || [];
+  const different = players.find(p => p.available && p.target_host && !p.target_host.includes('donis.'));
+  if (different) return different.path;
+  const any = players.find(p => p.available);
+  return any ? any.path : 'cast';
+}
+
+async function play(c) {
+  active = c.id;
+  switchTab('channels');
+  renderChannels();
+  playersEl.style.display = 'flex';
+  paintPlayerButtons(c);
+  playersEl.querySelectorAll('button[data-p]').forEach(btn => {
+    btn.onclick = () => {
+      setActiveBtn(btn.dataset.p);
+      if (btn.dataset.p === 'hls') playDirect(c, false);
+      else playViaIframe(c, btn.dataset.p, btn);
+    };
+  });
+  document.getElementById('cycle').onclick = () => cycleToNextPlayer(c);
+  document.getElementById('open-tab').onclick = () => {
+    if (currentFrameUrl) window.open(currentFrameUrl, '_blank', 'noopener');
+    else info.innerHTML += '<br><span class="label">Nothing to open - pick a P1-P6 player first.</span>';
+  };
+  setActiveBtn('hls');
+  await playDirect(c, document.getElementById('auto-fb').checked);
+}
+
+// ---------- test visible ----------
+let testCancel = false;
+async function testVisible() {
+  testCancel = false;
+  const q = qEl.value.trim().toLowerCase();
+  const liveOnly = liveOnlyEl.checked;
+  const queue = CHANNELS.filter(c => {
+    if (q && !c.name.toLowerCase().includes(q)) return false;
+    if (liveOnly && status.get(c.id) !== 'ok') return false;
+    return !status.has(c.id) || ['test','cors','bad'].includes(status.get(c.id));
+  });
+  const tally = { ok: 0, down: 0, cors: 0 };
+  let i = 0;
+  const CONCURRENCY = 8;
+  async function worker() {
+    while (i < queue.length && !testCancel) {
+      const c = queue[i++];
+      status.set(c.id, 'test');
+      renderChannels();
+      const p = await probe(c.stream_url);
+      status.set(c.id, p.kind === 'ok' ? 'ok' : p.kind);
+      tally[p.kind] = (tally[p.kind] || 0) + 1;
+      countEl.textContent = `Testing ${i}/${queue.length} - ok:${tally.ok} down:${tally.down} cors:${tally.cors}`;
+      renderChannels();
+    }
+  }
+  await Promise.all(Array.from({length: CONCURRENCY}, worker));
+  renderChannels();
+}
+
+// ---------- schedule ----------
+const collapsed = new Set();
+
+function renderSchedule() {
+  const q = qsEl.value.trim().toLowerCase();
+  const groups = new Map();
+  for (const e of SCHEDULE) {
+    if (q) {
+      const hay = (e.title + ' ' + e.category + ' ' + e.channels.map(c => c.name).join(' ')).toLowerCase();
+      if (!hay.includes(q)) continue;
+    }
+    if (!groups.has(e.category)) groups.set(e.category, []);
+    groups.get(e.category).push(e);
+  }
+  scheduleEl.innerHTML = '';
+  let total = 0;
+  for (const [cat, events] of groups) {
+    events.sort((a, b) => a.time.localeCompare(b.time));
+    total += events.length;
+    const cdiv = document.createElement('div');
+    cdiv.className = 'cat' + (collapsed.has(cat) ? ' collapsed' : '');
+    const head = document.createElement('div');
+    head.className = 'cat-head';
+    head.innerHTML = `<span>${esc(cat)}</span><span><span class="badge">${events.length}</span> <span class="caret">v</span></span>`;
+    head.onclick = () => {
+      if (collapsed.has(cat)) collapsed.delete(cat); else collapsed.add(cat);
+      renderSchedule();
+    };
+    cdiv.appendChild(head);
+    const body = document.createElement('div');
+    body.className = 'cat-body';
+    for (const e of events) {
+      const ev = document.createElement('div');
+      ev.className = 'event';
+      const chips = e.channels.map(ch => {
+        const real = byId.get(ch.id);
+        const live = real && status.get(real.id) === 'ok';
+        const down = real && status.get(real.id) === 'down';
+        const tag = real ? (live ? '<span class="b">live</span>' : down ? '<span class="b">down</span>' : '') : '<span class="b">no link</span>';
+        const cls = real ? 'chip' : 'chip disabled';
+        const chipLogo = real && real.logo ? `<img class="chip-logo" src="${esc(real.logo)}" loading="lazy" alt="" onerror="this.remove()">` : '';
+        return `<span class="${cls}" data-cid="${ch.id}" title="id ${ch.id}">${chipLogo}${esc(ch.name)}${tag}</span>`;
+      }).join('');
+      ev.innerHTML = `<div class="event-head"><span class="event-time">${esc(e.time)}</span><span class="event-title">${esc(e.title)}</span></div><div class="event-chans">${chips}</div>`;
+      ev.querySelectorAll('.chip').forEach(chip => {
+        if (chip.classList.contains('disabled')) return;
+        chip.onclick = () => {
+          const real = byId.get(chip.dataset.cid);
+          if (real) play(real);
+        };
+      });
+      body.appendChild(ev);
+    }
+    cdiv.appendChild(body);
+    scheduleEl.appendChild(cdiv);
+  }
+  schedCountEl.textContent = `${total} events across ${groups.size} categories`;
+}
+
+// ---------- wire up ----------
+qEl.oninput = renderChannels;
+qsEl.oninput = renderSchedule;
+liveOnlyEl.onchange = renderChannels;
+hideUnreachEl.onchange = renderChannels;
+document.getElementById('test-all').onclick = testVisible;
+document.getElementById('reset').onclick = () => {
+  for (const [id, st] of [...status.entries()]) {
+    if (['test','cors','bad'].includes(st)) status.delete(id);
+  }
+  renderChannels();
+};
+document.getElementById('exp-all').onclick = () => { collapsed.clear(); renderSchedule(); };
+document.getElementById('coll-all').onclick = () => {
+  for (const e of SCHEDULE) collapsed.add(e.category);
+  renderSchedule();
+};
+renderChannels();
+renderSchedule();
+</script>
+</body>
+</html>
