@@ -1,0 +1,74 @@
+name: Refresh catalog
+
+# The stream URLs in data/channels.json carry signed tokens that live ~1 hour.
+# We re-scrape every 30 min so the catalog is at worst ~30 min stale = well
+# within the 1-hour token TTL. GitHub Actions cron can slip 10-15 min under
+# heavy load — 30 min cadence keeps us safe.
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}     # so you can also trigger manually from the UI
+
+# Only one refresh at a time. If one is still running when the next cron fires,
+# skip the new run rather than queuing (a queued run would push stale-when-it-
+# eventually-finishes data).
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # to push the refreshed data back to main
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need the full history so commit + push works cleanly.
+          fetch-depth: 1
+          # Use the workflow's own token for the eventual push.
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install scraper dependencies
+        run: pip install "requests>=2.32"
+
+      - name: Run scraper
+        run: |
+          python scraper.py --workers 30
+          ls -la data/
+
+      - name: Commit + push if catalog actually changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage only the artifacts the scraper writes. Anything else getting
+          # touched means a code change snuck in, and we don't want this bot
+          # to push that.
+          git add data/channels.json data/schedule.json data/unreachable_channels.json \
+                  data/host_reachability.json playlist_new.m3u8 tester.html
+
+          if git diff --cached --quiet; then
+            echo "::notice::No changes - upstream URLs identical since last run."
+            exit 0
+          fi
+
+          # One-line summary of how many channels were resolved this run.
+          # jq is preinstalled on ubuntu-latest.
+          OK=$(jq '[.[] | select(.status=="ok")] | length' data/channels.json)
+          DOWN=$(jq '[.[] | select(.status=="down")] | length' data/channels.json)
+          UNR=$(jq '[.[] | select(.status=="unreachable")] | length' data/channels.json)
+          STATS="live=$OK down=$DOWN unreachable=$UNR"
+
+          git commit -m "auto-refresh: $STATS"
+          git push
+          echo "::notice::pushed refresh ($STATS)"
