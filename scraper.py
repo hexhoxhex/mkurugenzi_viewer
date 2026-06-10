@@ -130,11 +130,31 @@ def _fetch_daddy_url(cid: str, suf: str) -> str | None:
 
 
 def probe_live(url: str) -> str:
-    """GET the m3u8; return 'ok' if upstream returned a real manifest, else 'down'."""
+    """GET the m3u8 AND follow into its first variant. Returns 'ok' only if both
+    the master and the inner chunk URL (typically tracks-v1a1/mono.m3u8) return
+    200 with a real manifest body. Many channels in this catalog templating
+    serve a valid master forever while the inner chunk URL has rolled over to
+    HTTP 410 Gone — hls.js then bombs with levelLoadError. Probing the chunk
+    catches that before the player gets the bad URL."""
     try:
         r = SESSION.get(url, timeout=15)
-        body = r.text[:200] if r.text else ""
-        if r.ok and body.lstrip().startswith("#EXTM3U"):
+        body = r.text or ""
+        if not (r.ok and body.lstrip().startswith("#EXTM3U")):
+            return "down"
+        # Find the first non-comment, non-blank line — that's the level URL.
+        chunk_rel = next(
+            (ln.strip() for ln in body.splitlines() if ln and not ln.startswith("#")),
+            None,
+        )
+        if not chunk_rel:
+            # Already a media playlist (no variants) — master itself was the
+            # chunk list. Trust the 200.
+            return "ok"
+        from urllib.parse import urljoin
+        chunk_url = urljoin(url, chunk_rel)
+        r2 = SESSION.get(chunk_url, timeout=10)
+        body2 = r2.text or ""
+        if r2.ok and body2.lstrip().startswith("#EXTM3U"):
             return "ok"
         return "down"
     except requests.RequestException:
