@@ -28,11 +28,13 @@ Usage:
 import argparse
 import base64
 import concurrent.futures
+import datetime as _dt
 import html as _html
 import json
 import re
 import sys
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -350,7 +352,28 @@ CHAN_RE = re.compile(
 )
 
 
+def _event_start_unix(time_str: str, now_unix: int) -> int | None:
+    """Best-guess Unix timestamp of event start. dlhd publishes 'HH:MM' with no
+    date — we treat it as today UTC; if the resulting timestamp would be more
+    than 12 h in the past, we assume it's tomorrow (overnight rollover).
+    Returns None for malformed times."""
+    try:
+        hh, mm = map(int, time_str.split(":", 1))
+    except (ValueError, AttributeError):
+        return None
+    if not (0 <= hh <= 23 and 0 <= mm <= 59):
+        return None
+    today_midnight = now_unix - (now_unix % 86400)
+    ts = today_midnight + hh * 3600 + mm * 60
+    # Overnight rollover: if event time treated as today is >12 h ago, it's
+    # almost certainly tomorrow (e.g. midnight game on a 23:00 scrape).
+    if ts < now_unix - 12 * 3600:
+        ts += 86400
+    return ts
+
+
 def fetch_schedule() -> list[dict]:
+    import time as _time
     r = SESSION.get(HOME_URL, timeout=30)
     r.raise_for_status()
     text = r.text
@@ -364,7 +387,14 @@ def fetch_schedule() -> list[dict]:
     positions = [p for p, _ in cat_pos]
     names = {p: n for p, n in cat_pos}
 
+    now_unix = int(_time.time())
+    # Drop events whose start was more than 3 h ago. This catches the
+    # "Friday/Saturday 21:00 entries still showing on Sunday afternoon" pattern
+    # that comes from dlhd.pk's CMS not always cleaning up. Live events get a
+    # generous 3 h grace so an in-progress match is still listed.
+    stale_cutoff = now_unix - 3 * 3600
     out = []
+    dropped_stale = 0
     for m in EVENT_RE.finditer(text):
         # category = nearest catHeader before this event
         cat_name = "Uncategorized"
@@ -373,6 +403,11 @@ def fetch_schedule() -> list[dict]:
                 cat_name = names[p]
                 break
         _data_title, data_time, time_text, title, channels_block = m.groups()
+        time_str = (data_time or time_text).strip()
+        start_unix = _event_start_unix(time_str, now_unix)
+        if start_unix is not None and start_unix < stale_cutoff:
+            dropped_stale += 1
+            continue
         chans = []
         seen_ids = set()
         for cm in CHAN_RE.finditer(channels_block):
@@ -383,9 +418,136 @@ def fetch_schedule() -> list[dict]:
             chans.append({"id": cid, "name": _html.unescape(cm.group(2)).strip()})
         out.append({
             "category": cat_name,
-            "time": (data_time or time_text).strip(),
+            "time": time_str,
             "title": _html.unescape(title).strip(),
             "channels": chans,
+            "start_unix": start_unix,
+            "scraped_at_unix": now_unix,
+        })
+    if dropped_stale:
+        print(f"      dropped {dropped_stale} stale schedule events (>3h in the past)")
+    return out
+
+
+# ---------- schedule post-processing ----------
+
+# dlhd.pk publishes today's events plus 2-3 days of forward-looking events.
+# The forward ones are bucketed into categories whose name includes the
+# date, e.g. "FIFA World Cup 2026 — Upcoming Matches Jun 14 🏆". We parse
+# that date out into its own field and clean the category text so the
+# downstream UI can group / tab events by day cleanly.
+#
+# We assume dlhd.pk publishes in UK local time (this matches the times we
+# see on the home page). Events with no date hint default to today's UK
+# date.
+
+_UK_ZONE = ZoneInfo("Europe/London")
+
+# Trailing "Month DD" anywhere near the end of the category. The leading
+# group captures everything BEFORE the date, the m+d groups capture the
+# date itself. We allow trailing emoji / punctuation after the day.
+_DATE_IN_CAT_RE = re.compile(
+    r"^(?P<lead>.+?)\s+"
+    r"(?P<m>Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+    r"Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|"
+    r"Dec(?:ember)?)\s+(?P<d>\d{1,2})\b"
+    r"\s*[^\w]*\s*$",
+    re.IGNORECASE,
+)
+
+_MONTH_ORDINALS = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+
+# dlhd.pk's CMS has a recurring typo in the "Upcoming Matches" header.
+# Normalize it so the cleaned category text is consistent across days.
+_TYPO_FIXES = [
+    (re.compile(r"Upcom[a-z0-9]*ng", re.IGNORECASE), "Upcoming"),
+]
+
+# Trailing/leading bracketed emoji or dash-only fragments — leftovers
+# after we strip the date. Walk repeatedly until clean.
+_CAT_TAIL_CRUFT_RE = re.compile(
+    r"[\s\-—–·•:|·]+$"            # trailing dashes/colons/separators
+    r"|\s*[^\w\s]+\s*$",          # trailing pure-punctuation/emoji blob
+)
+
+
+def _clean_category_text(s: str) -> str:
+    """Apply typo fixes, then strip trailing separator/emoji cruft left
+    over after pulling the date out."""
+    for pat, repl in _TYPO_FIXES:
+        s = pat.sub(repl, s)
+    # Iterate because the trailing emoji might be followed by more
+    # separator characters.
+    prev = None
+    while prev != s:
+        prev = s
+        s = _CAT_TAIL_CRUFT_RE.sub("", s).rstrip()
+    return s.strip()
+
+
+def _resolve_iso_date(today_uk: _dt.date, month_word: str, day: int) -> str:
+    """Combine an extracted (month, day) with today's UK date into an ISO
+    yyyy-MM-dd string. If the resulting date would be earlier than today,
+    roll into next year — guarantees future-event dates always parse to
+    a future date.
+    """
+    month = _MONTH_ORDINALS[month_word[:3].lower()]
+    candidate = _dt.date(today_uk.year, month, day)
+    if candidate < today_uk:
+        candidate = _dt.date(today_uk.year + 1, month, day)
+    return candidate.isoformat()
+
+
+def annotate_dates(events: list[dict]) -> list[dict]:
+    """Walk [events], split a trailing 'Month DD' out of each category into
+    its own `date` field, clean up the category text, and default events
+    with no date hint to today's UK date.
+
+    Also annotates each event with:
+      - `start_unix`: Unix timestamp of event start (UK-localised then UTC).
+        Lets the app filter / sort by absolute time without re-parsing.
+      - `scraped_at_unix`: when this schedule was produced. The app can warn
+        if the schedule is stale (e.g. >2 h old) or trigger a refresh.
+
+    Returns a new list (does not mutate input).
+    """
+    import time as _time
+    today_uk = _dt.datetime.now(_UK_ZONE).date()
+    now_unix = int(_time.time())
+    out: list[dict] = []
+    for e in events:
+        cat = e.get("category", "")
+        m = _DATE_IN_CAT_RE.match(cat)
+        if m:
+            base_cat = _clean_category_text(m.group("lead"))
+            iso = _resolve_iso_date(today_uk, m.group("m"), int(m.group("d")))
+        else:
+            base_cat = _clean_category_text(cat)
+            iso = today_uk.isoformat()
+        # Compute start_unix from date + time, both UK-localised. Falls back
+        # to None on malformed time strings — the app must handle that.
+        start_unix: int | None = None
+        time_str = e.get("time", "")
+        try:
+            hh, mm = map(int, time_str.split(":", 1))
+            if 0 <= hh <= 23 and 0 <= mm <= 59:
+                d = _dt.date.fromisoformat(iso)
+                dt_uk = _dt.datetime(d.year, d.month, d.day, hh, mm,
+                                     tzinfo=_UK_ZONE)
+                start_unix = int(dt_uk.timestamp())
+        except (ValueError, AttributeError):
+            pass
+        out.append({
+            "category": base_cat or "Uncategorized",
+            "date": iso,
+            "time": time_str,
+            "title": e.get("title", ""),
+            "channels": e.get("channels", []),
+            "start_unix": start_unix,
+            "scraped_at_unix": now_unix,
         })
     return out
 
@@ -622,8 +784,14 @@ def main() -> int:
 
     print(f"[{'2/2' if args.schedule_only else ('4/5' if args.map_players else '3/4')}] Fetching schedule...")
     try:
-        schedule = fetch_schedule()
-        print(f"      {len(schedule)} events scraped")
+        raw_schedule = fetch_schedule()
+        schedule = annotate_dates(raw_schedule)
+        days = sorted({e["date"] for e in schedule})
+        print(f"      {len(schedule)} events scraped across {len(days)} day(s)")
+        if days:
+            for d in days:
+                n = sum(1 for e in schedule if e["date"] == d)
+                print(f"        {d}: {n} event(s)")
     except Exception as e:
         print(f"      schedule fetch failed: {e}")
         schedule = []
