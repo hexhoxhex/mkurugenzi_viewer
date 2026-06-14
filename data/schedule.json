@@ -78,6 +78,17 @@
   },
   {
     "category": "PPV Events",
+    "time": "22:15",
+    "title": "West Virginia Motor Speedway",
+    "channels": [
+      {
+        "id": "5027",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
     "time": "22:30",
     "title": "DIRTcar Summer Nationals Late Models",
     "channels": [
@@ -111,11 +122,55 @@
   },
   {
     "category": "PPV Events",
+    "time": "22:45",
+    "title": "Weekly Racing at Port Royal",
+    "channels": [
+      {
+        "id": "246",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
+    "time": "23:00",
+    "title": "Fairbury Speedway",
+    "channels": [
+      {
+        "id": "5020",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
     "time": "23:00",
     "title": "World of Outlaws Sprint Cars Knoxville",
     "channels": [
       {
         "id": "207",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
+    "time": "23:15",
+    "title": "Knoxville Raceway",
+    "channels": [
+      {
+        "id": "5065",
+        "name": "Event PPV"
+      }
+    ]
+  },
+  {
+    "category": "PPV Events",
+    "time": "23:30",
+    "title": "IMCA Clash at the Creek at 141 Speedway PPV",
+    "channels": [
+      {
+        "id": "245",
         "name": "Event PPV"
       }
     ]
@@ -139,6 +194,10 @@
       {
         "id": "196",
         "name": "FOXPPV"
+      },
+      {
+        "id": "5066",
+        "name": "Backup Stream"
       }
     ]
   },
@@ -7394,6 +7453,10 @@
     "time": "22:00",
     "title": "MVP Boxing : O.Jones vs E.Carranza",
     "channels": [
+      {
+        "id": "180",
+        "name": "Netflix PPV"
+      },
       {
         "id": "594",
         "name": "Sky Sport 7 NZ"
