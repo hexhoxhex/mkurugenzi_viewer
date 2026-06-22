@@ -1,0 +1,62 @@
+name: Sweep channel health
+
+# Deep playback probe — full resolve + master + inner + first-segment
+# sync-byte check for every channel the scraper marked ok. Surfaces
+# channels that pass the scraper's shallow probe but actually 410 at
+# the segment layer (e.g. the FOX USA / FOXNY USA audio-config crashes
+# users hit on the device). Output is data/health.json, committed back.
+#
+# Independent from refresh.yml — that runs every 30 min and re-resolves
+# everything to refresh signed-URL tokens. This sweeps the SAME
+# resolved data more deeply, and on a tighter cadence so flaky
+# channels surface faster than the next full re-scrape.
+
+on:
+  schedule:
+    # Every 15 min, offset 7 min off the catalog refresh so we don't
+    # both hammer donis in the same window.
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: sweep-health
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Sweep
+        run: python scripts/sweep_health.py
+
+      - name: Commit health.json if changed
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "github-actions[bot]"
+          if [ -n "$(git status --porcelain data/health.json)" ]; then
+            git add data/health.json
+            git commit -m "health sweep $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No changes to commit."
+          fi
