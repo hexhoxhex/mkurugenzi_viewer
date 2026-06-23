@@ -33,6 +33,7 @@ import html as _html
 import json
 import re
 import sys
+import threading
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -46,15 +47,28 @@ UA = (
 )
 HOME_URL = "https://dlhd.pk/"
 CHANNELS_URL = "https://dlhd.pk/24-7-channels.php"
-# donis.* serves several daddy endpoints. Each routes to a different CDN node:
-#   daddy.php    -> pontos.*  (current production default - dlhd.pk site uses this)
-#   daddy2.php   -> kolis.*
-#   daddy3.php   -> vomos.*
-#   daddy4.php   -> fomis.*
-#   daddy5.php   -> zalis.*
-# We try them in this order and accept the first that returns 200 + #EXTM3U.
-DADDY_BASE = "https://donis.jimpenopisonline.online/premiumtv/daddy{suf}.php?id={id}"
+# The resolver host serves several daddyN endpoints, each routing to a
+# different CDN node (daddy.php->pontos, daddy2->kolis, daddy3->vomos,
+# daddy4->fomis, daddy5->zalis). dlhd rotates the RESOLVER HOST itself
+# periodically (donis.jimpenopisonline.online went NXDOMAIN in 2026-06;
+# the current one is hamis.romponalis.st). Rather than hard-pin a host
+# that will die again, we keep a known-good list AND scrape the current
+# host out of dlhd.pk's own stream page (which writes the daddyN URL in
+# plaintext) — see discover_host(). Mirrors scripts/sweep_health.py.
+DADDY_HOSTS = [
+    "hamis.romponalis.st",            # current (captured 2026-06-23)
+    "donis.jimpenopisonline.online",  # previous — NXDOMAIN, fails fast
+]
+DADDY_PATH = "/premiumtv/daddy{suf}.php?id={id}"
 DADDY_SUFFIXES = ["", "2", "3", "4", "5"]
+HOST_DISCOVERY_RE = re.compile(
+    r"https?://([a-z0-9.-]+)/premiumtv/daddy\d*\.php", re.IGNORECASE,
+)
+# Once any host works, prefer it for the rest of the run (avoids
+# re-scraping dlhd for every channel). Guarded for thread-safety since
+# resolve_stream runs under a ThreadPoolExecutor.
+_CACHED_HOST: str | None = None
+_CACHE_LOCK = threading.Lock()
 
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
@@ -112,11 +126,46 @@ def fetch_channel_list() -> list[dict]:
 B64_RE = re.compile(r"window\.atob\(\s*['\"]([A-Za-z0-9+/=]+)['\"]\s*\)")
 
 
-def _fetch_daddy_url(cid: str, suf: str) -> str | None:
-    """Fetch one daddyN.php (or bare daddy.php if suf='') and extract the base64'd m3u8 URL."""
+def discover_host(cid: str) -> str | None:
+    """Scrape dlhd.pk/stream/stream-{cid}.php for the current resolver host.
+    The page embeds the daddyN URL in plaintext HTML (it's the page's own
+    backend) so no JS decoding is needed. Returns the hostname or None."""
     try:
         r = SESSION.get(
-            DADDY_BASE.format(suf=suf, id=cid),
+            f"https://dlhd.pk/stream/stream-{cid}.php",
+            headers={"Referer": f"https://dlhd.pk/watch.php?id={cid}"},
+            timeout=15,
+        )
+        if r.status_code != 200:
+            return None
+        m = HOST_DISCOVERY_RE.search(r.text)
+        return m.group(1) if m else None
+    except requests.RequestException:
+        return None
+
+
+def _hosts_to_try(cid: str) -> list[str]:
+    """Resolver hosts in order: process cache, hardcoded list, then a
+    one-shot dynamic discovery scrape as the self-healing safety net."""
+    with _CACHE_LOCK:
+        cached = _CACHED_HOST
+    out: list[str] = []
+    seen: set[str] = set()
+    for h in ([cached] if cached else []) + DADDY_HOSTS:
+        if h and h not in seen:
+            out.append(h)
+            seen.add(h)
+    discovered = discover_host(cid)
+    if discovered and discovered not in seen:
+        out.append(discovered)
+    return out
+
+
+def _fetch_daddy_url(host: str, cid: str, suf: str) -> str | None:
+    """Fetch one daddyN.php on [host] and extract the base64'd m3u8 URL."""
+    try:
+        r = SESSION.get(
+            "https://" + host + DADDY_PATH.format(suf=suf, id=cid),
             headers={"Referer": f"https://dlhd.pk/stream/stream-{cid}.php"},
             timeout=15,
         )
@@ -164,16 +213,31 @@ def probe_live(url: str) -> str:
 
 
 def resolve_stream(cid: str) -> tuple[str | None, str | None]:
-    """Try each daddy endpoint until one returns 200 + #EXTM3U. Returns (url, suffix)."""
+    """Try each host × daddy endpoint until one returns a playable m3u8.
+    Returns (url, suffix). Iterating hosts (with discovery) is what keeps
+    the scraper alive across dlhd's resolver-host rotations — a dead host
+    fails its DNS/connect fast and the next is tried."""
+    global _CACHED_HOST
     fallback = None
-    for suf in DADDY_SUFFIXES:
-        url = _fetch_daddy_url(cid, suf)
-        if not url:
-            continue
-        if fallback is None:
-            fallback = (url, suf)
-        if probe_live(url) == "ok":
-            return url, suf
+    for host in _hosts_to_try(cid):
+        host_worked = False
+        for suf in DADDY_SUFFIXES:
+            url = _fetch_daddy_url(host, cid, suf)
+            if not url:
+                continue
+            host_worked = True
+            if fallback is None:
+                fallback = (url, suf)
+            if probe_live(url) == "ok":
+                with _CACHE_LOCK:
+                    _CACHED_HOST = host
+                return url, suf
+        # If this host produced any base64 at all, it's the live one;
+        # remember it even if no sibling probed "ok" this pass.
+        if host_worked:
+            with _CACHE_LOCK:
+                _CACHED_HOST = host
+            break
     return fallback if fallback else (None, None)
 
 
