@@ -39,6 +39,7 @@ import json
 import os
 import re
 import sys
+import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -55,8 +56,21 @@ CHROME_UA = (
     "(KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36"
 )
 
-DADDY_BASE = "https://donis.jimpenopisonline.online/premiumtv/daddy{suf}.php?id={id}"
+DADDY_HOSTS = [
+    # Authoritative resolver — captured by scraping dlhd.pk on
+    # 2026-06-23. Update by appending; the dynamic discovery in
+    # discover_host() picks up replacements without a code change as
+    # long as dlhd's iframe page keeps writing the URL in plaintext.
+    "hamis.romponalis.st",
+    # Previously authoritative — kept as a last-resort fallback. NXDOMAIN
+    # since 2026-06 so it'll fail fast and the next host wins.
+    "donis.jimpenopisonline.online",
+]
+DADDY_PATH = "/premiumtv/daddy{suf}.php?id={id}"
 DADDY_SUFFIXES = ["", "2", "3", "4", "5"]
+HOST_DISCOVERY_RE = re.compile(
+    r"https?://([a-z0-9.-]+)/premiumtv/daddy\d*\.php", re.IGNORECASE,
+)
 
 B64_RE = re.compile(r"window\.atob\(\s*['\"]([A-Za-z0-9+/=]+)['\"]\s*\)")
 
@@ -76,8 +90,53 @@ def session() -> requests.Session:
     return s
 
 
+def discover_host(s: requests.Session, cid: str) -> Optional[str]:
+    """Scrape dlhd.pk/stream/stream-{cid}.php for the current resolver
+    host. The page writes the daddyN URL in plaintext HTML (it's the
+    page's own backend) so no JS decryption needed. Returns the
+    discovered hostname, or None on scrape failure."""
+    try:
+        r = s.get(
+            f"https://dlhd.pk/stream/stream-{cid}.php",
+            headers={"Referer": f"https://dlhd.pk/watch.php?id={cid}"},
+            timeout=TIMEOUT_RESOLVE,
+        )
+    except requests.RequestException:
+        return None
+    if r.status_code != 200:
+        return None
+    m = HOST_DISCOVERY_RE.search(r.text)
+    return m.group(1) if m else None
+
+
+# Process-wide cache: once a host works for one channel, prefer it for
+# all subsequent resolves this run. The 757-channel sweep would
+# otherwise re-scrape dlhd for every dead-host channel — wasteful.
+_CACHED_HOST: Optional[str] = None
+_CACHE_LOCK = threading.Lock()
+
+
+def _hosts_to_try(s: requests.Session, cid: str) -> list[str]:
+    """Resolver hosts in try-order: process cache, hardcoded list,
+    then one-shot dynamic discovery as the safety net."""
+    global _CACHED_HOST
+    with _CACHE_LOCK:
+        cached = _CACHED_HOST
+    out: list[str] = []
+    seen: set[str] = set()
+    if cached and cached not in seen:
+        out.append(cached); seen.add(cached)
+    for h in DADDY_HOSTS:
+        if h not in seen:
+            out.append(h); seen.add(h)
+    discovered = discover_host(s, cid)
+    if discovered and discovered not in seen:
+        out.append(discovered)
+    return out
+
+
 def _try_endpoint(
-    s: requests.Session, cid: str, suf: str,
+    s: requests.Session, host: str, cid: str, suf: str,
 ) -> tuple[Optional[str], Optional[requests.Response]]:
     """Returns (master_url, master_response) or (None, None).
     The master response is included so the caller can decide whether the
@@ -85,9 +144,10 @@ def _try_endpoint(
     a sibling that's currently 500ing, and we need to keep iterating
     rather than declare the channel down on the first such miss.
     """
+    url = "https://" + host + DADDY_PATH.format(suf=suf, id=cid)
     try:
         r = s.get(
-            DADDY_BASE.format(suf=suf, id=cid),
+            url,
             headers={"Referer": f"https://dlhd.pk/stream/stream-{cid}.php"},
             timeout=TIMEOUT_RESOLVE,
         )
@@ -133,15 +193,21 @@ def resolve(
     last_master: Optional[str] = None
     last_resp: Optional[requests.Response] = None
     last_suf: Optional[str] = None
-    for suf in suffixes:
-        master, rm = _try_endpoint(s, cid, suf)
-        if not master:
-            continue
-        last_master, last_resp, last_suf = master, rm, suf
-        if rm is not None and rm.ok and (rm.text or "").lstrip().startswith("#EXTM3U"):
-            return master, f"daddy{suf}.php", rm
-    # No working sibling. Return what we last tried so the caller can
-    # report a precise failure reason.
+    for host in _hosts_to_try(s, cid):
+        for suf in suffixes:
+            master, rm = _try_endpoint(s, host, cid, suf)
+            if not master:
+                continue
+            last_master, last_resp, last_suf = master, rm, suf
+            if rm is not None and rm.ok and (rm.text or "").lstrip().startswith("#EXTM3U"):
+                # Remember the working host so the rest of this sweep
+                # doesn't pay the discovery cost again.
+                global _CACHED_HOST
+                with _CACHE_LOCK:
+                    _CACHED_HOST = host
+                return master, f"daddy{suf}.php", rm
+    # No working sibling on any host. Return what we last tried so the
+    # caller can report a precise failure reason.
     return last_master, (f"daddy{last_suf}.php" if last_suf else None), last_resp
 
 
