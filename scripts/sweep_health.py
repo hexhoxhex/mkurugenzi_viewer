@@ -291,15 +291,23 @@ def probe_channel(ch: dict) -> dict:
             timeout=TIMEOUT_SEGMENT,
             stream=True,
         )
+        if not rs.ok:
+            result["fail_reason"] = f"segment:{rs.status_code}"
+            rs.close()
+            return result
+        # NOTE: the streaming read below can ALSO raise ReadTimeout /
+        # ConnectionError — the timeout often fires while consuming the
+        # body, not on connect. This must be inside the try, or one slow
+        # segment CDN (romplovanis.shop has been flaky) crashes the
+        # whole sweep via the ThreadPoolExecutor future.
+        first = next(rs.iter_content(chunk_size=4), b"")
+        rs.close()
     except requests.RequestException as e:
         result["fail_reason"] = f"segment:{type(e).__name__}"
         return result
-    if not rs.ok:
-        result["fail_reason"] = f"segment:{rs.status_code}"
-        rs.close()
+    except Exception as e:  # noqa: BLE001 — never let a worker kill the sweep
+        result["fail_reason"] = f"segment:err:{type(e).__name__}"
         return result
-    first = next(rs.iter_content(chunk_size=4), b"")
-    rs.close()
     if not first.startswith(b"\x47"):
         result["fail_reason"] = "segment:bad-sync"
         return result
@@ -342,7 +350,25 @@ def main() -> int:
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
         futures = {ex.submit(probe_channel, c): c for c in channels}
         for fut in as_completed(futures):
-            r = fut.result()
+            # Defensive: probe_channel should catch its own errors, but
+            # if anything slips through, mark that ONE channel down
+            # rather than letting fut.result() raise and abort the whole
+            # sweep (which is what crashed run 28044638524 — a segment
+            # read timeout propagated all the way up to sys.exit(main)).
+            try:
+                r = fut.result()
+            except Exception as e:  # noqa: BLE001
+                ch = futures[fut]
+                r = {
+                    "id": str(ch.get("id", "")),
+                    "name": ch.get("name", ""),
+                    "checked_at": int(time.time()),
+                    "status": "down",
+                    "fail_reason": f"worker:{type(e).__name__}",
+                    "daddy_endpoint": None,
+                    "host": None,
+                    "first_segment_url": None,
+                }
             results.append(r)
             if r["status"] == "ok":
                 ok_count += 1
