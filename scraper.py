@@ -145,8 +145,13 @@ def discover_host(cid: str) -> str | None:
 
 
 def _hosts_to_try(cid: str) -> list[str]:
-    """Resolver hosts in order: process cache, hardcoded list, then a
-    one-shot dynamic discovery scrape as the self-healing safety net."""
+    """Known resolver hosts in order: process cache first, then the
+    hardcoded list. Dynamic discovery is deliberately NOT done here —
+    it's a last resort inside resolve_stream, called only when every
+    known host fails. Scraping dlhd.pk for EVERY channel (the old
+    behaviour) hammered the site from the CI runner's IP, which dlhd
+    rate-limited — that's what made the later homepage schedule fetch
+    time out and blank schedule.json."""
     with _CACHE_LOCK:
         cached = _CACHED_HOST
     out: list[str] = []
@@ -155,9 +160,6 @@ def _hosts_to_try(cid: str) -> list[str]:
         if h and h not in seen:
             out.append(h)
             seen.add(h)
-    discovered = discover_host(cid)
-    if discovered and discovered not in seen:
-        out.append(discovered)
     return out
 
 
@@ -212,32 +214,53 @@ def probe_live(url: str) -> str:
         return "down"
 
 
+def _try_host(cid: str, host: str) -> tuple[tuple[str, str] | None, bool]:
+    """Try all daddy suffixes on one host. Returns ((url, suf) or None,
+    host_produced_any_base64)."""
+    fallback = None
+    host_worked = False
+    for suf in DADDY_SUFFIXES:
+        url = _fetch_daddy_url(host, cid, suf)
+        if not url:
+            continue
+        host_worked = True
+        if fallback is None:
+            fallback = (url, suf)
+        if probe_live(url) == "ok":
+            return (url, suf), True
+    return fallback, host_worked
+
+
 def resolve_stream(cid: str) -> tuple[str | None, str | None]:
-    """Try each host × daddy endpoint until one returns a playable m3u8.
-    Returns (url, suffix). Iterating hosts (with discovery) is what keeps
-    the scraper alive across dlhd's resolver-host rotations — a dead host
-    fails its DNS/connect fast and the next is tried."""
+    """Try each known host × daddy endpoint until one returns a playable
+    m3u8. Only if EVERY known host fails do we fall back to scraping dlhd
+    for the current host (discover_host) — keeping that off the hot path
+    is what stops the CI runner from hammering dlhd.pk on every channel."""
     global _CACHED_HOST
     fallback = None
     for host in _hosts_to_try(cid):
-        host_worked = False
-        for suf in DADDY_SUFFIXES:
-            url = _fetch_daddy_url(host, cid, suf)
-            if not url:
-                continue
-            host_worked = True
-            if fallback is None:
-                fallback = (url, suf)
-            if probe_live(url) == "ok":
-                with _CACHE_LOCK:
-                    _CACHED_HOST = host
-                return url, suf
-        # If this host produced any base64 at all, it's the live one;
-        # remember it even if no sibling probed "ok" this pass.
+        result, host_worked = _try_host(cid, host)
+        if result and probe_live(result[0]) == "ok":
+            with _CACHE_LOCK:
+                _CACHED_HOST = host
+            return result
+        if result and fallback is None:
+            fallback = result
         if host_worked:
             with _CACHE_LOCK:
                 _CACHED_HOST = host
             break
+    # Last resort: known hosts gave us nothing playable. Scrape dlhd ONCE
+    # for the current resolver host (self-heals across host rotations).
+    if fallback is None:
+        discovered = discover_host(cid)
+        if discovered:
+            result, host_worked = _try_host(cid, discovered)
+            if result:
+                if host_worked:
+                    with _CACHE_LOCK:
+                        _CACHED_HOST = discovered
+                return result
     return fallback if fallback else (None, None)
 
 
@@ -616,6 +639,30 @@ def annotate_dates(events: list[dict]) -> list[dict]:
     return out
 
 
+def _preserve_previous_schedule(path: Path) -> list[dict]:
+    """Load the previously-written schedule.json and keep only events that
+    haven't passed yet (start within the last 3 h or in the future), so a
+    transient schedule-fetch failure preserves the last-good upcoming
+    schedule instead of blanking the app's schedule tab. Returns [] only
+    if there's genuinely nothing left to keep."""
+    if not path.exists():
+        return []
+    try:
+        prev = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    if not isinstance(prev, list):
+        return []
+    import time as _time
+    cutoff = int(_time.time()) - 3 * 3600
+    return [
+        e for e in prev
+        if not isinstance(e, dict)
+        or e.get("start_unix") is None
+        or e.get("start_unix") >= cutoff
+    ]
+
+
 # ---------- logos ----------
 
 _LOGO_ENTRY_RE = re.compile(
@@ -850,6 +897,11 @@ def main() -> int:
     try:
         raw_schedule = fetch_schedule()
         schedule = annotate_dates(raw_schedule)
+        if not schedule:
+            # Treat an empty scrape the same as a failure — dlhd.pk is
+            # intermittently unreachable / rate-limited from the CI
+            # runner, and a genuine "no events" is implausible.
+            raise ValueError("scrape returned no events")
         days = sorted({e["date"] for e in schedule})
         print(f"      {len(schedule)} events scraped across {len(days)} day(s)")
         if days:
@@ -858,7 +910,13 @@ def main() -> int:
                 print(f"        {d}: {n} event(s)")
     except Exception as e:
         print(f"      schedule fetch failed: {e}")
-        schedule = []
+        # CRITICAL: do NOT write an empty schedule — that blanks the
+        # app's schedule tab. Preserve the previous schedule.json,
+        # dropping only events whose day is already in the past, so the
+        # last-good schedule persists across transient fetch failures.
+        schedule = _preserve_previous_schedule(sched_path)
+        print(f"      preserved {len(schedule)} still-current events "
+              f"from previous schedule.json")
 
     final_step = "-" if args.schedule_only else ("5/5" if args.map_players else "4/4")
     print(f"[{final_step}] Writing artifacts...")
