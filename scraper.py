@@ -775,6 +775,47 @@ def write_tester_html(channels: list[dict], schedule: list[dict], path: Path) ->
 
 # ---------- driver ----------
 
+def guard_against_collapse(
+    channels: list[dict],
+    prev_by_id: dict,
+    prev_ok_count: int,
+    ratio: float = 0.6,
+) -> int:
+    """Stop a single throttled scrape from wiping the channel list.
+
+    dlhd intermittently rate-limits the CI runner's IP partway through a run.
+    When it does, hundreds of channels that resolve perfectly well suddenly
+    fail their live-probe in that one pass and get marked "down". The app only
+    shows status=="ok" channels, so publishing such a run blanks most of the
+    live grid — exactly what happened when ok cratered 715 -> 255 in a single
+    refresh. A drop that steep is never real availability (the catalog turns
+    over gradually), so when the new ok-count collapses below [ratio] of the
+    last good run, keep the previous "ok" verdict for any channel that merely
+    flipped to down/unreachable this pass. Freshly-resolved URLs are retained;
+    if this run failed to resolve a URL at all, the previous one is restored so
+    the channel stays playable. Returns the number of channels restored
+    (0 = catalog looked healthy, no action taken)."""
+    if prev_ok_count < 100:
+        return 0
+    new_ok = sum(1 for c in channels if c.get("status") == "ok")
+    if new_ok >= prev_ok_count * ratio:
+        return 0
+    restored = 0
+    for c in channels:
+        if c.get("status") in ("down", "unreachable") and \
+                prev_by_id.get(c["id"], {}).get("status") == "ok":
+            c["status"] = "ok"
+            if not c.get("stream_url"):
+                prev_url = prev_by_id.get(c["id"], {}).get("stream_url")
+                if prev_url:
+                    c["stream_url"] = prev_url
+            restored += 1
+    print(f"      !! ok-count collapsed {prev_ok_count} -> {new_ok} "
+          f"(dlhd almost certainly throttled this run) — restored {restored} "
+          f"channels to their last-good 'ok' status")
+    return restored
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0, help="0 = all channels")
@@ -812,13 +853,16 @@ def main() -> int:
             print(f"      limited to first {len(channels)}")
         # Preserve stable per-channel fields from a previous run (players map,
         # headless live_stream capture) so we don't have to rebuild them every time.
+        prev_by_id: dict = {}
+        prev_ok_count = 0
         if chan_path.exists():
             try:
                 prev = json.loads(chan_path.read_text(encoding="utf-8"))
-                by_id = {c["id"]: c for c in prev}
+                prev_by_id = {c["id"]: c for c in prev}
+                prev_ok_count = sum(1 for c in prev if c.get("status") == "ok")
                 kept = 0
                 for c in channels:
-                    p = by_id.get(c["id"])
+                    p = prev_by_id.get(c["id"])
                     if not p:
                         continue
                     for k in ("players", "live_stream"):
@@ -917,6 +961,9 @@ def main() -> int:
         schedule = _preserve_previous_schedule(sched_path)
         print(f"      preserved {len(schedule)} still-current events "
               f"from previous schedule.json")
+
+    if not args.schedule_only:
+        guard_against_collapse(channels, prev_by_id, prev_ok_count)
 
     final_step = "-" if args.schedule_only else ("5/5" if args.map_players else "4/4")
     print(f"[{final_step}] Writing artifacts...")
