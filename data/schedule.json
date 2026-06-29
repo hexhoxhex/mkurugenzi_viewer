@@ -2,6 +2,48 @@
   {
     "category": "PPV Events",
     "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Monster Energy Mammoth Motorcross",
+    "channels": [
+      {
+        "id": "153",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "MotoAmerica Superbikes Ridge Motorsports",
+    "channels": [
+      {
+        "id": "154",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "TNA Slammiversary",
+    "channels": [
+      {
+        "id": "155",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-06-29",
     "time": "22:00",
     "title": "BAPS Motor Speedway - Pa Speedweek",
     "channels": [
@@ -11,7 +53,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "PPV Events",
@@ -25,7 +67,7 @@
       }
     ],
     "start_unix": 1782767700,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "PPV Events",
@@ -39,7 +81,7 @@
       }
     ],
     "start_unix": 1782771300,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "PPV Events",
@@ -53,7 +95,7 @@
       }
     ],
     "start_unix": 1782773100,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "PPV Events",
@@ -67,7 +109,7 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Upcoming Events",
@@ -81,7 +123,7 @@
       }
     ],
     "start_unix": 1782700200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Upcoming Events",
@@ -95,7 +137,7 @@
       }
     ],
     "start_unix": 1782721800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Upcoming Events",
@@ -109,7 +151,7 @@
       }
     ],
     "start_unix": 1782721800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Upcoming Events",
@@ -123,7 +165,91 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "Tour de France (Road Cycling – Grand Tour), 4 – 26 July 2026 France",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "ATP | WTA Tour Finals Build-up Events (Tennis Season Matches), May–June 2026",
+    "channels": [
+      {
+        "id": "57",
+        "name": "EuroSport 1 Poland"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "ICC Women’s T20 World Cup (Women’s T20 Cricket) - 12 June – 5 July 2026",
+    "channels": [
+      {
+        "id": "00",
+        "name": "CricketGo"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "FIFA World Cup 2026 (Men’s Football) | Matches, June 11 – July 19 2026",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FIFA World Cup"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "🏃 Paris Diamond League 2026 🏆 — Jun 28",
+    "channels": [
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "🏃 Monaco Diamond League 2026 🏆 — Jul 10",
+    "channels": [
+      {
+        "id": "494",
+        "name": "beIN Sports MAX 4 France"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Upcoming Events",
@@ -137,7 +263,7 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Upcoming Events",
@@ -159,7 +285,261 @@
       }
     ],
     "start_unix": 1782700200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "⚽ FIFA World Cup 2026 — 🇿🇦 South Africa vs 🇨🇦 Canada",
+    "date": "2027-06-28",
+    "time": "19:00",
+    "title": "FIFA World Cup Round of 32 : South Africa vs Canada",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "602",
+        "name": "CTV Canada"
+      },
+      {
+        "id": "20",
+        "name": "Servus TV Austria"
+      },
+      {
+        "id": "350",
+        "name": "ITV 1 UK"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "533",
+        "name": "TVE La 1 Spain"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "261",
+        "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "723",
+        "name": "TVI Portugal"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      },
+      {
+        "id": "470",
+        "name": "M6 France"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "203",
+        "name": "NRK1 Norway"
+      },
+      {
+        "id": "262",
+        "name": "RSI La 2 IT"
+      },
+      {
+        "id": "850",
+        "name": "Rai 1 IT"
+      },
+      {
+        "id": "573",
+        "name": "Match Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "Match TV Russia"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "136",
+        "name": "Match! Football 1 Russia"
+      },
+      {
+        "id": "1033",
+        "name": "ČT Sport CZ"
+      },
+      {
+        "id": "248",
+        "name": "YLE TV2 Finland"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "1",
+        "name": "Qazsport"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "936",
+        "name": "Canal5 MX"
+      },
+      {
+        "id": "844",
+        "name": "Azteca 7 MX"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "21",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "255",
+        "name": "RTVS Sport Slovakia"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "257",
+        "name": "TV4 Sweden"
+      },
+      {
+        "id": "249",
+        "name": "ERT 2 Greece"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "817",
+        "name": "TV2 Denmark"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1814205600,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "BET Awards 2026",
@@ -205,7 +585,35 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "Truck U S22, E3",
+    "channels": [
+      {
+        "id": "661",
+        "name": "Discovery Turbo"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "18:30",
+    "title": "NASCAR Nation Pre-Race (New)",
+    "channels": [
+      {
+        "id": "341",
+        "name": "truTV USA"
+      }
+    ],
+    "start_unix": 1782754200,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -219,7 +627,7 @@
       }
     ],
     "start_unix": 1782763200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -233,7 +641,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -251,7 +659,7 @@
       }
     ],
     "start_unix": 1782765000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -265,7 +673,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -279,7 +687,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -293,7 +701,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -307,7 +715,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -321,7 +729,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -339,7 +747,7 @@
       }
     ],
     "start_unix": 1782772200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -353,7 +761,7 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -367,7 +775,7 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -381,7 +789,7 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -395,7 +803,7 @@
       }
     ],
     "start_unix": 1782689400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -409,7 +817,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -423,7 +831,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -437,7 +845,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -451,7 +859,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -465,7 +873,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -479,7 +887,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -493,7 +901,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -507,7 +915,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -521,7 +929,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -535,7 +943,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -549,7 +957,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "TV Shows",
@@ -563,7 +971,7 @@
       }
     ],
     "start_unix": 1782698400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -577,7 +985,7 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -591,7 +999,857 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Club Friendly Games : NK Olimpija Ljubljana vs FK Čukarički",
+    "channels": [
+      {
+        "id": "139",
+        "name": "Arena 3 Premium Serbia"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Norway NM Cup Women : Stabæk Fotball vs Aalesunds Fotballklubb",
+    "channels": [
+      {
+        "id": "812",
+        "name": "TV2 Sport Norway"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "UEFA U19 European Championship - Women : Switzerland U19 vs Spain U19",
+    "channels": [
+      {
+        "id": "571",
+        "name": "Sportdigital FUSSBALL DE"
+      },
+      {
+        "id": "142",
+        "name": "Sport 3 Israel"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Kazakhstan Premier League : Ulytau vs Ordabasy",
+    "channels": [
+      {
+        "id": "1",
+        "name": "Qazsport"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "Sweden - Superettan : Norrköping vs Norrby",
+    "channels": [
+      {
+        "id": "707",
+        "name": "TV4 Sportkanalen Sweden"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "Sweden - Superettan : Landskrona vs Varnamo",
+    "channels": [
+      {
+        "id": "6003",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Kazakhstan Premier League : Zhenys vs Astana",
+    "channels": [
+      {
+        "id": "1",
+        "name": "Qazsport"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Argentina Primera LPF, Reserves, Aperture : Vélez Sarsfield Reserve vs Newell's Old Boys Reserve",
+    "channels": [
+      {
+        "id": "798",
+        "name": "ESPN3 Argentina"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "UEFA U19 European Championship - Women : Austria U19 vs Iceland U19",
+    "channels": [
+      {
+        "id": "571",
+        "name": "Sportdigital FUSSBALL DE"
+      },
+      {
+        "id": "142",
+        "name": "Sport 3 Israel"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "Belarus - Belarus Premier League : Dnepr Mogilev vs Neman Grodno",
+    "channels": [
+      {
+        "id": "2",
+        "name": "Belarus 5"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "Sweden - Superettan : Sandviken vs Helsingborg",
+    "channels": [
+      {
+        "id": "6004",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Estonia - Meistriliiga : Levadia vs Flora",
+    "channels": [
+      {
+        "id": "3",
+        "name": "ETV 2 Estonia"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Argentina Primera LPF, Reserves, Aperture : Boca Juniors Reserve vs Atlético Tucumán Reserve",
+    "channels": [
+      {
+        "id": "388",
+        "name": "TNT Sports Argentina"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "16:30",
+    "title": "Chile - Copa Chile : Cobresal vs Antofagasta",
+    "channels": [
+      {
+        "id": "6005",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782747000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "16:30",
+    "title": "Chile - Copa Chile : La Serena vs Cobreloa",
+    "channels": [
+      {
+        "id": "6006",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782747000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "UEFA U19 European Championship : Wales U19 vs Spain U19",
+    "channels": [
+      {
+        "id": "670",
+        "name": "S4C UK"
+      },
+      {
+        "id": "529",
+        "name": "Teledeporte Spain (TDP)"
+      },
+      {
+        "id": "571",
+        "name": "Sportdigital FUSSBALL DE"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "141",
+        "name": "Sport 2 Israel"
+      },
+      {
+        "id": "3019",
+        "name": "Sportdigital FUSSBALL DE"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Argentina Torneo Federal A : CA Sol de America de Formosa vs San Martín Formosa",
+    "channels": [
+      {
+        "id": "787",
+        "name": "Fox Sports Argentina"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Peru - Copa de La Liga : Alianza Lima vs Alianza Atl.",
+    "channels": [
+      {
+        "id": "6007",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Peru - Copa de La Liga : Cesar Vallejo vs Carlos Mannucci",
+    "channels": [
+      {
+        "id": "6008",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "UEFA U19 European Championship : Germany U19 vs Denmark U19",
+    "channels": [
+      {
+        "id": "571",
+        "name": "Sportdigital FUSSBALL DE"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "142",
+        "name": "Sport 3 Israel"
+      },
+      {
+        "id": "3019",
+        "name": "Sportdigital FUSSBALL DE"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "FIFA World Cup : Multiview",
+    "channels": [
+      {
+        "id": "938",
+        "name": "Fussball.TV 3"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "FIFA World Cup : Tactical Feed",
+    "channels": [
+      {
+        "id": "264",
+        "name": "Fussball.TV 2"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "FIFA World Cup Round of 32 : South Africa vs Canada",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "602",
+        "name": "CTV Canada"
+      },
+      {
+        "id": "20",
+        "name": "Servus TV Austria"
+      },
+      {
+        "id": "350",
+        "name": "ITV 1 UK"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "9008",
+        "name": "Backup Stream English"
+      },
+      {
+        "id": "9001",
+        "name": "Backup Stream Arabic"
+      },
+      {
+        "id": "9002",
+        "name": "Backup Stream Arabic"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "533",
+        "name": "TVE La 1 Spain"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "261",
+        "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "723",
+        "name": "TVI Portugal"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      },
+      {
+        "id": "470",
+        "name": "M6 France"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "203",
+        "name": "NRK1 Norway"
+      },
+      {
+        "id": "262",
+        "name": "RSI La 2 IT"
+      },
+      {
+        "id": "850",
+        "name": "Rai 1 IT"
+      },
+      {
+        "id": "573",
+        "name": "Match Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "Match TV Russia"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "136",
+        "name": "Match! Football 1 Russia"
+      },
+      {
+        "id": "1033",
+        "name": "ČT Sport CZ"
+      },
+      {
+        "id": "248",
+        "name": "YLE TV2 Finland"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "1",
+        "name": "Qazsport"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "936",
+        "name": "Canal5 MX"
+      },
+      {
+        "id": "844",
+        "name": "Azteca 7 MX"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "21",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "255",
+        "name": "RTVS Sport Slovakia"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "257",
+        "name": "TV4 Sweden"
+      },
+      {
+        "id": "249",
+        "name": "ERT 2 Greece"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "817",
+        "name": "TV2 Denmark"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      },
+      {
+        "id": "5031",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "5032",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "5001",
+        "name": "Backup Stream (ENG)"
+      },
+      {
+        "id": "5002",
+        "name": "Backup Stream (4K)"
+      },
+      {
+        "id": "5003",
+        "name": "Backup Stream (ENG)"
+      },
+      {
+        "id": "5004",
+        "name": "Backup Stream (ENG)"
+      },
+      {
+        "id": "5005",
+        "name": "Backup Stream (TSN 4K)"
+      },
+      {
+        "id": "5006",
+        "name": "Backup Stream (Bein AR)"
+      },
+      {
+        "id": "5007",
+        "name": "Backup Stream (ESP)"
+      },
+      {
+        "id": "5060",
+        "name": "Backup Stream (Fox USA)"
+      },
+      {
+        "id": "5061",
+        "name": "Backup Stream (Fox 4K)"
+      },
+      {
+        "id": "5062",
+        "name": "Backup Stream (Telemundo)"
+      },
+      {
+        "id": "5063",
+        "name": "Backup Stream (TSN1)"
+      },
+      {
+        "id": "5064",
+        "name": "(Bein Max Arabic)"
+      },
+      {
+        "id": "5065",
+        "name": "Backup Stream (FusballTV1)"
+      },
+      {
+        "id": "2001",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "3031",
+        "name": "TSN1"
+      },
+      {
+        "id": "3011",
+        "name": "MagentaTV"
+      },
+      {
+        "id": "4000",
+        "name": "DAZN Mundial ES"
+      },
+      {
+        "id": "3056",
+        "name": "M6 France"
+      },
+      {
+        "id": "3001",
+        "name": "ITV 1"
+      },
+      {
+        "id": "3070",
+        "name": "HRT 2 Crotia"
+      },
+      {
+        "id": "3088",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "3060",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "3021",
+        "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "3074",
+        "name": "TV4 Sweden"
+      },
+      {
+        "id": "4001",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "4002",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "4003",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "5020",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "5021",
+        "name": "Backup Stream (4K Quality)"
+      },
+      {
+        "id": "5022",
+        "name": "Backup Stream (ITV UK)"
+      },
+      {
+        "id": "5023",
+        "name": "Backup Stream (TSN)"
+      },
+      {
+        "id": "5024",
+        "name": "Backup Stream (TSN 4K)"
+      },
+      {
+        "id": "5025",
+        "name": "Backup Stream (Bein Max AR)"
+      },
+      {
+        "id": "5026",
+        "name": "Backup Stream (Bein Max 4K)"
+      },
+      {
+        "id": "5027",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "5028",
+        "name": "Backup Stream (Fussbaltv 4K)"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Brazil - Serie B : Juventude vs Ceará",
+    "channels": [
+      {
+        "id": "81",
+        "name": "ESPN Brazil"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Brazil - Serie B : Athletic vs Avai",
+    "channels": [
+      {
+        "id": "6009",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Brazil - Serie B : Atletico Goianiense vs Ponte Preta",
+    "channels": [
+      {
+        "id": "6010",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Chile - Copa Chile Group H : Huachipato vs Deportes Temuco",
+    "channels": [
+      {
+        "id": "6011",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Chile - Copa Chile Group H : Union La Calera vs Santiago Wanderers",
+    "channels": [
+      {
+        "id": "6012",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Chile - Copa Chile : Curico Unido vs Universidad de Concepcion",
+    "channels": [
+      {
+        "id": "6025",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -605,7 +1863,7 @@
       }
     ],
     "start_unix": 1782760500,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -619,7 +1877,7 @@
       }
     ],
     "start_unix": 1782760500,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -633,7 +1891,7 @@
       }
     ],
     "start_unix": 1782763200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -647,7 +1905,7 @@
       }
     ],
     "start_unix": 1782763200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -661,7 +1919,7 @@
       }
     ],
     "start_unix": 1782765000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -675,7 +1933,7 @@
       }
     ],
     "start_unix": 1782765000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -689,7 +1947,7 @@
       }
     ],
     "start_unix": 1782765000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -707,7 +1965,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -721,7 +1979,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "All Soccer Events",
@@ -735,7 +1993,49 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "USL League Two",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "USL League Two : Erie Sports Center vs Pittsburgh Riverhounds 2",
+    "channels": [
+      {
+        "id": "55",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "USL League Two",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "USL League Two : Lone Star II vs Ocean City Nor'easters",
+    "channels": [
+      {
+        "id": "59",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "USL League Two",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "USL League Two : Seacoast United Phantoms vs Black Rock",
+    "channels": [
+      {
+        "id": "68",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -749,7 +2049,7 @@
       }
     ],
     "start_unix": 1782763200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -763,7 +2063,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -777,7 +2077,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -791,7 +2091,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -805,7 +2105,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -819,7 +2119,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -833,7 +2133,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -847,7 +2147,7 @@
       }
     ],
     "start_unix": 1782772200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -861,7 +2161,7 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "USL League Two",
@@ -875,7 +2175,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Cricket",
@@ -909,7 +2209,7 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Cricket",
@@ -943,7 +2243,85 @@
       }
     ],
     "start_unix": 1782721800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-06-29",
+    "time": "12:30",
+    "title": "Twenty20 : Ireland vs India",
+    "channels": [
+      {
+        "id": "346",
+        "name": "Willow Cricket"
+      },
+      {
+        "id": "370",
+        "name": "Astro Cricket"
+      },
+      {
+        "id": "34",
+        "name": "TNT Sports 4 UK"
+      },
+      {
+        "id": "417",
+        "name": "SuperSport Variety 2"
+      }
+    ],
+    "start_unix": 1782732600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "T20 World Cup Women : Australia W vs India W",
+    "channels": [
+      {
+        "id": "598",
+        "name": "Willow 2 Cricket"
+      },
+      {
+        "id": "36",
+        "name": "Sky Sports+ UK"
+      },
+      {
+        "id": "591",
+        "name": "Sky Sport 4 NZ"
+      },
+      {
+        "id": "368",
+        "name": "SuperSport Cricket"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "1st Test | Day 4 : West Indies vs Sri Lanka",
+    "channels": [
+      {
+        "id": "346",
+        "name": "Willow Cricket"
+      },
+      {
+        "id": "34",
+        "name": "TNT Sports 4 UK"
+      },
+      {
+        "id": "420",
+        "name": "SuperSport Action"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Cricket",
@@ -969,7 +2347,7 @@
       }
     ],
     "start_unix": 1782765000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Cricket",
@@ -999,7 +2377,7 @@
       }
     ],
     "start_unix": 1782693000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Field Hockey",
@@ -1013,7 +2391,49 @@
       }
     ],
     "start_unix": 1782725400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Field Hockey",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "FIH Pro League Women : Germany W vs China W",
+    "channels": [
+      {
+        "id": "5",
+        "name": "Magenta Sport"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Major League Pickleball York",
+    "channels": [
+      {
+        "id": "765",
+        "name": "MSG USA"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Major League Pickleball MLP New York Super Sunday",
+    "channels": [
+      {
+        "id": "40",
+        "name": "Tennis Channel USA"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Tennis 🎾 WTA - DOUBLES: Eastbourne (United Kingdom), Grass",
@@ -1031,7 +2451,7 @@
       }
     ],
     "start_unix": 1782723900,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Tennis 🎾 WTA - DOUBLES: Eastbourne (United Kingdom), Grass",
@@ -1045,7 +2465,7 @@
       }
     ],
     "start_unix": 1782724200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1059,7 +2479,7 @@
       }
     ],
     "start_unix": 1782703800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1081,7 +2501,7 @@
       }
     ],
     "start_unix": 1782705600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1119,7 +2539,7 @@
       }
     ],
     "start_unix": 1782707400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1161,7 +2581,7 @@
       }
     ],
     "start_unix": 1782711000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1175,7 +2595,7 @@
       }
     ],
     "start_unix": 1782711300,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1285,7 +2705,7 @@
       }
     ],
     "start_unix": 1782714600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1355,7 +2775,7 @@
       }
     ],
     "start_unix": 1782715200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1445,7 +2865,7 @@
       }
     ],
     "start_unix": 1782716400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1515,7 +2935,7 @@
       }
     ],
     "start_unix": 1782716700,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1545,7 +2965,7 @@
       }
     ],
     "start_unix": 1782720000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1559,7 +2979,7 @@
       }
     ],
     "start_unix": 1782720000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1573,7 +2993,7 @@
       }
     ],
     "start_unix": 1782720000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1659,7 +3079,7 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1677,7 +3097,7 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1691,7 +3111,7 @@
       }
     ],
     "start_unix": 1782724500,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1705,7 +3125,7 @@
       }
     ],
     "start_unix": 1782724500,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1727,7 +3147,7 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1773,7 +3193,653 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "11:25",
+    "title": "MotoGP : Round 11 | Netherlands Race",
+    "channels": [
+      {
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      },
+      {
+        "id": "39",
+        "name": "Fox Sports 1 USA"
+      },
+      {
+        "id": "575",
+        "name": "Sky Sport MotoGP Italy"
+      },
+      {
+        "id": "271",
+        "name": "CANAL+ MotoGP France"
+      },
+      {
+        "id": "557",
+        "name": "Sky Sport Mix DE"
+      },
+      {
+        "id": "556",
+        "name": "Sky Sport Top Event DE"
+      },
+      {
+        "id": "445",
+        "name": "DAZN1 ES"
+      },
+      {
+        "id": "464",
+        "name": "Canal+ Sport 360"
+      },
+      {
+        "id": "289",
+        "name": "Sport TV4 Portugal"
+      },
+      {
+        "id": "920",
+        "name": "DAZN MotoGP ES"
+      },
+      {
+        "id": "149",
+        "name": "ESPN Argentina"
+      },
+      {
+        "id": "401",
+        "name": "Digi Sport 2 Romania"
+      },
+      {
+        "id": "121",
+        "name": "Canal+ France"
+      },
+      {
+        "id": "7",
+        "name": "Arena 4 Premium Serbia"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 BR"
+      },
+      {
+        "id": "628",
+        "name": "Cosmote Sport 7 Greece"
+      },
+      {
+        "id": "916",
+        "name": "Cytavision Sports 6"
+      },
+      {
+        "id": "101",
+        "name": "Sport Klub 1 Croatia"
+      },
+      {
+        "id": "393",
+        "name": "Ziggo Sport 1 NL"
+      },
+      {
+        "id": "992",
+        "name": "Polsat Sport Premium 2 Poland"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "147",
+        "name": "5 Star Israel"
+      }
+    ],
+    "start_unix": 1782728700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "World Championship Portugal | MX2 | Race 1",
+    "channels": [
+      {
+        "id": "617",
+        "name": "TNT Sports 8 UK"
+      },
+      {
+        "id": "275",
+        "name": "Bandsports Brasil"
+      },
+      {
+        "id": "22",
+        "name": "Sport TV1 Slovenia"
+      },
+      {
+        "id": "58",
+        "name": "EuroSport 2 Poland"
+      },
+      {
+        "id": "525",
+        "name": "EuroSport 2 Spain"
+      },
+      {
+        "id": "773",
+        "name": "EuroSport 2 France"
+      },
+      {
+        "id": "232",
+        "name": "Eurosport 2 SE"
+      },
+      {
+        "id": "879",
+        "name": "EuroSport 2 Italy"
+      },
+      {
+        "id": "42",
+        "name": "EuroSport 2 Greece"
+      },
+      {
+        "id": "3008",
+        "name": "CBS Sports Network"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Moto GP Assen: Moto GP: RACE - HELICOPTER",
+    "channels": [
+      {
+        "id": "8",
+        "name": "Sport Klub 9 Croatia"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Moto GP Assen: Moto GP: RACE - ON BOARD 1",
+    "channels": [
+      {
+        "id": "9",
+        "name": "Sport Klub 10 Croatia"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Formula 1 : MSC Cruises Austrian GP - Grand Prix Sunday",
+    "channels": [
+      {
+        "id": "60",
+        "name": "Sky Sports F1 UK"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "712",
+        "name": "beIN Sports Malaysia"
+      },
+      {
+        "id": "274",
+        "name": "Sky Sport F1 DE"
+      },
+      {
+        "id": "537",
+        "name": "DAZN F1 ES"
+      },
+      {
+        "id": "121",
+        "name": "Canal+ France"
+      },
+      {
+        "id": "273",
+        "name": "Canal+ Formula 1"
+      },
+      {
+        "id": "589",
+        "name": "Sky Sport 2 NZ"
+      },
+      {
+        "id": "577",
+        "name": "Sky Sports F1 Italy"
+      },
+      {
+        "id": "774",
+        "name": "ANT+ F1 Greece"
+      },
+      {
+        "id": "809",
+        "name": "TV3 Sport Denmark"
+      },
+      {
+        "id": "71",
+        "name": "Eleven Sports 1 Poland"
+      },
+      {
+        "id": "929",
+        "name": "Fox Sports 1 MX"
+      },
+      {
+        "id": "260",
+        "name": "Arena Adrenalin"
+      },
+      {
+        "id": "2015",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "3013",
+        "name": "Sky Sports F1 DE"
+      },
+      {
+        "id": "3030",
+        "name": "DAZN F1 ES"
+      },
+      {
+        "id": "3055",
+        "name": "Canal+ France"
+      },
+      {
+        "id": "3007",
+        "name": "Sky Sports F1 UK"
+      },
+      {
+        "id": "3077",
+        "name": "V Sport Motor DE"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "Formula 1 : MSC Cruises Austrian GP - Race",
+    "channels": [
+      {
+        "id": "60",
+        "name": "Sky Sports F1 UK"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "712",
+        "name": "beIN Sports Malaysia"
+      },
+      {
+        "id": "274",
+        "name": "Sky Sport F1 DE"
+      },
+      {
+        "id": "537",
+        "name": "DAZN F1 ES"
+      },
+      {
+        "id": "121",
+        "name": "Canal+ France"
+      },
+      {
+        "id": "273",
+        "name": "Canal+ Formula 1"
+      },
+      {
+        "id": "589",
+        "name": "Sky Sport 2 NZ"
+      },
+      {
+        "id": "577",
+        "name": "Sky Sports F1 Italy"
+      },
+      {
+        "id": "774",
+        "name": "ANT+ F1 Greece"
+      },
+      {
+        "id": "809",
+        "name": "TV3 Sport Denmark"
+      },
+      {
+        "id": "71",
+        "name": "Eleven Sports 1 Poland"
+      },
+      {
+        "id": "929",
+        "name": "Fox Sports 1 MX"
+      },
+      {
+        "id": "260",
+        "name": "Arena Adrenalin"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "World Championship Portugal | MXGP | Race 1",
+    "channels": [
+      {
+        "id": "617",
+        "name": "TNT Sports 8 UK"
+      },
+      {
+        "id": "275",
+        "name": "Bandsports Brasil"
+      },
+      {
+        "id": "22",
+        "name": "Sport TV1 Slovenia"
+      },
+      {
+        "id": "58",
+        "name": "EuroSport 2 Poland"
+      },
+      {
+        "id": "525",
+        "name": "EuroSport 2 Spain"
+      },
+      {
+        "id": "773",
+        "name": "EuroSport 2 France"
+      },
+      {
+        "id": "232",
+        "name": "Eurosport 2 SE"
+      },
+      {
+        "id": "879",
+        "name": "EuroSport 2 Italy"
+      },
+      {
+        "id": "42",
+        "name": "EuroSport 2 Greece"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "Harley-Davidson Bagger World Cup | Netherlands Race 2",
+    "channels": [
+      {
+        "id": "557",
+        "name": "Sky Sport Mix DE"
+      },
+      {
+        "id": "628",
+        "name": "Cosmote Sport 7 Greece"
+      },
+      {
+        "id": "101",
+        "name": "Sport Klub 1 Croatia"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Polish Drifting Championship - Race (drift racing)",
+    "channels": [
+      {
+        "id": "23",
+        "name": "Eurosport 3 Poland"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "14:45",
+    "title": "Speedway: PGE Ekstraliga : Stelmet Falubaz Zielona G?ra vs. ORLEN OIL Motor Lublin",
+    "channels": [
+      {
+        "id": "48",
+        "name": "Canal+ Sport Poland"
+      }
+    ],
+    "start_unix": 1782740700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "World Championship Portugal | MX2 | Race 2",
+    "channels": [
+      {
+        "id": "308",
+        "name": "CBSSN USA"
+      },
+      {
+        "id": "617",
+        "name": "TNT Sports 8 UK"
+      },
+      {
+        "id": "275",
+        "name": "Bandsports Brasil"
+      },
+      {
+        "id": "22",
+        "name": "Sport TV1 Slovenia"
+      },
+      {
+        "id": "58",
+        "name": "EuroSport 2 Poland"
+      },
+      {
+        "id": "525",
+        "name": "EuroSport 2 Spain"
+      },
+      {
+        "id": "773",
+        "name": "EuroSport 2 France"
+      },
+      {
+        "id": "232",
+        "name": "Eurosport 2 SE"
+      },
+      {
+        "id": "879",
+        "name": "EuroSport 2 Italy"
+      },
+      {
+        "id": "42",
+        "name": "EuroSport 2 Greece"
+      },
+      {
+        "id": "3008",
+        "name": "CBS Sports Network"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "SPEEDWAY pl 2.Ekstraliga - Ostrow vs Pila",
+    "channels": [
+      {
+        "id": "75",
+        "name": "CANAL+ SPORT 5 Poland"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "World Championship Portugal | MXGP | Race 2",
+    "channels": [
+      {
+        "id": "308",
+        "name": "CBSSN USA"
+      },
+      {
+        "id": "617",
+        "name": "TNT Sports 8 UK"
+      },
+      {
+        "id": "275",
+        "name": "Bandsports Brasil"
+      },
+      {
+        "id": "22",
+        "name": "Sport TV1 Slovenia"
+      },
+      {
+        "id": "58",
+        "name": "EuroSport 2 Poland"
+      },
+      {
+        "id": "525",
+        "name": "EuroSport 2 Spain"
+      },
+      {
+        "id": "773",
+        "name": "EuroSport 2 France"
+      },
+      {
+        "id": "232",
+        "name": "Eurosport 2 SE"
+      },
+      {
+        "id": "879",
+        "name": "EuroSport 2 Italy"
+      },
+      {
+        "id": "42",
+        "name": "EuroSport 2 Greece"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "IMSA Sportscar Championship 2025: 6 Hours of the Glen",
+    "channels": [
+      {
+        "id": "919",
+        "name": "Ziggo Sport 3 NL"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "17:15",
+    "title": "Speedway: PGE Ekstraliga : Gezet Stal Gorz?w - FOGO Unia Leszno",
+    "channels": [
+      {
+        "id": "48",
+        "name": "Canal+ Sport Poland"
+      }
+    ],
+    "start_unix": 1782749700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "18:30",
+    "title": "Nascar Cup Series: Toyota / Save Mart 350, Sonoma Raceway",
+    "channels": [
+      {
+        "id": "341",
+        "name": "Trutv USA"
+      },
+      {
+        "id": "338",
+        "name": "TNT USA"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "550",
+        "name": "Viaplay Sports 2 UK"
+      },
+      {
+        "id": "563",
+        "name": "Motowizja Poland"
+      },
+      {
+        "id": "472",
+        "name": "MAX Sport 1 Bulgaria"
+      },
+      {
+        "id": "260",
+        "name": "Arena Adrenalin"
+      },
+      {
+        "id": "398",
+        "name": "Ziggo Sport 2 NL"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 Brazil"
+      },
+      {
+        "id": "104",
+        "name": "Sport Klub 4 Croatia"
+      },
+      {
+        "id": "3010",
+        "name": "TNT USA"
+      }
+    ],
+    "start_unix": 1782754200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "IMSA Sportscar Championship 2025: 6 Hours of the Glen",
+    "channels": [
+      {
+        "id": "161",
+        "name": "Peacock Feed"
+      },
+      {
+        "id": "919",
+        "name": "Ziggo Sport 3 NL"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Motorsport",
@@ -1791,7 +3857,7 @@
       }
     ],
     "start_unix": 1782765000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Boxing",
@@ -1829,7 +3895,7 @@
       }
     ],
     "start_unix": 1782766800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Boxing",
@@ -1843,7 +3909,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Boxing",
@@ -1857,7 +3923,7 @@
       }
     ],
     "start_unix": 1782694800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Wrestling (NXT",
@@ -1875,7 +3941,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Wrestling (NXT",
@@ -1893,7 +3959,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Combat sports",
@@ -1923,7 +3989,7 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Golf",
@@ -1989,7 +4055,287 @@
       }
     ],
     "start_unix": 1782723600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Golf",
+    "date": "2026-06-29",
+    "time": "12:45",
+    "title": "PGA Tour Travelers Championship",
+    "channels": [
+      {
+        "id": "449",
+        "name": "Sky Sports Mix UK"
+      },
+      {
+        "id": "36",
+        "name": "Sky Sports+ UK"
+      },
+      {
+        "id": "83",
+        "name": "ESPN3 Brazil"
+      }
+    ],
+    "start_unix": 1782733500,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Golf",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "KPMG Women's PGA Championship",
+    "channels": [
+      {
+        "id": "70",
+        "name": "Sky Sports Golf UK"
+      },
+      {
+        "id": "318",
+        "name": "GOLF Channel USA"
+      },
+      {
+        "id": "785",
+        "name": "Sky Sports Golf DE"
+      },
+      {
+        "id": "528",
+        "name": "Movistar Golf"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "589",
+        "name": "Sky Sport 2 NZ"
+      },
+      {
+        "id": "937",
+        "name": "V Sport Golf"
+      },
+      {
+        "id": "422",
+        "name": "SuperSport Golf"
+      },
+      {
+        "id": "901",
+        "name": "Ziggo Sport 6 NL"
+      },
+      {
+        "id": "710",
+        "name": "Sport KLUB Golf Croatia"
+      },
+      {
+        "id": "83",
+        "name": "ESPN3 Brazil"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "383",
+        "name": "Ziggo Sport 5 NL"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Golf",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "KPMG Women's PGA Championship",
+    "channels": [
+      {
+        "id": "70",
+        "name": "Sky Sports Golf UK"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      },
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "318",
+        "name": "GOLF Channel USA"
+      },
+      {
+        "id": "785",
+        "name": "Sky Sports Golf DE"
+      },
+      {
+        "id": "528",
+        "name": "Movistar Golf"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "589",
+        "name": "Sky Sport 2 NZ"
+      },
+      {
+        "id": "937",
+        "name": "V Sport Golf"
+      },
+      {
+        "id": "422",
+        "name": "SuperSport Golf"
+      },
+      {
+        "id": "901",
+        "name": "Ziggo Sport 6 NL"
+      },
+      {
+        "id": "710",
+        "name": "Sport KLUB Golf Croatia"
+      },
+      {
+        "id": "83",
+        "name": "ESPN3 Brazil"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "383",
+        "name": "Ziggo Sport 5 NL"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Golf",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "PGA Tour Travelers Championship",
+    "channels": [
+      {
+        "id": "70",
+        "name": "Sky Sports Golf UK"
+      },
+      {
+        "id": "318",
+        "name": "GOLF Channel USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      },
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "112",
+        "name": "TSN2"
+      },
+      {
+        "id": "840",
+        "name": "RDS 2 CA"
+      },
+      {
+        "id": "838",
+        "name": "CTV 2 Canada"
+      },
+      {
+        "id": "36",
+        "name": "Sky Sports+ UK"
+      },
+      {
+        "id": "785",
+        "name": "Sky Sports Golf DE"
+      },
+      {
+        "id": "528",
+        "name": "Movistar Golf"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "937",
+        "name": "V Sport Golf"
+      },
+      {
+        "id": "422",
+        "name": "SuperSport Golf"
+      },
+      {
+        "id": "901",
+        "name": "Ziggo Sport 6 NL"
+      },
+      {
+        "id": "710",
+        "name": "Sport KLUB Golf Croatia"
+      },
+      {
+        "id": "83",
+        "name": "ESPN3 Brazil"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Golf",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "PGA Tour Champions Golf Dick's Open, Final Round",
+    "channels": [
+      {
+        "id": "318",
+        "name": "Golf Channel USA"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Am. Football (CFL",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "European League of Football : Firenze Red Lions vs Panthers Wroclaw",
+    "channels": [
+      {
+        "id": "129",
+        "name": "Polsat Sport 3 Poland"
+      },
+      {
+        "id": "997",
+        "name": "Polsat Sport Fight Poland"
+      },
+      {
+        "id": "2010",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Am. Football (CFL",
@@ -2019,7 +4365,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Am. Football (CFL",
@@ -2041,7 +4387,81 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Athletics",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "Athletics: Czes?aw Cybulski Memorial - Pozna? 2026",
+    "channels": [
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Athletics",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "IAAF Diamond League - Paris, France",
+    "channels": [
+      {
+        "id": "50",
+        "name": "Polsat Sport 2 Poland"
+      },
+      {
+        "id": "6",
+        "name": "svt 2 Sweden"
+      },
+      {
+        "id": "80",
+        "name": "Sportv3 Brazil"
+      },
+      {
+        "id": "438",
+        "name": "Movistar Deportes 2 Spain"
+      },
+      {
+        "id": "433",
+        "name": "Arena Sport 2 Croatia"
+      },
+      {
+        "id": "25",
+        "name": "Arena 5 Premium Serbia"
+      },
+      {
+        "id": "398",
+        "name": "Ziggo Sport 2 NL"
+      },
+      {
+        "id": "418",
+        "name": "SuperSport Variety 3"
+      },
+      {
+        "id": "143",
+        "name": "Sport 4 Israel"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Athletics",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "IAAF Diamond League - Paris, France",
+    "channels": [
+      {
+        "id": "521",
+        "name": "#Vamos Spain"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Aussie Rules (AFL",
@@ -2063,7 +4483,7 @@
       }
     ],
     "start_unix": 1782706500,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Aussie Rules (AFL",
@@ -2093,7 +4513,25 @@
       }
     ],
     "start_unix": 1782713400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Softball",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "Athletes Unlimited Softball League : Portland Cascade vs Texas Volts",
+    "channels": [
+      {
+        "id": "44",
+        "name": "ESPN USA"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Softball",
@@ -2107,7 +4545,397 @@
       }
     ],
     "start_unix": 1782687600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Minor League Baseball",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "Minor League Baseball : Toledo Mud Hens vs Worcester Red Sox",
+    "channels": [
+      {
+        "id": "762",
+        "name": "NESN USA"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Banana Ball Baseball",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "Banana Ball World Tour : Party Animals vs Savannah Bananas",
+    "channels": [
+      {
+        "id": "51",
+        "name": "ABC USA"
+      },
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      },
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:35",
+    "title": "MLB : Pittsburgh Pirates vs Cincinnati Reds",
+    "channels": [
+      {
+        "id": "8",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "922",
+        "name": "SportsNet Pittsburgh"
+      },
+      {
+        "id": "399",
+        "name": "MLB Network"
+      },
+      {
+        "id": "5040",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2020",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782750900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:35",
+    "title": "MLB : Baltimore Orioles vs Washington Nationals",
+    "channels": [
+      {
+        "id": "9",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "829",
+        "name": "MASN USA"
+      },
+      {
+        "id": "5041",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2021",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782750900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:37",
+    "title": "MLB : Toronto Blue Jays vs Texas Rangers",
+    "channels": [
+      {
+        "id": "10",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "408",
+        "name": "Sportsnet East"
+      },
+      {
+        "id": "407",
+        "name": "Sportsnet West"
+      },
+      {
+        "id": "406",
+        "name": "Sportsnet Ontario"
+      },
+      {
+        "id": "833",
+        "name": "TVA Sports"
+      },
+      {
+        "id": "5042",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2022",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782751020,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:40",
+    "title": "MLB : Tampa Bay Rays vs Arizona Diamondbacks",
+    "channels": [
+      {
+        "id": "11",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "5043",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2023",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782751200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:40",
+    "title": "MLB : Detroit Tigers vs Houston Astros",
+    "channels": [
+      {
+        "id": "12",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "921",
+        "name": "Space City Home Network"
+      },
+      {
+        "id": "5044",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2024",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782751200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:40",
+    "title": "MLB : New York Mets vs Philadelphia Phillies",
+    "channels": [
+      {
+        "id": "13",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      },
+      {
+        "id": "777",
+        "name": "NBCS Philadelphia"
+      },
+      {
+        "id": "759",
+        "name": "SportsNet New York"
+      },
+      {
+        "id": "24",
+        "name": "Sport 2 Hungary"
+      },
+      {
+        "id": "434",
+        "name": "Arena Sport 3 Croatia"
+      },
+      {
+        "id": "5045",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2025",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782751200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "17:40",
+    "title": "MLB : Cleveland Guardians vs Seattle Mariners",
+    "channels": [
+      {
+        "id": "14",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "5046",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2026",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782751200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "18:10",
+    "title": "MLB : Milwaukee Brewers vs Chicago Cubs",
+    "channels": [
+      {
+        "id": "15",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "770",
+        "name": "Marquee Sports Network"
+      },
+      {
+        "id": "5047",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2027",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782753000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "18:10",
+    "title": "MLB : Minnesota Twins vs Colorado Rockies",
+    "channels": [
+      {
+        "id": "16",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "5048",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2028",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782753000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "18:10",
+    "title": "MLB : Chicago White Sox vs Kansas City Royals",
+    "channels": [
+      {
+        "id": "17",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "776",
+        "name": "Chicago Sports Network"
+      },
+      {
+        "id": "5049",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2029",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782753000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "18:15",
+    "title": "MLB : St. Louis Cardinals vs Miami Marlins",
+    "channels": [
+      {
+        "id": "18",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "5050",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2030",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782753300,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "19:15",
+    "title": "MLB : Los Angeles Angels vs Oakland Athletics",
+    "channels": [
+      {
+        "id": "19",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "845",
+        "name": "NBC UNIVERSO"
+      },
+      {
+        "id": "5051",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2031",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "MLB",
+    "date": "2026-06-29",
+    "time": "20:05",
+    "title": "MLB : San Francisco Giants vs Atlanta Braves",
+    "channels": [
+      {
+        "id": "2",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "753",
+        "name": "NBCS Bay Area USA"
+      },
+      {
+        "id": "5052",
+        "name": "Backup Stream"
+      },
+      {
+        "id": "2032",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782759900,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "MLB",
@@ -2145,7 +4973,7 @@
       }
     ],
     "start_unix": 1782760200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "MLB",
@@ -2199,7 +5027,7 @@
       }
     ],
     "start_unix": 1782771600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Basketball",
@@ -2213,7 +5041,7 @@
       }
     ],
     "start_unix": 1782709200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Basketball",
@@ -2227,7 +5055,7 @@
       }
     ],
     "start_unix": 1782712800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Basketball",
@@ -2241,7 +5069,67 @@
       }
     ],
     "start_unix": 1782721800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "12:15",
+    "title": "Basketball World Cup : France Youth vs Italy Youth",
+    "channels": [
+      {
+        "id": "118",
+        "name": "beIN Sports 3 France"
+      }
+    ],
+    "start_unix": 1782731700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Bg u23 league : SC Rakovica Belgrade",
+    "channels": [
+      {
+        "id": "429",
+        "name": "Arena Sport 1 Serbia"
+      },
+      {
+        "id": "945",
+        "name": "Arena Sport 10 Serbia"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "Montenegro 3x3 2k26 : Portonovi Lite Quest 2K26",
+    "channels": [
+      {
+        "id": "430",
+        "name": "Arena Sport 2 Serbia"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "NBA : The Stoximan AegeanBall Festival is a 3x3 tournament",
+    "channels": [
+      {
+        "id": "625",
+        "name": "Cosmote Sport 4 Greece"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Basketball",
@@ -2255,7 +5143,7 @@
       }
     ],
     "start_unix": 1782720000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Basketball",
@@ -2269,7 +5157,157 @@
       }
     ],
     "start_unix": 1782721800,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "11:45",
+    "title": "International - U17 FIBA World Cup : Japan U17 vs USA U17",
+    "channels": [
+      {
+        "id": "6015",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782729900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "12:15",
+    "title": "International - U17 FIBA World Cup : France U17 vs Italy U17",
+    "channels": [
+      {
+        "id": "6016",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782731700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "International - U17 FIBA World Cup : Lithuania U17 vs Cameroon U17",
+    "channels": [
+      {
+        "id": "6017",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "International - U17 FIBA World Cup : China U17 vs Canada U17",
+    "channels": [
+      {
+        "id": "6018",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "17:15",
+    "title": "International - U17 FIBA World Cup : Turkey U17 vs Slovenia U17",
+    "channels": [
+      {
+        "id": "6019",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782749700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-06-29",
+    "time": "17:45",
+    "title": "International - U17 FIBA World Cup : Puerto Rico U17 vs New Zealand U17",
+    "channels": [
+      {
+        "id": "6020",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782751500,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "WNBA",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "WNBA : Dallas Wings W vs Minnesota Lynx W",
+    "channels": [
+      {
+        "id": "52",
+        "name": "CBS USA"
+      },
+      {
+        "id": "767",
+        "name": "CBSNY USA"
+      },
+      {
+        "id": "118",
+        "name": "beIN Sports 3 France"
+      },
+      {
+        "id": "2035",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "WNBA",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "WNBA : Portland Fire vs. Washington Mystics",
+    "channels": [
+      {
+        "id": "778",
+        "name": "Monumental Sports Network"
+      },
+      {
+        "id": "2036",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "WNBA",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "WNBA : Las Vegas Aces vs Chicago Sky",
+    "channels": [
+      {
+        "id": "767",
+        "name": "CBSNY USA"
+      },
+      {
+        "id": "52",
+        "name": "CBS USA"
+      },
+      {
+        "id": "2037",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "WNBA",
@@ -2311,7 +5349,7 @@
       }
     ],
     "start_unix": 1782770400,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Sailing / Boating",
@@ -2333,7 +5371,21 @@
       }
     ],
     "start_unix": 1782720000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Sailing / Boating",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Canoeing. Downhill World Cup Mezzana: Finals",
+    "channels": [
+      {
+        "id": "882",
+        "name": "RAI Sport 1 Italy"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Cycling",
@@ -2347,7 +5399,103 @@
       }
     ],
     "start_unix": 1782714600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cycling",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "Spanish Championships mass start race",
+    "channels": [
+      {
+        "id": "57",
+        "name": "EuroSport 1 Poland"
+      },
+      {
+        "id": "524",
+        "name": "EuroSport 1 Spain"
+      },
+      {
+        "id": "772",
+        "name": "EuroSport 1 France"
+      },
+      {
+        "id": "231",
+        "name": "Eurosport 1 SE"
+      },
+      {
+        "id": "878",
+        "name": "EuroSport 1 Italy"
+      },
+      {
+        "id": "41",
+        "name": "EuroSport 1 Greece"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cycling",
+    "date": "2026-06-29",
+    "time": "12:30",
+    "title": "British National Road Championships Elite Men's Road Race | Aberystwyth (187km)",
+    "channels": [
+      {
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      }
+    ],
+    "start_unix": 1782732600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cycling",
+    "date": "2026-06-29",
+    "time": "13:15",
+    "title": "French National Road Championships Elite Men's Road Race | La Tour-du-Pin (241.8km)",
+    "channels": [
+      {
+        "id": "57",
+        "name": "EuroSport 1 Poland"
+      },
+      {
+        "id": "524",
+        "name": "EuroSport 1 Spain"
+      },
+      {
+        "id": "772",
+        "name": "EuroSport 1 France"
+      },
+      {
+        "id": "231",
+        "name": "Eurosport 1 SE"
+      },
+      {
+        "id": "878",
+        "name": "EuroSport 1 Italy"
+      },
+      {
+        "id": "41",
+        "name": "EuroSport 1 Greece"
+      }
+    ],
+    "start_unix": 1782735300,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Extreme sports",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Cuiab?: Women's Street and Park - Final",
+    "channels": [
+      {
+        "id": "275",
+        "name": "Bandsports Brasil"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Extreme sports",
@@ -2361,7 +5509,7 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Futsal",
@@ -2375,7 +5523,7 @@
       }
     ],
     "start_unix": 1782714600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Futsal",
@@ -2389,7 +5537,119 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Futsal",
+    "date": "2026-06-29",
+    "time": "12:30",
+    "title": "Disability FA Cup : Deaf Cup Final: Barnet Deaf vs St. John's Deaf",
+    "channels": [
+      {
+        "id": "33",
+        "name": "TNT Sports 3 UK"
+      }
+    ],
+    "start_unix": 1782732600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Futsal",
+    "date": "2026-06-29",
+    "time": "16:10",
+    "title": "Summer Cup Sub-19 - Final",
+    "channels": [
+      {
+        "id": "540",
+        "name": "Canal 11 Portugal"
+      }
+    ],
+    "start_unix": 1782745800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Futsal",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "Liga SportZone : Benfica x Sporting",
+    "channels": [
+      {
+        "id": "540",
+        "name": "Canal 11 Portugal"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Live racing from around the UK",
+    "channels": [
+      {
+        "id": "554",
+        "name": "Sky Sports Racing UK"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "Live racing from Cartmel and the Curragh",
+    "channels": [
+      {
+        "id": "555",
+        "name": "Racing Tv UK"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-06-29",
+    "time": "16:30",
+    "title": "America's Day At the Races",
+    "channels": [
+      {
+        "id": "758",
+        "name": "Fox Sports 2 USA"
+      }
+    ],
+    "start_unix": 1782747000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "America's Day At the Races",
+    "channels": [
+      {
+        "id": "39",
+        "name": "Fox Sports 1 USA"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Lacrosse",
+    "date": "2026-06-29",
+    "time": "20:00",
+    "title": "Premier Lacrosse League : Philadelphia Waterdogs vs Utah Archers",
+    "channels": [
+      {
+        "id": "151",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782759600,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Lacrosse",
@@ -2403,7 +5663,35 @@
       }
     ],
     "start_unix": 1782768600,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "GAA",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "GAA : LOUTH vs MONAGHAN",
+    "channels": [
+      {
+        "id": "365",
+        "name": "RTE 2"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "GAA",
+    "date": "2026-06-29",
+    "time": "14:35",
+    "title": "GAA : DUBLIN vs GALWAY",
+    "channels": [
+      {
+        "id": "365",
+        "name": "RTE 2"
+      }
+    ],
+    "start_unix": 1782740100,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Rugby League",
@@ -2421,7 +5709,7 @@
       }
     ],
     "start_unix": 1782702000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Rugby League",
@@ -2451,7 +5739,141 @@
       }
     ],
     "start_unix": 1782709500,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Rugby League",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Super League Rugby : Wakefield Trinity vs Huddersfield",
+    "channels": [
+      {
+        "id": "756",
+        "name": "Fox Soccer Plus"
+      },
+      {
+        "id": "410",
+        "name": "Sportsnet World"
+      },
+      {
+        "id": "3083",
+        "name": "Fox Soccer Plus"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Rugby Union",
+    "date": "2026-06-29",
+    "time": "13:15",
+    "title": "Premiership Women's Rugby Final : Saracens vs Ealing Trailfinders",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      },
+      {
+        "id": "593",
+        "name": "Sky Sports 6 NZ"
+      }
+    ],
+    "start_unix": 1782735300,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Rugby Union",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Women's Elite 1. Final : ASM Romagnat vs Stade Bordelais",
+    "channels": [
+      {
+        "id": "121",
+        "name": "Canal+ France"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Shooting",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "Archery Pan American Championships: Day 2, Session 2",
+    "channels": [
+      {
+        "id": "425",
+        "name": "BeIN SPORTS USA"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Shooting",
+    "date": "2026-06-29",
+    "time": "18:30",
+    "title": "Archery Pan American Championships: Day 2, Session 2",
+    "channels": [
+      {
+        "id": "425",
+        "name": "BeIN SPORTS USA"
+      }
+    ],
+    "start_unix": 1782754200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Squash",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "Premier Padel Valladolid P2 (T2026): Women's Final",
+    "channels": [
+      {
+        "id": "521",
+        "name": "#Vamos Spain"
+      },
+      {
+        "id": "436",
+        "name": "Movistar Deportes Spain"
+      },
+      {
+        "id": "289",
+        "name": "Sport TV4 Poutugal"
+      },
+      {
+        "id": "630",
+        "name": "Cosmote Sport 9 Greece"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Squash",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "Premier Padel Valladolid P2 (T2026): Men's Final",
+    "channels": [
+      {
+        "id": "521",
+        "name": "#Vamos Spain"
+      },
+      {
+        "id": "436",
+        "name": "Movistar Deportes Spain"
+      },
+      {
+        "id": "289",
+        "name": "Sport TV4 Poutugal"
+      },
+      {
+        "id": "630",
+        "name": "Cosmote Sport 9 Greece"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Triathlon",
@@ -2465,7 +5887,21 @@
       }
     ],
     "start_unix": 1782702000,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Triathlon",
+    "date": "2026-06-29",
+    "time": "11:15",
+    "title": "Ironman European Championships Sebastian Kienle",
+    "channels": [
+      {
+        "id": "739",
+        "name": "DasErste"
+      }
+    ],
+    "start_unix": 1782728100,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Volleyball",
@@ -2483,7 +5919,7 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Volleyball (VNL",
@@ -2505,7 +5941,7 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Volleyball (VNL",
@@ -2531,7 +5967,237 @@
       }
     ],
     "start_unix": 1782727200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "Nations League : Iran vs Cuba",
+    "channels": [
+      {
+        "id": "50",
+        "name": "Polsat Sport 2 Poland"
+      },
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      },
+      {
+        "id": "79",
+        "name": "Sportv2 Brazil"
+      },
+      {
+        "id": "102",
+        "name": "Sport Klub 2 Croatia"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "Nations League : Belgium vs Turkey",
+    "channels": [
+      {
+        "id": "50",
+        "name": "Polsat Sport 2 Poland"
+      },
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      },
+      {
+        "id": "889",
+        "name": "TRT Spor Turkey"
+      },
+      {
+        "id": "994",
+        "name": "Polsat Sport Extra 2 Poland"
+      },
+      {
+        "id": "103",
+        "name": "Sport Klub 3 Croatia"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "Nations League : Canada vs Brazil",
+    "channels": [
+      {
+        "id": "129",
+        "name": "Polsat Sport 3 Poland"
+      },
+      {
+        "id": "79",
+        "name": "Sportv2 Brazil"
+      },
+      {
+        "id": "123",
+        "name": "Astro Grandstand"
+      },
+      {
+        "id": "991",
+        "name": "Polsat Sport Premium 1 Poland"
+      },
+      {
+        "id": "7",
+        "name": "Arena 4 Premium Serbia"
+      },
+      {
+        "id": "101",
+        "name": "Sport Klub 1 Croatia"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "Nations League : France vs Japan",
+    "channels": [
+      {
+        "id": "47",
+        "name": "Polsat Sport 1 Poland"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "102",
+        "name": "Sport Klub 2 Croatia"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Nations League : Poland vs Argentina",
+    "channels": [
+      {
+        "id": "47",
+        "name": "Polsat Sport 1 Poland"
+      },
+      {
+        "id": "123",
+        "name": "Astro Grandstand"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "994",
+        "name": "Polsat Sport Extra 2 Poland"
+      },
+      {
+        "id": "103",
+        "name": "Sport Klub 3 Croatia"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "18:30",
+    "title": "Nations League : Slovenia vs Italy",
+    "channels": [
+      {
+        "id": "129",
+        "name": "Polsat Sport 3 Poland"
+      },
+      {
+        "id": "139",
+        "name": "Arena 3 Premium Serbia"
+      },
+      {
+        "id": "79",
+        "name": "Sportv2 Brazil"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "101",
+        "name": "Sport Klub 1 Croatia"
+      }
+    ],
+    "start_unix": 1782754200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Volleyball (VNL",
+    "date": "2026-06-29",
+    "time": "18:30",
+    "title": "Nations League : Serbia vs USA",
+    "channels": [
+      {
+        "id": "50",
+        "name": "Polsat Sport 2 Poland"
+      },
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      },
+      {
+        "id": "102",
+        "name": "Sport Klub 2 Croatia"
+      }
+    ],
+    "start_unix": 1782754200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Water Sports",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Swimming: French Championships French Championships. Day 2",
+    "channels": [
+      {
+        "id": "952",
+        "name": "France 4"
+      },
+      {
+        "id": "1187",
+        "name": "beIN Sports 3 France"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Winter Sports",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "X Games Sacramento 2026",
+    "channels": [
+      {
+        "id": "51",
+        "name": "ABC USA"
+      },
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
   },
   {
     "category": "Winter Sports",
@@ -2545,6 +6211,4044 @@
       }
     ],
     "start_unix": 1782691200,
-    "scraped_at_unix": 1782688020
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "03:30",
+    "title": "🛴 UCI BMX Racing World Championships 2026 | Jul 17 - 25 Jul",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1782700200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "09:30",
+    "title": "🏎️ Formula 1 Pirelli British Grand Prix 2026 — Jul 3 - 5 Jul",
+    "channels": [
+      {
+        "id": "60",
+        "name": "Sky Sports F1 UK"
+      }
+    ],
+    "start_unix": 1782721800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "09:30",
+    "title": "Motorrad Grand Prix Deutschland (MotoGP), 10 – 12 July 2026 Sachsenring, Germany",
+    "channels": [
+      {
+        "id": "271",
+        "name": "CANAL+ MotoGP France"
+      }
+    ],
+    "start_unix": 1782721800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "Wimbledon (Tennis – Grand Slam) London, Great Britain, 29 June – 12 July 2026",
+    "channels": [
+      {
+        "id": "40",
+        "name": "Tennis Stream"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "Tour de France (Road Cycling – Grand Tour), 4 – 26 July 2026 France",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "ATP | WTA Tour Finals Build-up Events (Tennis Season Matches), May–June 2026",
+    "channels": [
+      {
+        "id": "57",
+        "name": "EuroSport 1 Poland"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "ICC Women’s T20 World Cup (Women’s T20 Cricket) - 12 June – 5 July 2026",
+    "channels": [
+      {
+        "id": "00",
+        "name": "CricketGo"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "FIFA World Cup 2026 (Men’s Football) | Matches, June 11 – July 19 2026",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FIFA World Cup"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "🏃 Paris Diamond League 2026 🏆 — Jun 28",
+    "channels": [
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "🏃 Monaco Diamond League 2026 🏆 — Jul 10",
+    "channels": [
+      {
+        "id": "494",
+        "name": "beIN Sports MAX 4 France"
+      }
+    ],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "NBA Draft (Basketball) | First Round Selection & Draft Coverage, 23–24 June 2026",
+    "channels": [
+      {
+        "id": "404",
+        "name": "NBA TV USA"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-06-29",
+    "time": "03:30",
+    "title": "Saturday Night Live (SNL)",
+    "channels": [
+      {
+        "id": "708",
+        "name": "Sky One USA"
+      },
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1782700200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "⚽ FIFA World Cup 2026 — 🇧🇷 Brazil vs 🇯🇵 Japan",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "FIFA World Cup : Brazil vs Japan",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "356",
+        "name": "BBC One UK"
+      },
+      {
+        "id": "78",
+        "name": "SporTV BR"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "727",
+        "name": "ZDF DE"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "533",
+        "name": "TVE La 1 Spain"
+      },
+      {
+        "id": "850",
+        "name": "RAI 1 IT"
+      },
+      {
+        "id": "204",
+        "name": "TV 2 Direkte Norway"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "561",
+        "name": "TVP2 Poland"
+      },
+      {
+        "id": "470",
+        "name": "M6 France"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "4",
+        "name": "ETV 2 Estonia"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "262",
+        "name": "RSI La 2 IT"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "5",
+        "name": "Qazsport"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "136",
+        "name": "MATCH! Futbol 1 Russia"
+      },
+      {
+        "id": "573",
+        "name": "MATCH! Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "MATCH TV Russia"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "256",
+        "name": "JOJ Šport Slovakia"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "1",
+        "name": "RTS 2 Serbia"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "774",
+        "name": "ERT 1 Greece"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "18",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "257",
+        "name": "TV4 Sweden"
+      },
+      {
+        "id": "817",
+        "name": "TV2 Denmark"
+      },
+      {
+        "id": "7",
+        "name": "Telefe Argentina"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "966",
+        "name": "beIN Max 1 Arabia"
+      },
+      {
+        "id": "969",
+        "name": "beIN Max 4 Arabia"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "⚽ FIFA World Cup 2026 — 🇩🇪 Germany vs 🇵🇾 Paraguay",
+    "date": "2026-06-29",
+    "time": "20:30",
+    "title": "FIFA World Cup : Germany vs Paraguay",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "350",
+        "name": "ITV 1 UK"
+      },
+      {
+        "id": "356",
+        "name": "BBC One UK"
+      },
+      {
+        "id": "727",
+        "name": "ZDF DE"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "470",
+        "name": "M6 France"
+      },
+      {
+        "id": "256",
+        "name": "JOJ Sport Slovakia"
+      },
+      {
+        "id": "16",
+        "name": "SVT 1 Sweden"
+      },
+      {
+        "id": "17",
+        "name": "RTS 1 Serbia"
+      },
+      {
+        "id": "203",
+        "name": "NRK1 Norway"
+      },
+      {
+        "id": "801",
+        "name": "DR 1 Denmark"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "5",
+        "name": "Qazsport"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "136",
+        "name": "MATCH! Futbol 1 Russia"
+      },
+      {
+        "id": "573",
+        "name": "MATCH! Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "MATCH TV Russia"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "1033",
+        "name": "ČT Sport CZ"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "18",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "249",
+        "name": "ERT 2 Greece"
+      },
+      {
+        "id": "746",
+        "name": "TyC Sports Argentina"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "966",
+        "name": "beIN Sports MAX 1 Arabia"
+      },
+      {
+        "id": "967",
+        "name": "beIN Sports MAX 2 Arabia"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1782761400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "⚽ FIFA World Cup 2026 — 🇳🇱 Netherlands vs 🇲🇦 Morocco",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "FIFA World Cup : Netherlands vs Morocco",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "350",
+        "name": "ITV 1 UK"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "19",
+        "name": "Arryadia TNT"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "204",
+        "name": "TV 2 Direkte Norway"
+      },
+      {
+        "id": "256",
+        "name": "JOJ Sport Slovakia"
+      },
+      {
+        "id": "16",
+        "name": "SVT 1 Sweden"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "801",
+        "name": "DR 1 Denmark"
+      },
+      {
+        "id": "248",
+        "name": "YLE TV2 Finland"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "5",
+        "name": "Qazsport"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "136",
+        "name": "MATCH! Futbol 1 Russia"
+      },
+      {
+        "id": "573",
+        "name": "MATCH! Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "MATCH TV Russia"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "1033",
+        "name": "ČT Sport CZ"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "18",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "774",
+        "name": "ERT 1 Greece"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "966",
+        "name": "beIN Sports MAX 1 Arabia"
+      },
+      {
+        "id": "967",
+        "name": "beIN Sports MAX 2 Arabia"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "The Kelly Clarkson Show S7, E165",
+    "channels": [
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "General Hospital S63, E201",
+    "channels": [
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "23:00",
+    "title": "Jeopardy! S42, E211",
+    "channels": [
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1782770400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "Below Deck Mediterranean S11, E4",
+    "channels": [
+      {
+        "id": "307",
+        "name": "Bravo USA"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "Disney Celebrates America: The Pursuit of Happiness",
+    "channels": [
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "Tan cerca de ti, nace el amor S1, E21",
+    "channels": [
+      {
+        "id": "132",
+        "name": "Univision"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "World War II With Tom Hanks S1, E11",
+    "channels": [
+      {
+        "id": "322",
+        "name": "History TV"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "Contraband: Seized at the Border S9, E5",
+    "channels": [
+      {
+        "id": "313",
+        "name": "Discovery HD"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "Love &amp; Hip Hop Miami S7, E24",
+    "channels": [
+      {
+        "id": "344",
+        "name": "VH1 USA"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "00:30",
+    "title": "The Fishmonger S6, E4",
+    "channels": [
+      {
+        "id": "848",
+        "name": "Outdoor Channel USA"
+      }
+    ],
+    "start_unix": 1782689400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "The Impact: Atlanta S3, E7",
+    "channels": [
+      {
+        "id": "344",
+        "name": "VH1 USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "The McBee Dynasty: Real American Cowboys S3, E3",
+    "channels": [
+      {
+        "id": "307",
+        "name": "Bravo USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "BBQ Brawl S7, E8",
+    "channels": [
+      {
+        "id": "384",
+        "name": "The Food Network"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Maine Cabin Masters S13, E6",
+    "channels": [
+      {
+        "id": "299",
+        "name": "Magnolia Network"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Dr. Pimple Popper: Breaking Out S2, E11",
+    "channels": [
+      {
+        "id": "326",
+        "name": "Lifetime Network"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Live PD: Greatest Shifts S2, E24",
+    "channels": [
+      {
+        "id": "302",
+        "name": "A&amp;E USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Rachael Ray's Meals in Minutes S5, E11",
+    "channels": [
+      {
+        "id": "665",
+        "name": "FYI"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Titanic Sinks Tonight S1, E3",
+    "channels": [
+      {
+        "id": "328",
+        "name": "National Geographic"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Body Cam S8, E6",
+    "channels": [
+      {
+        "id": "313",
+        "name": "Discovery HD"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Little Singles S1, E3",
+    "channels": [
+      {
+        "id": "337",
+        "name": "TLC USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Deadly Influence: The Social Media Murders S2, E5",
+    "channels": [
+      {
+        "id": "324",
+        "name": "Investigation Discovery"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Fatal Attraction S16, E47",
+    "channels": [
+      {
+        "id": "660",
+        "name": "TV ONE USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "Battle on the Beach S5, E5",
+    "channels": [
+      {
+        "id": "382",
+        "name": "HGTV"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "American Ninja Warrior: Eastern Regional Qualifying 1 S18, E4",
+    "channels": [
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "02:00",
+    "title": "The Impact: Atlanta S3, E8",
+    "channels": [
+      {
+        "id": "344",
+        "name": "VH1 USA"
+      }
+    ],
+    "start_unix": 1782694800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "02:00",
+    "title": "History's Greatest Machines With Dolph Lundgren S1, E5",
+    "channels": [
+      {
+        "id": "322",
+        "name": "History TV"
+      }
+    ],
+    "start_unix": 1782694800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "02:00",
+    "title": "Crashers S1, E4",
+    "channels": [
+      {
+        "id": "382",
+        "name": "HGTV"
+      }
+    ],
+    "start_unix": 1782694800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "02:00",
+    "title": "For My Man S9, E31",
+    "channels": [
+      {
+        "id": "660",
+        "name": "TV ONE USA"
+      }
+    ],
+    "start_unix": 1782694800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-06-29",
+    "time": "02:00",
+    "title": "Late Night Law S1, E5",
+    "channels": [
+      {
+        "id": "302",
+        "name": "A&amp;E USA"
+      }
+    ],
+    "start_unix": 1782694800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "World - Club Friendly : CSKA 1948 vs Partizan",
+    "channels": [
+      {
+        "id": "139",
+        "name": "Arena 3 Premium Serbia"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "UEFA U19 European Championship : Italy U19 vs Serbia U19",
+    "channels": [
+      {
+        "id": "882",
+        "name": "RAI Sport 1 IT"
+      },
+      {
+        "id": "1",
+        "name": "RTS 2 Serbia"
+      },
+      {
+        "id": "2",
+        "name": "Arena 4 Premium Serbia"
+      },
+      {
+        "id": "571",
+        "name": "Sportdigital FUSSBALL DE"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "90",
+        "name": "beIN Sports MENA English 2"
+      },
+      {
+        "id": "141",
+        "name": "Sport 2 Israel"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "Latvia - Virsliga : Auda vs Riga",
+    "channels": [
+      {
+        "id": "3",
+        "name": "TV4 Latvia"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "World - Club Friendly : Crvena Zvezda vs Slovan Bratislava",
+    "channels": [
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "FIFA World Cup : Multiview",
+    "channels": [
+      {
+        "id": "938",
+        "name": "Fussball.TV 3"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "FIFA World Cup : Tactical Feed",
+    "channels": [
+      {
+        "id": "264",
+        "name": "Fussball.TV 2"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "FIFA World Cup : Brazil vs Japan",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "356",
+        "name": "BBC One UK"
+      },
+      {
+        "id": "78",
+        "name": "SporTV BR"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "727",
+        "name": "ZDF DE"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "533",
+        "name": "TVE La 1 Spain"
+      },
+      {
+        "id": "850",
+        "name": "RAI 1 IT"
+      },
+      {
+        "id": "204",
+        "name": "TV 2 Direkte Norway"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "561",
+        "name": "TVP2 Poland"
+      },
+      {
+        "id": "470",
+        "name": "M6 France"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "4",
+        "name": "ETV 2 Estonia"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "262",
+        "name": "RSI La 2 IT"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "5",
+        "name": "Qazsport"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "136",
+        "name": "MATCH! Futbol 1 Russia"
+      },
+      {
+        "id": "573",
+        "name": "MATCH! Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "MATCH TV Russia"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "256",
+        "name": "JOJ Šport Slovakia"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "1",
+        "name": "RTS 2 Serbia"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "774",
+        "name": "ERT 1 Greece"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "18",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "257",
+        "name": "TV4 Sweden"
+      },
+      {
+        "id": "817",
+        "name": "TV2 Denmark"
+      },
+      {
+        "id": "7",
+        "name": "Telefe Argentina"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "966",
+        "name": "beIN Max 1 Arabia"
+      },
+      {
+        "id": "969",
+        "name": "beIN Max 4 Arabia"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "19:00",
+    "title": "UEFA U19 European Championship : Croatia U19 vs Ukraine U19",
+    "channels": [
+      {
+        "id": "571",
+        "name": "Sportdigital FUSSBALL DE"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "90",
+        "name": "beIN Sports MENA English 2"
+      },
+      {
+        "id": "141",
+        "name": "Sport 2 Israel"
+      }
+    ],
+    "start_unix": 1782756000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "20:30",
+    "title": "FIFA World Cup : Multiview",
+    "channels": [
+      {
+        "id": "938",
+        "name": "Fussball.TV 3"
+      }
+    ],
+    "start_unix": 1782761400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "20:30",
+    "title": "FIFA World Cup : Tactical Feed",
+    "channels": [
+      {
+        "id": "264",
+        "name": "Fussball.TV 2"
+      }
+    ],
+    "start_unix": 1782761400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "20:30",
+    "title": "FIFA World Cup : Germany vs Paraguay",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "350",
+        "name": "ITV 1 UK"
+      },
+      {
+        "id": "356",
+        "name": "BBC One UK"
+      },
+      {
+        "id": "727",
+        "name": "ZDF DE"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "470",
+        "name": "M6 France"
+      },
+      {
+        "id": "256",
+        "name": "JOJ Sport Slovakia"
+      },
+      {
+        "id": "16",
+        "name": "SVT 1 Sweden"
+      },
+      {
+        "id": "17",
+        "name": "RTS 1 Serbia"
+      },
+      {
+        "id": "203",
+        "name": "NRK1 Norway"
+      },
+      {
+        "id": "801",
+        "name": "DR 1 Denmark"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "5",
+        "name": "Qazsport"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "136",
+        "name": "MATCH! Futbol 1 Russia"
+      },
+      {
+        "id": "573",
+        "name": "MATCH! Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "MATCH TV Russia"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "1033",
+        "name": "ČT Sport CZ"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "18",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "249",
+        "name": "ERT 2 Greece"
+      },
+      {
+        "id": "746",
+        "name": "TyC Sports Argentina"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "966",
+        "name": "beIN Sports MAX 1 Arabia"
+      },
+      {
+        "id": "967",
+        "name": "beIN Sports MAX 2 Arabia"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1782761400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "FIFA World Cup : Multiview",
+    "channels": [
+      {
+        "id": "938",
+        "name": "Fussball.TV 3"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "FIFA World Cup : Tactical Feed",
+    "channels": [
+      {
+        "id": "264",
+        "name": "Fussball.TV 2"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "FIFA World Cup : Netherlands vs Morocco",
+    "channels": [
+      {
+        "id": "54",
+        "name": "FOX USA"
+      },
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "350",
+        "name": "ITV 1 UK"
+      },
+      {
+        "id": "365",
+        "name": "RTE 2 Ireland"
+      },
+      {
+        "id": "19",
+        "name": "Arryadia TNT"
+      },
+      {
+        "id": "251",
+        "name": "NPO 1 NL"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "242",
+        "name": "ORF 1 Austria"
+      },
+      {
+        "id": "204",
+        "name": "TV 2 Direkte Norway"
+      },
+      {
+        "id": "256",
+        "name": "JOJ Sport Slovakia"
+      },
+      {
+        "id": "16",
+        "name": "SVT 1 Sweden"
+      },
+      {
+        "id": "244",
+        "name": "Tipik Belgium"
+      },
+      {
+        "id": "801",
+        "name": "DR 1 Denmark"
+      },
+      {
+        "id": "248",
+        "name": "YLE TV2 Finland"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "1012",
+        "name": "TRT 1 Turkey"
+      },
+      {
+        "id": "918",
+        "name": "DAZN Mundial Spain"
+      },
+      {
+        "id": "290",
+        "name": "Sport TV5 Portugal"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "131",
+        "name": "Telemundo"
+      },
+      {
+        "id": "241",
+        "name": "SBS Australia"
+      },
+      {
+        "id": "237",
+        "name": "TV Klan Albania"
+      },
+      {
+        "id": "579",
+        "name": "Arena Sport 1 Bosnia"
+      },
+      {
+        "id": "5",
+        "name": "Qazsport"
+      },
+      {
+        "id": "263",
+        "name": "Fussball.TV 1"
+      },
+      {
+        "id": "939",
+        "name": "Fast Sports Armenia"
+      },
+      {
+        "id": "270",
+        "name": "T Sports Bangladesh"
+      },
+      {
+        "id": "136",
+        "name": "MATCH! Futbol 1 Russia"
+      },
+      {
+        "id": "573",
+        "name": "MATCH! Premier Russia"
+      },
+      {
+        "id": "127",
+        "name": "MATCH TV Russia"
+      },
+      {
+        "id": "243",
+        "name": "Ictimai TV Azerbaijan"
+      },
+      {
+        "id": "1033",
+        "name": "ČT Sport CZ"
+      },
+      {
+        "id": "253",
+        "name": "Antena 1 Romania"
+      },
+      {
+        "id": "450",
+        "name": "PTV Sports Pakistan"
+      },
+      {
+        "id": "265",
+        "name": "M4 Sports Hungary"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "240",
+        "name": "Arena Sport 1 Slovenia"
+      },
+      {
+        "id": "18",
+        "name": "VIX Premium MX"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "774",
+        "name": "ERT 1 Greece"
+      },
+      {
+        "id": "247",
+        "name": "HRT 2 Croatia"
+      },
+      {
+        "id": "476",
+        "name": "BNT 1 Bulgaria"
+      },
+      {
+        "id": "478",
+        "name": "BNT 3 Bulgaria"
+      },
+      {
+        "id": "966",
+        "name": "beIN Sports MAX 1 Arabia"
+      },
+      {
+        "id": "967",
+        "name": "beIN Sports MAX 2 Arabia"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "413",
+        "name": "SuperSport PSL"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "USL League Two",
+    "date": "2026-06-29",
+    "time": "22:30",
+    "title": "USL League Two : Asheville City vs Discoveries",
+    "channels": [
+      {
+        "id": "55",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782768600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "USL League Two",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "USL League Two : Hill Country Lobos vs Lonestar SC",
+    "channels": [
+      {
+        "id": "59",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "USL League Two",
+    "date": "2026-06-29",
+    "time": "01:00",
+    "title": "USL League Two : Unión Villa Krause vs Real Colorado",
+    "channels": [
+      {
+        "id": "68",
+        "name": "ESPN+ USA"
+      }
+    ],
+    "start_unix": 1782691200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "3rd Test Day-5 : England vs New Zealand",
+    "channels": [
+      {
+        "id": "346",
+        "name": "Willow Cricket"
+      },
+      {
+        "id": "65",
+        "name": "Sky Sports Cricket"
+      },
+      {
+        "id": "369",
+        "name": "Fox Cricket"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event"
+      },
+      {
+        "id": "588",
+        "name": "Sky Sport 1 NZ"
+      },
+      {
+        "id": "416",
+        "name": "SuperSport Variety 1"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "1st Test | Day 5 : West Indies vs Sri Lanka",
+    "channels": [
+      {
+        "id": "598",
+        "name": "Willow 2 Cricket"
+      },
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      },
+      {
+        "id": "420",
+        "name": "SuperSport Action"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "2026 Wimbledon Championships First Round",
+    "channels": [
+      {
+        "id": "44",
+        "name": "ESPN USA"
+      },
+      {
+        "id": "356",
+        "name": "BBC One UK"
+      },
+      {
+        "id": "357",
+        "name": "BBC Two UK"
+      },
+      {
+        "id": "112",
+        "name": "TSN2"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "840",
+        "name": "RDS 2 CA"
+      },
+      {
+        "id": "258",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "423",
+        "name": "SuperSport Tennis"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "393",
+        "name": "Ziggo Sport 1 NL"
+      },
+      {
+        "id": "396",
+        "name": "Ziggo Sport 4 NL"
+      },
+      {
+        "id": "437",
+        "name": "Movistar Plus+"
+      },
+      {
+        "id": "436",
+        "name": "Movistar Deportes Spain"
+      },
+      {
+        "id": "438",
+        "name": "Movistar Deportes 2 Spain"
+      },
+      {
+        "id": "526",
+        "name": "Movistar Deportes 3 Spain"
+      },
+      {
+        "id": "527",
+        "name": "Movistar Deportes 4 Spain"
+      },
+      {
+        "id": "802",
+        "name": "DR 2 Denmark"
+      },
+      {
+        "id": "915",
+        "name": "Cytavision Sports 5 Cyprus"
+      },
+      {
+        "id": "916",
+        "name": "Cytavision Sports 6 Cyprus"
+      },
+      {
+        "id": "47",
+        "name": "Polsat Sport 1 Poland"
+      },
+      {
+        "id": "991",
+        "name": "Polsat Sport Premium 1 Poland"
+      },
+      {
+        "id": "992",
+        "name": "Polsat Sport Premium 2 Poland"
+      },
+      {
+        "id": "993",
+        "name": "Polsat Sport Extra 1 Poland"
+      },
+      {
+        "id": "994",
+        "name": "Polsat Sport Extra 2 Poland"
+      },
+      {
+        "id": "995",
+        "name": "Polsat Sport Extra 3 Poland"
+      },
+      {
+        "id": "996",
+        "name": "Polsat Sport Extra 4 Poland"
+      },
+      {
+        "id": "129",
+        "name": "Polsat Sport 3 Poland"
+      },
+      {
+        "id": "82",
+        "name": "ESPN2 Brazil"
+      },
+      {
+        "id": "638",
+        "name": "Nova Sports Prime Greece"
+      },
+      {
+        "id": "637",
+        "name": "Nova Sports Start Greece"
+      },
+      {
+        "id": "117",
+        "name": "beIN Sports 2 France"
+      },
+      {
+        "id": "118",
+        "name": "beIN Sports 3 France"
+      },
+      {
+        "id": "500",
+        "name": "beIN Sports 10 Max France"
+      },
+      {
+        "id": "462",
+        "name": "Sky Sport Arena IT"
+      },
+      {
+        "id": "461",
+        "name": "Sky Sport Uno IT"
+      },
+      {
+        "id": "149",
+        "name": "ESPN Argentina"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "74",
+        "name": "Sport TV2 Portugal"
+      },
+      {
+        "id": "454",
+        "name": "Sport TV3 Portugal"
+      },
+      {
+        "id": "429",
+        "name": "Arena Sport 1 Serbia"
+      },
+      {
+        "id": "101",
+        "name": "Sport Klub 1 Croatia"
+      },
+      {
+        "id": "102",
+        "name": "Sport Klub 2 Croatia"
+      },
+      {
+        "id": "103",
+        "name": "Sport Klub 3 Croatia"
+      },
+      {
+        "id": "104",
+        "name": "Sport Klub 4 Croatia"
+      },
+      {
+        "id": "10",
+        "name": "Sport Klub 5 Croatia"
+      },
+      {
+        "id": "11",
+        "name": "Sport Klub 6 Croatia"
+      },
+      {
+        "id": "12",
+        "name": "Sport Klub 7 Croatia"
+      },
+      {
+        "id": "13",
+        "name": "Sport Klub 8 Croatia"
+      },
+      {
+        "id": "14",
+        "name": "Sport Klub 9 Croatia"
+      },
+      {
+        "id": "15",
+        "name": "Sport Klub 10 Croatia"
+      },
+      {
+        "id": "97",
+        "name": "beIN Sports MENA 7"
+      },
+      {
+        "id": "99",
+        "name": "beIN Sports MENA 9"
+      },
+      {
+        "id": "19",
+        "name": "Arena 5 Premium Serbia"
+      },
+      {
+        "id": "144",
+        "name": "Sport 5 Israel"
+      },
+      {
+        "id": "231",
+        "name": "Eurosport 1 SE"
+      },
+      {
+        "id": "1455",
+        "name": "Sport 5 PLUS Israel"
+      },
+      {
+        "id": "147",
+        "name": "5 Star Israel"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇪🇸 Rafael Jodar vs 🇬🇧 Felix Gill",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇺🇸 Aleksandar Kovacevic vs 🇳🇱 Botic van de Zandschulp",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇯🇵 Shintaro Mochizuki vs 🇬🇧 Mikael Basing",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇺🇸 Emilio Nava vs 🇵🇪 Ignacio Buse",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇷🇺 Andrey Rublev vs 🇷🇺 Roman Safiullin",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇨🇦 Denis Shapovalov vs 🇪🇸 Pablo Carreno Busta",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇨🇿 Dalibor Svrcina vs 🇺🇸 Learner Tien",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇦🇷 Marco Trungelliti vs 🇺🇸 Martin Damm",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇫🇷 Luca van Assche vs 🇭🇺 Marton Fucsovics",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "ATP - Singles: 🇦🇺 Aleksandar Vukic vs 🇺🇸 Jenson Brooksby",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "ATP - Singles: 🇫🇷 Alexandre Muller vs 🇺🇸 Tommy Paul",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "ATP - Singles: 🇫🇷 Arthur Rinderknech vs 🇬🇧 Oliver Tarvet",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "ATP - Singles: 🇺🇸 Maxime Zheng vs 🇬🇧 Cameron Norrie",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "ATP - Singles: 🇵🇹 Nuno Borges vs 🇺🇸 Tristan Boyer",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "ATP - Singles: 🇫🇷 Hugo Gaston vs 🇬🇷 Stefanos Tsitsipas",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "ATP - Singles: 🇰🇷 Soonwoo Kwon vs 🇪🇸 Martin Landaluce",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "ATP - Singles: 🇷🇸 Hamad Medjedovic vs 🇦🇹 Sebastian Ofner",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "ATP - Singles: 🇳🇴 Casper Ruud vs 🇵🇱 Hubert Hurkacz",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "ATP - Singles: 🇦🇷 Camilo Ugo Carabelli vs 🇪🇸 Daniel Merida Aguilar",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:30",
+    "title": "ATP - Singles: 🇮🇹 Jannik Sinner vs 🇷🇸 Miomir Kecmanovic",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782732600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "ATP - Singles: 🇺🇸 Ethan Quinn vs 🇮🇹 Luciano Darderi",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "ATP - Singles: 🇦🇺 Adam Walton vs 🇭🇷 Dino Prizmic",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇨🇦 Felix Auger-Aliassime vs 🇰🇿 Alexander Shevchenko",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇪🇸 Roberto Bautista Agut vs 🇧🇷 Joao Fonseca",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇭🇷 Marin Cilic vs 🇷🇺 Daniil Medvedev",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇪🇸 Alejandro Davidovich Fokina vs 🇦🇷 Juan Manuel Cerundolo",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇩🇪 Jan-Lennard Struff vs 🇦🇷 Sebastian Baez",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇦🇷 Thiago Agustin Tirante vs 🇭🇺 Fabian Marozsan",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "ATP - Singles: 🇳🇱 Dutch Vallejo vs 🇨🇴 Nicolas Mejia",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "ATP - Singles: 🇳🇱 Jesper de Jong vs 🇦🇺 Rinky Hijikata",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "ATP - Singles: 🇺🇸 Brandon Nakashima vs 🇬🇧 Jack Pinnington Jones",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 ATP - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "ATP - Singles: 🇨🇳 Yibing Wu vs 🇷🇸 Novak Djokovic",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "WTA - Singles: 🇨🇭 Belinda Bencic vs 🇬🇧 Mika Stojsavljevic",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "WTA - Singles: 🇷🇴 Jaqueline Cristian vs 🇺🇸 Julia Lohoff Jovic",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "WTA - Singles: 🇺🇸 Jessica Pegula vs 🇨🇿 Darja Vidmanova",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "WTA - Singles: 🇹🇭 Mananchaya Sawangkaew vs 🇵🇱 Maja Chwalinska",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "WTA - Singles: 🇪🇸 Sara Sorribes Tormo vs 🇦🇩 Victoria Jimenez Kasintseva",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "WTA - Singles: 🇺🇸 Ann Li vs 🇹🇷 Zeynep Sonmez",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "WTA - Singles: 🇨🇳 Wang Xinyu vs 🇮🇹 Elisabetta Cocciaretto",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "WTA - Singles: 🇨🇦 Bianca Andreescu vs 🇨🇳 Shuai Zhang",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "WTA - Singles: 🇱🇻 Jelena Ostapenko vs 🇬🇧 Harriet Dart",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "WTA - Singles: 🇺🇸 Alycia Parks vs 🇬🇧 Alastair Dudeney",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "WTA - Singles: 🇰🇿 Yulia Putintseva vs 🇩🇪 Tatjana Maria",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "13:30",
+    "title": "WTA - Singles: 🇨🇿 Karolina Muchova vs 🇺🇦 Anastasia Zakharova",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782736200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇫🇷 Elsa Jacquemot vs 🇯🇵 Naomi Osaka",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇺🇸 Caroline Dolehide vs 🇧🇪 Hanne Vandewinkel",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇺🇸 Claire Liu vs 🇧🇪 Hanne Vandewinkel",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇺🇦 Oleksandra Oliynykova vs 🇺🇸 Mccartney Kessler",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇺🇸 Peyton Stearns vs 🇨🇿 Nikola Bartunkova",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇹🇭 Lanlana Tararudee vs 🇦🇹 Lilli Tagger",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "WTA - Singles: 🇬🇧 Mingge Xu vs 🇦🇺 Daria Kasatkina",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "14:30",
+    "title": "WTA - Singles: 🇧🇾 Aryna Sabalenka vs 🇷🇸 Teodora Kostovic",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782739800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:00",
+    "title": "WTA - Singles: 🇵🇱 Magdalena Frech vs 🇺🇦 Anhelina Kalinina",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782741600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇷🇺 Ekaterina Alexandrova vs 🇭🇺 Panna Udvardy",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇪🇸 Jessica Bouzas Maneiro vs 🇦🇹 Anastasia Potapova",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇨🇦 Leylah Fernandez vs 🇳🇱 Jesika Ponchet Tjen",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇰🇿 Anna Danilina Gasanova vs 🇨🇴 Emiliana Arango",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇬🇧 Francesca Jones vs 🇫🇷 Diane Parry",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇩🇪 Tatjana Maria Korpatsch vs 🇺🇸 Coco Gauff",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇨🇿 Barbora Krejcikova vs 🇬🇧 Heather Klugman",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇵🇱 Magda Linette vs 🇷🇺 Mirra Andreeva",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇦🇷 Solana Sierra vs 🇭🇺 Anna Bondar",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇨🇿 Katerina Siniakova vs 🇨🇳 Qinwen Zheng",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Tennis 🎾 WTA - Singles: Wimbledon (United Kingdom), grass",
+    "date": "2026-06-29",
+    "time": "15:30",
+    "title": "WTA - Singles: 🇺🇦 Dayana Yastremska vs 🇯🇵 Aoi Ito",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed #JustAsk"
+      }
+    ],
+    "start_unix": 1782743400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Badminton",
+    "date": "2026-06-29",
+    "time": "11:30",
+    "title": "Badminton World Tour Super 1000",
+    "channels": [
+      {
+        "id": "8",
+        "name": "Матч Арена"
+      }
+    ],
+    "start_unix": 1782729000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "WWE (RAW",
+    "date": "2026-06-29",
+    "time": "00:00",
+    "title": "WWE Monday Night RAW",
+    "channels": [
+      {
+        "id": "6",
+        "name": "Netflix PPV"
+      },
+      {
+        "id": "419",
+        "name": "SuperSport Variety 4"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "420",
+        "name": "Supersports Action"
+      }
+    ],
+    "start_unix": 1782687600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Snooker",
+    "date": "2026-06-29",
+    "time": "10:00",
+    "title": "Championship League Day-7 1st round",
+    "channels": [
+      {
+        "id": "589",
+        "name": "Sky Sports 2 NZ"
+      },
+      {
+        "id": "75",
+        "name": "Canal+ Sport 5 Poland"
+      },
+      {
+        "id": "9",
+        "name": "Sport 1 Hungary"
+      }
+    ],
+    "start_unix": 1782723600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Snooker",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Championship League Day-7 1st round",
+    "channels": [
+      {
+        "id": "589",
+        "name": "Sky Sports 2 NZ"
+      },
+      {
+        "id": "75",
+        "name": "Canal+ Sport 5 Poland"
+      },
+      {
+        "id": "9",
+        "name": "Sport 1 Hungary"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Snooker",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "Ultimate Pool Champions League | Week 3",
+    "channels": [
+      {
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      }
+    ],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Softball",
+    "date": "2026-06-29",
+    "time": "23:00",
+    "title": "Athletes Unlimited Softball League : Carolina Blaze vs Oklahoma City Spark",
+    "channels": [
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      }
+    ],
+    "start_unix": 1782770400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Softball",
+    "date": "2026-06-29",
+    "time": "01:45",
+    "title": "Mexico LMB : Monclova vs Toros de Tijuana",
+    "channels": [
+      {
+        "id": "927",
+        "name": "ESPN3 Mexico"
+      }
+    ],
+    "start_unix": 1782693900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "22:35",
+    "title": "MLB : Baltimore Orioles vs Chicago White Sox",
+    "channels": [
+      {
+        "id": "1",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "829",
+        "name": "MASN USA"
+      },
+      {
+        "id": "776",
+        "name": "Chicago Sports Network"
+      },
+      {
+        "id": "494",
+        "name": "beIN Sports 4 Max France"
+      }
+    ],
+    "start_unix": 1782768900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "22:40",
+    "title": "MLB : Philadelphia Phillies vs Pittsburgh Pirates",
+    "channels": [
+      {
+        "id": "2",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "777",
+        "name": "NBCS Philadelphia USA"
+      },
+      {
+        "id": "922",
+        "name": "SportsNet Pittsburgh"
+      }
+    ],
+    "start_unix": 1782769200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "23:00",
+    "title": "MLB : Cleveland Guardians vs Texas Rangers",
+    "channels": [
+      {
+        "id": "3",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      },
+      {
+        "id": "44",
+        "name": "ESPN USA"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "85",
+        "name": "ESPN3 Brazil"
+      },
+      {
+        "id": "926",
+        "name": "ESPN2 Mexico"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      }
+    ],
+    "start_unix": 1782770400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "23:05",
+    "title": "MLB : New York Yankees vs Detroit Tigers",
+    "channels": [
+      {
+        "id": "4",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "763",
+        "name": "YES USA"
+      },
+      {
+        "id": "411",
+        "name": "Sportsnet One"
+      }
+    ],
+    "start_unix": 1782770700,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "23:07",
+    "title": "MLB : Toronto Blue Jays vs New York Mets",
+    "channels": [
+      {
+        "id": "7",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "833",
+        "name": "TVA Sports"
+      },
+      {
+        "id": "759",
+        "name": "SportsNet New York USA"
+      },
+      {
+        "id": "406",
+        "name": "Sportsnet Ontario"
+      }
+    ],
+    "start_unix": 1782770820,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "23:10",
+    "title": "MLB : Boston Red Sox vs Washington Nationals",
+    "channels": [
+      {
+        "id": "8",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "762",
+        "name": "NESN USA"
+      }
+    ],
+    "start_unix": 1782771000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "23:40",
+    "title": "MLB : Milwaukee Brewers vs Cincinnati Reds",
+    "channels": [
+      {
+        "id": "9",
+        "name": "MLB league pass"
+      }
+    ],
+    "start_unix": 1782772800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "00:05",
+    "title": "MLB : Chicago Cubs vs San Diego Padres",
+    "channels": [
+      {
+        "id": "10",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      },
+      {
+        "id": "770",
+        "name": "Marquee Sports Network"
+      },
+      {
+        "id": "840",
+        "name": "RDS 2 CA"
+      }
+    ],
+    "start_unix": 1782687900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "00:10",
+    "title": "MLB : Houston Astros vs Minnesota Twins",
+    "channels": [
+      {
+        "id": "11",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "921",
+        "name": "Space City Home Network"
+      }
+    ],
+    "start_unix": 1782688200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "00:40",
+    "title": "MLB : Colorado Rockies vs Miami Marlins",
+    "channels": [
+      {
+        "id": "12",
+        "name": "MLB league pass"
+      }
+    ],
+    "start_unix": 1782690000,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "01:40",
+    "title": "MLB : Seattle Mariners vs Los Angeles Angels",
+    "channels": [
+      {
+        "id": "13",
+        "name": "MLB league pass"
+      }
+    ],
+    "start_unix": 1782693600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "01:40",
+    "title": "MLB : Oakland Athletics vs Los Angeles Dodgers",
+    "channels": [
+      {
+        "id": "14",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "755",
+        "name": "NBCS California USA"
+      },
+      {
+        "id": "764",
+        "name": "Spectrum Sportsnet LA"
+      }
+    ],
+    "start_unix": 1782693600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Baseball (MLB",
+    "date": "2026-06-29",
+    "time": "01:40",
+    "title": "MLB : Arizona Diamondbacks vs San Francisco Giants",
+    "channels": [
+      {
+        "id": "15",
+        "name": "MLB league pass"
+      },
+      {
+        "id": "753",
+        "name": "NBCS Bay Area USA"
+      },
+      {
+        "id": "399",
+        "name": "MLB Network"
+      }
+    ],
+    "start_unix": 1782693600,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-06-29",
+    "time": "12:00",
+    "title": "Live racing from around the UK",
+    "channels": [
+      {
+        "id": "554",
+        "name": "Sky Sports Racing UK"
+      }
+    ],
+    "start_unix": 1782730800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-06-29",
+    "time": "13:00",
+    "title": "Live racing from Pontefract and Stratford",
+    "channels": [
+      {
+        "id": "555",
+        "name": "Racing Tv UK"
+      }
+    ],
+    "start_unix": 1782734400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Water Sports",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Swimming: French Championships French Championships. Day 3",
+    "channels": [
+      {
+        "id": "952",
+        "name": "France 4"
+      }
+    ],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Soccer : Al-Ahli Manama vs Al Riffa",
+    "channels": [],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Soccer : Al-Shabbab vs Bahrain SC",
+    "channels": [],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Soccer : Al Shabab vs Al Fateh",
+    "channels": [],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "16:45",
+    "title": "Soccer : Neom SC vs Al Hazem",
+    "channels": [],
+    "start_unix": 1782747900,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Soccer : CR Belouizdad vs Khenchela",
+    "channels": [],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "16:00",
+    "title": "Soccer : Feirense vs Torreense",
+    "channels": [],
+    "start_unix": 1782745200,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "Soccer : Norrkoping vs Landskrona",
+    "channels": [],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "17:00",
+    "title": "Soccer : RFS vs Riga FC",
+    "channels": [],
+    "start_unix": 1782748800,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Soccer : Al Hilal vs Damac",
+    "channels": [],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:00",
+    "title": "Soccer : Al Khaleej vs Al Najma",
+    "channels": [],
+    "start_unix": 1782752400,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:45",
+    "title": "Soccer : Southampton vs Ipswich Town",
+    "channels": [],
+    "start_unix": 1782755100,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:45",
+    "title": "Soccer : Northampton Town vs Barnsley",
+    "channels": [],
+    "start_unix": 1782755100,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:45",
+    "title": "Soccer : Peterborough United vs Mansfield Town",
+    "channels": [],
+    "start_unix": 1782755100,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:45",
+    "title": "Soccer : Stockport County vs Port Vale",
+    "channels": [],
+    "start_unix": 1782755100,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Soccer",
+    "date": "2026-06-29",
+    "time": "18:45",
+    "title": "Soccer : USM Alger vs Paradou",
+    "channels": [],
+    "start_unix": 1782755100,
+    "scraped_at_unix": 1782697168
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-06-29",
+    "time": "14:00",
+    "title": "Indian Premier League : Kings XI Punjab vs Rajasthan Royals",
+    "channels": [],
+    "start_unix": 1782738000,
+    "scraped_at_unix": 1782697168
   }
 ]
