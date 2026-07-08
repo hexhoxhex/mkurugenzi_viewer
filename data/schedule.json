@@ -1,91 +1,115 @@
 [
   {
     "category": "PPV Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:15",
     "title": "Super DIRTcar Series Mohawk",
     "channels": [
       {
         "id": "185",
         "name": "Event PPV"
+      },
+      {
+        "id": "5014",
+        "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783545300,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783631700,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "PPV Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:15",
     "title": "Millbridge Micro Sprints",
     "channels": [
       {
         "id": "186",
         "name": "Event PPV"
+      },
+      {
+        "id": "5015",
+        "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783545300,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783631700,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "PPV Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:45",
     "title": "World of Outlaws Late Models Stateline",
     "channels": [
       {
         "id": "187",
         "name": "Event PPV"
+      },
+      {
+        "id": "5017",
+        "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783547100,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783633500,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "PPV Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "DIRTcar Summer Nationals I96",
     "channels": [
       {
         "id": "188",
         "name": "FloRacing"
+      },
+      {
+        "id": "5018",
+        "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "PPV Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:15",
     "title": "USAC National Midgets Mitchell Co",
     "channels": [
       {
         "id": "189",
         "name": "FloRacing"
+      },
+      {
+        "id": "5019",
+        "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783548900,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783635300,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "PPV Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "Tuff N Uff 155",
     "channels": [
       {
         "id": "190",
         "name": "Event PPV"
+      },
+      {
+        "id": "5016",
+        "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "03:30",
     "title": "🛴 UCI BMX Racing World Championships 2026 | Jul 17 - 25 Jul",
     "channels": [
@@ -94,12 +118,12 @@
         "name": "TNT Sports 1 UK"
       }
     ],
-    "start_unix": 1783477800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783564200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "09:30",
     "title": "🏎️ Formula 1 Pirelli British Grand Prix 2026 — Jul 3 - 5 Jul",
     "channels": [
@@ -108,12 +132,12 @@
         "name": "Sky Sports F1 UK"
       }
     ],
-    "start_unix": 1783499400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783585800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "09:30",
     "title": "Motorrad Grand Prix Deutschland (MotoGP), 10 – 12 July 2026 Sachsenring, Germany",
     "channels": [
@@ -122,12 +146,12 @@
         "name": "CANAL+ MotoGP France"
       }
     ],
-    "start_unix": 1783499400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783585800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "10:00",
     "title": "Wimbledon (Tennis – Grand Slam) London, Great Britain, 29 June – 12 July 2026",
     "channels": [
@@ -136,12 +160,26 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1783501200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783587600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
+    "time": "11:30",
+    "title": "Tour de France (Road Cycling – Grand Tour), 4 – 26 July 2026 France",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1783593000,
+    "scraped_at_unix": 1783553879
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "NBA Draft (Basketball) | First Round Selection & Draft Coverage, 23–24 June 2026",
     "channels": [
@@ -150,12 +188,12 @@
         "name": "NBA TV USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "03:30",
     "title": "Saturday Night Live (SNL)",
     "channels": [
@@ -172,12 +210,12 @@
         "name": "NBC USA"
       }
     ],
-    "start_unix": 1783477800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783564200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "WSOP 2026",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "🃏 WSOP Main Event 2026 Live",
     "channels": [
@@ -186,12 +224,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "🎾 Tennis Wimbledon Championships 2026",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "10:00",
     "title": "2026 Wimbledon Championships",
     "channels": [
@@ -476,12 +514,12 @@
         "name": "5 Star Israel"
       }
     ],
-    "start_unix": 1783501200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783587600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:00",
     "title": "North American Whitetail S23, E2",
     "channels": [
@@ -490,12 +528,12 @@
         "name": "Outdoor Channel USA"
       }
     ],
-    "start_unix": 1783544400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783630800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "Jeopardy! S42, E218",
     "channels": [
@@ -504,12 +542,12 @@
         "name": "ABC NY USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "Naked and Afraid S16, E4",
     "channels": [
@@ -518,12 +556,12 @@
         "name": "Animal Planet"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "The Valley S3, E15",
     "channels": [
@@ -532,12 +570,12 @@
         "name": "Bravo USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "Dateline: Secrets Uncovered S17, E6",
     "channels": [
@@ -546,12 +584,12 @@
         "name": "Oxygen True Crime"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "New Soul Kitchen S6, E7",
     "channels": [
@@ -560,12 +598,12 @@
         "name": "Cleo TV"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Tyler Perry's The Oval S7, E8",
     "channels": [
@@ -574,12 +612,12 @@
         "name": "BET USA"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "On the Case With Paula Zahn S29, E12",
     "channels": [
@@ -588,12 +626,12 @@
         "name": "ID USA"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Building Giants S1, E5",
     "channels": [
@@ -602,12 +640,12 @@
         "name": "Science Channel"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Faster With Newbern and Cotten S3, E1",
     "channels": [
@@ -616,12 +654,12 @@
         "name": "Discovery Channel"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Most Extreme Humans S1, E5",
     "channels": [
@@ -630,12 +668,12 @@
         "name": "TLC USA"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Expedition Unknown S17, E3",
     "channels": [
@@ -644,12 +682,12 @@
         "name": "Discovery Channel"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Alone S13, E4",
     "channels": [
@@ -658,12 +696,12 @@
         "name": "History TV"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Guy's Grocery Games S42, E5",
     "channels": [
@@ -672,12 +710,12 @@
         "name": "The Food Network"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "Renovation Resort Showdown S3, E2",
     "channels": [
@@ -686,12 +724,12 @@
         "name": "HGTV"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "My Strange Arrest S4, E7",
     "channels": [
@@ -700,12 +738,12 @@
         "name": "A&amp;E USA"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:15",
     "title": "Next Gen NYC S2, E3",
     "channels": [
@@ -714,12 +752,12 @@
         "name": "Bravo USA"
       }
     ],
-    "start_unix": 1783469700,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783556100,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:30",
     "title": "Cooking Sessions with Tamar &amp; Ms. E S2, E1",
     "channels": [
@@ -728,12 +766,12 @@
         "name": "Cleo TV"
       }
     ],
-    "start_unix": 1783470600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783557000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "House Hunters S278, E1",
     "channels": [
@@ -742,12 +780,12 @@
         "name": "HGTV"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "Swamp Patrol S1, E7",
     "channels": [
@@ -756,12 +794,12 @@
         "name": "A&amp;E USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "Mystery at Blind Frog Ranch S6, E7",
     "channels": [
@@ -770,12 +808,12 @@
         "name": "Discovery Channel"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "Save My Skin S6, E1",
     "channels": [
@@ -784,12 +822,12 @@
         "name": "TLC USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "The Hidden Bullet",
     "channels": [
@@ -798,12 +836,12 @@
         "name": "ID USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "Million Dollar Nannies S1, E5",
     "channels": [
@@ -812,12 +850,12 @@
         "name": "Freeform"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "American Gangster: Trap Queens S4, E9",
     "channels": [
@@ -826,12 +864,12 @@
         "name": "BET USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:30",
     "title": "Forged in Fire S11, E2",
     "channels": [
@@ -840,12 +878,12 @@
         "name": "History TV"
       }
     ],
-    "start_unix": 1783474200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783560600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:30",
     "title": "Kitchen Chaos S1, E2",
     "channels": [
@@ -854,12 +892,12 @@
         "name": "The Food Network"
       }
     ],
-    "start_unix": 1783474200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783560600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "03:30",
     "title": "Jimmy Kimmel Live! S24, E136",
     "channels": [
@@ -868,12 +906,12 @@
         "name": "ABC NY USA"
       }
     ],
-    "start_unix": 1783477800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783564200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "09:00",
     "title": "Club Friendly : Zlín vs Hapoel Tel Aviv",
     "channels": [
@@ -882,34 +920,12 @@
         "name": "Sport 4 Israel"
       }
     ],
-    "start_unix": 1783497600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783584000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
-    "time": "19:30",
-    "title": "Club Friendly : Lausanne Sport vs Flamengo",
-    "channels": [
-      {
-        "id": "78",
-        "name": "SporTV BR"
-      },
-      {
-        "id": "88",
-        "name": "Premiere BR"
-      },
-      {
-        "id": "540",
-        "name": "Canal 11 Portugal"
-      }
-    ],
-    "start_unix": 1783535400,
-    "scraped_at_unix": 1783548550
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "Brazil - Serie B : Ponte Preta vs Criciúma",
     "channels": [
@@ -918,12 +934,12 @@
         "name": "ESPN Brazil"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "Chile - Copa De La Liga : Unión La Calera vs Coquimbo Unido",
     "channels": [
@@ -932,12 +948,12 @@
         "name": "TNT SPORTS Premium"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "Canadian Championship : Supra du Québec vs. Atlético Ottawa",
     "channels": [
@@ -946,12 +962,12 @@
         "name": "Fox Sports 2 USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "Club Friendly : Fluminense vs Nova Iguaçu",
     "channels": [
@@ -964,12 +980,12 @@
         "name": "Premiere BR"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "Club Friendly : Boca Juniors vs Athletico-PR",
     "channels": [
@@ -982,12 +998,12 @@
         "name": "ESPN3 Mexico"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "Canada - Canadian Championship : Vancouver FC vs CF Montréal",
     "channels": [
@@ -996,12 +1012,12 @@
         "name": "Fox Soccer Plus"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:30",
     "title": "Canada - Canadian Championship : Vancouver Whitecaps vs Cavalry",
     "channels": [
@@ -1010,12 +1026,12 @@
         "name": "Fox Sports 2 USA"
       }
     ],
-    "start_unix": 1783474200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783560600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL Championship",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL Championship : Hartford Athletic vs Orange County SC",
     "channels": [
@@ -1024,12 +1040,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL Championship",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:30",
     "title": "USL Championship : Sacramento Republic vs Rhode Island",
     "channels": [
@@ -1038,12 +1054,12 @@
         "name": "NESN USA"
       }
     ],
-    "start_unix": 1783474200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783560600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "21:00",
     "title": "USL League Two : Delaware FC vs Eagle FC",
     "channels": [
@@ -1052,12 +1068,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783540800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783627200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:00",
     "title": "USL League Two : Cleveland Force vs Steel City",
     "channels": [
@@ -1066,12 +1082,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783544400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783630800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:00",
     "title": "USL League Two : North Carolina II vs Charlotte Eagles",
     "channels": [
@@ -1080,12 +1096,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783544400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783630800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:30",
     "title": "USL League Two : Bethesda SC vs Virginia Marauders",
     "channels": [
@@ -1094,12 +1110,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783546200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783632600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Kalamazoo FC vs Lansing City",
     "channels": [
@@ -1108,12 +1124,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Black Rock vs Boston Bolts",
     "channels": [
@@ -1122,12 +1138,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : The Villages vs Inter Gainesville",
     "channels": [
@@ -1136,12 +1152,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Cedar Stars Rush vs Ironbound",
     "channels": [
@@ -1150,12 +1166,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Inter Miami II vs Weston",
     "channels": [
@@ -1164,12 +1180,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Ocean City Nor'easters vs Lehigh Valley United",
     "channels": [
@@ -1178,12 +1194,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Patuxent vs Christos",
     "channels": [
@@ -1192,12 +1208,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Real Central New Jersey vs West Chester United",
     "channels": [
@@ -1206,12 +1222,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Reading United vs Lone Star II",
     "channels": [
@@ -1220,12 +1236,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : North Carolina Fusion U23 vs Tobacco Road",
     "channels": [
@@ -1234,12 +1250,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : SC United Bantams vs Discoveries",
     "channels": [
@@ -1248,12 +1264,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Wake vs Port City",
     "channels": [
@@ -1262,12 +1278,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : FC Miami City vs Lakeland United",
     "channels": [
@@ -1276,12 +1292,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League Two : Toledo Villa vs N. Indiana",
     "channels": [
@@ -1290,12 +1306,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "USL League Two : Evergreen vs Lionsbridge",
     "channels": [
@@ -1304,12 +1320,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "USL League Two : Apotheos vs Dothan United",
     "channels": [
@@ -1318,12 +1334,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "USL League Two : Manhattan vs New Jersey Copa",
     "channels": [
@@ -1332,12 +1348,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "USL League Two : Morris Elite vs Westchester Flames",
     "channels": [
@@ -1346,12 +1362,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "USL League Two : Virginia Beach City vs Annapolis Blues",
     "channels": [
@@ -1360,12 +1376,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:30",
     "title": "USL League Two : Southern Soccer Academy vs East Atlanta",
     "channels": [
@@ -1374,12 +1390,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783549800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Rochester vs St. Croix",
     "channels": [
@@ -1388,12 +1404,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Davis Legacy vs San Francisco City",
     "channels": [
@@ -1402,12 +1418,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Houston FC vs Houston Sur",
     "channels": [
@@ -1416,12 +1432,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Jackson Boom vs Hattiesburg",
     "channels": [
@@ -1430,12 +1446,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Little Rock Rangers vs Memphis FC",
     "channels": [
@@ -1444,12 +1460,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Mississippi Brilla vs Louisiana Krewe",
     "channels": [
@@ -1458,12 +1474,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Montgomery United vs Columbus United",
     "channels": [
@@ -1472,12 +1488,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : Project 51O vs Marin",
     "channels": [
@@ -1486,12 +1502,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : River Light vs Rockford Raptors",
     "channels": [
@@ -1500,12 +1516,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "USL League Two : RKC Third Coast vs Chicago Dutch Lions",
     "channels": [
@@ -1514,12 +1530,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:30",
     "title": "USL League Two : San Antonio FC 2 vs Brazos Valley",
     "channels": [
@@ -1528,12 +1544,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783467000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783553400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:30",
     "title": "USL League Two : West Texas vs Lubbock Matadors",
     "channels": [
@@ -1542,12 +1558,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783467000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783553400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "USL League Two : City SC vs AMSG",
     "channels": [
@@ -1556,12 +1572,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:00",
     "title": "USL League Two : Laredo Heat vs GFI",
     "channels": [
@@ -1570,12 +1586,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783468800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783555200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "USL League Two : Academica vs San Juan",
     "channels": [
@@ -1584,12 +1600,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "USL League Two : Bigfoot vs Ballard",
     "channels": [
@@ -1598,12 +1614,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League Two",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "USL League Two : Ventura County Fusion vs Stars FC",
     "channels": [
@@ -1612,12 +1628,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League One",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League One : Greenville Triumph vs Sarasota Paradise",
     "channels": [
@@ -1626,12 +1642,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "USL League One",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "USL League One : NY Cosmos vs Naples",
     "channels": [
@@ -1640,12 +1656,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Cricket",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:30",
     "title": "Major League Cricket : MI New York vs San Francisco Unicorns",
     "channels": [
@@ -1674,12 +1690,12 @@
         "name": "Astro Cricket"
       }
     ],
-    "start_unix": 1783467000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783553400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Tennis",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "10:00",
     "title": "2026 Wimbledon Championships Quarterfinals",
     "channels": [
@@ -1964,12 +1980,12 @@
         "name": "5 Star Israel"
       }
     ],
-    "start_unix": 1783501200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783587600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Tennis",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "08:00",
     "title": "ATP Tour Iasi",
     "channels": [
@@ -1978,12 +1994,12 @@
         "name": "Digi Sport 2 Romania"
       }
     ],
-    "start_unix": 1783494000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783580400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Tennis",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "Tennis INTENNSE: Inferno vs. Ridge",
     "channels": [
@@ -1992,13 +2008,13 @@
         "name": "MSG USA"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "🎾 ATP - Singles: Wimbledon / 🎾 WTA - Singles: Wimbledon / 🎾 ATP - Doubles / 🎾 WTA - Doubles / 🎾 Mixed Doubles",
-    "date": "2026-07-08",
-    "time": "19:21",
+    "date": "2026-07-09",
+    "time": "23:03",
     "title": "🎾 Wimbledon Open",
     "channels": [
       {
@@ -2006,12 +2022,40 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1783534860,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634580,
+    "scraped_at_unix": 1783553879
+  },
+  {
+    "category": "🎾 ATP - Singles: Wimbledon / 🎾 WTA - Singles: Wimbledon / 🎾 ATP - Doubles / 🎾 WTA - Doubles / 🎾 Mixed Doubles",
+    "date": "2026-07-09",
+    "time": "11:30",
+    "title": "Court 3: 🇩🇪 Kevin Krawietz/🇩🇪 Tim Pütz vs 🇫🇷 Fabien Reboul/🇫🇷 Sadio Doumbia",
+    "channels": [
+      {
+        "id": "1552",
+        "name": "Tennis Stream"
+      }
+    ],
+    "start_unix": 1783593000,
+    "scraped_at_unix": 1783553879
+  },
+  {
+    "category": "🎾 ATP - Singles: Wimbledon / 🎾 WTA - Singles: Wimbledon / 🎾 ATP - Doubles / 🎾 WTA - Doubles / 🎾 Mixed Doubles",
+    "date": "2026-07-09",
+    "time": "11:30",
+    "title": "Court 2: 🇭🇷 Mate Pavić/🇸🇻 Marcelo Arévalo vs 🏴 Julian Cash/🏴 Lloyd Glasspool",
+    "channels": [
+      {
+        "id": "1553",
+        "name": "Tennis Stream"
+      }
+    ],
+    "start_unix": 1783593000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Table Tennis",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "21:30",
     "title": "Table Tennis - Los Angeles",
     "channels": [
@@ -2020,12 +2064,12 @@
         "name": "SporTV3 BR"
       }
     ],
-    "start_unix": 1783542600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783629000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Wrestling (AEW",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "All Elite Wrestling AEW : Dynamite",
     "channels": [
@@ -2042,12 +2086,12 @@
         "name": "Fox Sports Premium MX"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "MMA",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "TUFF-N-UFF 155",
     "channels": [
@@ -2056,12 +2100,12 @@
         "name": "UFC Fight Pass"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Snooker",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "10:00",
     "title": "Championship League Snooker : Aaron Hill vs Deng Haohui",
     "channels": [
@@ -2078,12 +2122,12 @@
         "name": "Sport 2 Hungary"
       }
     ],
-    "start_unix": 1783501200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783587600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Minor League Baseball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "01:30",
     "title": "Minor League Baseball : Salt Lake Bees vs Sacramento River Cats",
     "channels": [
@@ -2092,12 +2136,12 @@
         "name": "NBCS Bay Area USA"
       }
     ],
-    "start_unix": 1783470600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783557000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Softball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:00",
     "title": "Athletes Unlimited Softball League : Carolina Blaze vs Portland Cascade",
     "channels": [
@@ -2106,12 +2150,12 @@
         "name": "CBS Sports Network USA"
       }
     ],
-    "start_unix": 1783465200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551600,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Collegiate Baseball League",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:35",
     "title": "Collegiate Baseball League : Keene Swamp Bats vs Mystic Schooners",
     "channels": [
@@ -2120,12 +2164,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783546500,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783632900,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Collegiate Baseball League",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:05",
     "title": "Collegiate Baseball League : Martha's Vineyard Sharks vs Sanford Mainers",
     "channels": [
@@ -2134,50 +2178,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1783548300,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634700,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
-    "time": "19:45",
-    "title": "MLB : San Francisco Giants vs Toronto Blue Jays",
-    "channels": [
-      {
-        "id": "3",
-        "name": "MLB league pass"
-      },
-      {
-        "id": "31",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "753",
-        "name": "NBCS Bay Area USA"
-      },
-      {
-        "id": "10",
-        "name": "Sport 1 Hungary"
-      },
-      {
-        "id": "11",
-        "name": "Arena 4 Premium Serbia"
-      },
-      {
-        "id": "4015",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "2010",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1783536300,
-    "scraped_at_unix": 1783548550
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:35",
     "title": "MLB : Baltimore Orioles vs Chicago Cubs",
     "channels": [
@@ -2202,12 +2208,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783546500,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783632900,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:40",
     "title": "MLB : Detroit Tigers vs Oakland Athletics",
     "channels": [
@@ -2228,12 +2234,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783546800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783633200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:40",
     "title": "MLB : Pittsburgh Pirates vs Atlanta Braves",
     "channels": [
@@ -2262,12 +2268,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783546800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783633200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:40",
     "title": "MLB : Tampa Bay Rays vs New York Yankees",
     "channels": [
@@ -2292,12 +2298,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783546800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783633200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:40",
     "title": "MLB : Miami Marlins vs Seattle Mariners",
     "channels": [
@@ -2314,12 +2320,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783546800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783633200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "22:45",
     "title": "MLB : Washington Nationals vs Houston Astros",
     "channels": [
@@ -2340,12 +2346,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783547100,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783633500,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "MLB : Cincinnati Reds vs Philadelphia Phillies",
     "channels": [
@@ -2378,12 +2384,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:10",
     "title": "MLB : New York Mets vs Kansas City Royals",
     "channels": [
@@ -2404,12 +2410,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783548600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783635000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:40",
     "title": "MLB : Chicago White Sox vs Boston Red Sox",
     "channels": [
@@ -2434,12 +2440,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783550400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:40",
     "title": "MLB : Minnesota Twins vs Cleveland Guardians",
     "channels": [
@@ -2456,12 +2462,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783550400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783636800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:45",
     "title": "MLB : St. Louis Cardinals vs Milwaukee Brewers",
     "channels": [
@@ -2482,12 +2488,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783550700,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783637100,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "00:05",
     "title": "MLB : Texas Rangers vs Los Angeles Angels",
     "channels": [
@@ -2504,12 +2510,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783465500,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783551900,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "MLB : San Diego Padres vs Arizona Diamondbacks",
     "channels": [
@@ -2542,12 +2548,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:10",
     "title": "MLB : Los Angeles Dodgers vs Colorado Rockies",
     "channels": [
@@ -2568,12 +2574,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783473000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783559400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "WNBA",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "WNBA : Toronto Tempo W vs Golden State Valkyries W",
     "channels": [
@@ -2594,12 +2600,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "WNBA",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "23:00",
     "title": "WNBA : Connecticut Sun W vs Minnesota Lynx W",
     "channels": [
@@ -2624,12 +2630,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783548000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783634400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "WNBA",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "02:00",
     "title": "WNBA : Los Angeles Sparks W vs Indiana Fever W",
     "channels": [
@@ -2666,38 +2672,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1783472400,
-    "scraped_at_unix": 1783548550
-  },
-  {
-    "category": "Horse Racing",
-    "date": "2026-07-08",
-    "time": "19:30",
-    "title": "2026 Calgary Stampede Day 5",
-    "channels": [
-      {
-        "id": "411",
-        "name": "Sportsnet one"
-      },
-      {
-        "id": "406",
-        "name": "Sportsnet Ontario"
-      },
-      {
-        "id": "407",
-        "name": "Sportsnet West"
-      },
-      {
-        "id": "408",
-        "name": "Sportsnet East"
-      }
-    ],
-    "start_unix": 1783535400,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783558800,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Handball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "09:00",
     "title": "World European Championship U20 : Sweden U20 vs Israel U20",
     "channels": [
@@ -2706,12 +2686,30 @@
         "name": "Sport 1 CZ"
       }
     ],
-    "start_unix": 1783497600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783584000,
+    "scraped_at_unix": 1783553879
+  },
+  {
+    "category": "Handball",
+    "date": "2026-07-09",
+    "time": "11:30",
+    "title": "U20 EHF Euro : Slovenia U20 vs Poland U20",
+    "channels": [
+      {
+        "id": "14",
+        "name": "Sport 1 CZ"
+      },
+      {
+        "id": "10",
+        "name": "Sport 1 Hungary"
+      }
+    ],
+    "start_unix": 1783593000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Rugby League",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "09:05",
     "title": "State of Origin : Queensland vs New South Wales",
     "channels": [
@@ -2740,12 +2738,12 @@
         "name": "SPORT1+ DE"
       }
     ],
-    "start_unix": 1783497900,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783584300,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Volleyball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "03:00",
     "title": "Nations League Women : Turkey W vs Poland W",
     "channels": [
@@ -2774,12 +2772,12 @@
         "name": "Sport Klub 3 Croatia"
       }
     ],
-    "start_unix": 1783476000,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783562400,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Volleyball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "03:30",
     "title": "Nations League Women : Belgium W vs Dominican Republic W",
     "channels": [
@@ -2792,12 +2790,12 @@
         "name": "Sport Klub 6 Croatia"
       }
     ],
-    "start_unix": 1783477800,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783564200,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Volleyball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "06:30",
     "title": "Nations League Women : Thailand W vs USA W",
     "channels": [
@@ -2814,12 +2812,12 @@
         "name": "Sport Klub 3 Croatia"
       }
     ],
-    "start_unix": 1783488600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783575000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Volleyball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "09:00",
     "title": "Nations League Women : Ukraine W vs Italy W",
     "channels": [
@@ -2832,12 +2830,12 @@
         "name": "Sport Klub 6 Croatia"
       }
     ],
-    "start_unix": 1783497600,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783584000,
+    "scraped_at_unix": 1783553879
   },
   {
     "category": "Volleyball",
-    "date": "2026-07-08",
+    "date": "2026-07-09",
     "time": "10:00",
     "title": "Nations League Women : Japan W vs Brazil W",
     "channels": [
@@ -2858,7 +2856,33 @@
         "name": "Sport Klub 10 Croatia"
       }
     ],
-    "start_unix": 1783501200,
-    "scraped_at_unix": 1783548550
+    "start_unix": 1783587600,
+    "scraped_at_unix": 1783553879
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-07-09",
+    "time": "11:00",
+    "title": "Nations League Women : France W vs Netherlands W",
+    "channels": [
+      {
+        "id": "994",
+        "name": "Polsat Sport Extra 2 Poland"
+      },
+      {
+        "id": "393",
+        "name": "Ziggo Sport 1 NL"
+      },
+      {
+        "id": "398",
+        "name": "Ziggo Sport 2 NL"
+      },
+      {
+        "id": "103",
+        "name": "Sport Klub 3 Croatia"
+      }
+    ],
+    "start_unix": 1783591200,
+    "scraped_at_unix": 1783553879
   }
 ]
