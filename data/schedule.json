@@ -1,7 +1,63 @@
 [
   {
+    "category": "PPV Events",
+    "date": "2026-07-29",
+    "time": "22:00",
+    "title": "Summer Shootout Charlotte",
+    "channels": [
+      {
+        "id": "25",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-07-29",
+    "time": "22:15",
+    "title": "Millbridge Speedway",
+    "channels": [
+      {
+        "id": "26",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1785359700,
+    "scraped_at_unix": 1785279697
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-07-29",
+    "time": "22:45",
+    "title": "USAC Indiana Sprint Week Circle City",
+    "channels": [
+      {
+        "id": "27",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1785361500,
+    "scraped_at_unix": 1785279697
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-07-29",
+    "time": "02:00",
+    "title": "Hoodslam The MidSommerSquash 2026",
+    "channels": [
+      {
+        "id": "28",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
+  },
+  {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "06:00",
     "title": "🏎️🇳🇱 Formula 1 Dutch Grand Prix | Zandvoort, Netherlands | 21–23 August 2026",
     "channels": [
@@ -10,12 +66,12 @@
         "name": "Sky Sports F1 UK"
       }
     ],
-    "start_unix": 1785214800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785301200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "07:00",
     "title": "⚽🏴 Start of 2026 | 27 Premier League Season UK | 22 August 2026",
     "channels": [
@@ -32,12 +88,12 @@
         "name": "TNT Sports 1"
       }
     ],
-    "start_unix": 1785218400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785304800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:30",
     "title": "⛳🇬🇧 AIG Women's Open | Royal Lytham & St Annes, UK | 30 July–2 August 2026",
     "channels": [
@@ -50,12 +106,12 @@
         "name": "GOLF Channel USA"
       }
     ],
-    "start_unix": 1785195000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785281400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "03:00",
     "title": "🤺🇭🇰 Fencing World Championships | Hong Kong | 22–30 July 2026",
     "channels": [
@@ -64,12 +120,12 @@
         "name": "Eurosport 1 GR"
       }
     ],
-    "start_unix": 1785204000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785290400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "03:31",
     "title": "🚗🇫🇮 Rally Finland (WRC) | Jyväskylä, Finland | 30 July–2 August 2026",
     "channels": [
@@ -78,12 +134,12 @@
         "name": "Rally.TV"
       }
     ],
-    "start_unix": 1785205860,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785292260,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "03:30",
     "title": "🤸🇩🇪 FIG Rhythmic Gymnastics World Championships | Frankfurt, Germany | 12–16 August 2026",
     "channels": [
@@ -96,12 +152,12 @@
         "name": "Eurosport 2 GR"
       }
     ],
-    "start_unix": 1785205800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785292200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Upcoming Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "03:30",
     "title": "📺🇺🇸 Saturday Night Live (SNL USA)",
     "channels": [
@@ -118,12 +174,12 @@
         "name": "NBCNY USA"
       }
     ],
-    "start_unix": 1785205800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785292200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "WSOP 2026",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "♠️ 🇺🇸 World Series of Poker Main Event (WSOP 2026) Live",
     "channels": [
@@ -136,26 +192,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
-    "time": "19:00",
-    "title": "📺 🇺🇸 General Hospital – S63, E222",
-    "channels": [
-      {
-        "id": "766",
-        "name": "ABC NY USA"
-      }
-    ],
-    "start_unix": 1785261600,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "⭐ 🇺🇸 America's Got Talent – S21, E9",
     "channels": [
@@ -168,12 +210,12 @@
         "name": "NBC USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🤼 🇺🇸 WWE SummerSlam Special",
     "channels": [
@@ -182,12 +224,12 @@
         "name": "ESPN USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🦈 🇺🇸 Jurassic Sharks (New)",
     "channels": [
@@ -196,12 +238,12 @@
         "name": "Discovery HD"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "👨‍👩‍👧‍👦 🇺🇸 Celebrity Family Feud – S10, E6",
     "channels": [
@@ -210,12 +252,12 @@
         "name": "BET USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "📺 🇺🇸 Baylen Out Loud – S3",
     "channels": [
@@ -224,12 +266,12 @@
         "name": "TLC USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🏀 🇺🇸 Dunkman World Championship – S2, E2",
     "channels": [
@@ -238,12 +280,12 @@
         "name": "TNT USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🎭 🇺🇸 In the City – S1, E11",
     "channels": [
@@ -252,12 +294,12 @@
         "name": "Bravo USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🏡 🇺🇸 Love It or List It – S21, E6",
     "channels": [
@@ -266,12 +308,12 @@
         "name": "HGTV"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "⛳ 🇺🇸 GolfPass Top Tips – S3, E7 (Live)",
     "channels": [
@@ -280,12 +322,12 @@
         "name": "Golf Channel USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "👨‍🍳 🇺🇸 Kitchen Nightmares – S3, E3",
     "channels": [
@@ -298,12 +340,12 @@
         "name": "FOX USA"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🎤 🇺🇸 Beat Shazam – S8, E1 (Premiere)",
     "channels": [
@@ -316,12 +358,12 @@
         "name": "FOX USA"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🚀 🇺🇸 Once Upon a Time in Space – S1, E3",
     "channels": [
@@ -330,12 +372,12 @@
         "name": "PBS USA"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🏡 🇺🇸 Extreme Buyers Club – S1, E2",
     "channels": [
@@ -344,12 +386,12 @@
         "name": "HGTV"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🏠 🇺🇸 Lakefront Bargain Hunt: Renovation – S6, E7",
     "channels": [
@@ -358,12 +400,12 @@
         "name": "Magnolia Network"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🍽️ 🇺🇸 Kitchen Undercover – S1, E1",
     "channels": [
@@ -372,12 +414,12 @@
         "name": "Food Network"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "💎 🇬🇧 The Real Housewives of London – S1, E2",
     "channels": [
@@ -386,12 +428,12 @@
         "name": "Bravo USA"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "👽 🇺🇸 The Secret of Skinwalker Ranch – S7, E11",
     "channels": [
@@ -400,12 +442,12 @@
         "name": "History TV"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🤼 🇺🇸 Dark Side of the Ring – S7, E5",
     "channels": [
@@ -414,12 +456,12 @@
         "name": "VICE TV"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🦈 🇺🇸 Jaws vs. Orca (New)",
     "channels": [
@@ -428,12 +470,12 @@
         "name": "Discovery HD"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "📺 🇺🇸 Baylen Out Loud (New)",
     "channels": [
@@ -442,12 +484,12 @@
         "name": "TLC USA"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🔎 🇺🇸 Cycle of Violence (New)",
     "channels": [
@@ -456,12 +498,12 @@
         "name": "Investigation Discovery"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "⚖️ 🇺🇸 Ms. Pat Settles It – S3, E15",
     "channels": [
@@ -470,12 +512,12 @@
         "name": "BET USA"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:30",
     "title": "😂 🇺🇸 ComicView: Rooftop Series – S1, E5",
     "channels": [
@@ -484,12 +526,12 @@
         "name": "BET USA"
       }
     ],
-    "start_unix": 1785198600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785285000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🦈 🇺🇸 Chum Island: Catching a Killer (New)",
     "channels": [
@@ -498,12 +540,12 @@
         "name": "Discovery HD"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🎤 🇺🇸 Watch What Happens Live with Andy Cohen – S23, E125",
     "channels": [
@@ -512,12 +554,12 @@
         "name": "Bravo USA"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🏡 🌍 House Hunters International – S211, E1",
     "channels": [
@@ -526,12 +568,12 @@
         "name": "HGTV"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🔑 🇺🇸 Password – S3, E13",
     "channels": [
@@ -544,12 +586,12 @@
         "name": "NBC USA"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "📺 🇺🇸 Jay &amp; Pamela – S2, E5",
     "channels": [
@@ -558,12 +600,12 @@
         "name": "TLC USA"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🔎 🇺🇸 The Toxic Tenant (New)",
     "channels": [
@@ -572,12 +614,12 @@
         "name": "Investigation Discovery"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "TV Shows",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:30",
     "title": "🛸 🇺🇸 The Proof Is Out There: Unexplained Edition – S2, E9",
     "channels": [
@@ -586,134 +628,26 @@
         "name": "History TV"
       }
     ],
-    "start_unix": 1785202200,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "UEFA Champions League",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "⚽ 🇪🇺 UEFA Champions League: Hearts 🏴 vs Sturm Graz 🇦🇹",
-    "channels": [
-      {
-        "id": "451",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "1",
-        "name": "Arena Sport 1 Slovakia"
-      },
-      {
-        "id": "4",
-        "name": "ORF eins"
-      },
-      {
-        "id": "540",
-        "name": "Canal 11 Portugal"
-      },
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      },
-      {
-        "id": "3014",
-        "name": "ORF eins"
-      },
-      {
-        "id": "3022",
-        "name": "Canal 11 Portugal"
-      },
-      {
-        "id": "4105",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "2021",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "UEFA Champions League",
-    "date": "2026-07-28",
-    "time": "19:00",
-    "title": "⚽ 🇪🇺 UEFA Champions League: Shamrock Rovers vs Ararat-Armenia",
-    "channels": [
-      {
-        "id": "151",
-        "name": "LOITV"
-      }
-    ],
-    "start_unix": 1785261600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785288600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
-    "time": "19:00",
-    "title": "⚽ Paraguay Primera División : Rubio Nu vs Ameliano",
+    "date": "2026-07-29",
+    "time": "10:00",
+    "title": "⚽ Asia ASEAN Championship : Philippines vs Myanmar",
     "channels": [
       {
-        "id": "6047",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "7051",
+        "id": "6002",
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785261600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785315600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
-    "time": "20:00",
-    "title": "⚽ 🌍 Women's Africa Cup of Nations: Nigeria 🇳🇬 Women vs Malawi 🇲🇼 Women",
-    "channels": [
-      {
-        "id": "354",
-        "name": "Channel 4 UK"
-      },
-      {
-        "id": "712",
-        "name": "beIN Sports 1 Malaysia"
-      },
-      {
-        "id": "56",
-        "name": "SuperSport Football"
-      },
-      {
-        "id": "96",
-        "name": "beIN Sports MENA 6"
-      },
-      {
-        "id": "6048",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1785265200,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-07-28",
-    "time": "20:00",
-    "title": "⚽ 🇦🇷 Argentina Reserve League: Boca Juniors Res. 🇦🇷 vs Belgrano Res. 🇦🇷",
-    "channels": [
-      {
-        "id": "150",
-        "name": "ESPN2 Argentina"
-      }
-    ],
-    "start_unix": 1785265200,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "21:00",
     "title": "⚽ 🌎 CONCACAF U20 Championship: Haiti U20 🇭🇹 vs Cuba U20 🇨🇺",
     "channels": [
@@ -726,12 +660,12 @@
         "name": "Fox Sports 2 USA"
       }
     ],
-    "start_unix": 1785268800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785355200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "21:30",
     "title": "⚽ Paraguay Primera División : Mayo vs Cerro Porteño",
     "channels": [
@@ -740,12 +674,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785270600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785357000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "⚽ 🇦🇷 Argentine Primera División: Banfield 🇦🇷 vs Sarmiento 🇦🇷",
     "channels": [
@@ -770,12 +704,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "⚽ 🇦🇷 Argentine Primera División: San Lorenzo 🇦🇷 vs Gimnasia Mendoza 🇦🇷",
     "channels": [
@@ -792,12 +726,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "⚽ 🌎 Copa Sudamericana: Tigre 🇦🇷 vs Nacional 🇺🇾",
     "channels": [
@@ -858,12 +792,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "⚽ 🇧🇷 Campeonato Paulista Feminino: Red Bull Bragantino 🇧🇷 Women vs Santos 🇧🇷 Women",
     "channels": [
@@ -872,12 +806,12 @@
         "name": "SporTV Brazil"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:30",
     "title": "⚽ 🇧🇷 Campeonato Brasileiro Série B: Juventude 🇧🇷 vs Avaí 🇧🇷",
     "channels": [
@@ -886,12 +820,12 @@
         "name": "ESPN4 Brazil"
       }
     ],
-    "start_unix": 1785274200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785360600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:00",
     "title": "⚽ 🇨🇦 Northern Super League: AFC Toronto 🇨🇦 Women vs Calgary Wild 🇨🇦 Women",
     "channels": [
@@ -900,12 +834,12 @@
         "name": "TSN1"
       }
     ],
-    "start_unix": 1785276000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785362400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:15",
     "title": "⚽ Colombia Copa DIMAYOR, Knockout : Deportes Quindío vs Deportes Tolima",
     "channels": [
@@ -914,12 +848,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785276900,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785363300,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "⚽ Central American Cup of CONCACAF : Hankook Verdes vs Motagua",
     "channels": [
@@ -928,12 +862,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:15",
     "title": "⚽ 🇦🇷 Argentine Primera División: Argentinos Juniors 🇦🇷 vs Estudiantes Río Cuarto 🇦🇷",
     "channels": [
@@ -950,12 +884,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785194100,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785280500,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:15",
     "title": "⚽ 🇦🇷 Argentine Primera División: Rosario Central 🇦🇷 vs Racing Club 🇦🇷",
     "channels": [
@@ -996,12 +930,12 @@
         "name": "Movistar Liga de Campeones"
       }
     ],
-    "start_unix": 1785194100,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785280500,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:30",
     "title": "⚽ 🌎 Copa Sudamericana: Santos 🇧🇷 vs UCV 🇻🇪",
     "channels": [
@@ -1066,12 +1000,12 @@
         "name": "beIN SPORTS USA"
       }
     ],
-    "start_unix": 1785195000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785281400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:35",
     "title": "⚽ 🇧🇷 Campeonato Brasileiro Série B: Fortaleza 🇧🇷 vs Botafogo SP 🇧🇷",
     "channels": [
@@ -1080,12 +1014,12 @@
         "name": "ESPN4 Brazil"
       }
     ],
-    "start_unix": 1785195300,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785281700,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "⚽ 🇨🇦 Canadian Premier League: Cavalry FC 🇨🇦 vs Supra du Quebec 🇨🇦",
     "channels": [
@@ -1098,12 +1032,12 @@
         "name": "Fox Soccer Plus"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "All Soccer Events",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "⚽ 🌎 CONCACAF U20 Championship: El Salvador U20 🇸🇻 vs United States U20 🇺🇸",
     "channels": [
@@ -1116,85 +1050,41 @@
         "name": "Fox Sports 2 USA"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Club Friendly",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "⚽ 🤝 Club Friendly: Stoke City 🏴 vs Everton 🏴",
+    "date": "2026-07-29",
+    "time": "09:45",
+    "title": "⚽ 🤝 Club Friendly: Chelsea 🏴 vs Western Sydney Wanderers 🇦🇺",
     "channels": [
       {
-        "id": "714",
-        "name": "beIN Sports 3 Malaysia"
-      },
-      {
-        "id": "889",
-        "name": "TRT Spor Turkey"
-      },
-      {
-        "id": "74",
-        "name": "Sport TV2 Portugal"
-      },
-      {
-        "id": "3072",
-        "name": "VG+ Denmark"
-      },
-      {
-        "id": "3077",
-        "name": "Sport Bladet Play"
-      },
-      {
-        "id": "4119",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "2022",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Club Friendly",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "⚽ 🤝 Club Friendly: Shamrock Rovers vs Ararat-Armenia",
-    "channels": [
-      {
-        "id": "6046",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Club Friendly",
-    "date": "2026-07-28",
-    "time": "20:00",
-    "title": "⚽ 🤝 Club Friendly: Lens 🇫🇷 vs Famalicão 🇵🇹",
-    "channels": [
-      {
-        "id": "14",
-        "name": "DAZN France"
+        "id": "910",
+        "name": "CBS Sports Golazo USA"
       },
       {
         "id": "49",
         "name": "Sport TV1 Portugal"
       },
       {
-        "id": "143",
-        "name": "Sport 4 Israel"
+        "id": "3",
+        "name": "Sigma TV"
       },
       {
-        "id": "3071",
-        "name": "VG+ Denmark"
+        "id": "140",
+        "name": "Sport 1 Israel"
       },
       {
-        "id": "4104",
+        "id": "3021",
+        "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "3009",
+        "name": "CBS Sports Golazo"
+      },
+      {
+        "id": "4001",
         "name": "Backup Stream"
       },
       {
@@ -1202,12 +1092,26 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785265200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785314700,
+    "scraped_at_unix": 1785279697
+  },
+  {
+    "category": "Club Friendly",
+    "date": "2026-07-29",
+    "time": "09:45",
+    "title": "⚽ 🤝 Club Friendly: Portimonense vs Al-Ahli",
+    "channels": [
+      {
+        "id": "6001",
+        "name": "Backup Stream"
+      }
+    ],
+    "start_unix": 1785314700,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Cricket",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:00",
     "title": "🏏 🌍 Global Super League: Desert Vipers 🇦🇪 vs Perth Scorchers 🇦🇺",
     "channels": [
@@ -1220,12 +1124,12 @@
         "name": "Sky Sport 2 NZ"
       }
     ],
-    "start_unix": 1785276000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785362400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Tennis",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 🇺🇸 Mubadala Citi DC Open (Washington Open) – Day 2, Session 2",
     "channels": [
@@ -1366,12 +1270,12 @@
         "name": "beIN SPORTS Australia 1"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Tennis",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🎾 🇲🇽 ATP 250 Los Cabos – Early Rounds",
     "channels": [
@@ -1484,12 +1388,12 @@
         "name": "Sport 5 Israel"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Tennis",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "04:45",
     "title": "🎾 🇲🇽 ATP 250 Los Cabos",
     "channels": [
@@ -1498,12 +1402,12 @@
         "name": "Sportklub 2 Croatia"
       }
     ],
-    "start_unix": 1785210300,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785296700,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Tennis",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 🇺🇸 WTA 500 + ATP 500 Washington",
     "channels": [
@@ -1512,82 +1416,34 @@
         "name": "Sportklub 1 Croatia"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
-    "time": "19:00",
-    "title": "🎾 WTA Washington: 🇦🇺 Daria Kasatkina vs 🇷🇺 Anna Kalinskaya",
-    "channels": [
-      {
-        "id": "1568",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1785261600,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
-    "time": "19:30",
-    "title": "🎾 ATP Washington: 🇺🇸 Trevor Svajda vs 🇨🇿 Jakub Menšík",
-    "channels": [
-      {
-        "id": "1569",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1785263400,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
-    "time": "19:30",
-    "title": "🎾 WTA Washington (Doubles): 🇨🇳 Zhang Shuai / 🇮🇩 Janice Tjen vs 🇷🇺 Kamilla Rakhimova / 🇹🇼 Wu Fang-hsien",
-    "channels": [
-      {
-        "id": "1570",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1785263400,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
-    "time": "19:30",
-    "title": "🎾 WTA Washington (Doubles): 🇮🇹 Sara Errani / 🇺🇸 Nicole Melichar-Martinez vs 🇬🇧 Katie Boulter / 🇷🇺 Polina Iatcenko",
-    "channels": [
-      {
-        "id": "1571",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1785263400,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "20:30",
     "title": "🎾 WTA Washington: 🇵🇱 Magdalena Fręch vs 🇺🇸 Ann Li",
     "channels": [
       {
         "id": "1572",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1502",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1524",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785267000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785353400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "21:00",
     "title": "🎾 ATP Washington (Doubles): 🇫🇷 Sadio Doumbia / 🇫🇷 Fabien Reboul vs 🇦🇺 John Patrick Smith / 🇧🇷 Fernando Romboli",
     "channels": [
@@ -1596,12 +1452,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785268800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785355200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "21:00",
     "title": "🎾 WTA Washington (Doubles): 🇯🇵 Miyu Kato / 🇲🇽 Giuliana Olmos vs 🇸🇰 Tereza Mihalíková / 🇬🇧 Heather Watson",
     "channels": [
@@ -1610,124 +1466,160 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785268800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785355200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 ATP Washington: 🇦🇺 Alex de Minaur vs 🇬🇷 Stefanos Tsitsipas",
     "channels": [
       {
         "id": "1575",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1507",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 ATP Washington (Doubles): 🇺🇸 Frances Tiafoe / 🇦🇺 Nick Kyrgios vs 🇺🇸 James Tracy / 🇵🇹 Francisco Cabral",
     "channels": [
       {
         "id": "1576",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1508",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 WTA Memphis: 🇺🇦 Yuliia Starodubtseva vs 🇺🇸 Sloane Stephens",
     "channels": [
       {
         "id": "1577",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1511",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 WTA Memphis: 🇺🇸 Mary Stoiana vs 🇺🇸 Peyton Stearns",
     "channels": [
       {
         "id": "1578",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1512",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:00",
     "title": "🎾 WTA Memphis: 🇨🇿 Darja Vidmanová vs 🇪🇸 Marina Bassols Ribera",
     "channels": [
       {
         "id": "1579",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1513",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785272400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785358800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:30",
     "title": "🎾 WTA Washington: 🇷🇺 Anastasia Potapova vs 🇺🇸 Venus Williams",
     "channels": [
       {
         "id": "1580",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1501",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1524",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785277800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:30",
     "title": "🎾 WTA Memphis: 🇲🇽 Renata Zarazúa vs 🇺🇸 McCartney Kessler",
     "channels": [
       {
         "id": "1581",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1511",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785277800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:30",
     "title": "🎾 WTA Memphis: 🇨🇳 Ma Ye Xin vs 🇦🇺 Kimberly Birrell",
     "channels": [
       {
         "id": "1582",
         "name": "Tennis Stream"
+      },
+      {
+        "id": "1512",
+        "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785277800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:30",
     "title": "🎾 WTA Memphis (Doubles): 🇹🇼 Cho I-hsuan / 🇹🇼 Cho Yi Tsen vs 🇺🇦 Lyudmyla Kichenok / 🇺🇦 Nadiia Kichenok",
     "channels": [
@@ -1736,12 +1628,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785277800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🎾 WTA Memphis (Doubles): 🇦🇺 Storm Hunter / 🇺🇸 Desirae Krawczyk vs 🇯🇵 Eri Hozumi / 🇭🇰 Eudice Chong",
     "channels": [
@@ -1750,12 +1642,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🎾 ATP Los Cabos: 🇯🇵 Sho Shimabukuro vs 🇲🇽 Rodrigo Pacheco Méndez",
     "channels": [
@@ -1764,12 +1656,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🎾 ATP Los Cabos: 🇺🇸 Aidan Mayo vs 🇦🇺 James Duckworth",
     "channels": [
@@ -1778,12 +1670,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🎾 ATP Los Cabos: 🇫🇷 Moïse Kouamé vs 🇦🇺 Edward Winter",
     "channels": [
@@ -1792,12 +1684,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🎾 ATP Los Cabos (Doubles): 🇺🇸 Evan King / 🇺🇸 Robert Galloway vs 🇳🇿 James Watt / 🇳🇿 Finn Reynolds",
     "channels": [
@@ -1806,12 +1698,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:30",
     "title": "🎾 ATP Los Cabos: 🇰🇷 Kwon Soon-woo vs 🇫🇷 Arthur Géa",
     "channels": [
@@ -1820,12 +1712,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785202200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785288600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:30",
     "title": "🎾 ATP Los Cabos: 🇺🇸 Jenson Brooksby vs 🇫🇷 Corentin Moutet",
     "channels": [
@@ -1834,12 +1726,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785202200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785288600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:30",
     "title": "🎾 ATP Los Cabos: 🇨🇦 Denis Shapovalov vs 🇦🇺 Rinky Hijikata",
     "channels": [
@@ -1848,12 +1740,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785202200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785288600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:30",
     "title": "🎾 ATP Los Cabos (Doubles): 🇹🇼 Ray Ho / 🇺🇸 Benjamin Kittay vs 🇳🇱 Jean-Julien Rojer / 🇺🇸 Theodore Winegar",
     "channels": [
@@ -1862,12 +1754,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785202200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785288600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "04:00",
     "title": "🎾 ATP Los Cabos: 🇨🇿 Dalibor Svrčina vs 🇦🇺 Adam Walton",
     "channels": [
@@ -1876,12 +1768,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785207600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785294000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "04:00",
     "title": "🎾 ATP Los Cabos: 🇺🇸 Michael Zheng vs 🇪🇸 Martín Landaluce",
     "channels": [
@@ -1890,12 +1782,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785207600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785294000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "04:00",
     "title": "🎾 ATP Los Cabos (Doubles): 🇺🇸 Rajeev Ram / 🇬🇧 Joe Salisbury vs 🇪🇨 Gonzalo Escobar / 🇮🇳 Niki Kaliyanda Poonacha",
     "channels": [
@@ -1904,12 +1796,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785207600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785294000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "🎾 ATP Washington / 🎾 WTA Memphis / 🎾 ATP Los Cabos",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "04:00",
     "title": "🎾 ATP Los Cabos (Doubles): 🇺🇸 Ryan Seggerman / 🇺🇸 Patrik Trhac vs 🇲🇽 Alex Hernández / 🇨🇴 Nicolás Mejía",
     "channels": [
@@ -1918,30 +1810,12 @@
         "name": "Tennis Stream"
       }
     ],
-    "start_unix": 1785207600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785294000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Motorsport",
-    "date": "2026-07-28",
-    "time": "19:00",
-    "title": "🏍️ 🇸🇪 Swedish Elitserien Speedway: Dackarna Malilla 🇸🇪 vs Västervik Speedway 🇸🇪",
-    "channels": [
-      {
-        "id": "550",
-        "name": "Viaplay Sports 2 UK"
-      },
-      {
-        "id": "799",
-        "name": "Premier Sports 2 Ireland"
-      }
-    ],
-    "start_unix": 1785261600,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Motorsport",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "⚽ 🇦🇷 Argentine Primera División: Rosario Central 🇦🇷 vs Racing Club 🇦🇷",
     "channels": [
@@ -1950,12 +1824,12 @@
         "name": "Sport TV2 Portugal"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Wrestling (NXT",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🤼 🇺🇸 WWE NXT",
     "channels": [
@@ -1976,12 +1850,12 @@
         "name": "SuperSport Grandstand"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Commonwealth Games",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "08:00",
     "title": "🏅 🏴 Commonwealth Games 360 – Day 5",
     "channels": [
@@ -1994,12 +1868,12 @@
         "name": "Sky Sport 4 NZ"
       }
     ],
-    "start_unix": 1785222000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785308400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Golf",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:30",
     "title": "⛳ 🇺🇸 Korn Ferry Tour Presents Live",
     "channels": [
@@ -2008,12 +1882,26 @@
         "name": "Golf Channel USA"
       }
     ],
-    "start_unix": 1785195000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785281400,
+    "scraped_at_unix": 1785279697
+  },
+  {
+    "category": "Boxing",
+    "date": "2026-07-29",
+    "time": "11:00",
+    "title": "🥊 🏴 Glasgow 2026 Commonwealth Games – Day 5 Boxing (Day Session)",
+    "channels": [
+      {
+        "id": "594",
+        "name": "Sky Sport 7 NZ"
+      }
+    ],
+    "start_unix": 1785319200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Snooker",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "06:00",
     "title": "🎱 🇨🇳 Shanghai Masters 2026 – Round 2",
     "channels": [
@@ -2046,12 +1934,12 @@
         "name": "Eurosport 1 Greece"
       }
     ],
-    "start_unix": 1785214800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785301200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Athletics",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "09:00",
     "title": "🏃 🇬🇧 Glasgow 2026 Athletics &amp; Para Athletics – Day Session",
     "channels": [
@@ -2064,26 +1952,12 @@
         "name": "Sky Sport 6 NZ"
       }
     ],
-    "start_unix": 1785225600,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Athletics",
-    "date": "2026-07-28",
-    "time": "19:00",
-    "title": "🏃 🇬🇧 Glasgow 2026 Commonwealth Games – Day 5 Athletics: Women's Hammer Throw Final",
-    "channels": [
-      {
-        "id": "589",
-        "name": "Sky Sport 2 NZ"
-      }
-    ],
-    "start_unix": 1785261600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785312000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "College Baseball",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:30",
     "title": "⚾ 🇺🇸 Collegiate Summer Baseball: Sanford Mainers 🇺🇸 vs Vermont Mountaineers 🇺🇸",
     "channels": [
@@ -2092,12 +1966,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1785274200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785360600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "College Baseball",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:30",
     "title": "⚾ 🇺🇸 Collegiate Summer Baseball: Danbury Westerners 🇺🇸 vs Newport Gulls 🇺🇸",
     "channels": [
@@ -2106,12 +1980,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1785274200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785360600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "College Baseball",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:00",
     "title": "⚾ 🇺🇸 Collegiate Summer Baseball: Martha's Vineyard Sharks 🇺🇸 vs Mystic Schooners 🇺🇸",
     "channels": [
@@ -2120,12 +1994,12 @@
         "name": "ESPN+ USA"
       }
     ],
-    "start_unix": 1785276000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785362400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:40",
     "title": "⚾ 🇺🇸 MLB: Pittsburgh Pirates 🇺🇸 vs Arizona Diamondbacks 🇺🇸",
     "channels": [
@@ -2150,12 +2024,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785274800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785361200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:40",
     "title": "⚾ 🇺🇸 MLB: Detroit Tigers 🇺🇸 vs Baltimore Orioles 🇺🇸",
     "channels": [
@@ -2180,12 +2054,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785274800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785361200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:40",
     "title": "⚾ 🇺🇸 MLB: Miami Marlins 🇺🇸 vs Philadelphia Phillies 🇺🇸",
     "channels": [
@@ -2210,12 +2084,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785274800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785361200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:40",
     "title": "⚾ 🇺🇸 MLB: Tampa Bay Rays 🇺🇸 vs Texas Rangers 🇺🇸",
     "channels": [
@@ -2236,12 +2110,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785274800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785361200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "22:45",
     "title": "⚾ 🇺🇸 MLB: Washington Nationals 🇺🇸 vs Toronto Blue Jays 🇨🇦",
     "channels": [
@@ -2274,12 +2148,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785275100,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785361500,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:10",
     "title": "⚾ 🇺🇸 MLB: New York Mets 🇺🇸 vs Atlanta Braves 🇺🇸",
     "channels": [
@@ -2304,12 +2178,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785276600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785363000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:10",
     "title": "⚾ 🇺🇸 MLB: Cincinnati Reds 🇺🇸 vs Cleveland Guardians 🇺🇸",
     "channels": [
@@ -2330,12 +2204,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785276600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785363000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:40",
     "title": "⚾ 🇺🇸 MLB: Minnesota Twins 🇺🇸 vs Kansas City Royals 🇺🇸",
     "channels": [
@@ -2356,12 +2230,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785278400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:40",
     "title": "⚾ 🇺🇸 MLB: Chicago White Sox 🇺🇸 vs New York Yankees 🇺🇸",
     "channels": [
@@ -2394,12 +2268,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785278400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:45",
     "title": "⚾ 🇺🇸 MLB: St. Louis Cardinals 🇺🇸 vs Chicago Cubs 🇺🇸",
     "channels": [
@@ -2444,12 +2318,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785278700,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785365100,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:38",
     "title": "⚾ 🇺🇸 MLB: Los Angeles Angels 🇺🇸 vs Houston Astros 🇺🇸",
     "channels": [
@@ -2478,12 +2352,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785199080,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785285480,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:40",
     "title": "⚾ 🇺🇸 MLB: Oakland Athletics 🇺🇸 vs Boston Red Sox 🇺🇸",
     "channels": [
@@ -2516,12 +2390,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785199200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785285600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:40",
     "title": "⚾ 🇺🇸 MLB: San Diego Padres 🇺🇸 vs Colorado Rockies 🇺🇸",
     "channels": [
@@ -2542,12 +2416,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785199200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785285600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:45",
     "title": "⚾ 🇺🇸 MLB: San Francisco Giants 🇺🇸 vs Milwaukee Brewers 🇺🇸",
     "channels": [
@@ -2576,12 +2450,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785199500,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785285900,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Baseball (MLB",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:10",
     "title": "⚾ 🇺🇸 MLB: Los Angeles Dodgers 🇺🇸 vs Seattle Mariners 🇺🇸",
     "channels": [
@@ -2606,12 +2480,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785201000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785287400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Basketball",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:00",
     "title": "🏀 🇺🇸 The Basketball Tournament – Non-Alumni Bracket: TBA vs Davis Steel",
     "channels": [
@@ -2620,12 +2494,12 @@
         "name": "FOX Sports 1 USA"
       }
     ],
-    "start_unix": 1785276000,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785362400,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Basketball",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:30",
     "title": "🏀 🇨🇦 CEBL: Montreal Alliance 🇨🇦 vs Vancouver Bandits 🇨🇦",
     "channels": [
@@ -2634,12 +2508,12 @@
         "name": "RDS CA"
       }
     ],
-    "start_unix": 1785277800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Basketball",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:00",
     "title": "🏀 🇺🇸 The Basketball Tournament – Non-Alumni Bracket: TBA vs Heartfire Elite",
     "channels": [
@@ -2648,12 +2522,12 @@
         "name": "FOX Sports 1 USA"
       }
     ],
-    "start_unix": 1785196800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785283200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "WNBA",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "23:30",
     "title": "🏀 🇺🇸 WNBA: Washington Mystics 🇺🇸 Women vs Connecticut Sun 🇺🇸 Women",
     "channels": [
@@ -2670,12 +2544,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785277800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785364200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "WNBA",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "00:00",
     "title": "🏀 🇺🇸 WNBA: Minnesota Lynx 🇺🇸 Women vs Toronto Tempo 🇨🇦 Women",
     "channels": [
@@ -2692,12 +2566,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785193200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785279600,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "WNBA",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "01:30",
     "title": "🏀 🇺🇸 WNBA: Seattle Storm 🇺🇸 Women vs Indiana Fever 🇺🇸 Women",
     "channels": [
@@ -2734,12 +2608,12 @@
         "name": "ESPN USA"
       }
     ],
-    "start_unix": 1785198600,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785285000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "WNBA",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🏀 🇺🇸 WNBA: Los Angeles Sparks 🇺🇸 Women vs New York Liberty 🇺🇸 Women",
     "channels": [
@@ -2756,12 +2630,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "WNBA",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "02:00",
     "title": "🏀 🇺🇸 WNBA: Portland Fire 🇺🇸 Women vs Las Vegas Aces 🇺🇸 Women",
     "channels": [
@@ -2774,12 +2648,12 @@
         "name": "Backup Stream"
       }
     ],
-    "start_unix": 1785200400,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785286800,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Fencing",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "09:00",
     "title": "🤺 🇭🇰 FIE World Fencing Championships: Hong Kong 2026 – Day 4",
     "channels": [
@@ -2820,26 +2694,12 @@
         "name": "Eurosport 2 Greece"
       }
     ],
-    "start_unix": 1785225600,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Netball",
-    "date": "2026-07-28",
-    "time": "20:00",
-    "title": "🤾 🏴 Commonwealth Games: Australia 🇦🇺 Women vs Malawi 🇲🇼 Women",
-    "channels": [
-      {
-        "id": "594",
-        "name": "Sky Sport 7 NZ"
-      }
-    ],
-    "start_unix": 1785265200,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785312000,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Water Sports",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "09:20",
     "title": "🏊 🇬🇧 Glasgow 2026 Swimming &amp; Para Swimming – Day 5 (Day Session)",
     "channels": [
@@ -2848,12 +2708,12 @@
         "name": "Sky Sport 5 NZ"
       }
     ],
-    "start_unix": 1785226800,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785313200,
+    "scraped_at_unix": 1785279697
   },
   {
     "category": "Weightlifting",
-    "date": "2026-07-28",
+    "date": "2026-07-29",
     "time": "08:30",
     "title": "🏋️ 🇬🇧 Glasgow 2026 Weightlifting – Men's 88kg (Day 5 · Session 1)",
     "channels": [
@@ -2862,52 +2722,7 @@
         "name": "Sky Sport 8 NZ"
       }
     ],
-    "start_unix": 1785223800,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "Soccer : Southampton vs Ipswich Town",
-    "channels": [],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "Soccer : Northampton Town vs Barnsley",
-    "channels": [],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "Soccer : Peterborough United vs Mansfield Town",
-    "channels": [],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "Soccer : Stockport County vs Port Vale",
-    "channels": [],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-07-28",
-    "time": "18:45",
-    "title": "Soccer : USM Alger vs Paradou",
-    "channels": [],
-    "start_unix": 1785260700,
-    "scraped_at_unix": 1785274813
+    "start_unix": 1785310200,
+    "scraped_at_unix": 1785279697
   }
 ]
