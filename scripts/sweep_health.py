@@ -90,6 +90,35 @@ def session() -> requests.Session:
     return s
 
 
+def cdn_origin(url: str) -> str:
+    """Origin/Referer pair a DADDY LIVE CDN demands for a signed URL.
+
+    Cloudflare binds the signed-URL token to the ORIGIN of the wrapper page
+    that minted it, not to dlhd — so a request presenting no Origin, or
+    dlhd's, gets 403 even though the URL is perfectly valid. That is why
+    every channel came back down (`master:403`, ok=0) while the app played
+    the same hosts fine: the app maps each CDN family to its wrapper page and
+    this script never did.
+
+    Mirrors LiveStreamProxy.originFor() in the Android app — keep them in
+    sync when a CDN family moves.
+    """
+    host = url.split("//", 1)[-1].split("/", 1)[0].split(":", 1)[0].lower()
+    if host.endswith("phantemlis.top"):
+        return "https://hamis.romponalis.st"
+    if host.endswith("inproviszon.st"):
+        return "https://ritzembeds.pages.dev"
+    return "https://dlhd.st"
+
+
+def cdn_headers(url: str, extra: Optional[dict] = None) -> dict:
+    origin = cdn_origin(url)
+    h = {"Referer": origin + "/", "Origin": origin}
+    if extra:
+        h.update(extra)
+    return h
+
+
 def discover_host(s: requests.Session, cid: str) -> Optional[str]:
     """Scrape dlhd.pk/stream/stream-{cid}.php for the current resolver
     host. The page writes the daddyN URL in plaintext HTML (it's the
@@ -97,8 +126,8 @@ def discover_host(s: requests.Session, cid: str) -> Optional[str]:
     discovered hostname, or None on scrape failure."""
     try:
         r = s.get(
-            f"https://dlhd.pk/stream/stream-{cid}.php",
-            headers={"Referer": f"https://dlhd.pk/watch.php?id={cid}"},
+            f"https://dlhd.st/stream/stream-{cid}.php",
+            headers={"Referer": f"https://dlhd.st/watch.php?id={cid}"},
             timeout=TIMEOUT_RESOLVE,
         )
     except requests.RequestException:
@@ -148,7 +177,7 @@ def _try_endpoint(
     try:
         r = s.get(
             url,
-            headers={"Referer": f"https://dlhd.pk/stream/stream-{cid}.php"},
+            headers={"Referer": f"https://dlhd.st/stream/stream-{cid}.php"},
             timeout=TIMEOUT_RESOLVE,
         )
     except requests.RequestException:
@@ -165,7 +194,7 @@ def _try_endpoint(
     if ".m3u8" not in master:
         return None, None
     try:
-        rm = s.get(master, timeout=TIMEOUT_PLAYLIST)
+        rm = s.get(master, headers=cdn_headers(master), timeout=TIMEOUT_PLAYLIST)
     except requests.RequestException:
         return master, None
     return master, rm
@@ -260,7 +289,9 @@ def probe_channel(ch: dict) -> dict:
     else:
         inner_url = urljoin(master_url, inner_rel)
         try:
-            ri = s.get(inner_url, timeout=TIMEOUT_PLAYLIST)
+            ri = s.get(
+                inner_url, headers=cdn_headers(inner_url), timeout=TIMEOUT_PLAYLIST,
+            )
         except requests.RequestException as e:
             result["fail_reason"] = f"inner:{type(e).__name__}"
             return result
@@ -287,7 +318,7 @@ def probe_channel(ch: dict) -> dict:
         # validate sync. Saves bandwidth across 750 channels per sweep.
         rs = s.get(
             seg_url,
-            headers={"Range": "bytes=0-187"},
+            headers=cdn_headers(seg_url, {"Range": "bytes=0-187"}),
             timeout=TIMEOUT_SEGMENT,
             stream=True,
         )
