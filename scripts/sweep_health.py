@@ -81,7 +81,12 @@ TIMEOUT_RESOLVE = 6
 TIMEOUT_PLAYLIST = 5
 TIMEOUT_SEGMENT = 7
 
-WORKERS = 20
+# 4, not 20. At 20 the CDN rate-limits us: a full sweep came back
+# ok=70/752 with 562 of the failures being HTTP 429 — i.e. we throttled
+# ourselves and then recorded healthy channels as down. Measured on 40
+# channels: 4 workers = 37 ok / 0 throttles, 8 = 32 ok / 3 throttles,
+# 20 = mass 429. Slower, but the output is TRUE.
+WORKERS = 4
 
 
 def session() -> requests.Session:
@@ -378,6 +383,7 @@ def main() -> int:
     results: list[dict] = []
     ok_count = 0
     fail_count = 0
+    throttled_count = 0
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
         futures = {ex.submit(probe_channel, c): c for c in channels}
         for fut in as_completed(futures):
@@ -400,6 +406,15 @@ def main() -> int:
                     "host": None,
                     "first_segment_url": None,
                 }
+            # A 429 tells us nothing about the CHANNEL — it says the CDN
+            # throttled US. Recording it as "down" is how a sweep publishes a
+            # catalogue of false negatives (and how the app ends up badging
+            # working channels as offline). Mark it unknown and drop it from
+            # the payload so the previous verdict for that channel stands.
+            if "429" in (r.get("fail_reason") or ""):
+                r["status"] = "unknown"
+                throttled_count += 1
+                continue
             results.append(r)
             if r["status"] == "ok":
                 ok_count += 1
@@ -416,9 +431,40 @@ def main() -> int:
 
     elapsed = int(time.time() - started)
     print(
-        f"sweep finished in {elapsed} s — ok={ok_count} fail={fail_count}",
+        f"sweep finished in {elapsed} s — ok={ok_count} fail={fail_count} "
+        f"throttled={throttled_count}",
         flush=True,
     )
+
+    # COLLAPSE GUARD. If this run says almost everything is down, the likely
+    # cause is us (throttling, a resolver move, a network blip) rather than
+    # the whole catalogue dying at once. Publishing that would badge working
+    # channels as offline for every user. Refuse to overwrite a healthier
+    # previous sweep and exit non-zero so the failure is visible.
+    prev_ok = 0
+    out_path = Path(args.out)
+    if out_path.exists():
+        try:
+            prev = json.loads(out_path.read_text(encoding="utf-8"))
+            prev_ok = int(prev.get("ok_count") or 0)
+        except Exception:  # noqa: BLE001
+            prev_ok = 0
+    if throttled_count > len(channels) // 10:
+        print(
+            f"ABORT: {throttled_count} channels were rate-limited — this run "
+            f"measured our own throttling, not channel health. Keeping the "
+            f"previous health.json.",
+            flush=True,
+        )
+        return 1
+    if prev_ok >= 20 and ok_count < prev_ok // 2:
+        print(
+            f"ABORT: ok collapsed {prev_ok} -> {ok_count}. Refusing to publish "
+            f"a sweep that marks most channels down; investigate before "
+            f"overwriting.",
+            flush=True,
+        )
+        return 1
 
     # Sort by id for stable diffs in the committed health.json.
     results.sort(key=lambda r: int(r["id"]) if r["id"].isdigit() else 0)
