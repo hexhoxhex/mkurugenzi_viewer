@@ -13,9 +13,15 @@ name: Sweep channel health
 
 on:
   schedule:
-    # Every 15 min, offset 7 min off the catalog refresh so we don't
-    # both hammer donis in the same window.
-    - cron: "7,22,37,52 * * * *"
+    # HOURLY, at :17 — offset off the catalog refresh (*/30) so the two
+    # never probe the CDN in the same window.
+    #
+    # Was every 15 min, which could not work: a full 752-channel sweep takes
+    # ~10 min on a runner, so runs overlapped, queued behind each other
+    # (concurrency below does not cancel), and hammered the CDN hard enough
+    # to rate-limit US — one run recorded 155 channels as throttled. Channel
+    # health simply does not change fast enough to justify 4x/hour.
+    - cron: "17 * * * *"
   workflow_dispatch: {}
 
 concurrency:
@@ -31,7 +37,11 @@ env:
 jobs:
   sweep:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    # 25, not 12. The sweep takes ~10 min on a runner (~20 min on a slower
+    # link) and the old cap killed it mid-probe every single run, so
+    # health.json went 40 days without an update. Comfortably inside the
+    # hourly cadence above.
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
         with:

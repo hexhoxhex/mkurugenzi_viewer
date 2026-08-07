@@ -37,6 +37,7 @@ import argparse
 import base64
 import json
 import os
+import random
 import re
 import sys
 import threading
@@ -124,6 +125,37 @@ def cdn_headers(url: str, extra: Optional[dict] = None) -> dict:
     return h
 
 
+def cdn_get(s: requests.Session, url: str, headers: dict, timeout: int, **kw):
+    """GET that RETRIES a 429 instead of accepting it as a verdict.
+
+    A 429 says the CDN is throttling us, not that the channel is broken —
+    so treating it as an answer produces false "down" marks (a CI run
+    recorded 155 of them in one sweep). Backs off and re-asks, honouring
+    Retry-After when present. Returns the last response either way, so the
+    caller still sees a 429 if the CDN really will not serve us.
+    """
+    delay = 1.5
+    r = None
+    for attempt in range(3):
+        r = s.get(url, headers=headers, timeout=timeout, **kw)
+        if r.status_code != 429:
+            return r
+        if attempt == 2:
+            break
+        wait = delay
+        ra = r.headers.get("Retry-After")
+        if ra:
+            try:
+                wait = min(float(ra), 8.0)
+            except ValueError:
+                pass
+        # Jitter so 4 workers that get throttled together don't retry in
+        # lockstep and throttle each other again.
+        time.sleep(wait + random.uniform(0, 0.75))
+        delay *= 2
+    return r
+
+
 def discover_host(s: requests.Session, cid: str) -> Optional[str]:
     """Scrape dlhd.pk/stream/stream-{cid}.php for the current resolver
     host. The page writes the daddyN URL in plaintext HTML (it's the
@@ -199,7 +231,7 @@ def _try_endpoint(
     if ".m3u8" not in master:
         return None, None
     try:
-        rm = s.get(master, headers=cdn_headers(master), timeout=TIMEOUT_PLAYLIST)
+        rm = cdn_get(s, master, cdn_headers(master), TIMEOUT_PLAYLIST)
     except requests.RequestException:
         return master, None
     return master, rm
@@ -294,9 +326,7 @@ def probe_channel(ch: dict) -> dict:
     else:
         inner_url = urljoin(master_url, inner_rel)
         try:
-            ri = s.get(
-                inner_url, headers=cdn_headers(inner_url), timeout=TIMEOUT_PLAYLIST,
-            )
+            ri = cdn_get(s, inner_url, cdn_headers(inner_url), TIMEOUT_PLAYLIST)
         except requests.RequestException as e:
             result["fail_reason"] = f"inner:{type(e).__name__}"
             return result
@@ -321,11 +351,9 @@ def probe_channel(ch: dict) -> dict:
     try:
         # Range request — only need first 188 bytes (one TS packet) to
         # validate sync. Saves bandwidth across 750 channels per sweep.
-        rs = s.get(
-            seg_url,
-            headers=cdn_headers(seg_url, {"Range": "bytes=0-187"}),
-            timeout=TIMEOUT_SEGMENT,
-            stream=True,
+        rs = cdn_get(
+            s, seg_url, cdn_headers(seg_url, {"Range": "bytes=0-187"}),
+            TIMEOUT_SEGMENT, stream=True,
         )
         if not rs.ok:
             result["fail_reason"] = f"segment:{rs.status_code}"
