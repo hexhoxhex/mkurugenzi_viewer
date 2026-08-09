@@ -72,5 +72,18 @@ jobs:
           STATS="live=$OK down=$DOWN unreachable=$UNR"
 
           git commit -m "auto-refresh: $STATS"
-          git push
+          # Same rebase-retry as sweep_health.yml: both workflows push to this
+          # branch, so whichever finishes second gets rejected as
+          # non-fast-forward. Only data files are staged, so a rebase is safe.
+          pushed=0
+          for attempt in 1 2 3; do
+            if git push; then pushed=1; break; fi
+            echo "push rejected (attempt $attempt) — rebasing onto origin/main"
+            git pull --rebase origin main || exit 1
+            sleep $((attempt * 5))
+          done
+          if [ "$pushed" != "1" ]; then
+            echo "::error::could not push refresh after 3 attempts"
+            exit 1
+          fi
           echo "::notice::pushed refresh ($STATS)"

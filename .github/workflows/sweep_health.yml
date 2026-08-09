@@ -66,7 +66,23 @@ jobs:
           if [ -n "$(git status --porcelain data/health.json)" ]; then
             git add data/health.json
             git commit -m "health sweep $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # RETRY WITH REBASE. refresh.yml pushes to this same branch every
+            # 30 min, so it regularly lands between our checkout and our push
+            # and the push is rejected as non-fast-forward — the sweep had
+            # already produced perfectly good data and then failed at the last
+            # step. Rebase onto whatever arrived and try again; health.json is
+            # the only file we touch, so there is nothing to conflict with.
+            pushed=0
+            for attempt in 1 2 3; do
+              if git push; then pushed=1; break; fi
+              echo "push rejected (attempt $attempt) — rebasing onto origin/main"
+              git pull --rebase origin main || exit 1
+              sleep $((attempt * 5))
+            done
+            if [ "$pushed" != "1" ]; then
+              echo "::error::could not push health.json after 3 attempts"
+              exit 1
+            fi
           else
             echo "No changes to commit."
           fi
