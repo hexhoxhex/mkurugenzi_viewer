@@ -1,5 +1,61 @@
 [
   {
+    "category": "PPV Events",
+    "date": "2026-08-15",
+    "time": "14:00",
+    "title": "🏁 🇺🇸 AMA Supercross Championship : New Berlin 🇺🇸",
+    "channels": [
+      {
+        "id": "201",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1786798800,
+    "scraped_at_unix": 1786808827
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-08-15",
+    "time": "15:00",
+    "title": "🏁 🇺🇸 USAC Road Racing : Road America 🇺🇸",
+    "channels": [
+      {
+        "id": "202",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1786802400,
+    "scraped_at_unix": 1786808827
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-08-15",
+    "time": "16:00",
+    "title": "🏁 🇺🇸 MotoAmerica Superbikes : Virginia Raceway 🇺🇸",
+    "channels": [
+      {
+        "id": "203",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1786806000,
+    "scraped_at_unix": 1786808827
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-08-15",
+    "time": "17:00",
+    "title": "🥋 🇺🇸 Submission Hunter Pro 104 🇺🇸",
+    "channels": [
+      {
+        "id": "204",
+        "name": "UFC Fight Pass"
+      }
+    ],
+    "start_unix": 1786809600,
+    "scraped_at_unix": 1786808827
+  },
+  {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
     "date": "2026-08-15",
     "time": "18:30",
@@ -11,7 +67,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -25,7 +81,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -39,7 +95,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -53,7 +109,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -67,39 +123,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-08-15",
-    "time": "12:30",
-    "title": "🏃🇨🇭 Lausanne Diamond League | Lausanne, Switzerland | 21 August 2026",
-    "channels": [
-      {
-        "id": "41",
-        "name": "Eurosport 1 GR"
-      }
-    ],
-    "start_unix": 1786793400,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-08-15",
-    "time": "12:30",
-    "title": "⚽🇲🇦 Africa Women Cup of Nations | Morocco | 26 July–16 August 2026",
-    "channels": [
-      {
-        "id": "56",
-        "name": "SuperSport Football"
-      },
-      {
-        "id": "61",
-        "name": "beIN SPORTS 1 English"
-      }
-    ],
-    "start_unix": 1786793400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Upcoming Events",
@@ -113,7 +137,47 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-08-15",
+    "time": "03:30",
+    "title": "🤸🇩🇪 FIG Rhythmic Gymnastics World Championships | Frankfurt, Germany | 12–16 August 2026",
+    "channels": [
+      {
+        "id": "41",
+        "name": "Eurosport 1 GR"
+      },
+      {
+        "id": "42",
+        "name": "Eurosport 2 GR"
+      }
+    ],
+    "start_unix": 1786761000,
+    "scraped_at_unix": 1786808827
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-08-15",
+    "time": "03:30",
+    "title": "📺🇺🇸 Saturday Night Live (SNL USA)",
+    "channels": [
+      {
+        "id": "708",
+        "name": "Sky One USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      },
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      }
+    ],
+    "start_unix": 1786761000,
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -127,7 +191,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -141,7 +205,7 @@
       }
     ],
     "start_unix": 1786829400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -155,7 +219,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -169,7 +233,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -183,7 +247,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -197,7 +261,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -211,7 +275,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -225,7 +289,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -239,7 +303,7 @@
       }
     ],
     "start_unix": 1786753800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "TV Shows",
@@ -253,7 +317,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Scottish League Cup",
@@ -267,7 +331,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Scottish League Cup",
@@ -281,7 +345,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "🇮🇪 Ireland Republic",
@@ -295,7 +359,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "🇮🇪 Ireland Republic",
@@ -309,7 +373,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "🇮🇪 Ireland Republic",
@@ -323,7 +387,7 @@
       }
     ],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - Championship",
@@ -345,7 +409,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - Championship",
@@ -367,7 +431,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - Championship",
@@ -389,7 +453,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - Championship",
@@ -411,7 +475,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - Championship",
@@ -433,7 +497,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -451,7 +515,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -469,7 +533,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -487,7 +551,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -505,7 +569,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -523,7 +587,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -541,7 +605,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -559,7 +623,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -577,7 +641,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -595,7 +659,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -613,7 +677,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -631,7 +695,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -649,7 +713,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -667,7 +731,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -685,7 +749,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -703,7 +767,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -721,7 +785,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -739,7 +803,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - League One",
@@ -757,7 +821,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -771,7 +835,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -785,7 +849,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -799,7 +863,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -813,7 +877,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -827,7 +891,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -841,7 +905,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -855,7 +919,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -869,7 +933,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -883,7 +947,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -897,7 +961,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -911,7 +975,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "England - National League",
@@ -925,7 +989,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -939,7 +1003,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -953,7 +1017,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -971,7 +1035,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -985,7 +1049,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -999,7 +1063,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1017,7 +1081,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1031,7 +1095,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1045,7 +1109,7 @@
       }
     ],
     "start_unix": 1786753800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1059,7 +1123,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1073,7 +1137,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1087,7 +1151,7 @@
       }
     ],
     "start_unix": 1786757400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1101,7 +1165,7 @@
       }
     ],
     "start_unix": 1786759200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1115,7 +1179,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1129,7 +1193,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1143,7 +1207,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1157,7 +1221,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1171,7 +1235,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1185,7 +1249,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1199,7 +1263,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1213,7 +1277,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1227,7 +1291,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "USL Soccer",
@@ -1241,7 +1305,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1259,7 +1323,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1281,7 +1345,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1299,7 +1363,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1317,7 +1381,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1339,7 +1403,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1357,7 +1421,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1375,7 +1439,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1393,7 +1457,7 @@
       }
     ],
     "start_unix": 1786753800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1411,7 +1475,7 @@
       }
     ],
     "start_unix": 1786753800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1429,7 +1493,7 @@
       }
     ],
     "start_unix": 1786757400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MLS",
@@ -1447,7 +1511,7 @@
       }
     ],
     "start_unix": 1786757400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "NWSL Soccer",
@@ -1461,7 +1525,7 @@
       }
     ],
     "start_unix": 1786829400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "NWSL Soccer",
@@ -1475,25 +1539,7 @@
       }
     ],
     "start_unix": 1786751100,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "Club Friendly",
-    "date": "2026-08-15",
-    "time": "12:30",
-    "title": "⚽ 🌍 Club Friendly : Werder Bremen 🇩🇪 vs Auxerre 🇫🇷",
-    "channels": [
-      {
-        "id": "59",
-        "name": "Ligue1+ 2 France"
-      },
-      {
-        "id": "3051",
-        "name": "Ligue1+ 2 France"
-      }
-    ],
-    "start_unix": 1786793400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1511,7 +1557,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1541,7 +1587,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1555,7 +1601,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1569,7 +1615,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1583,7 +1629,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1597,7 +1643,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1611,7 +1657,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1625,7 +1671,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1659,7 +1705,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1701,7 +1747,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1727,7 +1773,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1749,7 +1795,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1775,7 +1821,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1813,7 +1859,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1867,12 +1913,12 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
     "date": "2026-08-15",
-    "time": "15:19",
+    "time": "15:36",
     "title": "9:30 ⚽ 🌍 Friendly : Leeds United 🏴 vs Augsburg 🇩🇪",
     "channels": [
       {
@@ -1880,8 +1926,8 @@
         "name": "Event Stream"
       }
     ],
-    "start_unix": 1786803540,
-    "scraped_at_unix": 1786807338
+    "start_unix": 1786804560,
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1911,7 +1957,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -1937,7 +1983,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2015,7 +2061,7 @@
       }
     ],
     "start_unix": 1786801500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2037,7 +2083,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2087,7 +2133,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2105,7 +2151,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2123,7 +2169,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2137,7 +2183,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2155,7 +2201,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Club Friendly",
@@ -2181,7 +2227,7 @@
       }
     ],
     "start_unix": 1786811400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2195,7 +2241,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2209,7 +2255,7 @@
       }
     ],
     "start_unix": 1786820400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2223,7 +2269,7 @@
       }
     ],
     "start_unix": 1786829400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2237,7 +2283,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2251,7 +2297,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2265,7 +2311,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2279,7 +2325,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2293,7 +2339,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2307,7 +2353,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's College Soccer",
@@ -2321,59 +2367,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-08-15",
-    "time": "12:30",
-    "title": "⚽ 🇺🇦 Ukrainian Premier League : Kudrivka 🇺🇦 vs Obolon'-Brovar 🇺🇦",
-    "channels": [
-      {
-        "id": "29",
-        "name": "UPL.TV"
-      }
-    ],
-    "start_unix": 1786793400,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-08-15",
-    "time": "12:45",
-    "title": "⚽ 🇵🇱 Poland - Ekstraklasa : Zagłębie Lubin 🇵🇱 vs Śląsk Wrocław 🇵🇱",
-    "channels": [
-      {
-        "id": "259",
-        "name": "Canal+ Sport 3 Poland"
-      },
-      {
-        "id": "128",
-        "name": "TVP Sport Poland"
-      },
-      {
-        "id": "7018",
-        "name": "Event Stream"
-      },
-      {
-        "id": "612",
-        "name": "Arena Sport 1x2 Serbia"
-      },
-      {
-        "id": "18",
-        "name": "Arena Sport 2 Slovenia"
-      },
-      {
-        "id": "433",
-        "name": "Arena Sport 2 Croatia"
-      },
-      {
-        "id": "3060",
-        "name": "Canal+ Sport 3 Poland"
-      }
-    ],
-    "start_unix": 1786794300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2399,7 +2393,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2413,7 +2407,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2431,7 +2425,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2445,7 +2439,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2459,7 +2453,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2481,7 +2475,7 @@
       }
     ],
     "start_unix": 1786796100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2499,7 +2493,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2513,7 +2507,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2527,7 +2521,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2545,7 +2539,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2559,7 +2553,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2577,7 +2571,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2591,7 +2585,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2605,7 +2599,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2619,7 +2613,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2633,7 +2627,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2699,7 +2693,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2733,7 +2727,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2751,7 +2745,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2765,7 +2759,7 @@
       }
     ],
     "start_unix": 1786799400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2779,7 +2773,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2793,7 +2787,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2811,7 +2805,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2837,7 +2831,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2851,7 +2845,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2877,7 +2871,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2899,7 +2893,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2917,7 +2911,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2931,7 +2925,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2945,7 +2939,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2967,7 +2961,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -2985,7 +2979,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3003,7 +2997,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3021,7 +3015,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3035,7 +3029,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3061,7 +3055,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3075,7 +3069,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3093,7 +3087,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3111,7 +3105,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3125,7 +3119,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3147,7 +3141,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3161,7 +3155,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3175,7 +3169,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3189,7 +3183,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3207,7 +3201,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3233,7 +3227,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3307,7 +3301,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3325,7 +3319,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3339,7 +3333,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3353,7 +3347,7 @@
       }
     ],
     "start_unix": 1786806900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3415,7 +3409,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3493,7 +3487,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3507,7 +3501,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3525,7 +3519,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3559,7 +3553,7 @@
       }
     ],
     "start_unix": 1786808700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3605,7 +3599,7 @@
       }
     ],
     "start_unix": 1786808700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3619,7 +3613,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3633,7 +3627,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3655,7 +3649,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3673,7 +3667,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3703,7 +3697,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3721,7 +3715,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3735,7 +3729,7 @@
       }
     ],
     "start_unix": 1786810500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3749,7 +3743,7 @@
       }
     ],
     "start_unix": 1786810500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3763,7 +3757,7 @@
       }
     ],
     "start_unix": 1786810500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3873,7 +3867,7 @@
       }
     ],
     "start_unix": 1786811400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3891,7 +3885,7 @@
       }
     ],
     "start_unix": 1786811400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3909,7 +3903,7 @@
       }
     ],
     "start_unix": 1786811400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3923,7 +3917,7 @@
       }
     ],
     "start_unix": 1786811400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3941,7 +3935,7 @@
       }
     ],
     "start_unix": 1786811400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -3959,7 +3953,7 @@
       }
     ],
     "start_unix": 1786812300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4021,7 +4015,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4035,7 +4029,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4057,7 +4051,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4111,7 +4105,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4129,7 +4123,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4143,7 +4137,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4157,7 +4151,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4179,7 +4173,7 @@
       }
     ],
     "start_unix": 1786814100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4197,7 +4191,7 @@
       }
     ],
     "start_unix": 1786814100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4223,7 +4217,7 @@
       }
     ],
     "start_unix": 1786814100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4237,7 +4231,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4251,7 +4245,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4265,7 +4259,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4287,7 +4281,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4357,7 +4351,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4375,7 +4369,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4429,7 +4423,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4443,7 +4437,7 @@
       }
     ],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4457,7 +4451,7 @@
       }
     ],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4499,7 +4493,7 @@
       }
     ],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4517,7 +4511,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4531,7 +4525,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4549,7 +4543,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4563,7 +4557,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4577,7 +4571,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4627,7 +4621,7 @@
       }
     ],
     "start_unix": 1786817700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4693,7 +4687,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4803,7 +4797,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4857,7 +4851,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4883,7 +4877,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4913,7 +4907,7 @@
       }
     ],
     "start_unix": 1786819500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4927,7 +4921,7 @@
       }
     ],
     "start_unix": 1786822200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4941,7 +4935,7 @@
       }
     ],
     "start_unix": 1786822200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4963,7 +4957,7 @@
       }
     ],
     "start_unix": 1786824000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -4989,7 +4983,7 @@
       }
     ],
     "start_unix": 1786825800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5007,7 +5001,7 @@
       }
     ],
     "start_unix": 1786825800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5021,7 +5015,7 @@
       }
     ],
     "start_unix": 1786826700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5035,7 +5029,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5053,7 +5047,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5071,7 +5065,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5105,7 +5099,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5119,7 +5113,7 @@
       }
     ],
     "start_unix": 1786831500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5149,7 +5143,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5167,7 +5161,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5205,7 +5199,7 @@
       }
     ],
     "start_unix": 1786749300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5219,7 +5213,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5233,7 +5227,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5247,7 +5241,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5273,7 +5267,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5287,7 +5281,7 @@
       }
     ],
     "start_unix": 1786752600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5301,7 +5295,7 @@
       }
     ],
     "start_unix": 1786753800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5315,7 +5309,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "All Soccer Events",
@@ -5337,7 +5331,7 @@
       }
     ],
     "start_unix": 1786759200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Cricket",
@@ -5371,21 +5365,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "Field Hockey",
-    "date": "2026-08-15",
-    "time": "12:30",
-    "title": "🏑 🇩🇪 World Cup Women : Germany 🇩🇪 vs Malaysia 🇲🇾",
-    "channels": [
-      {
-        "id": "25",
-        "name": "Magenta Sport 318"
-      }
-    ],
-    "start_unix": 1786793400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Field Hockey",
@@ -5399,7 +5379,7 @@
       }
     ],
     "start_unix": 1786804200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP Cincinnati (USA) Hard",
@@ -5413,7 +5393,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA Cincinnati (USA) Hard",
@@ -5427,7 +5407,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5629,7 +5609,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5643,7 +5623,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5657,7 +5637,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5671,7 +5651,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5685,7 +5665,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5699,7 +5679,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5713,7 +5693,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5727,7 +5707,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5741,7 +5721,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5755,7 +5735,7 @@
       }
     ],
     "start_unix": 1786821300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5769,7 +5749,7 @@
       }
     ],
     "start_unix": 1786820400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5783,7 +5763,7 @@
       }
     ],
     "start_unix": 1786821300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis",
@@ -5797,7 +5777,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5815,7 +5795,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5833,7 +5813,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5851,7 +5831,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5860,12 +5840,16 @@
     "title": "ATP - Singles: 🇮🇹 Mattia Bellucci vs 🇨🇿 Jiří Menšík",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1557",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1510",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5874,12 +5858,16 @@
     "title": "ATP - Singles: 🇷🇸 Novak Djokovic vs 🇦🇷 Thiago Agustín Tirante",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1558",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1507",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5888,12 +5876,16 @@
     "title": "ATP - Singles: 🇨🇱 Diego Vallejo vs 🇵🇱 Vacherot V.",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1563",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1513",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5902,12 +5894,16 @@
     "title": "ATP - Singles: 🇮🇹 Luciano Darderi vs 🇦🇺 Rinky Hijikata",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1565",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1512",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5916,12 +5912,16 @@
     "title": "ATP - Singles: 🇬🇧 Arthur Fery vs 🇦🇺 James Duckworth",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1566",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1510",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5930,12 +5930,16 @@
     "title": "ATP - Singles: 🇫🇷 Quentin Halys vs 🇦🇺 Alex de Minaur",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1567",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1509",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5944,12 +5948,16 @@
     "title": "ATP - Singles: 🇺🇸 Tommy Paul vs 🇵🇱 Hubert Hurkacz",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1568",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1507",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5963,7 +5971,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5977,7 +5985,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -5991,7 +5999,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -6005,7 +6013,7 @@
       }
     ],
     "start_unix": 1786820400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -6019,7 +6027,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Cincinnati (USA), Hard",
@@ -6033,7 +6041,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6051,7 +6059,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6069,7 +6077,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6087,7 +6095,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6105,7 +6113,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6114,12 +6122,16 @@
     "title": "WTA - Singles: 🇷🇴 Sorana Cîrstea vs 🇨🇿 Nikola Bartůňková",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1559",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1511",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6128,12 +6140,16 @@
     "title": "WTA - Singles: 🇺🇸 Caty McNally vs 🇺🇦 Anhelina Kalinina",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1561",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1503",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6142,12 +6158,16 @@
     "title": "WTA - Singles: 🇱🇻 Jeļena Ostapenko vs 🇵🇱 Magdalena Fręch",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1560",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1506",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6156,12 +6176,16 @@
     "title": "WTA - Singles: 🇷🇺 Diana Shnaider vs 🇩🇪 Tatjana Maria",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1562",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1514",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6170,12 +6194,16 @@
     "title": "WTA - Singles: 🇨🇿 Linda Nosková vs 🇬🇧 Katie Boulter",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1564",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1502",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6184,12 +6212,16 @@
     "title": "WTA - Singles: 🇺🇸 Emma Navarro vs 🇺🇦 Anhelina Kalinina",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed #JustAsk"
+        "id": "1569",
+        "name": "Tennis Stream"
+      },
+      {
+        "id": "1511",
+        "name": "Tennis Stream"
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6203,7 +6235,7 @@
       }
     ],
     "start_unix": 1786815000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6217,7 +6249,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6231,7 +6263,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6245,7 +6277,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Tennis 🎾 WTA - Singles: Cincinnati (USA), Hard",
@@ -6259,7 +6291,7 @@
       }
     ],
     "start_unix": 1786750200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6293,7 +6325,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6315,7 +6347,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6333,7 +6365,7 @@
       }
     ],
     "start_unix": 1786795800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6359,7 +6391,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6381,7 +6413,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6395,7 +6427,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6417,7 +6449,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6431,7 +6463,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6445,7 +6477,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6459,7 +6491,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6493,7 +6525,7 @@
       }
     ],
     "start_unix": 1786814700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6507,7 +6539,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6521,7 +6553,7 @@
       }
     ],
     "start_unix": 1786824000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Motorsport",
@@ -6575,7 +6607,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Boxing",
@@ -6601,7 +6633,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "MMA",
@@ -6615,7 +6647,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "UFC 330",
@@ -6629,7 +6661,7 @@
       }
     ],
     "start_unix": 1786824000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "UFC 330",
@@ -6671,7 +6703,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "UFC 330",
@@ -6761,7 +6793,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Wrestling (AEW",
@@ -6775,7 +6807,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Combat sports",
@@ -6793,7 +6825,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Golf",
@@ -6867,7 +6899,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Golf",
@@ -6969,7 +7001,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Golf",
@@ -6995,7 +7027,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Golf",
@@ -7021,7 +7053,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Golf",
@@ -7095,7 +7127,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Snooker",
@@ -7109,7 +7141,7 @@
       }
     ],
     "start_unix": 1786822200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Snooker",
@@ -7123,7 +7155,7 @@
       }
     ],
     "start_unix": 1786757400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football",
@@ -7137,7 +7169,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (CFL",
@@ -7159,7 +7191,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (CFL",
@@ -7185,7 +7217,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7207,7 +7239,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7233,7 +7265,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7263,7 +7295,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7289,7 +7321,7 @@
       }
     ],
     "start_unix": 1786820400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7311,7 +7343,7 @@
       }
     ],
     "start_unix": 1786820400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7337,7 +7369,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Am. Football (NFL",
@@ -7367,7 +7399,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Athletics",
@@ -7385,7 +7417,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Athletics",
@@ -7407,7 +7439,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Athletics",
@@ -7461,7 +7493,7 @@
       }
     ],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Athletics",
@@ -7475,7 +7507,7 @@
       }
     ],
     "start_unix": 1786817400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Aussie rules (AFL",
@@ -7501,7 +7533,7 @@
       }
     ],
     "start_unix": 1786757700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Aussie rules (VFL",
@@ -7515,7 +7547,7 @@
       }
     ],
     "start_unix": 1786759200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Aussie rules (AFL Women",
@@ -7533,7 +7565,7 @@
       }
     ],
     "start_unix": 1786757400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball",
@@ -7547,7 +7579,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Minor League Baseball",
@@ -7561,7 +7593,7 @@
       }
     ],
     "start_unix": 1786820400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Minor League Baseball",
@@ -7575,7 +7607,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Minor League Baseball",
@@ -7589,7 +7621,7 @@
       }
     ],
     "start_unix": 1786752000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "High School Baseball",
@@ -7603,7 +7635,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "High School Baseball",
@@ -7617,7 +7649,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "American Legion Baseball",
@@ -7631,7 +7663,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "American Legion Baseball",
@@ -7645,7 +7677,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's Pro Baseball League",
@@ -7659,7 +7691,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Women's Pro Baseball League",
@@ -7673,7 +7705,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball AAPB",
@@ -7687,7 +7719,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Softball",
@@ -7701,7 +7733,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7727,7 +7759,7 @@
       }
     ],
     "start_unix": 1786810200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7749,7 +7781,7 @@
       }
     ],
     "start_unix": 1786814400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7775,7 +7807,7 @@
       }
     ],
     "start_unix": 1786817220,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7793,7 +7825,7 @@
       }
     ],
     "start_unix": 1786820700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7819,7 +7851,7 @@
       }
     ],
     "start_unix": 1786821000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7837,7 +7869,7 @@
       }
     ],
     "start_unix": 1786828200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7851,7 +7883,7 @@
       }
     ],
     "start_unix": 1786830000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7865,7 +7897,7 @@
       }
     ],
     "start_unix": 1786831800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7883,7 +7915,7 @@
       }
     ],
     "start_unix": 1786831800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7901,7 +7933,7 @@
       }
     ],
     "start_unix": 1786831800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7915,7 +7947,7 @@
       }
     ],
     "start_unix": 1786832100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7941,7 +7973,7 @@
       }
     ],
     "start_unix": 1786832100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7967,7 +7999,7 @@
       }
     ],
     "start_unix": 1786832100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7981,7 +8013,7 @@
       }
     ],
     "start_unix": 1786754280,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Baseball (MLB",
@@ -7999,7 +8031,7 @@
       }
     ],
     "start_unix": 1786754400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8013,7 +8045,7 @@
       }
     ],
     "start_unix": 1786800000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8027,7 +8059,7 @@
       }
     ],
     "start_unix": 1786799400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8045,7 +8077,7 @@
       }
     ],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8059,7 +8091,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8073,7 +8105,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8087,7 +8119,7 @@
       }
     ],
     "start_unix": 1786812600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8101,7 +8133,7 @@
       }
     ],
     "start_unix": 1786818600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Basketball",
@@ -8115,7 +8147,7 @@
       }
     ],
     "start_unix": 1786831200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "WNBA",
@@ -8141,7 +8173,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "WNBA",
@@ -8159,7 +8191,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "WNBA",
@@ -8177,7 +8209,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Beach Soccer",
@@ -8191,7 +8223,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Beach Soccer",
@@ -8205,7 +8237,7 @@
       }
     ],
     "start_unix": 1786800300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Bowling",
@@ -8219,7 +8251,7 @@
       }
     ],
     "start_unix": 1786832100,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Cycling",
@@ -8265,7 +8297,7 @@
       }
     ],
     "start_unix": 1786797000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Cycling",
@@ -8279,7 +8311,7 @@
       }
     ],
     "start_unix": 1786800600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Cycling",
@@ -8321,7 +8353,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Equestrian",
@@ -8335,33 +8367,7 @@
       }
     ],
     "start_unix": 1786797600,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "Gymnastics",
-    "date": "2026-08-15",
-    "time": "12:30",
-    "title": "🤸 Rhythmic Gymnastics World Championships : Team Overall Final – Frankfurt 🇩🇪",
-    "channels": [
-      {
-        "id": "357",
-        "name": "BBC Two UK"
-      },
-      {
-        "id": "265",
-        "name": "M4 Sports Hungary"
-      },
-      {
-        "id": "79",
-        "name": "Sportv2 Brazil"
-      },
-      {
-        "id": "144",
-        "name": "Sport 5 Israel"
-      }
-    ],
-    "start_unix": 1786793400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Gymnastics",
@@ -8387,7 +8393,7 @@
       }
     ],
     "start_unix": 1786795200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Handball",
@@ -8401,7 +8407,7 @@
       }
     ],
     "start_unix": 1786800000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Handball",
@@ -8415,7 +8421,7 @@
       }
     ],
     "start_unix": 1786807200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Handball",
@@ -8429,7 +8435,7 @@
       }
     ],
     "start_unix": 1786814400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Handball",
@@ -8443,7 +8449,7 @@
       }
     ],
     "start_unix": 1786800300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Horse Racing",
@@ -8457,7 +8463,7 @@
       }
     ],
     "start_unix": 1786814700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Horse Racing",
@@ -8479,7 +8485,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Horse Racing",
@@ -8493,7 +8499,7 @@
       }
     ],
     "start_unix": 1786827600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Ice Hockey",
@@ -8507,7 +8513,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rodeo",
@@ -8525,7 +8531,7 @@
       }
     ],
     "start_unix": 1786748400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Lacrosse",
@@ -8539,7 +8545,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Lacrosse",
@@ -8553,7 +8559,7 @@
       }
     ],
     "start_unix": 1786824000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby League",
@@ -8575,7 +8581,7 @@
       }
     ],
     "start_unix": 1786758300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby League",
@@ -8597,7 +8603,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby League",
@@ -8615,7 +8621,7 @@
       }
     ],
     "start_unix": 1786807800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby League",
@@ -8629,7 +8635,7 @@
       }
     ],
     "start_unix": 1786816800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby Union",
@@ -8647,7 +8653,7 @@
       }
     ],
     "start_unix": 1786802400,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby Union",
@@ -8661,7 +8667,7 @@
       }
     ],
     "start_unix": 1786755600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby Union",
@@ -8703,7 +8709,7 @@
       }
     ],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby Union",
@@ -8717,7 +8723,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Rugby Union",
@@ -8731,7 +8737,7 @@
       }
     ],
     "start_unix": 1786833000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Triathlon",
@@ -8749,29 +8755,7 @@
       }
     ],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
-  },
-  {
-    "category": "Volleyball",
-    "date": "2026-08-15",
-    "time": "12:45",
-    "title": "🏐 🇵🇱 European Championships – Stare Jabłonki 2026 : Women's Semifinal",
-    "channels": [
-      {
-        "id": "50",
-        "name": "Polsat Sport 2 Poland"
-      },
-      {
-        "id": "290",
-        "name": "Sport TV5 Portugal"
-      },
-      {
-        "id": "995",
-        "name": "Polsat Sport Extra 3 Poland"
-      }
-    ],
-    "start_unix": 1786794300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Volleyball",
@@ -8793,7 +8777,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Volleyball",
@@ -8815,7 +8799,7 @@
       }
     ],
     "start_unix": 1786803300,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Water Sports",
@@ -8833,7 +8817,7 @@
       }
     ],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Water Sports",
@@ -8875,7 +8859,7 @@
       }
     ],
     "start_unix": 1786807500,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8884,7 +8868,7 @@
     "title": "Soccer : Al-Ahli Manama vs Al Riffa",
     "channels": [],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8893,7 +8877,7 @@
     "title": "Soccer : Al-Shabbab vs Bahrain SC",
     "channels": [],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8902,7 +8886,7 @@
     "title": "Soccer : Al Shabab vs Al Fateh",
     "channels": [],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8911,7 +8895,7 @@
     "title": "Soccer : Neom SC vs Al Hazem",
     "channels": [],
     "start_unix": 1786808700,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8920,7 +8904,7 @@
     "title": "Soccer : CR Belouizdad vs Khenchela",
     "channels": [],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8929,7 +8913,7 @@
     "title": "Soccer : Feirense vs Torreense",
     "channels": [],
     "start_unix": 1786806000,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8938,7 +8922,7 @@
     "title": "Soccer : Norrkoping vs Landskrona",
     "channels": [],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8947,7 +8931,7 @@
     "title": "Soccer : RFS vs Riga FC",
     "channels": [],
     "start_unix": 1786809600,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8956,7 +8940,7 @@
     "title": "Soccer : Al Hilal vs Damac",
     "channels": [],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8965,7 +8949,7 @@
     "title": "Soccer : Al Khaleej vs Al Najma",
     "channels": [],
     "start_unix": 1786813200,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8974,7 +8958,7 @@
     "title": "Soccer : Southampton vs Ipswich Town",
     "channels": [],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8983,7 +8967,7 @@
     "title": "Soccer : Northampton Town vs Barnsley",
     "channels": [],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -8992,7 +8976,7 @@
     "title": "Soccer : Peterborough United vs Mansfield Town",
     "channels": [],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -9001,7 +8985,7 @@
     "title": "Soccer : Stockport County vs Port Vale",
     "channels": [],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Soccer",
@@ -9010,7 +8994,7 @@
     "title": "Soccer : USM Alger vs Paradou",
     "channels": [],
     "start_unix": 1786815900,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   },
   {
     "category": "Cricket",
@@ -9019,6 +9003,6 @@
     "title": "Indian Premier League : Kings XI Punjab vs Rajasthan Royals",
     "channels": [],
     "start_unix": 1786798800,
-    "scraped_at_unix": 1786807338
+    "scraped_at_unix": 1786808827
   }
 ]
