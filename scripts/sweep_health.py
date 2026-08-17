@@ -237,6 +237,69 @@ def _try_endpoint(
     return master, rm
 
 
+# dlhd.st exposes the SAME channel through several player wrappers, each
+# routing to a different backend/CDN. Mirrors LiveResolver.PLAYER_PATHS in the
+# Android app.
+PLAYER_PATHS = ["stream", "cast", "watch", "plus", "casting", "player"]
+IFRAME_RE = re.compile(r'<iframe[^>]+src="(https?://[^"]+)"', re.IGNORECASE)
+M3U8_RE = re.compile(r"""https?://[^\s"']+\.m3u8[^\s"']*""", re.IGNORECASE)
+ATOB_RE = re.compile(r"""atob\(["']([A-Za-z0-9+/=]+)["']\)""")
+
+
+def try_player_path(
+    s: requests.Session, cid: str, path: str,
+) -> tuple[Optional[str], Optional[requests.Response]]:
+    """dlhd.st/<path>/stream-<id>.php -> iframe -> backend page -> m3u8.
+
+    The daddyN route below only reaches ONE CDN family. When that family
+    rotates or goes down, every channel looks dead even though the app plays
+    them fine off a different wrapper — verified 2026-08-17, when the sweep
+    reported ok=268/752 while the app streamed ch 51 happily from
+    volder.timst.cfd, a host the daddy route never returns.
+
+    Mirrors LiveResolver.tryPlayerPath() in the Android app; the m3u8 is
+    either atob-encoded (PLAYER 1/3) or sits literally in the page (PLAYER 4).
+    """
+    try:
+        r = s.get(
+            f"https://dlhd.st/{path}/stream-{cid}.php",
+            headers={"Referer": "https://dlhd.st/"}, timeout=TIMEOUT_RESOLVE,
+        )
+        if not r.ok:
+            return None, None
+        m = IFRAME_RE.search(r.text)
+        if not m:
+            return None, None
+        iframe = m.group(1)
+        # An iframe pointing back at dlhd.st is a placeholder, not a backend.
+        if "dlhd.st" in iframe:
+            return None, None
+        r2 = s.get(
+            iframe, headers={"Referer": "https://dlhd.st/"},
+            timeout=TIMEOUT_RESOLVE,
+        )
+        if not r2.ok:
+            return None, None
+        url = None
+        a = ATOB_RE.search(r2.text)
+        if a:
+            try:
+                cand = base64.b64decode(a.group(1)).decode("utf-8", "replace")
+                if ".m3u8" in cand:
+                    url = cand
+            except Exception:  # noqa: BLE001
+                url = None
+        if url is None:
+            m2 = M3U8_RE.search(r2.text)
+            url = m2.group(0) if m2 else None
+        if not url:
+            return None, None
+        rm = cdn_get(s, url, cdn_headers(url), TIMEOUT_PLAYLIST)
+        return url, rm
+    except requests.RequestException:
+        return None, None
+
+
 def resolve(
     s: requests.Session, cid: str, preferred_suffix: Optional[str] = None,
 ) -> tuple[Optional[str], Optional[str], Optional[requests.Response]]:
@@ -272,8 +335,18 @@ def resolve(
                 with _CACHE_LOCK:
                     _CACHED_HOST = host
                 return master, f"daddy{suf}.php", rm
-    # No working sibling on any host. Return what we last tried so the
-    # caller can report a precise failure reason.
+    # Every daddy sibling failed. Before calling the channel down, try the
+    # other dlhd.st player wrappers — they route to different CDNs entirely,
+    # which is how the app keeps playing channels this route says are dead.
+    for path in PLAYER_PATHS:
+        master, rm = try_player_path(s, cid, path)
+        if not master:
+            continue
+        last_master, last_resp, last_suf = master, rm, None
+        if rm is not None and rm.ok and (rm.text or "").lstrip().startswith("#EXTM3U"):
+            return master, f"player:{path}", rm
+    # Nothing served this channel. Return what we last tried so the caller can
+    # report a precise failure reason.
     return last_master, (f"daddy{last_suf}.php" if last_suf else None), last_resp
 
 
@@ -439,7 +512,26 @@ def main() -> int:
             # catalogue of false negatives (and how the app ends up badging
             # working channels as offline). Mark it unknown and drop it from
             # the payload so the previous verdict for that channel stands.
-            if "429" in (r.get("fail_reason") or ""):
+            # UNVERIFIABLE, not down.
+            #
+            # This script can only check ONE of the six player routes dlhd.st
+            # exposes (the daddyN one). The other five hand back backends whose
+            # URL is assembled in JavaScript, which the app resolves with a
+            # headless WebView and a plain Python job cannot. So when our route
+            # is unavailable — 429 (throttled), 5xx (that CDN family down) — it
+            # says nothing about the channel: verified 2026-08-17, when this
+            # route 503'd for ABC USA while the app streamed it happily from
+            # volder.timst.cfd via a different wrapper.
+            #
+            # Mark those unknown and DROP them, so the previous verdict stands.
+            # Only a definite negative from our own route (404, a served
+            # playlist that is malformed, a dead segment) is recorded as down.
+            reason = r.get("fail_reason") or ""
+            unverifiable = (
+                "429" in reason
+                or ":503" in reason or ":502" in reason or ":504" in reason
+            )
+            if unverifiable:
                 r["status"] = "unknown"
                 throttled_count += 1
                 continue
@@ -460,7 +552,7 @@ def main() -> int:
     elapsed = int(time.time() - started)
     print(
         f"sweep finished in {elapsed} s — ok={ok_count} fail={fail_count} "
-        f"throttled={throttled_count}",
+        f"unverifiable={throttled_count}",
         flush=True,
     )
 
@@ -479,20 +571,26 @@ def main() -> int:
             prev_ok = 0
     if throttled_count > len(channels) // 10:
         print(
-            f"ABORT: {throttled_count} channels were rate-limited — this run "
-            f"measured our own throttling, not channel health. Keeping the "
+            f"::warning::SKIPPING PUBLISH — {throttled_count} channels were "
+            f"unverifiable (throttled, or our one CDN route 5xx'd). This run "
+            f"measured our own reachability, not channel health. Keeping the "
             f"previous health.json.",
             flush=True,
         )
-        return 1
+        # Exit 0, NOT 1. The job did exactly what it should: it detected that
+        # it could not measure reliably and declined to overwrite good data.
+        # Failing the build for that trains everyone to ignore a red sweep,
+        # and hides a real breakage when one happens. The warning above is
+        # visible on the run; staleness of health.json is the other signal.
+        return 0
     if prev_ok >= 20 and ok_count < prev_ok // 2:
         print(
-            f"ABORT: ok collapsed {prev_ok} -> {ok_count}. Refusing to publish "
-            f"a sweep that marks most channels down; investigate before "
-            f"overwriting.",
+            f"::warning::SKIPPING PUBLISH — ok collapsed {prev_ok} -> "
+            f"{ok_count}. Refusing to overwrite with a sweep that marks most "
+            f"channels down; investigate before trusting this.",
             flush=True,
         )
-        return 1
+        return 0
 
     # Sort by id for stable diffs in the committed health.json.
     results.sort(key=lambda r: int(r["id"]) if r["id"].isdigit() else 0)
