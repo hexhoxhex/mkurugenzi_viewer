@@ -1,24 +1,32 @@
 {
   "_comment": [
     "Streaming-provider control for the Vijana BaruBaru app (moviebox-tv).",
-    "These endpoints rot fast — of 16 providers in a maintained upstream repo,",
-    "only two still worked when tested — so the app reads its provider ORDER",
+    "These endpoints rot fast \u2014 of 16 providers in a maintained upstream repo,",
+    "only two still worked when tested \u2014 so the app reads its provider ORDER",
     "and its DISABLED set from here instead of from compiled-in code. Editing",
     "this file disables or re-orders a source for EXISTING installs within an",
     "hour; no app release, no waiting for users to update.",
     "",
-    "'order'    — failover order, first is tried first. Names not listed keep",
+    "'order'    \u2014 failover order, first is tried first. Names not listed keep",
     "             their built-in position. Unknown names are ignored.",
-    "'disabled' — sources to skip entirely (e.g. one whose site has died).",
+    "'disabled' \u2014 sources to skip entirely (e.g. one whose site has died).",
     "",
     "Everything here is ADVISORY: if this file is missing, unreachable or",
     "malformed the app falls back to its built-in defaults, and a config that",
-    "would disable every provider is refused — users can never end up with no",
+    "would disable every provider is refused \u2014 users can never end up with no",
     "way to play anything because of an edit here.",
     "",
     "Valid names: MovieBox, VidNest, Icefy, VixSrc, 4KHDHub"
   ],
-  "order": ["MovieBox", "VidNest", "Icefy", "VixSrc", "4KHDHub"],
-  "disabled": [],
-  "notes": "2026-08-03: all five live. MovieBox first (streaming-sized files, measured smoothest). VidNest + Icefy are adaptive HLS on separate infrastructure. 4KHDHub last — download-oriented rips, least suited to streaming."
+  "order": [
+    "MovieBox",
+    "VidNest",
+    "VixSrc",
+    "4KHDHub",
+    "Icefy"
+  ],
+  "disabled": [
+    "Icefy"
+  ],
+  "notes": "2026-08-26: Icefy DISABLED \u2014 its host now 403s at the root and every /movie and /tv endpoint 404s, so it can only ever add a dead hop to the failover chain. Verified across 3 titles. Re-enable by clearing 'disabled' if it comes back. VidNest/VixSrc/4KHDHub verified serving playable streams the same day."
 }
