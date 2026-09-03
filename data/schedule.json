@@ -1,5 +1,89 @@
 [
   {
+    "category": "PPV Events",
+    "date": "2026-09-03",
+    "time": "22:00",
+    "title": "🏁 Volusia Late Models",
+    "channels": [
+      {
+        "id": "154",
+        "name": "FloRacing PPV"
+      }
+    ],
+    "start_unix": 1788469200,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-09-03",
+    "time": "22:00",
+    "title": "🏁 Short Track Super Series Afton",
+    "channels": [
+      {
+        "id": "155",
+        "name": "FloRacing PPV"
+      }
+    ],
+    "start_unix": 1788469200,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-09-03",
+    "time": "23:00",
+    "title": "🏁 Racing4Rider Showdown at Coles County",
+    "channels": [
+      {
+        "id": "156",
+        "name": "FloRacing PPV"
+      }
+    ],
+    "start_unix": 1788472800,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-09-03",
+    "time": "23:00",
+    "title": "🏁 Weekly Racing at Thunder Road",
+    "channels": [
+      {
+        "id": "157",
+        "name": "FloRacing PPV"
+      }
+    ],
+    "start_unix": 1788472800,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-09-03",
+    "time": "23:00",
+    "title": "🏁 MARS Illinois Valley Showdown at LaSalle",
+    "channels": [
+      {
+        "id": "158",
+        "name": "FloRacing PPV"
+      }
+    ],
+    "start_unix": 1788472800,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-09-03",
+    "time": "01:00",
+    "title": "🏁 High Limit Racing Skagit Nationals",
+    "channels": [
+      {
+        "id": "159",
+        "name": "FloRacing PPV"
+      }
+    ],
+    "start_unix": 1788393600,
+    "scraped_at_unix": 1788470048
+  },
+  {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
     "date": "2026-09-03",
     "time": "18:30",
@@ -11,7 +95,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -25,7 +109,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -39,7 +123,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -53,7 +137,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -67,35 +151,57 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Upcoming Events",
     "date": "2026-09-03",
-    "time": "17:00",
-    "title": "🏃🇭🇺 World Athletics Ultimate Championships | Budapest, Hungary | 11 – 13 September 2026",
+    "time": "07:00",
+    "title": "⚽🏴 Start of 2026 | 27 Premier League Season UK | 22 August 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🏃🇧🇪 Brussels Diamond League | Brussels, Belgium | 4 – 5 September 2026",
-    "channels": [
+        "id": "130",
+        "name": "Sky Sports Premier League"
+      },
+      {
+        "id": "35",
+        "name": "Sky Sports Football"
+      },
       {
         "id": "31",
-        "name": "TNT Sport 1"
+        "name": "TNT Sports 1"
       }
     ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788415200,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-09-03",
+    "time": "07:10",
+    "title": "⛳🇳🇱 Solheim Cup | Bernardus, Cromvoirt, Netherlands | 7 – 13 September 2026",
+    "channels": [
+      {
+        "id": "70",
+        "name": "Sky Sports Golf"
+      }
+    ],
+    "start_unix": 1788415800,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-09-03",
+    "time": "08:00",
+    "title": "🚵🇮🇹 UCI Mountain Bike World Championships | Val di Sole, Italy | 26 – 30 August 2026",
+    "channels": [
+      {
+        "id": "41",
+        "name": "Eurosport 1 GR"
+      }
+    ],
+    "start_unix": 1788418800,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Upcoming Events",
@@ -109,7 +215,7 @@
       }
     ],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Upcoming Events",
@@ -131,7 +237,7 @@
       }
     ],
     "start_unix": 1788402600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -145,7 +251,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -163,7 +269,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -181,7 +287,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -199,7 +305,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -213,7 +319,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -227,7 +333,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -241,7 +347,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -255,7 +361,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -269,7 +375,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -283,7 +389,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -297,7 +403,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -315,7 +421,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -329,7 +435,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -343,7 +449,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -357,7 +463,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -371,7 +477,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -385,7 +491,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -399,7 +505,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -413,7 +519,7 @@
       }
     ],
     "start_unix": 1788400800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -427,7 +533,7 @@
       }
     ],
     "start_unix": 1788402600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "TV Shows",
@@ -441,603 +547,7 @@
       }
     ],
     "start_unix": 1788404400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "15:30",
-    "title": "⚽ 🇵🇱 Puchar Polski : Tychy 71 🇵🇱 vs Łódzki KS 🇵🇱",
-    "channels": [
-      {
-        "id": "128",
-        "name": "TVP Sport Poland"
-      },
-      {
-        "id": "151",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788445800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "15:55",
-    "title": "⚽ 🇸🇦 Saudi Arabia - Pro League : Al-Fayha 🇸🇦 vs Al Kholood 🇸🇦",
-    "channels": [
-      {
-        "id": "1",
-        "name": "Thmanyah"
-      },
-      {
-        "id": "152",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788447300,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚽ 🇵🇱 Ekstraklasa : Raków Częstochowa 🇵🇱 vs Górnik Zabrze 🇵🇱",
-    "channels": [
-      {
-        "id": "259",
-        "name": "Canal+ Sport 3 Poland"
-      },
-      {
-        "id": "153",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "571",
-        "name": "Sportdigital FUSSBALL DE"
-      },
-      {
-        "id": "640",
-        "name": "SPORT1+ DE"
-      },
-      {
-        "id": "2",
-        "name": "Arena 5 Premium Serbia"
-      },
-      {
-        "id": "580",
-        "name": "Arena Sport 4 Croatia"
-      },
-      {
-        "id": "3060",
-        "name": "Canal+ Sport 3 Poland"
-      },
-      {
-        "id": "4103",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚽ 🇮🇹 Coppa Italia : Palermo 🇮🇹 vs Mantova 🇮🇹",
-    "channels": [
-      {
-        "id": "854",
-        "name": "Italia 1 IT"
-      },
-      {
-        "id": "910",
-        "name": "CBS Sports Golazo"
-      },
-      {
-        "id": "159",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "426",
-        "name": "DAZN1 DE"
-      },
-      {
-        "id": "451",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "771",
-        "name": "Premier Sports 1 Ireland"
-      },
-      {
-        "id": "3",
-        "name": "Arena Sport 2 Slovenia"
-      },
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      },
-      {
-        "id": "914",
-        "name": "Cytavision Sports 4 Cyprus"
-      },
-      {
-        "id": "136",
-        "name": "Match! Football 1 Russia"
-      },
-      {
-        "id": "433",
-        "name": "Arena Sport 2 Croatia"
-      },
-      {
-        "id": "474",
-        "name": "MAX Sport 3 Bulgaria"
-      },
-      {
-        "id": "143",
-        "name": "Sport 4 Israel"
-      },
-      {
-        "id": "3001",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "4102",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4107",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "⚽ 🇷🇺 Russian Cup : Dinamo Moskva 🇷🇺 vs Akhmat Grozny 🇷🇺",
-    "channels": [
-      {
-        "id": "573",
-        "name": "Match Premier Russia"
-      },
-      {
-        "id": "163",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "127",
-        "name": "Match TV Russia"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚽ 🇦🇲 Armenia Premier League : Alashkert 🇦🇲 vs Van 🇦🇲",
-    "channels": [
-      {
-        "id": "155",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚽ 🇩🇰 Denmark Cup : Thisted FC 🇩🇰 vs Sonderjyske 🇩🇰",
-    "channels": [
-      {
-        "id": "156",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚽ 🇱🇻 Latvia Cup : RFS 🇱🇻 vs Riga FC 🇱🇻",
-    "channels": [
-      {
-        "id": "157",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚽ 🇱🇹 Lithuania Toplyga : Banga 🇱🇹 vs FK Panevezys 🇱🇹",
-    "channels": [
-      {
-        "id": "158",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:15",
-    "title": "⚽ Qatar QSL : Al Sailiya vs Al Arabi",
-    "channels": [
-      {
-        "id": "160",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788448500,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "⚽ Cyprus League : Omonia vs Pafos",
-    "channels": [
-      {
-        "id": "161",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "⚽ 🇸🇦 Saudi Arabia - Pro League : NEOM 🇸🇦 vs Al Khaleej 🇸🇦",
-    "channels": [
-      {
-        "id": "4",
-        "name": "Thmanyah"
-      },
-      {
-        "id": "162",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "435",
-        "name": "Movistar Liga de Campeones"
-      },
-      {
-        "id": "521",
-        "name": "#Vamos ES"
-      },
-      {
-        "id": "3029",
-        "name": "#Vamos ES"
-      },
-      {
-        "id": "4115",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇹🇷 1. Lig : Bodrumspor 🇹🇷 vs Erokspor 🇹🇷",
-    "channels": [
-      {
-        "id": "24",
-        "name": "Bein Sports Max 1 Turkey"
-      },
-      {
-        "id": "169",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇹🇷 1. Lig : Bursaspor 🇹🇷 vs İstanbulspor 🇹🇷",
-    "channels": [
-      {
-        "id": "63",
-        "name": "beIN SPORTS 2 Turkey"
-      },
-      {
-        "id": "168",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇸🇪 Allsvenskan : Mjällby 🇸🇪 vs Djurgården 🇸🇪",
-    "channels": [
-      {
-        "id": "747",
-        "name": "TV4 Fotball"
-      },
-      {
-        "id": "166",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3074",
-        "name": "TV4 Fotball"
-      },
-      {
-        "id": "2001",
-        "name": "Event Stream"
-      },
-      {
-        "id": "1672",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇪🇬 Egyptian Premier League : Al Ahly 🇪🇬 vs Smouha 🇪🇬",
-    "channels": [
-      {
-        "id": "611",
-        "name": "ON Sport 1 Egypt"
-      },
-      {
-        "id": "167",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇲🇪 Prva Crnogorska Liga : Mornar 🇲🇪 vs Bokelj 🇲🇪",
-    "channels": [
-      {
-        "id": "612",
-        "name": "Arena Sport 10 Serbia"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇧🇬 Second League : Beroe 🇧🇬 vs Montana 🇧🇬",
-    "channels": [
-      {
-        "id": "465",
-        "name": "Diema Sport Bulgaria"
-      },
-      {
-        "id": "18",
-        "name": "Sportklub 7 Croatia"
-      },
-      {
-        "id": "3048",
-        "name": "Diema Sport Bulgaria"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:30",
-    "title": "⚽ 🇭🇺 NB1 : Győri ETO 🇭🇺 vs Ferencváros 🇭🇺",
-    "channels": [
-      {
-        "id": "265",
-        "name": "M4 Sports Hungary"
-      },
-      {
-        "id": "173",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788453000,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:30",
-    "title": "⚽ 🇮🇱 Ligat Ha'Al : Hapoel Tel Aviv 🇮🇱 vs Beitar Jerusalem 🇮🇱",
-    "channels": [
-      {
-        "id": "144",
-        "name": "5Sport Israel"
-      },
-      {
-        "id": "174",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788453000,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "17:30",
-    "title": "⚽ 🇷🇴 Cupa Romaniei : ASU Poli Timişoara 🇷🇴 vs Rapid Bucureşti 🇷🇴",
-    "channels": [
-      {
-        "id": "400",
-        "name": "Digi Sport 1 Romania"
-      },
-      {
-        "id": "172",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "583",
-        "name": "Prima Sport 1 Romania"
-      }
-    ],
-    "start_unix": 1788453000,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "⚽ 🇸🇦 Saudi Arabia - Pro League : Diriyah 🇸🇦 vs Al Quadisiya 🇸🇦",
-    "channels": [
-      {
-        "id": "5",
-        "name": "Thmanyah"
-      },
-      {
-        "id": "176",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "756",
-        "name": "Fox Soccer Plus"
-      },
-      {
-        "id": "454",
-        "name": "Sport TV3 Portugal"
-      },
-      {
-        "id": "643",
-        "name": "FOX Deportes"
-      },
-      {
-        "id": "78",
-        "name": "SporTV BR"
-      },
-      {
-        "id": "16",
-        "name": "Sportklub 5 Croatia"
-      },
-      {
-        "id": "3083",
-        "name": "Fox Soccer Plus"
-      },
-      {
-        "id": "4110",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4120",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4114",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "⚽ 🇩🇰 Super Liga : København 🇩🇰 vs Nordsjælland 🇩🇰",
-    "channels": [
-      {
-        "id": "819",
-        "name": "TV3+ HD Denmark"
-      },
-      {
-        "id": "175",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "103",
-        "name": "Sportklub 3 Croatia"
-      },
-      {
-        "id": "3069",
-        "name": "TV3+ HD Denmark"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "⚽ Greece Cup : Panathinaikos vs Niki Volou",
-    "channels": [
-      {
-        "id": "3023",
-        "name": "Sky TV Greece"
-      },
-      {
-        "id": "4171",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "⚽ Uruguay Liga AUF : Rentistas vs Plaza Colonia",
-    "channels": [
-      {
-        "id": "177",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "⚽ Uruguay Liga AUF : Albion vs Progreso",
-    "channels": [
-      {
-        "id": "178",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1063,7 +573,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1081,7 +591,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1095,7 +605,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1117,7 +627,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1139,7 +649,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1177,7 +687,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1191,7 +701,7 @@
       }
     ],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1281,7 +791,7 @@
       }
     ],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1339,7 +849,7 @@
       }
     ],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1445,7 +955,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1527,7 +1037,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1545,7 +1055,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1559,7 +1069,35 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-03",
+    "time": "21:30",
+    "title": "⚽ Ecuador Liga Pro : Leones del Norte vs Orense",
+    "channels": [
+      {
+        "id": "151",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1788467400,
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-03",
+    "time": "21:30",
+    "title": "⚽ Paraguay Primera Division : Recoleta vs Cerro Porteno",
+    "channels": [
+      {
+        "id": "152",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1788467400,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1573,7 +1111,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1584,10 +1122,14 @@
       {
         "id": "392",
         "name": "Win+ Futbol Colombia"
+      },
+      {
+        "id": "110",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1609,7 +1151,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1623,7 +1165,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1637,7 +1179,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "All Soccer Events",
@@ -1651,7 +1193,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1665,7 +1207,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1679,7 +1221,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1693,7 +1235,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1707,7 +1249,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1721,7 +1263,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1735,7 +1277,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1749,7 +1291,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1763,7 +1305,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Men's College Soccer",
@@ -1777,35 +1319,7 @@
       }
     ],
     "start_unix": 1788399000,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇺🇸 Women's College Soccer : American 🇺🇸 vs UNC Greensboro 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods &amp; Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "⚽ 🇺🇸 Women's College Soccer : Duquesne 🇺🇸 vs Toledo 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods &amp; Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1819,7 +1333,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1833,7 +1347,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1847,7 +1361,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1861,7 +1375,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1875,7 +1389,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1889,7 +1403,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1903,7 +1417,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1917,7 +1431,7 @@
       }
     ],
     "start_unix": 1788465600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1931,7 +1445,7 @@
       }
     ],
     "start_unix": 1788465600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1945,7 +1459,7 @@
       }
     ],
     "start_unix": 1788465600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1959,7 +1473,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1973,7 +1487,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -1987,7 +1501,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2001,7 +1515,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2015,7 +1529,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2029,7 +1543,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2043,7 +1557,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2057,7 +1571,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2071,7 +1585,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2085,7 +1599,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2099,7 +1613,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2113,7 +1627,7 @@
       }
     ],
     "start_unix": 1788469620,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2127,7 +1641,7 @@
       }
     ],
     "start_unix": 1788471000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2141,7 +1655,7 @@
       }
     ],
     "start_unix": 1788471000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2155,7 +1669,7 @@
       }
     ],
     "start_unix": 1788471000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2169,7 +1683,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2183,7 +1697,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2197,7 +1711,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2211,7 +1725,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2225,7 +1739,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2239,7 +1753,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2253,7 +1767,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2267,7 +1781,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2281,7 +1795,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2295,7 +1809,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2309,7 +1823,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2323,7 +1837,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2337,7 +1851,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2351,7 +1865,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2365,7 +1879,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2379,7 +1893,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2393,7 +1907,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2407,7 +1921,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2421,7 +1935,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2435,7 +1949,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2449,7 +1963,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2463,7 +1977,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2477,7 +1991,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2491,7 +2005,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2505,7 +2019,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2519,7 +2033,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2533,7 +2047,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2547,7 +2061,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2561,7 +2075,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2575,7 +2089,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2589,7 +2103,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2603,7 +2117,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2617,7 +2131,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2631,7 +2145,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2645,7 +2159,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2659,7 +2173,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2673,7 +2187,7 @@
       }
     ],
     "start_unix": 1788395400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2687,7 +2201,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2701,7 +2215,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2715,7 +2229,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2729,7 +2243,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2743,7 +2257,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2757,7 +2271,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2771,7 +2285,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2785,7 +2299,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Soccer",
@@ -2799,7 +2313,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Cricket",
@@ -2825,12 +2339,12 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🏟️ RED Zone | Multi Feed",
     "channels": [
       {
@@ -2842,13 +2356,13 @@
         "name": "Sky Sports Tennis DE"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🏟️ Arthur Ashe Stadium",
     "channels": [
       {
@@ -2864,13 +2378,13 @@
         "name": "Sky Sport 1 DE"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🏟️ Louis Armstrong Stadium",
     "channels": [
       {
@@ -2882,13 +2396,13 @@
         "name": "beIN Sports MENA 8"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🏟️ Grandstand",
     "channels": [
       {
@@ -2900,13 +2414,13 @@
         "name": "beIN Sports MENA 9"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🏟️ Stadium 17",
     "channels": [
       {
@@ -2914,13 +2428,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 4",
     "channels": [
       {
@@ -2928,13 +2442,13 @@
         "name": "Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 5",
     "channels": [
       {
@@ -2942,13 +2456,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 6",
     "channels": [
       {
@@ -2956,13 +2470,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 7",
     "channels": [
       {
@@ -2970,13 +2484,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 8",
     "channels": [
       {
@@ -2984,13 +2498,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 9",
     "channels": [
       {
@@ -2998,13 +2512,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 10",
     "channels": [
       {
@@ -3012,13 +2526,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 11",
     "channels": [
       {
@@ -3026,13 +2540,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 12",
     "channels": [
       {
@@ -3040,13 +2554,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 13",
     "channels": [
       {
@@ -3054,13 +2568,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 14",
     "channels": [
       {
@@ -3068,13 +2582,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆 US Open : 🎾 Court 15",
     "channels": [
       {
@@ -3082,13 +2596,13 @@
         "name": "Court Live Feed"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 1",
     "channels": [
       {
@@ -3096,13 +2610,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 2",
     "channels": [
       {
@@ -3110,13 +2624,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 3",
     "channels": [
       {
@@ -3124,13 +2638,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 4",
     "channels": [
       {
@@ -3138,13 +2652,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 5",
     "channels": [
       {
@@ -3152,13 +2666,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 6",
     "channels": [
       {
@@ -3166,13 +2680,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "🎾🏆Tennis 🎾 US Open — Feed 7",
     "channels": [
       {
@@ -3180,13 +2694,13 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Tennis US OPEN [All Court",
     "date": "2026-09-03",
-    "time": "18:15",
+    "time": "21:11",
     "title": "Tennis 🎾 US Open — Feed 8",
     "channels": [
       {
@@ -3194,336 +2708,8 @@
         "name": "Tennis SD Stream"
       }
     ],
-    "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Tennis",
-    "date": "2026-09-03",
-    "time": "15:30",
-    "title": "🎾 🇺🇸 PPA Tour Pickleball - Live PPA Cary, NC Round of 16",
-    "channels": [
-      {
-        "id": "40",
-        "name": "Tennis Channel USA"
-      }
-    ],
-    "start_unix": 1788445800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "15:30",
-    "title": "🎾 🇺🇸 2026 US Open Tennis ESPN",
-    "channels": [
-      {
-        "id": "1566",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788445800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "15:30",
-    "title": "🎾 🇯🇵 Arthur Ashe: Naomi Osaka 🇯🇵 vs Katerina Siniakova 🇨🇿",
-    "channels": [
-      {
-        "id": "1567",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1501",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788445800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 🇦🇺 Court 17: Dane Sweeny 🇦🇺 vs Lorenzo Musetti 🇮🇹",
-    "channels": [
-      {
-        "id": "1568",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1517",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 🇦🇹 Grandstand: Lilli Tagger 🇦🇹 vs Amanda Anisimova 🇺🇸",
-    "channels": [
-      {
-        "id": "1569",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1503",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 🇬🇧 Court 11: Harriet Dart 🇬🇧 vs Marie Bouzkova 🇨🇿",
-    "channels": [
-      {
-        "id": "1570",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1511",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 Court 7: Ellen Perez 🇦🇺/Demi Schuurs 🇳🇱 vs Anastasia Tikhonova 🇷🇺/Renata Zarazua 🇲🇽",
-    "channels": [
-      {
-        "id": "1571",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 Court 15: Shuko Aoyama 🇯🇵/En-Shuo Liang 🇹🇼 vs Giuliana Olmos 🇲🇽/Ingrid Neel 🇪🇪",
-    "channels": [
-      {
-        "id": "1572",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 Court 10: Quinn Gleason 🇺🇸/Ulrikke Eikeri 🇳🇴 vs Xinyu Wang 🇨🇳/Moyuka Uchijima 🇯🇵",
-    "channels": [
-      {
-        "id": "1573",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 Court 6: Irina Khromacheva 🇷🇺/Anastasia Detiuc 🇲🇩 vs Gabriela Dabrowski 🇨🇦/Luisa Stefani 🇧🇷",
-    "channels": [
-      {
-        "id": "1574",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🎾 Court 13: DJ Bennett 🇺🇸/Ava Esposito Cogan 🇺🇸 vs Desirae Krawczyk 🇺🇸/Storm Hunter 🇦🇺",
-    "channels": [
-      {
-        "id": "1575",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "🎾 🇧🇪 Court 5: Alexander Blockx 🇧🇪 vs Marco Trungelliti 🇦🇷",
-    "channels": [
-      {
-        "id": "1576",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1505",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "🎾 🇺🇸 Arthur Ashe: Taylor Fritz 🇺🇸 vs Mattia Bellucci 🇮🇹",
-    "channels": [
-      {
-        "id": "1577",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1501",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "🎾 🇨🇳 Court 12: Qinwen Zheng 🇨🇳 vs Yulia Putintseva 🇰🇿",
-    "channels": [
-      {
-        "id": "1578",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1512",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "🎾 🇺🇦 Louis Armstrong: Oleksandra Oliynykova 🇺🇦 vs Alexandra Eala 🇵🇭",
-    "channels": [
-      {
-        "id": "1579",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1502",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🎾 🇦🇺 Court 7: Alexei Popyrin 🇦🇺 vs Alejandro Tabilo 🇨🇱",
-    "channels": [
-      {
-        "id": "1580",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1507",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🎾 🇦🇺 Grandstand: Tristan Schoolkate 🇦🇺 vs Flavio Cobolli 🇮🇹",
-    "channels": [
-      {
-        "id": "1581",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1503",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🎾 🇨🇿 Court 11: Jakub Mensik 🇨🇿 vs Jurij Rodionov 🇦🇹",
-    "channels": [
-      {
-        "id": "1582",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1511",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🎾 🇪🇸 Court 6: Cristina Bucsa 🇪🇸 vs Himeno Sakatsume 🇯🇵",
-    "channels": [
-      {
-        "id": "1583",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1506",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "🎾 ATP US Open / 🎾 WTA US Open",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🎾 Court 15: Katarzyna Piter 🇵🇱/Anna Siskova 🇨🇿 vs Elena Pridankina 🇷🇺/Tang Qianhui 🇨🇳",
-    "channels": [
-      {
-        "id": "1584",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788466260,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3541,7 +2727,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3559,7 +2745,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3573,7 +2759,7 @@
       }
     ],
     "start_unix": 1788456600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3591,7 +2777,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3605,7 +2791,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3619,7 +2805,7 @@
       }
     ],
     "start_unix": 1788460200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3637,7 +2823,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3655,7 +2841,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3673,7 +2859,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3691,7 +2877,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3709,7 +2895,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3723,7 +2909,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3741,7 +2927,7 @@
       }
     ],
     "start_unix": 1788463800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3750,7 +2936,7 @@
     "title": "🎾 Court 5: Robin Montgomery 🇺🇸/Ashlyn Krueger 🇺🇸 vs Linda Noskova 🇨🇿/Rebecca Sramkova 🇸🇰",
     "channels": [],
     "start_unix": 1788463800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3764,7 +2950,7 @@
       }
     ],
     "start_unix": 1788463800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3778,7 +2964,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3792,7 +2978,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3810,7 +2996,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3828,7 +3014,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3846,7 +3032,7 @@
       }
     ],
     "start_unix": 1788391800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "🎾 ATP US Open / 🎾 WTA US Open",
@@ -3864,7 +3050,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Badminton",
@@ -3882,7 +3068,7 @@
       }
     ],
     "start_unix": 1788404400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Badminton",
@@ -3900,7 +3086,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Boxing",
@@ -3914,7 +3100,21 @@
       }
     ],
     "start_unix": 1788471000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "MMA",
+    "date": "2026-09-03",
+    "time": "07:00",
+    "title": "🥋 🇺🇸 UFC Reloaded UFC 317 : Topuria 🇬🇪 vs Oliveira 🇧🇷",
+    "channels": [
+      {
+        "id": "308",
+        "name": "CBS Sports Network"
+      }
+    ],
+    "start_unix": 1788415200,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Wrestling (TNA",
@@ -3932,49 +3132,21 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
-    "category": "Snooker",
+    "category": "College Football (NCAAF",
     "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🎱 🇬🇧 British Open | 3rd Round",
+    "time": "22:00",
+    "title": "🏈 🇺🇸 College Football : Virginia vs North Carolina State",
     "channels": [
       {
-        "id": "23",
-        "name": "5 Action UK"
-      },
-      {
-        "id": "590",
-        "name": "Sky Sport 3 NZ"
-      },
-      {
-        "id": "58",
-        "name": "EuroSport 2 Poland"
-      },
-      {
-        "id": "525",
-        "name": "EuroSport 2 Spain"
-      },
-      {
-        "id": "773",
-        "name": "EuroSport 2 France"
-      },
-      {
-        "id": "232",
-        "name": "Eurosport 2 SE"
-      },
-      {
-        "id": "879",
-        "name": "EuroSport 2 Italy"
-      },
-      {
-        "id": "42",
-        "name": "EuroSport 2 Greece"
+        "id": "153",
+        "name": "Event SD Stream"
       }
     ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788469200,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -3988,7 +3160,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4002,7 +3174,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4016,7 +3188,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4030,7 +3202,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4044,7 +3216,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4058,7 +3230,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4072,7 +3244,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4086,7 +3258,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4100,7 +3272,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4114,7 +3286,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4136,7 +3308,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4150,7 +3322,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "College Football (NCAAF",
@@ -4164,7 +3336,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "High School Football",
@@ -4178,7 +3350,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "High School Football",
@@ -4192,7 +3364,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball",
@@ -4206,7 +3378,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's Pro Baseball",
@@ -4220,21 +3392,7 @@
       }
     ],
     "start_unix": 1788474600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Minor League Baseball",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "⚾ 🇺🇸 Minor League Baseball : Jacksonville Jumbo Shrimp 🇺🇸 vs Norfolk Tides 🇺🇸",
-    "channels": [
-      {
-        "id": "829",
-        "name": "MASN USA"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Minor League Baseball",
@@ -4248,7 +3406,7 @@
       }
     ],
     "start_unix": 1788471000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Minor League Baseball",
@@ -4262,7 +3420,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Minor League Baseball",
@@ -4276,89 +3434,7 @@
       }
     ],
     "start_unix": 1788395400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-03",
-    "time": "16:35",
-    "title": "⚾ 🇺🇸 MLB : Pittsburgh Pirates 🇺🇸 vs San Francisco Giants 🇺🇸",
-    "channels": [
-      {
-        "id": "12",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "165",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "753",
-        "name": "NBCS Bay Area USA"
-      },
-      {
-        "id": "922",
-        "name": "SportsNet Pittsburgh"
-      },
-      {
-        "id": "21",
-        "name": "Sport 2 Hungary"
-      }
-    ],
-    "start_unix": 1788449700,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-03",
-    "time": "17:10",
-    "title": "⚾ 🇺🇸 MLB : Cleveland Guardians 🇺🇸 vs Toronto Blue Jays 🇨🇦",
-    "channels": [
-      {
-        "id": "13",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "407",
-        "name": "Sportsnet West"
-      },
-      {
-        "id": "406",
-        "name": "Sportsnet Ontario"
-      }
-    ],
-    "start_unix": 1788451800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-03",
-    "time": "18:10",
-    "title": "⚾ 🇺🇸 MLB : Houston Astros 🇺🇸 vs Chicago White Sox 🇺🇸",
-    "channels": [
-      {
-        "id": "14",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "31",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "921",
-        "name": "Space City Home Network"
-      },
-      {
-        "id": "776",
-        "name": "Chicago Sports Network"
-      },
-      {
-        "id": "640",
-        "name": "SPORT1+ DE"
-      }
-    ],
-    "start_unix": 1788455400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball (MLB",
@@ -4392,7 +3468,7 @@
       }
     ],
     "start_unix": 1788473700,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball (MLB",
@@ -4418,7 +3494,7 @@
       }
     ],
     "start_unix": 1788473700,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball (MLB",
@@ -4432,7 +3508,7 @@
       }
     ],
     "start_unix": 1788475200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball (MLB",
@@ -4458,7 +3534,7 @@
       }
     ],
     "start_unix": 1788390300,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball (MLB",
@@ -4480,7 +3556,7 @@
       }
     ],
     "start_unix": 1788396000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Baseball (MLB",
@@ -4502,7 +3578,7 @@
       }
     ],
     "start_unix": 1788397800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Basketball",
@@ -4516,43 +3592,7 @@
       }
     ],
     "start_unix": 1788456300,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Futsal",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "⚽ 🌍 Socca SP: Play-In 5",
-    "channels": [
-      {
-        "id": "104",
-        "name": "Sportklub 4 Croatia"
-      },
-      {
-        "id": "1200",
-        "name": "NLSE"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Futsal",
-    "date": "2026-09-03",
-    "time": "17:40",
-    "title": "⚽ 🌍 Socca SP: Play-In 6",
-    "channels": [
-      {
-        "id": "104",
-        "name": "Sportklub 4 Croatia"
-      },
-      {
-        "id": "1200",
-        "name": "NLSE"
-      }
-    ],
-    "start_unix": 1788453600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Futsal",
@@ -4570,7 +3610,7 @@
       }
     ],
     "start_unix": 1788457800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Futsal",
@@ -4588,7 +3628,7 @@
       }
     ],
     "start_unix": 1788462000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "World Surf League",
@@ -4602,7 +3642,21 @@
       }
     ],
     "start_unix": 1788411600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "World Surf League",
+    "date": "2026-09-03",
+    "time": "08:30",
+    "title": "🏄 🇵🇹 WSL Tour Surf: Norte Surf Fest - World Surf League",
+    "channels": [
+      {
+        "id": "291",
+        "name": "Sport TV6 Portugal"
+      }
+    ],
+    "start_unix": 1788420600,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Handball",
@@ -4628,21 +3682,7 @@
       }
     ],
     "start_unix": 1788455700,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Horse Racing",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "🐎 🇺🇸 Saratoga Live",
-    "channels": [
-      {
-        "id": "758",
-        "name": "FOX Sports 2 USA"
-      }
-    ],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Ice Hockey (OHL",
@@ -4656,7 +3696,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Ice Hockey (OHL",
@@ -4670,7 +3710,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Ice Hockey (OHL",
@@ -4684,173 +3724,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "15:30",
-    "title": "🏒 🇨🇿 Champions Hockey League : Plzen 🇨🇿 vs Rogle 🇸🇪",
-    "channels": [
-      {
-        "id": "22",
-        "name": "Sport 1 Hungary"
-      },
-      {
-        "id": "3041",
-        "name": "Sport 1 Hungary"
-      },
-      {
-        "id": "3080",
-        "name": "Viaplay Sport Sweden"
-      }
-    ],
-    "start_unix": 1788445800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "15:30",
-    "title": "🏒 🇫🇮 Champions Hockey League : Tappara 🇫🇮 vs Liberec 🇨🇿",
-    "channels": [
-      {
-        "id": "434",
-        "name": "Arena Sport 3 Croatia"
-      },
-      {
-        "id": "3071",
-        "name": "V Sport 1 Suomi"
-      }
-    ],
-    "start_unix": 1788445800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "🏒 🇨🇿 Champions Hockey League : Pardubice 🇨🇿 vs Tychy 🇵🇱",
-    "channels": [
-      {
-        "id": "50",
-        "name": "Polsat Sport 2 Poland"
-      },
-      {
-        "id": "3042",
-        "name": "Sport 2 CZ"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "16:30",
-    "title": "🏒 🇨🇿 Champions Hockey League : Graz99ers vs Hc Fribourg Gotteron",
-    "channels": [
-      {
-        "id": "3073",
-        "name": "Viaplay Sweden"
-      },
-      {
-        "id": "164",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788449400,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "17:15",
-    "title": "🏒 🇦🇹 Champions Hockey League : Salzburg 🇦🇹 vs Kolner 🇩🇪",
-    "channels": [
-      {
-        "id": "11",
-        "name": "Magenta Sport"
-      },
-      {
-        "id": "170",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3011",
-        "name": "Magenta Sport"
-      }
-    ],
-    "start_unix": 1788452100,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "17:15",
-    "title": "🏒 🇦🇹 Champions Hockey League : Kac Klagenfurt vs Bordeaux",
-    "channels": [
-      {
-        "id": "3078",
-        "name": "Viaplay Sweden"
-      },
-      {
-        "id": "171",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1788452100,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "🏒 🇸🇪 Club Friendly : Djurgardens 🇸🇪 vs Brynas 🇸🇪",
-    "channels": [
-      {
-        "id": "707",
-        "name": "TV4 Sportkanalen"
-      },
-      {
-        "id": "3076",
-        "name": "TV4 Sportkanalen"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "🏒 🇸🇪 Club Friendly : Lulea 🇸🇪 vs IF Bjorkloven 🇸🇪",
-    "channels": [
-      {
-        "id": "700",
-        "name": "TV4 Hockey"
-      },
-      {
-        "id": "3075",
-        "name": "TV4 Hockey"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "🏒 🇸🇪 Club Friendly : Östersunds IK vs IF Sundsvall Hockey",
-    "channels": [
-      {
-        "id": "3077",
-        "name": "Sportbladet Plus"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Rugby League",
@@ -4872,7 +3746,21 @@
       }
     ],
     "start_unix": 1788457800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
+  },
+  {
+    "category": "Rugby Union",
+    "date": "2026-09-03",
+    "time": "07:00",
+    "title": "🏉 🇳🇿 Bunnings NPC : Taranaki 🇳🇿 vs Auckland 🇳🇿",
+    "channels": [
+      {
+        "id": "588",
+        "name": "Sky Sport 1 NZ"
+      }
+    ],
+    "start_unix": 1788415200,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Rugby Union",
@@ -4890,85 +3778,29 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
-    "category": "Volleyball",
+    "category": "Squash",
     "date": "2026-09-03",
-    "time": "16:00",
-    "title": "🏐 🇩🇪 European Championships Women Quarterfinals : Germany W 🇩🇪 vs Türkiye W 🇹🇷 / Azerbaijan W 🇦🇿",
+    "time": "07:00",
+    "title": "🎾 🇪🇸 Padel Tournament, Madrid 🇪🇸",
     "channels": [
       {
-        "id": "47",
-        "name": "Polsat Sport 1 Poland"
+        "id": "714",
+        "name": "beIN Sports 3 Malaysia"
       },
       {
-        "id": "154",
-        "name": "Event SD Stream"
+        "id": "96",
+        "name": "beIN Sports MENA 6"
       },
       {
-        "id": "396",
-        "name": "Ziggo Sport 4 NL"
-      },
-      {
-        "id": "461",
-        "name": "Sky Sport Uno IT"
-      },
-      {
-        "id": "462",
-        "name": "Sky Sport Arena Italy"
-      },
-      {
-        "id": "135",
-        "name": "Arena 2 Premium Serbia"
-      },
-      {
-        "id": "994",
-        "name": "Polsat Sport Extra 2 Poland"
-      },
-      {
-        "id": "432",
-        "name": "Arena Sport 1 Croatia"
-      },
-      {
-        "id": "265",
-        "name": "M4 Sports Hungary"
-      },
-      {
-        "id": "473",
-        "name": "MAX Sport 2 Bulgaria"
+        "id": "142",
+        "name": "Sport 3 Israel"
       }
     ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "🏐 🇺🇸 Women's College Volleyball : Incarnate Word 🇺🇸 vs UTSA 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods &amp; Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "🏐 🇺🇸 Women's College Volleyball : Texas Southern 🇺🇸 vs Houston 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods &amp; Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
+    "start_unix": 1788415200,
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -4982,7 +3814,7 @@
       }
     ],
     "start_unix": 1788458400,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -4996,7 +3828,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5010,7 +3842,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5024,7 +3856,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5038,7 +3870,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5052,7 +3884,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5066,7 +3898,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5080,7 +3912,7 @@
       }
     ],
     "start_unix": 1788469200,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5094,7 +3926,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5108,7 +3940,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5122,7 +3954,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5136,7 +3968,7 @@
       }
     ],
     "start_unix": 1788472800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5150,7 +3982,7 @@
       }
     ],
     "start_unix": 1788474600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5164,7 +3996,7 @@
       }
     ],
     "start_unix": 1788474600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5178,7 +4010,7 @@
       }
     ],
     "start_unix": 1788474600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5192,7 +4024,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5206,7 +4038,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5220,7 +4052,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5234,7 +4066,7 @@
       }
     ],
     "start_unix": 1788390000,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5248,7 +4080,7 @@
       }
     ],
     "start_unix": 1788391800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5262,7 +4094,7 @@
       }
     ],
     "start_unix": 1788393600,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Women's College Volleyball",
@@ -5276,97 +4108,7 @@
       }
     ],
     "start_unix": 1788397200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "Soccer : Al-Ahli Manama vs Al Riffa",
-    "channels": [],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "Soccer : Al-Shabbab vs Bahrain SC",
-    "channels": [],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "Soccer : Al Shabab vs Al Fateh",
-    "channels": [],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "16:45",
-    "title": "Soccer : Neom SC vs Al Hazem",
-    "channels": [],
-    "start_unix": 1788450300,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "Soccer : CR Belouizdad vs Khenchela",
-    "channels": [],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "16:00",
-    "title": "Soccer : Feirense vs Torreense",
-    "channels": [],
-    "start_unix": 1788447600,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "Soccer : Norrkoping vs Landskrona",
-    "channels": [],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "17:00",
-    "title": "Soccer : RFS vs Riga FC",
-    "channels": [],
-    "start_unix": 1788451200,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "Soccer : Al Hilal vs Damac",
-    "channels": [],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-03",
-    "time": "18:00",
-    "title": "Soccer : Al Khaleej vs Al Najma",
-    "channels": [],
-    "start_unix": 1788454800,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Soccer",
@@ -5375,7 +4117,7 @@
     "title": "Soccer : Southampton vs Ipswich Town",
     "channels": [],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Soccer",
@@ -5384,7 +4126,7 @@
     "title": "Soccer : Northampton Town vs Barnsley",
     "channels": [],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Soccer",
@@ -5393,7 +4135,7 @@
     "title": "Soccer : Peterborough United vs Mansfield Town",
     "channels": [],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Soccer",
@@ -5402,7 +4144,7 @@
     "title": "Soccer : Stockport County vs Port Vale",
     "channels": [],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   },
   {
     "category": "Soccer",
@@ -5411,6 +4153,6 @@
     "title": "Soccer : USM Alger vs Paradou",
     "channels": [],
     "start_unix": 1788457500,
-    "scraped_at_unix": 1788459842
+    "scraped_at_unix": 1788470048
   }
 ]
