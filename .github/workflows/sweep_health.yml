@@ -41,7 +41,11 @@ jobs:
     # link) and the old cap killed it mid-probe every single run, so
     # health.json went 40 days without an update. Comfortably inside the
     # hourly cadence above.
-    timeout-minutes: 25
+    # 40, not 25. Same story as refresh.yml — every run since 2026-09-14 hit
+    # the cap and was cancelled. The sweep also now spends a little longer per
+    # channel: when donis answers on the dead-ish family it checks whether the
+    # route the APP prefers exists at all (see _first_alternate).
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v5
         with:
@@ -57,7 +61,7 @@ jobs:
         run: pip install requests
 
       - name: Sweep
-        run: python scripts/sweep_health.py
+        run: python -u scripts/sweep_health.py
 
       - name: Commit health.json if changed
         run: |

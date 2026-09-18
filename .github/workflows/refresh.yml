@@ -22,7 +22,13 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # 30, not 15. Every scheduled run from 2026-09-14 onward was killed at
+    # the 15 min cap ("The job has exceeded the maximum execution time"), so
+    # data/ went FOUR DAYS without an update and users' schedule still showed
+    # 14 September fixtures. The scrape got slower because upstream moved
+    # domains (dlhd.st -> dlive.sx) and its wrapper pages now take 4-5.5 s
+    # each. Still inside the */30 cadence, with concurrency guarding overlap.
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -45,7 +51,11 @@ jobs:
 
       - name: Run scraper
         run: |
-          python scraper.py --workers 30
+          # -u: unbuffered. A cancelled run used to print NOTHING between
+          # "Run scraper" and the cancellation 15 min later, because Python
+          # buffered stdout and the buffer died with the process — leaving no
+          # way to see where the time went.
+          python -u scraper.py --workers 30
           ls -la data/
 
       - name: Commit + push if catalog actually changed

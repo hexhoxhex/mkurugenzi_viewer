@@ -240,7 +240,46 @@ def _try_endpoint(
 # dlhd.st exposes the SAME channel through several player wrappers, each
 # routing to a different backend/CDN. Mirrors LiveResolver.PLAYER_PATHS in the
 # Android app.
-PLAYER_PATHS = ["stream", "cast", "watch", "plus", "casting", "player"]
+PLAYER_PATHS = ["stream", "hub", "cast", "watch", "plus", "casting"]
+
+# Paths worth trying when donis lands on the dead-ish family, best first.
+# Measured 2026-09-18: /plus routes to epidd, /casting to api.cdnlivetv.tv,
+# /stream to obstreamx — all CDNs the daddy route never returns.
+ALT_PATHS = ["plus", "casting", "stream", "hub"]
+
+# How many alternate wrappers to try per channel. Each is a page fetch of
+# several seconds, and this runs for every phantemlis-served channel, so it
+# is deliberately small.
+ALT_PATH_BUDGET = 2
+
+
+def _is_dead_family(url: str) -> bool:
+    """Is this URL on the CDN family the app globally deprioritises?"""
+    host = url.split("//", 1)[-1].split("/", 1)[0].split(":", 1)[0].lower()
+    return host.endswith("phantemlis.top")
+
+
+def _first_alternate(s: requests.Session, cid: str):
+    """First non-phantemlis wrapper that serves a real master, or None.
+
+    The sweep used to accept whatever donis handed back, and donis only
+    reaches ONE CDN family. Result (measured on the 2026-09-14 sweep): all
+    666 channels it called healthy were graded through
+    xameleon.phantemlis.top — the exact host the app avoids after its 5xx
+    churn, so "666 ok" described a route the app would not have used. The
+    app prefers any non-phantemlis answer; grade the same way.
+    """
+    tried = 0
+    for path in ALT_PATHS:
+        if tried >= ALT_PATH_BUDGET:
+            break
+        tried += 1
+        master, rm = try_player_path(s, cid, path)
+        if not master or _is_dead_family(master):
+            continue
+        if rm is not None and rm.ok and (rm.text or "").lstrip().startswith("#EXTM3U"):
+            return master, f"player:{path}", rm
+    return None
 IFRAME_RE = re.compile(r'<iframe[^>]+src="(https?://[^"]+)"', re.IGNORECASE)
 M3U8_RE = re.compile(r"""https?://[^\s"']+\.m3u8[^\s"']*""", re.IGNORECASE)
 ATOB_RE = re.compile(r"""atob\(["']([A-Za-z0-9+/=]+)["']\)""")
@@ -302,8 +341,8 @@ def try_player_path(
 
 def resolve(
     s: requests.Session, cid: str, preferred_suffix: Optional[str] = None,
-) -> tuple[Optional[str], Optional[str], Optional[requests.Response]]:
-    """Returns (master_url, daddy_endpoint, master_response). Iterates
+) -> tuple[Optional[str], Optional[str], Optional[requests.Response], bool]:
+    """Returns (master_url, route, master_response, phantemlis_only). Iterates
     daddy siblings until we find one whose master fetch comes back 200
     + #EXTM3U — donis often hands out a base64 URL pointing at a
     currently-500ing sibling, and we have to walk past those to find
@@ -334,7 +373,15 @@ def resolve(
                 global _CACHED_HOST
                 with _CACHE_LOCK:
                     _CACHED_HOST = host
-                return master, f"daddy{suf}.php", rm
+                # donis answered — but if that answer is on the family the
+                # app avoids, the app would keep looking. Do the same, and
+                # report whether anything else serves this channel.
+                if _is_dead_family(master):
+                    alt = _first_alternate(s, cid)
+                    if alt:
+                        return alt[0], alt[1], alt[2], False
+                    return master, f"daddy{suf}.php", rm, True
+                return master, f"daddy{suf}.php", rm, False
     # Every daddy sibling failed. Before calling the channel down, try the
     # other dlhd.st player wrappers — they route to different CDNs entirely,
     # which is how the app keeps playing channels this route says are dead.
@@ -344,10 +391,15 @@ def resolve(
             continue
         last_master, last_resp, last_suf = master, rm, None
         if rm is not None and rm.ok and (rm.text or "").lstrip().startswith("#EXTM3U"):
-            return master, f"player:{path}", rm
+            return master, f"player:{path}", rm, False
     # Nothing served this channel. Return what we last tried so the caller can
     # report a precise failure reason.
-    return last_master, (f"daddy{last_suf}.php" if last_suf else None), last_resp
+    return (
+        last_master,
+        (f"daddy{last_suf}.php" if last_suf else None),
+        last_resp,
+        False,
+    )
 
 
 def probe_channel(ch: dict) -> dict:
@@ -363,6 +415,10 @@ def probe_channel(ch: dict) -> dict:
         "daddy_endpoint": None,
         "host": None,
         "first_segment_url": None,
+        # True when donis served this channel but NO other wrapper did, i.e.
+        # its only route is the family the app deprioritises. Such a channel
+        # can read "ok" here and still be unplayable in the app.
+        "phantemlis_only": False,
     }
     s = session()
 
@@ -370,7 +426,10 @@ def probe_channel(ch: dict) -> dict:
     # returns a master that fetches 200 + #EXTM3U. Catalog's known-good
     # daddy_endpoint is tried first to save iterations on healthy
     # channels.
-    master_url, daddy, rm = resolve(s, cid, preferred_suffix=ch.get("daddy_endpoint"))
+    master_url, daddy, rm, phantemlis_only = resolve(
+        s, cid, preferred_suffix=ch.get("daddy_endpoint"),
+    )
+    result["phantemlis_only"] = phantemlis_only
     if not master_url:
         result["fail_reason"] = "resolve"
         return result
