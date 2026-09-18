@@ -45,6 +45,10 @@ UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 )
+# How hard to try for the schedule before falling back to the stored one.
+SCHEDULE_FETCH_ATTEMPTS = 3
+SCHEDULE_RETRY_SLEEP_S = 3
+
 HOME_URL = "https://dlhd.pk/"
 CHANNELS_URL = "https://dlhd.pk/24-7-channels.php"
 # The resolver host serves several daddyN endpoints, each routing to a
@@ -938,8 +942,25 @@ def main() -> int:
             raise
 
     print(f"[{'2/2' if args.schedule_only else ('4/5' if args.map_players else '3/4')}] Fetching schedule...")
+    schedule_ok = True
     try:
-        raw_schedule = fetch_schedule()
+        # Retry before giving up. The fetch fails intermittently (a single
+        # connect timeout was enough to lose a whole run), and losing it has
+        # become expensive — see the write guard below.
+        raw_schedule = None
+        last_err: Exception | None = None
+        for attempt in range(1, SCHEDULE_FETCH_ATTEMPTS + 1):
+            try:
+                raw_schedule = fetch_schedule()
+                if raw_schedule:
+                    break
+            except Exception as err:  # noqa: BLE001 - reported below
+                last_err = err
+                print(f"      schedule attempt {attempt} failed: {err}")
+            if attempt < SCHEDULE_FETCH_ATTEMPTS:
+                time.sleep(SCHEDULE_RETRY_SLEEP_S * attempt)
+        if not raw_schedule and last_err is not None:
+            raise last_err
         schedule = annotate_dates(raw_schedule)
         if not schedule:
             # Treat an empty scrape the same as a failure — dlhd.pk is
@@ -961,6 +982,13 @@ def main() -> int:
         schedule = _preserve_previous_schedule(sched_path)
         print(f"      preserved {len(schedule)} still-current events "
               f"from previous schedule.json")
+        # Preserving keeps only events still in the future, so once the
+        # stored schedule has aged out there is nothing left to keep and this
+        # lands on an EMPTY list. Writing that publishes "no events" to every
+        # user — the schedule tab goes blank — on the strength of one failed
+        # fetch. A stale schedule is bad; an empty one is worse and looks like
+        # the app broke. Leave the existing file alone instead.
+        schedule_ok = bool(schedule)
 
     if not args.schedule_only:
         guard_against_collapse(channels, prev_by_id, prev_ok_count)
@@ -968,7 +996,15 @@ def main() -> int:
     final_step = "-" if args.schedule_only else ("5/5" if args.map_players else "4/4")
     print(f"[{final_step}] Writing artifacts...")
     chan_path.write_text(json.dumps(channels, indent=2, ensure_ascii=False), encoding="utf-8")
-    sched_path.write_text(json.dumps(schedule, indent=2, ensure_ascii=False), encoding="utf-8")
+    if schedule_ok:
+        sched_path.write_text(
+            json.dumps(schedule, indent=2, ensure_ascii=False), encoding="utf-8",
+        )
+    else:
+        print(
+            "      !! schedule fetch failed and nothing could be preserved — "
+            f"LEAVING {sched_path.name} untouched rather than blanking it"
+        )
     write_m3u8(channels, ROOT / args.out_m3u, args.include_down)
     write_tester_html(channels, schedule, ROOT / args.out_html)
     unreachable = [
@@ -979,7 +1015,8 @@ def main() -> int:
         json.dumps(unreachable, indent=2, ensure_ascii=False), encoding="utf-8"
     )
     print(f"      -> {chan_path.relative_to(ROOT)}")
-    print(f"      -> {sched_path.relative_to(ROOT)}")
+    if schedule_ok:
+        print(f"      -> {sched_path.relative_to(ROOT)}")
     print(f"      -> {unreach_path.relative_to(ROOT)}  ({len(unreachable)} entries)")
     print(f"      -> {args.out_m3u}")
     print(f"      -> {args.out_html}  (open this in a browser)")
