@@ -1,0 +1,77 @@
+name: Refresh schedule
+
+# The schedule on its own, because it is cheap and it is what users SEE.
+#
+# The full catalog refresh re-resolves 752 channels and has not completed a
+# single run since 2026-09-14 — upstream moved domains and its wrapper pages
+# now take 4-5.5 s each, so every run is cancelled at its timeout and NOTHING
+# gets published, schedule included. Meanwhile the app drops events whose day
+# has passed, so a schedule that stops updating doesn't go stale, it goes
+# EMPTY: on 2026-09-19 the live schedule pane rendered nothing at all because
+# every event in the published file was dated the 14th.
+#
+# Scraping the schedule is one page fetch and a parse — seconds, not minutes.
+# Tying it to the slow channel work meant one slow job took the whole thing
+# down with it. This job does only that, and commits only that file.
+
+on:
+  schedule:
+    # Offset from refresh.yml so the two never hit the site together.
+    - cron: "5,35 * * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: refresh-schedule
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    # Generous for a job that should take under a minute; if it ever hits
+    # this, something upstream is wrong and the logs will say so.
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Install deps
+        run: pip install "requests>=2.32"
+
+      - name: Scrape schedule
+        # -u so a cancelled run still shows where it got to.
+        run: python -u scraper.py --schedule-only
+
+      - name: Commit schedule if it changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # ONLY the schedule. --schedule-only also rewrites channels.json and
+          # the playlist from the cached catalog; committing those here would
+          # fight with refresh.yml over the same files.
+          git add data/schedule.json
+          if git diff --cached --quiet; then
+            echo "schedule unchanged"
+            exit 0
+          fi
+          COUNT=$(python -c "import json;print(len(json.load(open('data/schedule.json',encoding='utf-8'))))")
+          # The scraper leaves the file untouched when a fetch fails and it has
+          # nothing to preserve, so an empty file should be impossible here —
+          # but this data reaches every user's schedule tab, so check anyway.
+          if [ "$COUNT" -eq 0 ]; then
+            echo "refusing to publish an empty schedule"
+            git reset data/schedule.json
+            exit 1
+          fi
+          git commit -m "schedule: $COUNT events"
+          git push

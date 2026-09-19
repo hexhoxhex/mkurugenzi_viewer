@@ -6,7 +6,12 @@ name: Refresh catalog
 # heavy load — 30 min cadence keeps us safe.
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    # Every 3 hours, not every 30 min. It has not completed a run since
+    # 2026-09-14 — each attempt is cancelled at its cap — so firing it twice
+    # an hour just queued failures and hammered a site that got slower. The
+    # schedule, which is what users actually see, now refreshes on its own
+    # cheap job (refresh_schedule.yml) and no longer waits on this one.
+    - cron: "0 */3 * * *"
   workflow_dispatch: {}     # so you can also trigger manually from the UI
 
 # Only one refresh at a time. If one is still running when the next cron fires,
@@ -28,7 +33,10 @@ jobs:
     # 14 September fixtures. The scrape got slower because upstream moved
     # domains (dlhd.st -> dlive.sx) and its wrapper pages now take 4-5.5 s
     # each. Still inside the */30 cadence, with concurrency guarding overlap.
-    timeout-minutes: 30
+    # 90: the full 752-channel re-resolve no longer fits in 30 (measured:
+    # cancelled at 30m17s on 2026-09-19). Better a long run every 3 hours
+    # that finishes than a short one every 30 minutes that never does.
+    timeout-minutes: 90
     steps:
       - name: Checkout
         uses: actions/checkout@v5
