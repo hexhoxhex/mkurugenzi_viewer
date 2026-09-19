@@ -463,6 +463,22 @@ def _event_start_unix(time_str: str, now_unix: int) -> int | None:
     return ts
 
 
+def _unescape_fully(s: str, rounds: int = 3) -> str:
+    """Unescape until it stops changing.
+
+    The source page is DOUBLE-encoded — it ships "&amp;amp;" (565 of them on
+    a measured day), so a single pass leaves "&amp;" and the app displayed
+    "Brighton &amp; Hove Albion" verbatim on the TV and the phone. Bounded so
+    a pathological string can't spin here.
+    """
+    for _ in range(rounds):
+        out = _html.unescape(s)
+        if out == s:
+            break
+        s = out
+    return s
+
+
 def fetch_schedule() -> list[dict]:
     import time as _time
     r = SESSION.get(HOME_URL, timeout=30)
@@ -506,11 +522,11 @@ def fetch_schedule() -> list[dict]:
             if cid in seen_ids:
                 continue
             seen_ids.add(cid)
-            chans.append({"id": cid, "name": _html.unescape(cm.group(2)).strip()})
+            chans.append({"id": cid, "name": _unescape_fully(cm.group(2)).strip()})
         out.append({
             "category": cat_name,
             "time": time_str,
-            "title": _html.unescape(title).strip(),
+            "title": _unescape_fully(title).strip(),
             "channels": chans,
             "start_unix": start_unix,
             "scraped_at_unix": now_unix,
