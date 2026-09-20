@@ -822,7 +822,18 @@ def guard_against_collapse(
         return 0
     restored = 0
     for c in channels:
-        if c.get("status") in ("down", "unreachable") and \
+        # Anything that is not "ok" — including a status that was never set.
+        #
+        # This used to list only "down"/"unreachable", which quietly missed
+        # the worst case: a run where the probe returns NOTHING for a
+        # channel leaves its status unset. On 2026-09-20 every one of 899
+        # channels came back that way, the run published
+        # "live=0 down=0 unreachable=0", and the app — which lists channels
+        # by status — showed users an empty channel list. The guard fired,
+        # matched no channel, and restored nothing. A missing verdict is not
+        # a verdict of "down"; it means this pass learned nothing, so the
+        # last thing we did learn should stand.
+        if c.get("status") != "ok" and \
                 prev_by_id.get(c["id"], {}).get("status") == "ok":
             c["status"] = "ok"
             if not c.get("stream_url"):
@@ -1008,6 +1019,17 @@ def main() -> int:
 
     if not args.schedule_only:
         guard_against_collapse(channels, prev_by_id, prev_ok_count)
+        # Last line of defence. If even after restoring we have nothing
+        # playable, this run has learned nothing worth publishing — and
+        # publishing it blanks the channel list for every user. Leave the
+        # last good catalog in place and fail the run so CI says so.
+        playable = sum(1 for c in channels if c.get("status") == "ok")
+        if playable == 0:
+            print(
+                "      !! refusing to publish: ZERO channels came back "
+                "playable. Leaving the previous catalog in place."
+            )
+            return 2
 
     final_step = "-" if args.schedule_only else ("5/5" if args.map_players else "4/4")
     print(f"[{final_step}] Writing artifacts...")
