@@ -1,5 +1,33 @@
 [
   {
+    "category": "PPV Events",
+    "date": "2026-09-20",
+    "time": "17:45",
+    "title": "🚗 PDRA Brian Olson World Finals",
+    "channels": [
+      {
+        "id": "1136",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1789922700,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "PPV Events",
+    "date": "2026-09-20",
+    "time": "21:30",
+    "title": "🥊 Fury FC 124 (FFC 124)",
+    "channels": [
+      {
+        "id": "1135",
+        "name": "Event PPV"
+      }
+    ],
+    "start_unix": 1789936200,
+    "scraped_at_unix": 1789937054
+  },
+  {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
     "date": "2026-09-20",
     "time": "18:30",
@@ -11,7 +39,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -25,7 +53,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -39,7 +67,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -53,7 +81,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
@@ -67,7 +95,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Upcoming Events",
@@ -81,21 +109,35 @@
       }
     ],
     "start_unix": 1789880400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Upcoming Events",
     "date": "2026-09-20",
-    "time": "16:45",
-    "title": "🚴‍♂️🇨🇦 UCI Road World Championships – Elite Men Time Trial | Montréal, Canada | 20 – 27 September 2026",
+    "time": "06:45",
+    "title": "🏎️🇦🇿 Formula 1 Grand Prix Baku – Qualifying | Baku, Azerbaijan | 26 September 2026",
     "channels": [
       {
-        "id": "839",
-        "name": "RDS CA"
+        "id": "60",
+        "name": "Sky Sports F1 UK"
       }
     ],
-    "start_unix": 1789919100,
-    "scraped_at_unix": 1789927508
+    "start_unix": 1789883100,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-09-20",
+    "time": "07:45",
+    "title": "🏃‍♂️🇩🇪 BMW Berlin Marathon | Berlin, Germany | 27 September 2026",
+    "channels": [
+      {
+        "id": "739",
+        "name": "ARD DE"
+      }
+    ],
+    "start_unix": 1789886700,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Upcoming Events",
@@ -109,7 +151,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Upcoming Events",
@@ -123,7 +165,7 @@
       }
     ],
     "start_unix": 1789923900,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Upcoming Events",
@@ -145,1739 +187,35 @@
       }
     ],
     "start_unix": 1789871400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
     "date": "2026-09-20",
-    "time": "15:10",
-    "title": "⚽ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland - SWPL 1 : Rangers LFC 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs Aberdeen LFC 🏴 󠁧󠁢󠁳󠁣󠁴󠁿",
-    "channels": [
-      {
-        "id": "9",
-        "name": "BBC Alba"
-      }
-    ],
-    "start_unix": 1789913400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:15",
-    "title": "⚽ 🇫🇷 France - Ligue 1 : Nice 🇫🇷 vs Lille 🇫🇷",
-    "channels": [
-      {
-        "id": "960",
-        "name": "Ligue1+ France"
-      },
-      {
-        "id": "425",
-        "name": "beIN SPORTS USA"
-      },
-      {
-        "id": "1261",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "372",
-        "name": "beIN SPORTS en Español"
-      },
-      {
-        "id": "67",
-        "name": "beIN Sports 4 Turkey"
-      },
-      {
-        "id": "291",
-        "name": "Sport TV6 Portugal"
-      },
-      {
-        "id": "428",
-        "name": "Eleven Sports 3 Poland"
-      },
-      {
-        "id": "1026",
-        "name": "Nova Sport 6 CZ"
-      },
-      {
-        "id": "430",
-        "name": "Arena Sport 2 Serbia"
-      },
-      {
-        "id": "434",
-        "name": "Arena Sport 3 Croatia"
-      },
-      {
-        "id": "95",
-        "name": "beIN Sports MENA 5"
-      },
-      {
-        "id": "3055",
-        "name": "Ligue1+ France"
-      },
-      {
-        "id": "2036",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4007",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789913700,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:15",
-    "title": "⚽ 🇮🇹 Italy - Serie B : Mantova 🇮🇹 vs Pisa 🇮🇹",
-    "channels": [
-      {
-        "id": "55",
-        "name": "DAZN Italia"
-      },
-      {
-        "id": "1262",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789913700,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇩🇪 Germany - Bundesliga : Schalke 04 🇩🇪 vs Elversberg 🇩🇪",
-    "channels": [
-      {
-        "id": "427",
-        "name": "DAZN2 DE"
-      },
-      {
-        "id": "175",
-        "name": "ESPN+ USA"
-      },
-      {
-        "id": "1206",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "845",
-        "name": "NBC UNIVERSO"
-      },
-      {
-        "id": "72",
-        "name": "Eleven Sports 2 Poland"
-      },
-      {
-        "id": "495",
-        "name": "beIN Sports MAX 5 France"
-      },
-      {
-        "id": "6",
-        "name": "ŠTV 1 Slovenia"
-      },
-      {
-        "id": "1060",
-        "name": "Nova Sport 3 SK"
-      },
-      {
-        "id": "1023",
-        "name": "Nova Sport 3 CZ"
-      },
-      {
-        "id": "403",
-        "name": "Digi Sport 4 Romania"
-      },
-      {
-        "id": "714",
-        "name": "beIN Sports 3 Malaysia"
-      },
-      {
-        "id": "429",
-        "name": "Arena Sport 1 Serbia"
-      },
-      {
-        "id": "633",
-        "name": "Nova Sports 3 Greece"
-      },
-      {
-        "id": "159",
-        "name": "V Sport Football"
-      },
-      {
-        "id": "223",
-        "name": "TV3 Max Denmark"
-      },
-      {
-        "id": "467",
-        "name": "Diema Sport 3 Bulgaria"
-      },
-      {
-        "id": "182",
-        "name": "Sportklub 6 Croatia"
-      },
-      {
-        "id": "3017",
-        "name": "DAZN2 DE"
-      },
-      {
-        "id": "2037",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4103",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇵🇱 Poland - Ekstraklasa : Jagiellonia Białystok 🇵🇱 vs Legia Warszawa 🇵🇱",
-    "channels": [
-      {
-        "id": "259",
-        "name": "Canal+ Sport 3 Poland"
-      },
-      {
-        "id": "1208",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "100",
-        "name": "beIN SPORTS Xtra"
-      },
-      {
-        "id": "3060",
-        "name": "Canal+ Sport 3 Poland"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England - Premier League : Fulham 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Manchester United 🏴󠁧󠁢󠁥󠁮󠁧󠁿 󠁧󠁢󠁥󠁮󠁧󠁿",
-    "channels": [
-      {
-        "id": "17",
-        "name": "Hub Premier 1"
-      },
-      {
-        "id": "53",
-        "name": "NBC USA"
-      },
-      {
-        "id": "1204",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "769",
-        "name": "NBCNY USA"
-      },
-      {
-        "id": "38",
-        "name": "Sky Sports Main Event UK"
-      },
-      {
-        "id": "130",
-        "name": "Sky Sports Premier League UK"
-      },
-      {
-        "id": "595",
-        "name": "Sky Sport 8 NZ"
-      },
-      {
-        "id": "445",
-        "name": "DAZN1 Spain"
-      },
-      {
-        "id": "21",
-        "name": "Sky Sport Premier League DE"
-      },
-      {
-        "id": "456",
-        "name": "DAZN Eleven 2 Portugal"
-      },
-      {
-        "id": "984",
-        "name": "Canal+ Extra 2 Poland"
-      },
-      {
-        "id": "121",
-        "name": "Canal+ France"
-      },
-      {
-        "id": "983",
-        "name": "Canal+ Extra 1 Poland"
-      },
-      {
-        "id": "463",
-        "name": "Canal+ Foot France"
-      },
-      {
-        "id": "108",
-        "name": "Canal+ Live 1 France"
-      },
-      {
-        "id": "131",
-        "name": "Telemundo"
-      },
-      {
-        "id": "64",
-        "name": "beIN Sports 3 Turkey"
-      },
-      {
-        "id": "1063",
-        "name": "Canal+ Sport SK"
-      },
-      {
-        "id": "1020",
-        "name": "Canal+ Sport CZ"
-      },
-      {
-        "id": "81",
-        "name": "ESPN Brazil"
-      },
-      {
-        "id": "460",
-        "name": "Sky Sport Max IT"
-      },
-      {
-        "id": "913",
-        "name": "Cytavision Sports 3 Cyprus"
-      },
-      {
-        "id": "432",
-        "name": "Arena Sport 1 Croatia"
-      },
-      {
-        "id": "126",
-        "name": "Astro Premier League 2"
-      },
-      {
-        "id": "86",
-        "name": "Arena Sport 1 Slovenia"
-      },
-      {
-        "id": "572",
-        "name": "V Sport Premium"
-      },
-      {
-        "id": "135",
-        "name": "Arena 2 Premium Serbia"
-      },
-      {
-        "id": "599",
-        "name": "Nova Sports Premier League Greece"
-      },
-      {
-        "id": "811",
-        "name": "See Denmark"
-      },
-      {
-        "id": "466",
-        "name": "Diema Sport 2 Bulgaria"
-      },
-      {
-        "id": "414",
-        "name": "SuperSport Premier League"
-      },
-      {
-        "id": "412",
-        "name": "Supersport Grandstand"
-      },
-      {
-        "id": "92",
-        "name": "beIN Sports MENA 2"
-      },
-      {
-        "id": "61",
-        "name": "beIN Sports MENA English 1"
-      },
-      {
-        "id": "3016",
-        "name": "Sky Sport Premier League DE"
-      },
-      {
-        "id": "3050",
-        "name": "Canal+ France"
-      },
-      {
-        "id": "3078",
-        "name": "V Sport Premium Sweden"
-      },
-      {
-        "id": "3006",
-        "name": "Peacock"
-      },
-      {
-        "id": "2038",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4101",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4110",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4113",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5119",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4001",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5000",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5001",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5020",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5021",
-        "name": "Event Stream 4K"
-      },
-      {
-        "id": "5022",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇮🇹 Italy - Serie C : Union ArzignanoChiampo 🇮🇹 vs Renate 🇮🇹",
-    "channels": [
-      {
-        "id": "177",
-        "name": "Sky Sport 254 Italia"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇮🇹 Italy - Serie C : Campobasso 🇮🇹 vs Pineto 🇮🇹",
-    "channels": [
-      {
-        "id": "178",
-        "name": "Sky Sport 253 Italia"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇮🇹 Italy - Serie C : Potenza Calcio 🇮🇹 vs Cavese 🇮🇹",
-    "channels": [
-      {
-        "id": "179",
-        "name": "Sky Sport 252 Italia"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇿🇦 South Africa - DStv Premiership : TS Galaxy 🇿🇦 vs Chippa United 🇿🇦",
-    "channels": [
-      {
-        "id": "413",
-        "name": "SuperSport PSL"
-      },
-      {
-        "id": "1205",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇸🇮 Slovenia - Prva Liga : Mura 🇸🇮 vs Celje 🇸🇮",
-    "channels": [
-      {
-        "id": "22",
-        "name": "SportKlub 1 Slovenia"
-      },
-      {
-        "id": "185",
-        "name": "Sportklub 9 Croatia"
-      },
-      {
-        "id": "1207",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "⚽ 🇵🇱 Poland - I Liga : Podbeskidzie 🇵🇱 vs Unia Skierniewice 🇵🇱",
-    "channels": [
-      {
-        "id": "128",
-        "name": "TVP Sport Poland"
-      },
-      {
-        "id": "1209",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇩🇰 Denmark - Super Liga : Viborg 🇩🇰 vs Nordsjælland 🇩🇰",
-    "channels": [
-      {
-        "id": "809",
-        "name": "TV3 Sport Denmark"
-      },
-      {
-        "id": "3068",
-        "name": "TV3 Sport Denmark"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇨🇾 Cyprus - First Division : Aris 🇨🇾 vs Karmiotissa 🇨🇾",
-    "channels": [
-      {
-        "id": "912",
-        "name": "Cytavision Sports 2 Cyprus"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇨🇾 Cyprus - First Division : Omonia Nicosia 🇨🇾 vs Krasava Odintsovo 🇨🇾",
-    "channels": [
-      {
-        "id": "911",
-        "name": "Cytavision Sports 1 Cyprus"
-      },
-      {
-        "id": "1237",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇨🇿 Czech Republic - 1. liga : Slavia Praha 🇨🇿 vs Viktoria Plzeň 🇨🇿",
-    "channels": [
-      {
-        "id": "1027",
-        "name": "Oneplay Sport 1 CZ"
-      },
-      {
-        "id": "993",
-        "name": "Polsat Sport Extra 1 Poland"
-      },
-      {
-        "id": "3041",
-        "name": "Oneplay Sport 1 CZ"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇬🇷 Greece - Super League : OFI 🇬🇷 vs Asteras Tripolis 🇬🇷",
-    "channels": [
-      {
-        "id": "69",
-        "name": "MagentaSport 2 League Greece"
-      },
-      {
-        "id": "3024",
-        "name": "MagentaSport 2 League Greece"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇯🇴 Jordan League : Al Buqa'a 🇯🇴 vs Al Faisaly 🇯🇴",
-    "channels": [
-      {
-        "id": "10",
-        "name": "Jordan TV Sport"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇲🇹 Maltese Premier League : Hibernians 🇲🇹 vs Floriana 🇲🇹",
-    "channels": [
-      {
-        "id": "15",
-        "name": "TVMSport+"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇮🇹 Italy - Serie A : Juventus 🇮🇹 vs Atalanta 🇮🇹",
-    "channels": [
-      {
-        "id": "77",
-        "name": "Paramount+"
-      },
-      {
-        "id": "31",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "27",
-        "name": "Sky Sport 251 IT"
-      },
-      {
-        "id": "870",
-        "name": "Sky Sport Calcio IT"
-      },
-      {
-        "id": "910",
-        "name": "CBS Sports Golazo USA"
-      },
-      {
-        "id": "289",
-        "name": "Sport TV4 Portugal"
-      },
-      {
-        "id": "71",
-        "name": "Eleven Sports 1 Poland"
-      },
-      {
-        "id": "992",
-        "name": "Polsat Sport Premium 2 Poland"
-      },
-      {
-        "id": "127",
-        "name": "Match TV Russia"
-      },
-      {
-        "id": "136",
-        "name": "Match! Football 1 Russia"
-      },
-      {
-        "id": "401",
-        "name": "Digi Sport 2 Romania"
-      },
-      {
-        "id": "584",
-        "name": "Prima Sport 2 Romania"
-      },
-      {
-        "id": "393",
-        "name": "Ziggo Sport 1 NL"
-      },
-      {
-        "id": "398",
-        "name": "Ziggo Sport 2 NL"
-      },
-      {
-        "id": "914",
-        "name": "Cytavision Sports 4 Cyprus"
-      },
-      {
-        "id": "925",
-        "name": "ESPN Mexico"
-      },
-      {
-        "id": "124",
-        "name": "Astro Football"
-      },
-      {
-        "id": "8",
-        "name": "Arena 4 Premium Serbia"
-      },
-      {
-        "id": "622",
-        "name": "MagentaSport 1 Greece"
-      },
-      {
-        "id": "580",
-        "name": "Arena Sport 4 Croatia"
-      },
-      {
-        "id": "747",
-        "name": "TV4 Fotball"
-      },
-      {
-        "id": "474",
-        "name": "MAX Sport 3 Bulgaria"
-      },
-      {
-        "id": "56",
-        "name": "SuperSport Football"
-      },
-      {
-        "id": "3001",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "3047",
-        "name": "Sky Sport Calcio IT"
-      },
-      {
-        "id": "3007",
-        "name": "CBS Sports Golazo"
-      },
-      {
-        "id": "2039",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4105",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4108",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4009",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇵🇹 Portugal - Taça de Portugal : AD Marco 09 🇵🇹 vs Maia Lidador 🇵🇹",
-    "channels": [
-      {
-        "id": "540",
-        "name": "Canal 11 Portugal"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇨🇦 Canadian Premier League : Atl. Ottawa 🇨🇦 vs Supra du Quebec 🇨🇦",
-    "channels": [
-      {
-        "id": "834",
-        "name": "TVA Sports 2 CA"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ 🇪🇸 Spain - Primera División Femenina : Eibar 🇪🇸 vs Athletic Club 🇪🇸",
-    "channels": [
-      {
-        "id": "446",
-        "name": "DAZN2 Spain"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:15",
-    "title": "⚽ 🇦🇪 UAE League Cup : Al Dhafra 🇦🇪 vs Bani Yas 🇦🇪",
-    "channels": [
-      {
-        "id": "601",
-        "name": "Abu Dhabi Sports 2"
-      },
-      {
-        "id": "1227",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789917300,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:15",
-    "title": "⚽ 🇦🇪 UAE League Cup : Al Jazira 🇦🇪 vs Al Wahda 🇦🇪",
-    "channels": [
-      {
-        "id": "600",
-        "name": "Abu Dhabi Sports 1"
-      },
-      {
-        "id": "1226",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789917300,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇦🇱 Albania - Kategoria Superiore : Egnatia Rrogozhinë 🇦🇱 vs Partizani Tirana 🇦🇱",
-    "channels": [
-      {
-        "id": "154",
-        "name": "RTSH Sport Albania"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇧🇪 Belgium - Pro League : Club Brugge 🇧🇪 vs Genk 🇧🇪",
-    "channels": [
-      {
-        "id": "68",
-        "name": "DAZN Pro League 1 Belgium"
-      },
-      {
-        "id": "1223",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3049",
-        "name": "DAZN Pro League 1 Belgium"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇪🇸 Spain - La Liga : Deportivo La Coruña 🇪🇸 vs Real Betis 🇪🇸",
-    "channels": [
-      {
-        "id": "12",
-        "name": "DAZN LaLiga 2"
-      },
-      {
-        "id": "1220",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "105",
-        "name": "ESPN+ USA"
-      },
-      {
-        "id": "457",
-        "name": "DAZN Eleven 3 Portugal"
-      },
-      {
-        "id": "451",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "771",
-        "name": "Premier Sports 1 Ireland"
-      },
-      {
-        "id": "383",
-        "name": "Ziggo Sport 5 NL"
-      },
-      {
-        "id": "156",
-        "name": "Canal+ Sport 6 Poland"
-      },
-      {
-        "id": "375",
-        "name": "ESPN Deportes"
-      },
-      {
-        "id": "402",
-        "name": "Digi Sport 3 Romania"
-      },
-      {
-        "id": "585",
-        "name": "Prima Sport 3 Romania"
-      },
-      {
-        "id": "712",
-        "name": "beIN Sports Malaysia"
-      },
-      {
-        "id": "490",
-        "name": "Canal+ Sport 5 Afrique"
-      },
-      {
-        "id": "137",
-        "name": "Match! Football 2 Russia"
-      },
-      {
-        "id": "943",
-        "name": "Arena Sport 8 Serbia"
-      },
-      {
-        "id": "620",
-        "name": "DSports 2 Argentina"
-      },
-      {
-        "id": "157",
-        "name": "MagentaSport 3 League Greece"
-      },
-      {
-        "id": "475",
-        "name": "MAX Sport 4 Bulgaria"
-      },
-      {
-        "id": "415",
-        "name": "SuperSport Laliga"
-      },
-      {
-        "id": "94",
-        "name": "beIN Sports MENA 4"
-      },
-      {
-        "id": "101",
-        "name": "Sportklub 1 Croatia"
-      },
-      {
-        "id": "3086",
-        "name": "ESPN Deportes"
-      },
-      {
-        "id": "3003",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "2040",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4102",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4106",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4006",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇪🇸 Spain - La Liga : Villarreal 🇪🇸 vs Levante 🇪🇸",
-    "channels": [
-      {
-        "id": "84",
-        "name": "M+ LALIGA TV"
-      },
-      {
-        "id": "1219",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "106",
-        "name": "ESPN+ USA"
-      },
-      {
-        "id": "458",
-        "name": "DAZN Eleven 4 Portugal"
-      },
-      {
-        "id": "73",
-        "name": "Canal+ Sport 2 Poland"
-      },
-      {
-        "id": "1061",
-        "name": "Nova Sport 4 SK"
-      },
-      {
-        "id": "919",
-        "name": "Ziggo Sport 3 NL"
-      },
-      {
-        "id": "150",
-        "name": "ESPN2 Argentina"
-      },
-      {
-        "id": "1024",
-        "name": "Nova Sport 4 CZ"
-      },
-      {
-        "id": "713",
-        "name": "beIN Sports 2 Malaysia"
-      },
-      {
-        "id": "76",
-        "name": "MagentaSport 4 League Greece"
-      },
-      {
-        "id": "472",
-        "name": "MAX Sport 1 Bulgaria"
-      },
-      {
-        "id": "581",
-        "name": "Arena Sport 4 Serbia"
-      },
-      {
-        "id": "93",
-        "name": "beIN Sports MENA 3"
-      },
-      {
-        "id": "183",
-        "name": "Sportklub 7 Croatia"
-      },
-      {
-        "id": "3029",
-        "name": "M+ LALIGA TV"
-      },
-      {
-        "id": "2041",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4004",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ FIFA U20 WWC: Quarter Final 4 : Korea DPR U20 🇰🇵 vs Canada U20 🇨🇦",
-    "channels": [
-      {
-        "id": "756",
-        "name": "Fox Soccer Plus"
-      },
-      {
-        "id": "1225",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "115",
-        "name": "TSN5"
-      },
-      {
-        "id": "840",
-        "name": "RDS 2 CA"
-      },
-      {
-        "id": "100",
-        "name": "beIN Sports MENA Xtra 1"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇪🇸 Spain - Segunda Division : Almería 🇪🇸 vs Celta de Vigo II 🇪🇸",
-    "channels": [
-      {
-        "id": "539",
-        "name": "LALIGA TV Hypermotion"
-      },
-      {
-        "id": "1222",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "530",
-        "name": "GOL Play Spain"
-      },
-      {
-        "id": "99",
-        "name": "beIN Sports MENA 9"
-      },
-      {
-        "id": "3027",
-        "name": "LALIGA TV Hypermotion"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇪🇸 Spain - Segunda Division : Las Palmas 🇪🇸 vs Burgos 🇪🇸",
-    "channels": [
-      {
-        "id": "539",
-        "name": "LALIGA TV Hypermotion"
-      },
-      {
-        "id": "1221",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3026",
-        "name": "LALIGA TV Hypermotion"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇬🇷 Greece - Super League : Kalamata 🇬🇷 vs Panathinaikos 🇬🇷",
-    "channels": [
-      {
-        "id": "638",
-        "name": "Nova Sports Prime Greece"
-      },
-      {
-        "id": "1218",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "102",
-        "name": "Sportklub 2 Croatia"
-      },
-      {
-        "id": "3025",
-        "name": "Nova Sports Prime Greece"
-      },
-      {
-        "id": "4111",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "⚽ 🇩🇪 Frauen-Bundesliga : Union Berlin 🇩🇪 vs RB Leipzig 🇩🇪",
-    "channels": [
-      {
-        "id": "11",
-        "name": "Magenta Sport 308"
-      },
-      {
-        "id": "1224",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇷🇸 Serbia - Super Liga : Crvena Zvezda 🇷🇸 vs Radnički Niš 🇷🇸",
-    "channels": [
-      {
-        "id": "945",
-        "name": "Arena Sport 10 Serbia"
-      },
-      {
-        "id": "1250",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇹🇷 Turkey - 1. Lig : Antalyaspor 🇹🇷 vs Van BB 🇹🇷",
-    "channels": [
-      {
-        "id": "25",
-        "name": "beIN SPORTS MAX 2 Turkey"
-      },
-      {
-        "id": "1248",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "1012",
-        "name": "TRT Turkey"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Slovakia Nike liga : Dun Streda vs Trnava",
-    "channels": [
-      {
-        "id": "1249",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇹🇷 Turkey - 1. Lig : Mardin 1969 🇹🇷 vs Kayserispor 🇹🇷",
-    "channels": [
-      {
-        "id": "1014",
-        "name": "TRT Spor Turkey"
-      },
-      {
-        "id": "1247",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇵🇹 Portugal - Primeira Liga : Estoril 🇵🇹 vs Casa Pia 🇵🇹",
-    "channels": [
-      {
-        "id": "454",
-        "name": "Sport TV3 Portugal"
-      },
-      {
-        "id": "1252",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3021",
-        "name": "Sport TV3 Portugal"
-      },
-      {
-        "id": "4120",
-        "name": "Sport TV2 Portugal"
-      },
-      {
-        "id": "4119",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇵🇹 Portugal - Primeira Liga : Santa Clara 🇵🇹 vs Sporting Braga 🇵🇹",
-    "channels": [
-      {
-        "id": "74",
-        "name": "Sport TV2 Portugal"
-      },
-      {
-        "id": "1251",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "1010",
-        "name": "beIN Sports 5 Turkey"
-      },
-      {
-        "id": "571",
-        "name": "Sportdigital FUSSBALL DE"
-      },
-      {
-        "id": "496",
-        "name": "beIN Sports MAX 6 France"
-      },
-      {
-        "id": "13",
-        "name": "Kanal 1 Sport Slovakia"
-      },
-      {
-        "id": "623",
-        "name": "MagentaSport 2 Greece"
-      },
-      {
-        "id": "707",
-        "name": "TV4 Sportkanalen"
-      },
-      {
-        "id": "3022",
-        "name": "Sport TV2 Portugal"
-      },
-      {
-        "id": "4109",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇹🇷 Turkey - Super Lig : Amed SK 🇹🇷 vs Beşiktaş 🇹🇷",
-    "channels": [
-      {
-        "id": "62",
-        "name": "beIN Sports 1 Turkey"
-      },
-      {
-        "id": "1246",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "116",
-        "name": "beIN Sports 1 France"
-      },
-      {
-        "id": "431",
-        "name": "Arena Sport 3 Serbia"
-      },
-      {
-        "id": "138",
-        "name": "Match! Football 3 Russia"
-      },
-      {
-        "id": "788",
-        "name": "Fox Sports 2 Argentina"
-      },
-      {
-        "id": "586",
-        "name": "Prima Sport 4 Romania"
-      },
-      {
-        "id": "96",
-        "name": "beIN Sports MENA 6"
-      },
-      {
-        "id": "104",
-        "name": "Sportklub 4 Croatia"
-      },
-      {
-        "id": "3091",
-        "name": "beIN Sports 1 Turkey"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ 🇹🇷 Turkey - Super Lig : Göztepe 🇹🇷 vs Rizespor 🇹🇷",
-    "channels": [
-      {
-        "id": "63",
-        "name": "beIN Sports 2 Turkey"
-      },
-      {
-        "id": "1238",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3092",
-        "name": "beIN Sports 2 Turkey"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:15",
-    "title": "⚽ 🇧🇪 Belgium - Pro League : Kortrijk 🇧🇪 vs SK Beveren 🇧🇪",
-    "channels": [
-      {
-        "id": "109",
-        "name": "DAZN Pro League 2 Belgium"
-      },
-      {
-        "id": "1254",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3059",
-        "name": "DAZN Pro League 2 Belgium"
-      }
-    ],
-    "start_unix": 1789920900,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:15",
-    "title": "⚽ Belgium Challenger Pro League : Dender vs Patro Eisden",
-    "channels": [
-      {
-        "id": "1255",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789920900,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:15",
-    "title": "⚽ Qatar QSL : Al Rayyan vs Qatar SC",
-    "channels": [
-      {
-        "id": "1256",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789920900,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:15",
-    "title": "⚽ Qatar QSL : Al Ahli Doha vs Al-Shahaniya",
-    "channels": [
-      {
-        "id": "1257",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789920900,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:15",
-    "title": "⚽ Norway Eliteserien : Brann vs Bodo Glimt",
-    "channels": [
-      {
-        "id": "1253",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789920900,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇩🇪 Germany - Bundesliga : Paderborn 🇩🇪 vs Hoffenheim 🇩🇪",
-    "channels": [
-      {
-        "id": "426",
-        "name": "DAZN1 DE"
-      },
-      {
-        "id": "1239",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "845",
-        "name": "NBC UNIVERSO"
-      },
-      {
-        "id": "456",
-        "name": "DAZN Eleven 2 Portugal"
-      },
-      {
-        "id": "999",
-        "name": "Eleven Sports 4 Poland"
-      },
-      {
-        "id": "497",
-        "name": "beIN Sports MAX 7 France"
-      },
-      {
-        "id": "1026",
-        "name": "Nova Sport 6 CZ"
-      },
-      {
-        "id": "6",
-        "name": "ŠTV 1 Slovenia"
-      },
-      {
-        "id": "714",
-        "name": "beIN Sports 3 Malaysia"
-      },
-      {
-        "id": "429",
-        "name": "Arena Sport 1 Serbia"
-      },
-      {
-        "id": "632",
-        "name": "Nova Sports 2 Greece"
-      },
-      {
-        "id": "159",
-        "name": "V Sport Football"
-      },
-      {
-        "id": "467",
-        "name": "Diema Sport 3 Bulgaria"
-      },
-      {
-        "id": "182",
-        "name": "Sportklub 6 Croatia"
-      },
-      {
-        "id": "3017",
-        "name": "DAZN1 DE"
-      },
-      {
-        "id": "2042",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4103",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇩🇪 Germany - 3. Liga : Wehen Wiesbaden 🇩🇪 vs MSV Duisburg 🇩🇪",
-    "channels": [
-      {
-        "id": "7",
-        "name": "Magenta Sport 301"
-      },
-      {
-        "id": "1241",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3015",
-        "name": "Magenta Sport 301"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇮🇹 Italy - Serie B : Modena 🇮🇹 vs Empoli 🇮🇹",
-    "channels": [
-      {
-        "id": "151",
-        "name": "DAZN Italia"
-      },
-      {
-        "id": "1242",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ Hungary NB 1 Liga : Nyiregyhaza vs Ferencvaros",
-    "channels": [
-      {
-        "id": "1243",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇷🇴 Romania - Liga I : Dinamo Bucureşti 🇷🇴 vs Farul Constanța 🇷🇴",
+    "time": "08:30",
+    "title": "⚽ 🇷🇴 Romania - Liga II : CSM Râmnicu Vâlcea 🇷🇴 vs Bihor Oradea 🇷🇴",
     "channels": [
       {
         "id": "400",
         "name": "Digi Sport 1 Romania"
-      },
-      {
-        "id": "1240",
-        "name": "Event SD Stream"
       }
     ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
+    "start_unix": 1789889400,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
     "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇵🇱 Poland - II Liga : Tychy 71 🇵🇱 vs Sandecja Nowy Sącz 🇵🇱",
+    "time": "08:30",
+    "title": "⚽ 🇮🇩 Indonesia - Super League : Borneo 🇮🇩 vs Bali United 🇮🇩",
     "channels": [
       {
-        "id": "152",
-        "name": "TVP 3 Poland"
+        "id": "1",
+        "name": "Indosiar"
       }
     ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇭🇺 Hungary - NB1 : Nyíregyháza Spartacus 🇭🇺 vs Ferencváros 🇭🇺",
-    "channels": [
-      {
-        "id": "265",
-        "name": "M4 Sports Hungary"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇧🇬 Bulgaria - Parva Liga : Levski Sofia 🇧🇬 vs Ludogorets 🇧🇬",
-    "channels": [
-      {
-        "id": "465",
-        "name": "Diema Sport Bulgaria"
-      },
-      {
-        "id": "3048",
-        "name": "Diema Sport Bulgaria"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-09-20",
-    "time": "17:30",
-    "title": "⚽ 🇧🇬 Bulgaria - Second League : Etar 🇧🇬 vs Chernomorets Burgas 🇧🇬",
-    "channels": [
-      {
-        "id": "465",
-        "name": "Diema Sport Bulgaria"
-      },
-      {
-        "id": "184",
-        "name": "Sportklub 8 Croatia"
-      }
-    ],
-    "start_unix": 1789921800,
-    "scraped_at_unix": 1789927508
+    "start_unix": 1789889400,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -1919,7 +257,7 @@
       }
     ],
     "start_unix": 1789922700,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -1937,7 +275,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -1963,7 +301,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -1989,7 +327,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2003,7 +341,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2021,7 +359,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2035,7 +373,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2057,7 +395,7 @@
       }
     ],
     "start_unix": 1789924500,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2087,7 +425,7 @@
       }
     ],
     "start_unix": 1789924500,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2101,7 +439,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2115,7 +453,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2129,7 +467,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2143,7 +481,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2157,7 +495,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2171,7 +509,21 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-20",
+    "time": "18:30",
+    "title": "⚽ Ecuador Liga Pro : Tecnico U vs Delfin",
+    "channels": [
+      {
+        "id": "1210",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789925400,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2182,6 +534,10 @@
       {
         "id": "960",
         "name": "Ligue1+ France"
+      },
+      {
+        "id": "1212",
+        "name": "Event SD Stream"
       },
       {
         "id": "425",
@@ -2277,7 +633,7 @@
       }
     ],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2288,6 +644,10 @@
       {
         "id": "110",
         "name": "Paramount+"
+      },
+      {
+        "id": "1213",
+        "name": "Event SD Stream"
       },
       {
         "id": "31",
@@ -2391,7 +751,7 @@
       }
     ],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2402,6 +762,10 @@
       {
         "id": "84",
         "name": "M+ LALIGA TV"
+      },
+      {
+        "id": "1214",
+        "name": "Event SD Stream"
       },
       {
         "id": "153",
@@ -2505,7 +869,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2516,6 +880,10 @@
       {
         "id": "187",
         "name": "Premiere 4 BR"
+      },
+      {
+        "id": "1219",
+        "name": "Event SD Stream"
       },
       {
         "id": "155",
@@ -2535,7 +903,35 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-20",
+    "time": "19:00",
+    "title": "⚽ Brazil Serie B : Goias vs Avai",
+    "channels": [
+      {
+        "id": "1220",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789927200,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-20",
+    "time": "19:00",
+    "title": "⚽ Bolivia Copa : Real Oruro vs GV San Jose",
+    "channels": [
+      {
+        "id": "1221",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789927200,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2546,10 +942,14 @@
       {
         "id": "188",
         "name": "Premiere 5 BR"
+      },
+      {
+        "id": "1218",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2560,10 +960,14 @@
       {
         "id": "392",
         "name": "Win+ Futbol Colombia"
+      },
+      {
+        "id": "1222",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2576,12 +980,16 @@
         "name": "Fox Soccer Plus"
       },
       {
+        "id": "1223",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "115",
         "name": "TSN5"
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2592,6 +1000,10 @@
       {
         "id": "539",
         "name": "LALIGA TV Hypermotion"
+      },
+      {
+        "id": "1215",
+        "name": "Event SD Stream"
       },
       {
         "id": "1025",
@@ -2611,7 +1023,35 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-20",
+    "time": "19:00",
+    "title": "⚽ Paraguay Primera Division : San Lorenzo vs Olimpia Asuncion",
+    "channels": [
+      {
+        "id": "1217",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789927200,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-09-20",
+    "time": "19:10",
+    "title": "⚽ Uruguay Liga AUF : Nacional vs Defensor Sp",
+    "channels": [
+      {
+        "id": "1226",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789927800,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2622,6 +1062,10 @@
       {
         "id": "49",
         "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "1225",
+        "name": "Event SD Stream"
       },
       {
         "id": "67",
@@ -2677,7 +1121,7 @@
       }
     ],
     "start_unix": 1789929000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2690,12 +1134,16 @@
         "name": "TNT Sports Argentina"
       },
       {
+        "id": "1239",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "3085",
         "name": "TNT Sports Argentina"
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2706,6 +1154,10 @@
       {
         "id": "387",
         "name": "ESPN Premium Argentina"
+      },
+      {
+        "id": "1238",
+        "name": "Event SD Stream"
       },
       {
         "id": "435",
@@ -2733,7 +1185,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2744,10 +1196,14 @@
       {
         "id": "2",
         "name": "Liga 1 Max Peru"
+      },
+      {
+        "id": "1249",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789932600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2761,7 +1217,7 @@
       }
     ],
     "start_unix": 1789934700,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2772,10 +1228,14 @@
       {
         "id": "81",
         "name": "ESPN Brazil"
+      },
+      {
+        "id": "1255",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789936200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2790,10 +1250,14 @@
       {
         "id": "78",
         "name": "SporTV BR"
+      },
+      {
+        "id": "1254",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789936200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2804,10 +1268,14 @@
       {
         "id": "387",
         "name": "ESPN Premium Argentina"
+      },
+      {
+        "id": "1256",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789938900,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2818,10 +1286,14 @@
       {
         "id": "138",
         "name": "Match! Football 3 Russia"
+      },
+      {
+        "id": "1257",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789939800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2835,7 +1307,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2849,7 +1321,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2863,7 +1335,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2877,7 +1349,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2891,7 +1363,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2905,7 +1377,7 @@
       }
     ],
     "start_unix": 1789942200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2923,7 +1395,7 @@
       }
     ],
     "start_unix": 1789858800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2937,7 +1409,7 @@
       }
     ],
     "start_unix": 1789860600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2951,7 +1423,7 @@
       }
     ],
     "start_unix": 1789863300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "All Soccer Events",
@@ -2965,7 +1437,7 @@
       }
     ],
     "start_unix": 1789866300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Major League Soccer MLS",
@@ -2991,7 +1463,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "NWSL Soccer",
@@ -3013,7 +1485,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "NWSL Soccer",
@@ -3024,6 +1496,10 @@
       {
         "id": "44",
         "name": "ESPN USA"
+      },
+      {
+        "id": "1250",
+        "name": "Event SD Stream"
       },
       {
         "id": "112",
@@ -3043,7 +1519,49 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "NWSL Soccer",
+    "date": "2026-09-20",
+    "time": "21:00",
+    "title": "⚽ Ecuador Liga Pro : Dep Cuenca vs Mushuc Runa",
+    "channels": [
+      {
+        "id": "1251",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789934400,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "NWSL Soccer",
+    "date": "2026-09-20",
+    "time": "21:05",
+    "title": "⚽ Colombia Primera A : Bucaramanga vs Inter Bogota",
+    "channels": [
+      {
+        "id": "1252",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789934700,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "NWSL Soccer",
+    "date": "2026-09-20",
+    "time": "21:30",
+    "title": "⚽ Paraguay Primera Division : Sp Luqueno vs Recoleta",
+    "channels": [
+      {
+        "id": "1253",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1789936200,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "NWSL Soccer",
@@ -3057,7 +1575,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "NWSL Soccer",
@@ -3071,7 +1589,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "USL Championship",
@@ -3085,7 +1603,7 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "USL Championship",
@@ -3099,7 +1617,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "USL League One",
@@ -3113,7 +1631,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "USL Super League",
@@ -3127,7 +1645,7 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3141,7 +1659,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3155,7 +1673,7 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3169,7 +1687,7 @@
       }
     ],
     "start_unix": 1789938000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3183,7 +1701,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3197,7 +1715,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3211,7 +1729,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3225,7 +1743,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3239,7 +1757,7 @@
       }
     ],
     "start_unix": 1789858800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3253,7 +1771,7 @@
       }
     ],
     "start_unix": 1789866000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3267,7 +1785,7 @@
       }
     ],
     "start_unix": 1789866000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3281,7 +1799,7 @@
       }
     ],
     "start_unix": 1789866000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3295,7 +1813,7 @@
       }
     ],
     "start_unix": 1789866000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "College Soccer",
@@ -3309,259 +1827,7 @@
       }
     ],
     "start_unix": 1789867800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ Women's College Soccer : Maine vs UAlbany",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ Women's College Soccer : Ohio vs UMass Amherst",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ Women's College Soccer : Vermont vs UMBC",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "⚽ Women's College Soccer : Southern Indiana vs Xavier",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Akron vs Bowling Green",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Binghamton vs UMass Lowell",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Chattanooga vs The Citadel",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Eastern Michigan vs Central Michigan",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Fordham vs Loyola Chicago",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : George Washington vs Richmond",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Harvard vs UConn",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Holy Cross vs Loyola Maryland",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Indiana State vs Northern Iowa",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : NJIT vs New Hampshire",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Western Carolina vs Samford",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Yale vs Sacred Heart",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Belmont vs UIC",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Bellarmine vs Morehead State",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3575,7 +1841,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3589,7 +1855,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3603,7 +1869,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3617,7 +1883,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3631,7 +1897,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3645,7 +1911,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3659,7 +1925,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3673,7 +1939,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3687,7 +1953,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3701,7 +1967,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Soccer",
@@ -3715,7 +1981,7 @@
       }
     ],
     "start_unix": 1789858800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Cricket",
@@ -3729,7 +1995,7 @@
       }
     ],
     "start_unix": 1789876800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Cricket",
@@ -3743,7 +2009,7 @@
       }
     ],
     "start_unix": 1789880400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Cricket",
@@ -3769,35 +2035,7 @@
       }
     ],
     "start_unix": 1789939800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "College Field Hockey",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏑 College Field Hockey : Wake Forest at Maryland",
-    "channels": [
-      {
-        "id": "3978",
-        "name": "BTN USA"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "College Field Hockey",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏑 College Field Hockey : Virginia vs North Carolina (Chapel Hill)",
-    "channels": [
-      {
-        "id": "664",
-        "name": "ACC Network USA"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Tennis",
@@ -3919,7 +2157,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Tennis",
@@ -3933,7 +2171,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Tennis",
@@ -3947,7 +2185,7 @@
       }
     ],
     "start_unix": 1789869600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Tennis",
@@ -3965,99 +2203,7 @@
       }
     ],
     "start_unix": 1789876800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Tennis",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🎾 Davis Cup : Chile vs Spain",
-    "channels": [
-      {
-        "id": "438",
-        "name": "Movistar Deportes 2 Spain"
-      },
-      {
-        "id": "521",
-        "name": "M+ Vamos ES"
-      },
-      {
-        "id": "499",
-        "name": "beIN Sports MAX 9 France"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
-    "date": "2026-09-20",
-    "time": "15:30",
-    "title": "🎾 Davis Cup : 🇦🇷 Francisco Cerundolo vs 🇹🇷 Mert Alkaya",
-    "channels": [
-      {
-        "id": "1567",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1789914600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🎾 Davis Cup : 🇺🇸 Richard Mallory vs 🇲🇽 Alan Magadan",
-    "channels": [
-      {
-        "id": "1568",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🎾 WTA São Paulo : 🇨🇦 Gabriela Dabrowski/Luisa Stefani vs 🇺🇸 Anna Sinclair Rogers/Allura Zamarripa",
-    "channels": [
-      {
-        "id": "1569",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "🎾 Davis Cup : 🇨🇱 Alejandro Tabilo vs 🇪🇸 Rafael Jodar",
-    "channels": [
-      {
-        "id": "1570",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🎾 Davis Cup : 🇦🇷 Thiago Agustin Tirante vs 🇹🇷 Yanki Erel",
-    "channels": [
-      {
-        "id": "1571",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
@@ -4071,7 +2217,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
@@ -4085,7 +2231,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
@@ -4099,7 +2245,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
@@ -4113,7 +2259,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
@@ -4127,7 +2273,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "🎾 Davis Cup / 🎾 ATP Tour / 🎾 WTA Sao Paulo / 🎾 WTA Guadalajara",
@@ -4141,7 +2287,7 @@
       }
     ],
     "start_unix": 1789938000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4191,7 +2337,7 @@
       }
     ],
     "start_unix": 1789867800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4241,7 +2387,7 @@
       }
     ],
     "start_unix": 1789871400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4279,7 +2425,7 @@
       }
     ],
     "start_unix": 1789876800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4293,7 +2439,7 @@
       }
     ],
     "start_unix": 1789878600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4339,21 +2485,345 @@
       }
     ],
     "start_unix": 1789878600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
     "date": "2026-09-20",
-    "time": "17:15",
-    "title": "🏁 Speedway: PGE Ekstraliga Final match. First leg of the two-legged final. PRES GRUPA DEWELOPERSKA Toruń vs BETARD SPARTA Wrocław",
+    "time": "06:30",
+    "title": "🏁 World Championship Australia | MXGP | Race 2",
     "channels": [
       {
-        "id": "48",
-        "name": "CANAL+ SPORT Poland"
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      },
+      {
+        "id": "6",
+        "name": "ŠTV 1 Slovenia"
+      },
+      {
+        "id": "275",
+        "name": "Bandsports Brasil"
+      },
+      {
+        "id": "58",
+        "name": "EuroSport 2 Poland"
+      },
+      {
+        "id": "525",
+        "name": "EuroSport 2 Spain"
+      },
+      {
+        "id": "773",
+        "name": "EuroSport 2 France"
+      },
+      {
+        "id": "232",
+        "name": "Eurosport 2 SE"
+      },
+      {
+        "id": "879",
+        "name": "EuroSport 2 Italy"
+      },
+      {
+        "id": "42",
+        "name": "EuroSport 2 Greece"
       }
     ],
-    "start_unix": 1789920900,
-    "scraped_at_unix": 1789927508
+    "start_unix": 1789882200,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-09-20",
+    "time": "06:45",
+    "title": "🏁 Harley-Davidson Baggers, Austria Race 2 | Red Bull Ring",
+    "channels": [
+      {
+        "id": "626",
+        "name": "MagentaSport 5 Greece"
+      },
+      {
+        "id": "289",
+        "name": "Sport TV4 Portugal"
+      },
+      {
+        "id": "557",
+        "name": "Sky Sport Mix DE"
+      },
+      {
+        "id": "556",
+        "name": "Sky Sport Top Event DE"
+      },
+      {
+        "id": "148",
+        "name": "Sport 5 Gold Israel"
+      }
+    ],
+    "start_unix": 1789883100,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-09-20",
+    "time": "07:30",
+    "title": "🏁 MotoGP | Round 15 | Austria Warm Up",
+    "channels": [
+      {
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      },
+      {
+        "id": "575",
+        "name": "Sky Sport MotoGP Italy"
+      },
+      {
+        "id": "271",
+        "name": "CANAL+ MotoGP France"
+      },
+      {
+        "id": "557",
+        "name": "Sky Sport Mix DE"
+      },
+      {
+        "id": "992",
+        "name": "Polsat Sport Premium 2 Poland"
+      },
+      {
+        "id": "556",
+        "name": "Sky Sport Top Event DE"
+      },
+      {
+        "id": "445",
+        "name": "DAZN1 ES"
+      },
+      {
+        "id": "121",
+        "name": "Canal+ France"
+      },
+      {
+        "id": "289",
+        "name": "Sport TV4 Portugal"
+      },
+      {
+        "id": "918",
+        "name": "DAZN MotoGP ES"
+      },
+      {
+        "id": "439",
+        "name": "SRF zwei"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "626",
+        "name": "Cosmote Sport 5 Greece"
+      },
+      {
+        "id": "916",
+        "name": "Cytavision Sports 6"
+      },
+      {
+        "id": "103",
+        "name": "SportKlub 3 Croatia"
+      },
+      {
+        "id": "393",
+        "name": "Ziggo Sport 1 NL"
+      },
+      {
+        "id": "272",
+        "name": "V Sport Motor Sweden"
+      },
+      {
+        "id": "260",
+        "name": "Arena Adrenalin"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 Brazil"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "146",
+        "name": "5 Live Israel"
+      },
+      {
+        "id": "3030",
+        "name": "DAZN MotoGP ES"
+      },
+      {
+        "id": "3002",
+        "name": "TNT Sports 2 UK"
+      },
+      {
+        "id": "4105",
+        "name": "TNT Sports 2 UK"
+      }
+    ],
+    "start_unix": 1789885800,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-09-20",
+    "time": "08:00",
+    "title": "🏁 Goodwood Revival : Day 3",
+    "channels": [
+      {
+        "id": "60",
+        "name": "Sky Sports F1 UK"
+      }
+    ],
+    "start_unix": 1789887600,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-09-20",
+    "time": "08:00",
+    "title": "🏁 FIM Endurance World Championship | Bol d'Or Career",
+    "channels": [
+      {
+        "id": "58",
+        "name": "EuroSport 2 Poland"
+      },
+      {
+        "id": "525",
+        "name": "EuroSport 2 Spain"
+      },
+      {
+        "id": "773",
+        "name": "EuroSport 2 France"
+      },
+      {
+        "id": "232",
+        "name": "Eurosport 2 SE"
+      },
+      {
+        "id": "879",
+        "name": "EuroSport 2 Italy"
+      },
+      {
+        "id": "42",
+        "name": "EuroSport 2 Greece"
+      }
+    ],
+    "start_unix": 1789887600,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-09-20",
+    "time": "08:00",
+    "title": "🏁 Moto3 | Round 15 | Austria Race",
+    "channels": [
+      {
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      },
+      {
+        "id": "575",
+        "name": "Sky Sport MotoGP Italy"
+      },
+      {
+        "id": "271",
+        "name": "CANAL+ MotoGP France"
+      },
+      {
+        "id": "557",
+        "name": "Sky Sport Mix DE"
+      },
+      {
+        "id": "992",
+        "name": "Polsat Sport Premium 2 Poland"
+      },
+      {
+        "id": "556",
+        "name": "Sky Sport Top Event DE"
+      },
+      {
+        "id": "464",
+        "name": "Canal+ Sport 360"
+      },
+      {
+        "id": "289",
+        "name": "Sport TV4 Portugal"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "918",
+        "name": "DAZN MotoGP ES"
+      },
+      {
+        "id": "626",
+        "name": "Cosmote Sport 5 Greece"
+      },
+      {
+        "id": "916",
+        "name": "Cytavision Sports 6"
+      },
+      {
+        "id": "103",
+        "name": "SportKlub 3 Croatia"
+      },
+      {
+        "id": "393",
+        "name": "Ziggo Sport 1 NL"
+      },
+      {
+        "id": "260",
+        "name": "Arena Adrenalin"
+      },
+      {
+        "id": "272",
+        "name": "V Sport Motor Sweden"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 Brazil"
+      },
+      {
+        "id": "146",
+        "name": "5 Live Israel"
+      }
+    ],
+    "start_unix": 1789887600,
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Motorsport",
+    "date": "2026-09-20",
+    "time": "08:30",
+    "title": "🏁 GT World Challenge: Netherlands Qualification 2",
+    "channels": [
+      {
+        "id": "712",
+        "name": "beIN Sports Malaysia"
+      },
+      {
+        "id": "919",
+        "name": "Ziggo Sport 3 NL"
+      },
+      {
+        "id": "147",
+        "name": "5Stars Israel"
+      }
+    ],
+    "start_unix": 1789889400,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4367,7 +2837,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Motorsport",
@@ -4389,21 +2859,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "MMA",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🥊 Dan 2 : ARMWRESTLING OTVORENI KUP SRBIJE",
-    "channels": [
-      {
-        "id": "260",
-        "name": "Arena Adrenalin"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "MMA",
@@ -4417,7 +2873,7 @@
       }
     ],
     "start_unix": 1789936200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "MMA",
@@ -4431,13 +2887,13 @@
       }
     ],
     "start_unix": 1789858800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Golf",
     "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⛳ DP World Tour Biltmore Championship",
+    "time": "07:30",
+    "title": "⛳ DP World Tour BMW PGA Championship",
     "channels": [
       {
         "id": "318",
@@ -4446,6 +2902,10 @@
       {
         "id": "70",
         "name": "Sky Sports Golf UK"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event"
       },
       {
         "id": "785",
@@ -4460,12 +2920,8 @@
         "name": "ESPN Deportes"
       },
       {
-        "id": "590",
-        "name": "Sky Sport 3 NZ"
-      },
-      {
-        "id": "122",
-        "name": "Canal+ Sport France"
+        "id": "588",
+        "name": "Sky Sport 1 NZ"
       },
       {
         "id": "937",
@@ -4480,6 +2936,18 @@
         "name": "Ziggo Sport 6 NL"
       },
       {
+        "id": "995",
+        "name": "Polsat Sport Extra 3 Poland"
+      },
+      {
+        "id": "943",
+        "name": "Arena Sport 8 Serbia"
+      },
+      {
+        "id": "83",
+        "name": "ESPN3 Brazil"
+      },
+      {
         "id": "798",
         "name": "ESPN3 Argentina"
       },
@@ -4490,10 +2958,14 @@
       {
         "id": "710",
         "name": "Sport KLUB Golf Croatia"
+      },
+      {
+        "id": "472",
+        "name": "MAX Sport 1 Bulgaria"
       }
     ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "start_unix": 1789885800,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Golf",
@@ -4507,7 +2979,7 @@
       }
     ],
     "start_unix": 1789938000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Snooker",
@@ -4521,7 +2993,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Snooker",
@@ -4535,7 +3007,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Snooker",
@@ -4549,7 +3021,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Snooker",
@@ -4563,501 +3035,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Redzone",
-    "channels": [
-      {
-        "id": "667",
-        "name": "NFL Redzone Feed"
-      },
-      {
-        "id": "1228",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "449",
-        "name": "Sky Sports Mix UK"
-      },
-      {
-        "id": "557",
-        "name": "Sky Sport Mix DE"
-      },
-      {
-        "id": "494",
-        "name": "beIN Sports MAX 4 France"
-      },
-      {
-        "id": "612",
-        "name": "Arena Sport 1x2 Serbia"
-      },
-      {
-        "id": "85",
-        "name": "ESPN4 Brazil"
-      },
-      {
-        "id": "3040",
-        "name": "NFL RedZone"
-      },
-      {
-        "id": "2001",
-        "name": "NFL Redzone Feed"
-      },
-      {
-        "id": "5101",
-        "name": "NFL Redzone Stream"
-      },
-      {
-        "id": "4044",
-        "name": "NFL Redzone"
-      },
-      {
-        "id": "5000",
-        "name": "NFL Redzone"
-      },
-      {
-        "id": "5025",
-        "name": "NFL Redzone Feed"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Atlanta Falcons vs Carolina Panthers",
-    "channels": [
-      {
-        "id": "3",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1236",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3020",
-        "name": "Sky Sport Mix DE"
-      },
-      {
-        "id": "3031",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "2002",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5162",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4030",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5009",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5026",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Chicago Bears vs Minnesota Vikings",
-    "channels": [
-      {
-        "id": "16",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1234",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "37",
-        "name": "Sky Sports NFL"
-      },
-      {
-        "id": "111",
-        "name": "TSN1"
-      },
-      {
-        "id": "82",
-        "name": "ESPN2 Brazil"
-      },
-      {
-        "id": "38",
-        "name": "Sky Sports Main Event UK"
-      },
-      {
-        "id": "447",
-        "name": "DAZN3 Spain"
-      },
-      {
-        "id": "3033",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2003",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4101",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5166",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4034",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5010",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5027",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Tennessee Titans vs Philadelphia Eagles",
-    "channels": [
-      {
-        "id": "18",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1229",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3038",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2004",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5181",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4036",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5011",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5028",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : New England Patriots vs Pittsburgh Steelers",
-    "channels": [
-      {
-        "id": "19",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1232",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "35",
-        "name": "Sky Sports Football UK"
-      },
-      {
-        "id": "839",
-        "name": "RDS CA"
-      },
-      {
-        "id": "117",
-        "name": "beIN Sports 2 France"
-      },
-      {
-        "id": "36",
-        "name": "Sky Sports+ UK"
-      },
-      {
-        "id": "888",
-        "name": "ESPN 3 NL"
-      },
-      {
-        "id": "1021",
-        "name": "Nova SPORT 1 CZ"
-      },
-      {
-        "id": "473",
-        "name": "MAX Sport 2 Bulgaria"
-      },
-      {
-        "id": "810",
-        "name": "TV2 Sport Denmark"
-      },
-      {
-        "id": "97",
-        "name": "beIN SPORTS MENA 7"
-      },
-      {
-        "id": "90",
-        "name": "beIN SPORTS MENA English 2"
-      },
-      {
-        "id": "3018",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "3035",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2005",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5172",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4037",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5012",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5029",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : New York Jets vs Green Bay Packers",
-    "channels": [
-      {
-        "id": "20",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1231",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "54",
-        "name": "FOX USA"
-      },
-      {
-        "id": "768",
-        "name": "FOXNY USA"
-      },
-      {
-        "id": "3036",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2006",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5175",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4033",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5005",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5030",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Tampa Bay Buccaneers vs Cleveland Browns",
-    "channels": [
-      {
-        "id": "23",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1230",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3037",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2007",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5180",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4032",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5006",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5031",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Baltimore Ravens vs New Orleans Saints",
-    "channels": [
-      {
-        "id": "24",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1235",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3032",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2008",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5183",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4035",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5007",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5032",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏈 NFL : Houston Texans vs Cincinnati Bengals",
-    "channels": [
-      {
-        "id": "26",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1233",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "160",
-        "name": "5Action UK"
-      },
-      {
-        "id": "4",
-        "name": "Arena Sport 2 Slovenia"
-      },
-      {
-        "id": "5",
-        "name": "Arena 5 Premium Serbia"
-      },
-      {
-        "id": "433",
-        "name": "Arena Sport 2 Croatia"
-      },
-      {
-        "id": "3034",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "2009",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5163",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "4031",
-        "name": "NFL Game Pass"
-      },
-      {
-        "id": "5008",
-        "name": "NFL Feed"
-      },
-      {
-        "id": "5033",
-        "name": "NFL Game Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Am. Football (NFL",
@@ -5068,6 +3046,10 @@
       {
         "id": "6",
         "name": "NFL Sunday Ticket"
+      },
+      {
+        "id": "1241",
+        "name": "Event SD Stream"
       },
       {
         "id": "52",
@@ -5108,10 +3090,30 @@
       {
         "id": "4038",
         "name": "NFL Game Pass"
+      },
+      {
+        "id": "5186",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5040",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5083",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5084",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5014",
+        "name": "NFL Game Pass"
       }
     ],
     "start_unix": 1789931100,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Am. Football (NFL",
@@ -5124,6 +3126,10 @@
         "name": "NFL Sunday Ticket"
       },
       {
+        "id": "1240",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "3032",
         "name": "NFL Sunday Ticket"
       },
@@ -5134,10 +3140,30 @@
       {
         "id": "4039",
         "name": "NFL Game Pass"
+      },
+      {
+        "id": "5188",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5041",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5085",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5086",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5013",
+        "name": "NFL Game Pass"
       }
     ],
     "start_unix": 1789931100,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Am. Football (NFL",
@@ -5148,6 +3174,10 @@
       {
         "id": "9",
         "name": "NFL Sunday Ticket"
+      },
+      {
+        "id": "1247",
+        "name": "Event SD Stream"
       },
       {
         "id": "355",
@@ -5208,10 +3238,30 @@
       {
         "id": "2012",
         "name": "NFL Game Pass"
+      },
+      {
+        "id": "5042",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "4042",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5087",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5088",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5001",
+        "name": "NFL Game Pass"
       }
     ],
     "start_unix": 1789932300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Am. Football (NFL",
@@ -5222,6 +3272,10 @@
       {
         "id": "10",
         "name": "NFL Sunday Ticket"
+      },
+      {
+        "id": "1248",
+        "name": "Event SD Stream"
       },
       {
         "id": "36",
@@ -5250,10 +3304,34 @@
       {
         "id": "2013",
         "name": "NFL Game Pass"
+      },
+      {
+        "id": "5181",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5043",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "4041",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5089",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5090",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5002",
+        "name": "NFL Game Pass"
       }
     ],
     "start_unix": 1789932300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Am. Football (NFL",
@@ -5264,6 +3342,10 @@
       {
         "id": "11",
         "name": "NFL Sunday Ticket"
+      },
+      {
+        "id": "1246",
+        "name": "Event SD Stream"
       },
       {
         "id": "740",
@@ -5288,10 +3370,34 @@
       {
         "id": "2014",
         "name": "NFL Game Pass"
+      },
+      {
+        "id": "5198",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5044",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "4040",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5091",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5092",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5002",
+        "name": "NFL Game Pass"
       }
     ],
     "start_unix": 1789932300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Am. Football (NFL",
@@ -5394,10 +3500,22 @@
       {
         "id": "2015",
         "name": "NFL Game Pass"
+      },
+      {
+        "id": "5196",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "5045",
+        "name": "NFL Game Pass"
+      },
+      {
+        "id": "4043",
+        "name": "NFL Game Pass"
       }
     ],
     "start_unix": 1789860000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Athletics",
@@ -5431,7 +3549,25 @@
       }
     ],
     "start_unix": 1789873200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
+  },
+  {
+    "category": "Athletics",
+    "date": "2026-09-20",
+    "time": "07:00",
+    "title": "🏃 World Road Running Championships - Copenhagen 2026 women's and men's half marathon",
+    "channels": [
+      {
+        "id": "24",
+        "name": "svt 1 Sweden"
+      },
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      }
+    ],
+    "start_unix": 1789884000,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Aussie rules (AFL",
@@ -5449,7 +3585,7 @@
       }
     ],
     "start_unix": 1789867800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Aussie rules (AFL",
@@ -5471,7 +3607,7 @@
       }
     ],
     "start_unix": 1789869600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Aussie rules (AFL",
@@ -5493,21 +3629,29 @@
       }
     ],
     "start_unix": 1789876800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
-    "category": "Baseball",
+    "category": "Aussie rules (AFL",
     "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚾ NPB : Nippon Ham Fighters vs Orix Buffaloes",
+    "time": "07:00",
+    "title": "🏉 AFL Women : Brisbane Lions W vs Adelaide Crows W",
     "channels": [
       {
-        "id": "189",
-        "name": "Next Level Sports"
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      },
+      {
+        "id": "756",
+        "name": "Fox Soccer Plus"
+      },
+      {
+        "id": "587",
+        "name": "Sky Sport Select NZ"
       }
     ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "start_unix": 1789884000,
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball",
@@ -5521,139 +3665,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Minor League Baseball",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "⚾ Minor League Baseball : Charlotte Knights vs Norfolk Tides",
-    "channels": [
-      {
-        "id": "829",
-        "name": "MASN USA"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-20",
-    "time": "17:10",
-    "title": "⚾ MLB : Philadelphia Phillies vs New York Mets",
-    "channels": [
-      {
-        "id": "28",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "777",
-        "name": "NBCS Philadelphia USA"
-      },
-      {
-        "id": "300",
-        "name": "CW USA"
-      },
-      {
-        "id": "399",
-        "name": "MLB Network USA"
-      }
-    ],
-    "start_unix": 1789920600,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-20",
-    "time": "17:35",
-    "title": "⚾ MLB : Kansas City Royals vs Pittsburgh Pirates",
-    "channels": [
-      {
-        "id": "29",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "1244",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "922",
-        "name": "SportsNet Pittsburgh"
-      }
-    ],
-    "start_unix": 1789922100,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-20",
-    "time": "17:40",
-    "title": "⚾ MLB : Oakland Athletics vs Cleveland Guardians",
-    "channels": [
-      {
-        "id": "30",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "1201",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "755",
-        "name": "NBCS California USA"
-      }
-    ],
-    "start_unix": 1789922400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-20",
-    "time": "17:40",
-    "title": "⚾ MLB : Boston Red Sox vs Tampa Bay Rays",
-    "channels": [
-      {
-        "id": "169",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "1245",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "762",
-        "name": "NESN USA"
-      },
-      {
-        "id": "460",
-        "name": "Sky Sport Max IT"
-      }
-    ],
-    "start_unix": 1789922400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Baseball (MLB",
-    "date": "2026-09-20",
-    "time": "17:40",
-    "title": "⚾ MLB : Chicago Cubs vs Cincinnati Reds",
-    "channels": [
-      {
-        "id": "170",
-        "name": "MLB League Pass"
-      },
-      {
-        "id": "1202",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "770",
-        "name": "Marquee Sports Network USA"
-      }
-    ],
-    "start_unix": 1789922400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5675,7 +3687,7 @@
       }
     ],
     "start_unix": 1789924200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5697,7 +3709,7 @@
       }
     ],
     "start_unix": 1789924200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5715,7 +3727,7 @@
       }
     ],
     "start_unix": 1789924500,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5726,6 +3738,10 @@
       {
         "id": "161",
         "name": "MLB League Pass"
+      },
+      {
+        "id": "1211",
+        "name": "Event SD Stream"
       },
       {
         "id": "833",
@@ -5745,7 +3761,7 @@
       }
     ],
     "start_unix": 1789925700,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5756,10 +3772,14 @@
       {
         "id": "163",
         "name": "MLB League Pass"
+      },
+      {
+        "id": "1227",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789927800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5770,10 +3790,14 @@
       {
         "id": "164",
         "name": "MLB League Pass"
+      },
+      {
+        "id": "1242",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789931220,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5784,10 +3808,14 @@
       {
         "id": "166",
         "name": "MLB League Pass"
+      },
+      {
+        "id": "1243",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1789931400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5798,6 +3826,10 @@
       {
         "id": "167",
         "name": "MLB League Pass"
+      },
+      {
+        "id": "1263",
+        "name": "Event SD Stream"
       },
       {
         "id": "32",
@@ -5817,7 +3849,7 @@
       }
     ],
     "start_unix": 1789931400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5830,6 +3862,10 @@
         "name": "MLB League Pass"
       },
       {
+        "id": "1262",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "753",
         "name": "NBCS Bay Area USA"
       },
@@ -5839,7 +3875,7 @@
       }
     ],
     "start_unix": 1789931400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Baseball (MLB",
@@ -5865,61 +3901,7 @@
       }
     ],
     "start_unix": 1789942800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏀 Bg U23 League : U23 League - Finale",
-    "channels": [
-      {
-        "id": "945",
-        "name": "Arena Sport 10 Serbia"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏀 VTB SuperCup Finale",
-    "channels": [
-      {
-        "id": "941",
-        "name": "Arena Sport 6 Serbia"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏀 Spanish Super Cup : Winner SF1 vs Winner SF2, Final",
-    "channels": [
-      {
-        "id": "190",
-        "name": "DAZN Baloncesto"
-      },
-      {
-        "id": "437",
-        "name": "Movistar Plus+"
-      },
-      {
-        "id": "139",
-        "name": "Arena 3 Premium Serbia"
-      },
-      {
-        "id": "103",
-        "name": "Sportklub 3 Croatia"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Basketball",
@@ -5933,21 +3915,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "WNBA",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏀 WNBA : Connecticut Sun W vs Minnesota Lynx W",
-    "channels": [
-      {
-        "id": "192",
-        "name": "WNBA League Pass"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "WNBA",
@@ -5960,12 +3928,16 @@
         "name": "TSN4"
       },
       {
+        "id": "1216",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "654",
         "name": "MY9TV USA"
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "WNBA",
@@ -5976,6 +3948,10 @@
       {
         "id": "404",
         "name": "NBA TV USA"
+      },
+      {
+        "id": "1237",
+        "name": "Event SD Stream"
       },
       {
         "id": "778",
@@ -5995,7 +3971,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "WNBA",
@@ -6021,7 +3997,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "WNBA",
@@ -6051,33 +4027,7 @@
       }
     ],
     "start_unix": 1789862400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Cycling",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "🚴 UCI Road World Championships : Montréal: Men's Elite Individual Time Trial",
-    "channels": [
-      {
-        "id": "32",
-        "name": "TNT Sports 2 UK"
-      },
-      {
-        "id": "358",
-        "name": "BBC Three UK"
-      },
-      {
-        "id": "590",
-        "name": "Sky Sport 3 NZ"
-      },
-      {
-        "id": "439",
-        "name": "SRF zwei"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Cycling",
@@ -6119,7 +4069,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Cycling",
@@ -6161,49 +4111,7 @@
       }
     ],
     "start_unix": 1789935300,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Darts",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🎯 World Series of Darts Finals Semi-finals & Final, 2026, Amsterdam/NED",
-    "channels": [
-      {
-        "id": "353",
-        "name": "ITV 4 UK"
-      },
-      {
-        "id": "589",
-        "name": "Sky Sport 2 NZ"
-      },
-      {
-        "id": "641",
-        "name": "Sport1 DE"
-      },
-      {
-        "id": "940",
-        "name": "Arena Sport 5 Serbia"
-      },
-      {
-        "id": "887",
-        "name": "CANAL+ SPORT 4 Poland"
-      },
-      {
-        "id": "75",
-        "name": "CANAL+ SPORT 5 Poland"
-      },
-      {
-        "id": "194",
-        "name": "Sport 2 Hungary"
-      },
-      {
-        "id": "2016",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Futsal",
@@ -6217,79 +4125,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Handball",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🤾 Handball-Bundesliga : 🇩🇪 MT Melsungen vs SC Magdeburg 🇩🇪",
-    "channels": [
-      {
-        "id": "942",
-        "name": "Arena Sport 7 Serbia"
-      },
-      {
-        "id": "181",
-        "name": "Sportklub 5 Croatia"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Handball",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🤾 Hungary NB I, Women : 🇭🇺 Váci NKSE vs DVSC Schaeffler 🇭🇺",
-    "channels": [
-      {
-        "id": "193",
-        "name": "Sport 1 Hungary"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Horse Racing",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏇 America's Day At the Races",
-    "channels": [
-      {
-        "id": "758",
-        "name": "FOX Sports 2 USA"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Ice Hockey (NHL",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏒 NHL : 🇺🇸 New Jersey Devils vs New York Islanders 🇺🇸",
-    "channels": [
-      {
-        "id": "174",
-        "name": "NHL Gamecenter"
-      },
-      {
-        "id": "765",
-        "name": "MSG USA"
-      },
-      {
-        "id": "663",
-        "name": "NHL Network USA"
-      },
-      {
-        "id": "3004",
-        "name": "NHL Gamecenter"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Ice Hockey (NHL",
@@ -6307,7 +4143,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Ice Hockey (NHL",
@@ -6325,7 +4161,7 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Ice Hockey (NHL",
@@ -6351,7 +4187,7 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Ice Hockey (NHL",
@@ -6381,7 +4217,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Ice Hockey (NHL",
@@ -6399,7 +4235,7 @@
       }
     ],
     "start_unix": 1789941600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Ice Hockey (NHL",
@@ -6421,25 +4257,7 @@
       }
     ],
     "start_unix": 1789858800,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏒 DEL : 🇩🇪 Kölner Haie vs Frankfurt Löwen 🇩🇪",
-    "channels": [
-      {
-        "id": "165",
-        "name": "Magenta Sport 302"
-      },
-      {
-        "id": "3093",
-        "name": "Magenta Sport"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6453,7 +4271,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6467,7 +4285,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6481,7 +4299,7 @@
       }
     ],
     "start_unix": 1789927500,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6495,7 +4313,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6509,7 +4327,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6523,7 +4341,7 @@
       }
     ],
     "start_unix": 1789938000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "OHL Ice Hockey",
@@ -6537,21 +4355,7 @@
       }
     ],
     "start_unix": 1789938300,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "USHL Ice Hockey",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏒 USHL : 🇺🇸 Sioux Falls Stampede vs USA U18 🇺🇸",
-    "channels": [
-      {
-        "id": "217",
-        "name": "FloHockey"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "USHL Ice Hockey",
@@ -6565,29 +4369,7 @@
       }
     ],
     "start_unix": 1789925400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Lacrosse (PLL",
-    "date": "2026-09-20",
-    "time": "16:30",
-    "title": "🥍 Premier Lacrosse League : 🇺🇸 Denver Outlaws vs Philadelphia Waterdogs 🇺🇸",
-    "channels": [
-      {
-        "id": "51",
-        "name": "ABC USA"
-      },
-      {
-        "id": "112",
-        "name": "TSN2"
-      },
-      {
-        "id": "766",
-        "name": "ABC NY USA"
-      }
-    ],
-    "start_unix": 1789918200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Rodeo",
@@ -6605,7 +4387,7 @@
       }
     ],
     "start_unix": 1789943400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Rugby League",
@@ -6643,7 +4425,7 @@
       }
     ],
     "start_unix": 1789880700,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Rugby Union",
@@ -6665,21 +4447,7 @@
       }
     ],
     "start_unix": 1789877100,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Rugby Union",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏉 Wheelchair Rugby League : Grand Final: Halifax Panthers Wheelchair 🏴 vs Leeds Rhinos Wheelchair 🏴",
-    "channels": [
-      {
-        "id": "36",
-        "name": "Sky Sports+ UK"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Rugby Union",
@@ -6690,6 +4458,10 @@
       {
         "id": "121",
         "name": "Canal+ France"
+      },
+      {
+        "id": "1224",
+        "name": "Event SD Stream"
       },
       {
         "id": "550",
@@ -6709,33 +4481,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Volleyball",
-    "date": "2026-09-20",
-    "time": "15:45",
-    "title": "🏐 European Championships : 🇫🇷 France vs Portugal 🇵🇹",
-    "channels": [
-      {
-        "id": "50",
-        "name": "Polsat Sport 2 Poland"
-      },
-      {
-        "id": "197",
-        "name": "Match Igra Russia"
-      },
-      {
-        "id": "396",
-        "name": "Ziggo Sport 4 NL"
-      },
-      {
-        "id": "720",
-        "name": "RTP 2 Portugal"
-      }
-    ],
-    "start_unix": 1789915500,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Volleyball",
@@ -6765,77 +4511,7 @@
       }
     ],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏐 Women's College Volleyball : Lafayette vs Lehigh",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "🏐 Women's College Volleyball : Binghamton vs Quinnipiac",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏐 Women's College Volleyball : NC State vs Coastal Carolina",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏐 Women's College Volleyball : North Florida vs Georgia Southern",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "🏐 Women's College Volleyball : New Orleans vs Tulane",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6849,7 +4525,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6863,7 +4539,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6877,7 +4553,7 @@
       }
     ],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6895,7 +4571,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6909,7 +4585,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6923,7 +4599,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6937,7 +4613,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6951,7 +4627,7 @@
       }
     ],
     "start_unix": 1789927200,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6965,7 +4641,7 @@
       }
     ],
     "start_unix": 1789930800,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6979,7 +4655,7 @@
       }
     ],
     "start_unix": 1789934400,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Women's College Volleyball",
@@ -6993,79 +4669,7 @@
       }
     ],
     "start_unix": 1789938000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "Soccer : Al-Ahli Manama vs Al Riffa",
-    "channels": [],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "Soccer : Al-Shabbab vs Bahrain SC",
-    "channels": [],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "Soccer : Al Shabab vs Al Fateh",
-    "channels": [],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "16:45",
-    "title": "Soccer : Neom SC vs Al Hazem",
-    "channels": [],
-    "start_unix": 1789919100,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "Soccer : CR Belouizdad vs Khenchela",
-    "channels": [],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "16:00",
-    "title": "Soccer : Feirense vs Torreense",
-    "channels": [],
-    "start_unix": 1789916400,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "Soccer : Norrkoping vs Landskrona",
-    "channels": [],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
-  },
-  {
-    "category": "Soccer",
-    "date": "2026-09-20",
-    "time": "17:00",
-    "title": "Soccer : RFS vs Riga FC",
-    "channels": [],
-    "start_unix": 1789920000,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7074,7 +4678,7 @@
     "title": "Soccer : Al Hilal vs Damac",
     "channels": [],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7083,7 +4687,7 @@
     "title": "Soccer : Al Khaleej vs Al Najma",
     "channels": [],
     "start_unix": 1789923600,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7092,7 +4696,7 @@
     "title": "Soccer : Southampton vs Ipswich Town",
     "channels": [],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7101,7 +4705,7 @@
     "title": "Soccer : Northampton Town vs Barnsley",
     "channels": [],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7110,7 +4714,7 @@
     "title": "Soccer : Peterborough United vs Mansfield Town",
     "channels": [],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7119,7 +4723,7 @@
     "title": "Soccer : Stockport County vs Port Vale",
     "channels": [],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   },
   {
     "category": "Soccer",
@@ -7128,6 +4732,6 @@
     "title": "Soccer : USM Alger vs Paradou",
     "channels": [],
     "start_unix": 1789926300,
-    "scraped_at_unix": 1789927508
+    "scraped_at_unix": 1789937054
   }
 ]
