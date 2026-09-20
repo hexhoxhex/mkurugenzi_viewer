@@ -34,6 +34,7 @@ import json
 import re
 import sys
 import threading
+import time
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -193,8 +194,9 @@ def probe_live(url: str) -> str:
     serve a valid master forever while the inner chunk URL has rolled over to
     HTTP 410 Gone — hls.js then bombs with levelLoadError. Probing the chunk
     catches that before the player gets the bad URL."""
+    hdrs = _PLAYER_HEADERS.get(url)
     try:
-        r = SESSION.get(url, timeout=15)
+        r = SESSION.get(url, headers=hdrs, timeout=15)
         body = r.text or ""
         if not (r.ok and body.lstrip().startswith("#EXTM3U")):
             return "down"
@@ -207,9 +209,27 @@ def probe_live(url: str) -> str:
             # Already a media playlist (no variants) — master itself was the
             # chunk list. Trust the 200.
             return "ok"
+        if "#EXT-X-STREAM-INF" not in body:
+            # A MEDIA playlist with segments listed directly. The line above is
+            # a SEGMENT, not another playlist, so demanding #EXTM3U from it
+            # marks every such channel "down" — which is most of the catalog
+            # now that these routes serve media playlists. Check that the
+            # segment SERVES rather than what it looks like: one route
+            # disguises the container (measured: a segment whose first bytes
+            # are "RIFF", not the TS sync byte), so sniffing would lie.
+            from urllib.parse import urljoin as _urljoin
+            try:
+                rseg = SESSION.get(
+                    _urljoin(url, chunk_rel), headers=hdrs, timeout=12, stream=True,
+                )
+                served = rseg.ok
+                rseg.close()
+            except requests.RequestException:
+                served = False
+            return "ok" if served else "down"
         from urllib.parse import urljoin
         chunk_url = urljoin(url, chunk_rel)
-        r2 = SESSION.get(chunk_url, timeout=10)
+        r2 = SESSION.get(chunk_url, headers=hdrs, timeout=10)
         body2 = r2.text or ""
         if r2.ok and body2.lstrip().startswith("#EXTM3U"):
             return "ok"
@@ -233,6 +253,140 @@ def _try_host(cid: str, host: str) -> tuple[tuple[str, str] | None, bool]:
         if probe_live(url) == "ok":
             return (url, suf), True
     return fallback, host_worked
+
+
+# Wrapper pages, best-first. /plus was the only route that resolved in
+# testing on 2026-09-20 (3 of 3 channels, epidd via the XOR shape); the rest
+# are tried in turn because which one answers moves around.
+PLAYER_PATHS_RESOLVE = ["plus", "watch", "casting", "stream", "hub", "cast"]
+
+# dlhd.st redirects to whatever domain the site is on today, which is how
+# the app reaches it too. HOME_URL still points at the old dlhd.pk name.
+PLAYER_BASE = "https://dlhd.st"
+
+_M3U8_DIRECT_RE = re.compile(
+    r'https?://[a-z0-9.-]+/[^\s"\'<>\\]*\.m3u8[^\s"\'<>\\]*', re.IGNORECASE,
+)
+# epiembeds hides the URL in a number array: ((n ^ key) - salt + 256) & 255.
+_XOR_RE = re.compile(r"=\s*\[([0-9,\s]{40,})\][^;]*?=\s*(\d+)\s*,\s*\w+\s*=\s*(\d+)")
+
+
+# A stream resolved through a wrapper only serves with the embed page's
+# Referer/Origin — bare requests get 403. probe_live would then call a
+# perfectly good channel "down", which is how a working resolve still ends up
+# as an empty catalog. Keyed by URL, bounded, written once at resolve time.
+_PLAYER_HEADERS: dict[str, dict] = {}
+_PLAYER_HEADERS_LOCK = threading.Lock()
+
+# Longest one channel may spend walking wrappers. Measured 2026-09-20: a
+# channel with no working route burned 210 s across six paths, which at 899
+# channels is worse than the outage it fixes. A channel that has not answered
+# in this long is not going to.
+PLAYER_RESOLVE_BUDGET_S = 30.0
+
+
+def _remember_headers(url: str, headers: dict) -> None:
+    with _PLAYER_HEADERS_LOCK:
+        if len(_PLAYER_HEADERS) > 4000:
+            _PLAYER_HEADERS.clear()
+        _PLAYER_HEADERS[url] = headers
+
+
+def _player_get(url: str, referer: str, timeout: int = 10):
+    try:
+        r = SESSION.get(url, headers={"Referer": referer}, timeout=timeout)
+        return r if r.ok else None
+    except requests.RequestException:
+        return None
+
+
+def _decode_xor_array(body: str) -> str | None:
+    m = _XOR_RE.search(body or "")
+    if not m:
+        return None
+    try:
+        nums = [int(x) for x in m.group(1).replace(" ", "").split(",") if x]
+        key, salt = int(m.group(2)), int(m.group(3))
+        out = "".join(chr(((n ^ key) - salt + 256) & 255) for n in nums)
+        hit = _M3U8_DIRECT_RE.search(out.replace("\\/", "/"))
+        return hit.group(0) if hit else None
+    except Exception:
+        return None
+
+
+def _extract_stream(body: str) -> str | None:
+    """The m3u8 out of an embed page, whichever way it is hidden.
+
+    Three shapes seen in the wild: base64 inside atob(), a literal URL
+    (sometimes JSON-escaped as https:\\/\\/), and an XOR-obfuscated array.
+    """
+    body = body or ""
+    m = B64_RE.search(body)
+    if m:
+        try:
+            url = base64.b64decode(
+                m.group(1) + "=" * (-len(m.group(1)) % 4)
+            ).decode("utf-8", "replace").replace("\\/", "/")
+            if ".m3u8" in url:
+                return url
+        except Exception:
+            pass
+    hit = _M3U8_DIRECT_RE.search(body.replace("\\/", "/"))
+    if hit:
+        return hit.group(0)
+    return _decode_xor_array(body)
+
+
+def resolve_via_players(cid: str) -> str | None:
+    """Resolve the way the APP does, through the player wrappers.
+
+    The donis endpoints this scraper was built on now answer "403 - Access
+    Denied" to us (plain nginx, no challenge page) and the secondary host no
+    longer resolves at all, so a refresh resolved 0 of 899 channels and
+    published a catalog with every status unset. The app stopped depending on
+    donis long ago: it races these wrapper pages, and they still serve.
+
+    Bounded on purpose. Each wrapper page is ~640 KB and the site starts
+    refusing after sustained fetching, so this stops at the first route whose
+    master playlist actually loads rather than collecting them all.
+    """
+    ref = f"{PLAYER_BASE}/watch.php?id={cid}"
+    deadline = time.monotonic() + PLAYER_RESOLVE_BUDGET_S
+    for path in PLAYER_PATHS_RESOLVE:
+        if time.monotonic() > deadline:
+            break
+        page = _player_get(f"{PLAYER_BASE}/{path}/stream-{cid}.php", ref)
+        if page is None:
+            continue
+        for frame in IFRAME_RE.findall(page.text)[:2]:
+            if time.monotonic() > deadline:
+                break
+            inner = _player_get(frame, page.url)
+            if inner is None:
+                continue
+            url = _extract_stream(inner.text)
+            if not url:
+                # One nested hop; some wrappers iframe another embed.
+                for nested in IFRAME_RE.findall(inner.text)[:1]:
+                    deeper = _player_get(nested, inner.url)
+                    if deeper is not None:
+                        url = _extract_stream(deeper.text)
+                        if url:
+                            break
+            if not url:
+                continue
+            # Only claim it if the master really loads — an extracted URL
+            # that 403s is worse than no URL, because it looks like success.
+            try:
+                origin = "https://" + frame.split("//", 1)[-1].split("/", 1)[0]
+                hdrs = {"Referer": frame, "Origin": origin}
+                mr = SESSION.get(url, headers=hdrs, timeout=12)
+                if mr.ok and (mr.text or "").lstrip().startswith("#EXTM3U"):
+                    _remember_headers(url, hdrs)
+                    return url
+            except requests.RequestException:
+                pass
+    return None
 
 
 def resolve_stream(cid: str) -> tuple[str | None, str | None]:
@@ -265,6 +419,14 @@ def resolve_stream(cid: str) -> tuple[str | None, str | None]:
                     with _CACHE_LOCK:
                         _CACHED_HOST = discovered
                 return result
+    # Every donis route is exhausted. Fall back to the player wrappers, which
+    # is what the app has been using successfully all along. The suffix is
+    # None because no daddyN endpoint served this one; the caller leaves
+    # daddy_endpoint untouched rather than inventing a label for it.
+    if fallback is None:
+        via_player = resolve_via_players(cid)
+        if via_player:
+            return via_player, None
     return fallback if fallback else (None, None)
 
 
