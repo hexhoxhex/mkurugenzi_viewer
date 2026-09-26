@@ -75,6 +75,52 @@ HOST_DISCOVERY_RE = re.compile(
 _CACHED_HOST: str | None = None
 _CACHE_LOCK = threading.Lock()
 
+# Circuit breaker for the whole donis/daddy family.
+#
+# When hamis.romponalis.st started answering "403 - Access Denied" to us, every
+# one of 899 channels still paid the full toll before giving up: 2 hosts x 5
+# suffixes of dead requests, plus a dlhd host-discovery scrape, and only THEN
+# the player wrappers that actually work. The run stopped being about resolving
+# channels and became about waiting for a host that is never going to answer —
+# it hit the 90-minute CI timeout and was cancelled, which is why the app had
+# no channels to list.
+#
+# So: notice. After DONIS_FAIL_LIMIT channels in a row where no donis route
+# produced anything, stop asking for the rest of the run and resolve through
+# the player wrappers directly. Deliberately NOT a hardcoded "donis is dead":
+# the counter resets the moment one succeeds, and every run starts with the
+# breaker closed, so the day the host comes back it is used again with no
+# code change.
+DONIS_FAIL_LIMIT = 12
+_DONIS_LOCK = threading.Lock()
+_DONIS_FAILS = 0
+_DONIS_DEAD = False
+
+
+def _donis_open() -> bool:
+    """False once the donis family has proved it is not answering."""
+    with _DONIS_LOCK:
+        return not _DONIS_DEAD
+
+
+def _note_donis(ok: bool) -> None:
+    global _DONIS_FAILS, _DONIS_DEAD
+    with _DONIS_LOCK:
+        if ok:
+            if _DONIS_DEAD:
+                print("      .. donis answered again — re-enabling it")
+            _DONIS_FAILS = 0
+            _DONIS_DEAD = False
+            return
+        _DONIS_FAILS += 1
+        if not _DONIS_DEAD and _DONIS_FAILS >= DONIS_FAIL_LIMIT:
+            _DONIS_DEAD = True
+            print(
+                f"      !! donis gave nothing for {_DONIS_FAILS} channels in a"
+                " row — skipping it for the rest of this run and resolving"
+                " through the player wrappers instead"
+            )
+
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 SCRIPTS_DIR = ROOT / "scripts"
@@ -395,12 +441,18 @@ def resolve_stream(cid: str) -> tuple[str | None, str | None]:
     for the current host (discover_host) — keeping that off the hot path
     is what stops the CI runner from hammering dlhd.pk on every channel."""
     global _CACHED_HOST
+    # Donis has already shown it is not answering — don't spend this
+    # channel's budget proving it twice.
+    if not _donis_open():
+        via_player = resolve_via_players(cid)
+        return (via_player, None) if via_player else (None, None)
     fallback = None
     for host in _hosts_to_try(cid):
         result, host_worked = _try_host(cid, host)
         if result and probe_live(result[0]) == "ok":
             with _CACHE_LOCK:
                 _CACHED_HOST = host
+            _note_donis(True)
             return result
         if result and fallback is None:
             fallback = result
@@ -418,11 +470,13 @@ def resolve_stream(cid: str) -> tuple[str | None, str | None]:
                 if host_worked:
                     with _CACHE_LOCK:
                         _CACHED_HOST = discovered
+                _note_donis(True)
                 return result
     # Every donis route is exhausted. Fall back to the player wrappers, which
     # is what the app has been using successfully all along. The suffix is
     # None because no daddyN endpoint served this one; the caller leaves
     # daddy_endpoint untouched rather than inventing a label for it.
+    _note_donis(fallback is not None)
     if fallback is None:
         via_player = resolve_via_players(cid)
         if via_player:
