@@ -308,7 +308,30 @@ PLAYER_PATHS_RESOLVE = ["plus", "watch", "casting", "stream", "hub", "cast"]
 
 # dlhd.st redirects to whatever domain the site is on today, which is how
 # the app reaches it too. HOME_URL still points at the old dlhd.pk name.
+#
+# Measured 2026-09-26: dlhd.st/plus/stream-343.php takes TWO redirects to
+# reach dlive.sx, so every request paid two extra connects. Resolve the
+# landing host once per run and go straight there.
 PLAYER_BASE = "https://dlhd.st"
+_RESOLVED_PLAYER_BASE: str | None = None
+
+
+def player_base() -> str:
+    """The host the wrapper pages actually live on today."""
+    global _RESOLVED_PLAYER_BASE
+    if _RESOLVED_PLAYER_BASE:
+        return _RESOLVED_PLAYER_BASE
+    landed = PLAYER_BASE
+    try:
+        r = SESSION.get(PLAYER_BASE + "/", timeout=25, stream=True)
+        landed = "https://" + r.url.split("/", 3)[2]
+        r.close()
+    except requests.RequestException:
+        pass
+    _RESOLVED_PLAYER_BASE = landed
+    if landed != PLAYER_BASE:
+        print(f"      .. player base -> {landed}")
+    return landed
 
 _M3U8_DIRECT_RE = re.compile(
     r'https?://[a-z0-9.-]+/[^\s"\'<>\\]*\.m3u8[^\s"\'<>\\]*', re.IGNORECASE,
@@ -328,7 +351,14 @@ _PLAYER_HEADERS_LOCK = threading.Lock()
 # channel with no working route burned 210 s across six paths, which at 899
 # channels is worse than the outage it fixes. A channel that has not answered
 # in this long is not going to.
-PLAYER_RESOLVE_BUDGET_S = 30.0
+#
+# Raised from 30 s on 2026-09-26. The wrapper page is 644 KB (168 KB gzipped)
+# and the site now trickles it: ttfb 4.1 s, complete at 15.7 s, with the
+# <iframe> at the very END of the body so all of it is needed. A 10 s request
+# timeout could not fit that, so a run resolved 0 of 40 channels while every
+# page was in fact returning 200. One path now fits comfortably; two or three
+# still fit in the budget.
+PLAYER_RESOLVE_BUDGET_S = 75.0
 
 
 def _remember_headers(url: str, headers: dict) -> None:
@@ -338,7 +368,7 @@ def _remember_headers(url: str, headers: dict) -> None:
         _PLAYER_HEADERS[url] = headers
 
 
-def _player_get(url: str, referer: str, timeout: int = 10):
+def _player_get(url: str, referer: str, timeout: int = 30):
     try:
         r = SESSION.get(url, headers={"Referer": referer}, timeout=timeout)
         return r if r.ok else None
@@ -396,12 +426,13 @@ def resolve_via_players(cid: str) -> str | None:
     refusing after sustained fetching, so this stops at the first route whose
     master playlist actually loads rather than collecting them all.
     """
-    ref = f"{PLAYER_BASE}/watch.php?id={cid}"
+    base = player_base()
+    ref = f"{base}/watch.php?id={cid}"
     deadline = time.monotonic() + PLAYER_RESOLVE_BUDGET_S
     for path in PLAYER_PATHS_RESOLVE:
         if time.monotonic() > deadline:
             break
-        page = _player_get(f"{PLAYER_BASE}/{path}/stream-{cid}.php", ref)
+        page = _player_get(f"{base}/{path}/stream-{cid}.php", ref)
         if page is None:
             continue
         for frame in IFRAME_RE.findall(page.text)[:2]:
