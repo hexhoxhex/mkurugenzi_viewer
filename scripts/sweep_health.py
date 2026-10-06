@@ -42,7 +42,11 @@ import re
 import sys
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import (
+    ThreadPoolExecutor,
+    TimeoutError as FuturesTimeout,
+    as_completed,
+)
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urljoin
@@ -532,21 +536,60 @@ def main() -> int:
         default=0,
         help="0 = sweep every ok channel; set for a faster smoke run",
     )
+    ap.add_argument(
+        "--deadline-minutes",
+        type=float,
+        default=30.0,
+        help="stop probing after this long and publish what was measured",
+    )
     args = ap.parse_args()
 
     channels = load_channels(Path(args.channels))
     if args.limit:
         channels = channels[: args.limit]
-    print(f"sweep: probing {len(channels)} ok-marked channels", flush=True)
+
+    # Last run's verdicts, for two jobs: ordering the queue, and keeping
+    # whatever this run does not reach.
+    out_path = Path(args.out)
+    prev_results: dict[str, dict] = {}
+    prev_ok = 0
+    if out_path.exists():
+        try:
+            _prev = json.loads(out_path.read_text(encoding="utf-8"))
+            prev_ok = int(_prev.get("ok_count") or 0)
+            for _r in _prev.get("results") or []:
+                _rid = str(_r.get("id", ""))
+                if _rid:
+                    prev_results[_rid] = _r
+        except Exception:  # noqa: BLE001
+            prev_results, prev_ok = {}, 0
+
+    # Stalest first. This sweep has never once finished inside its job
+    # timeout — every run since the source started throttling us was
+    # cancelled at 40 minutes, having written nothing at all, so health.json
+    # simply stopped being updated. A run that cannot cover the whole
+    # catalogue should at least refresh whatever it looked at longest ago,
+    # and consecutive runs then cover everything between them.
+    channels.sort(
+        key=lambda c: prev_results.get(str(c.get("id", "")), {}).get("checked_at", 0)
+    )
+
+    deadline = time.time() + args.deadline_minutes * 60.0
+    print(
+        f"sweep: probing {len(channels)} ok-marked channels, stalest first "
+        f"(publishing at {args.deadline_minutes:g} min whatever is done)",
+        flush=True,
+    )
 
     started = time.time()
     results: list[dict] = []
     ok_count = 0
     fail_count = 0
     throttled_count = 0
-    with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futures = {ex.submit(probe_channel, c): c for c in channels}
-        for fut in as_completed(futures):
+    ex = ThreadPoolExecutor(max_workers=args.workers)
+    futures = {ex.submit(probe_channel, c): c for c in channels}
+    try:
+        for fut in as_completed(futures, timeout=max(1.0, deadline - time.time())):
             # Defensive: probe_channel should catch its own errors, but
             # if anything slips through, mark that ONE channel down
             # rather than letting fut.result() raise and abort the whole
@@ -607,6 +650,18 @@ def main() -> int:
                     f"fail={fail_count} ({elapsed} s elapsed)",
                     flush=True,
                 )
+    except FuturesTimeout:
+        print(
+            f"::warning::sweep reached its {args.deadline_minutes:g} min deadline "
+            f"with {ok_count + fail_count}/{len(channels)} measured — publishing "
+            f"those and keeping the previous verdict for the rest. The next run "
+            f"starts with the ones it did not reach.",
+            flush=True,
+        )
+    finally:
+        # Don't wait on the stragglers; each probe is bounded by its own
+        # timeouts, so the few in flight finish on their own.
+        ex.shutdown(wait=False, cancel_futures=True)
 
     elapsed = int(time.time() - started)
     print(
@@ -620,15 +675,15 @@ def main() -> int:
     # the whole catalogue dying at once. Publishing that would badge working
     # channels as offline for every user. Refuse to overwrite a healthier
     # previous sweep and exit non-zero so the failure is visible.
-    prev_ok = 0
-    out_path = Path(args.out)
-    if out_path.exists():
-        try:
-            prev = json.loads(out_path.read_text(encoding="utf-8"))
-            prev_ok = int(prev.get("ok_count") or 0)
-        except Exception:  # noqa: BLE001
-            prev_ok = 0
-    if throttled_count > len(channels) // 10:
+    # This run's results layered over everything already known, so a partial
+    # sweep ADDS to the picture instead of replacing it with a smaller one.
+    merged = dict(prev_results)
+    for r in results:
+        merged[str(r["id"])] = r
+    merged_ok = sum(1 for r in merged.values() if r.get("status") == "ok")
+    attempted = ok_count + fail_count + throttled_count
+
+    if attempted and throttled_count > max(10, attempted // 10):
         print(
             f"::warning::SKIPPING PUBLISH — {throttled_count} channels were "
             f"unverifiable (throttled, or our one CDN route 5xx'd). This run "
@@ -642,7 +697,7 @@ def main() -> int:
         # and hides a real breakage when one happens. The warning above is
         # visible on the run; staleness of health.json is the other signal.
         return 0
-    if prev_ok >= 20 and ok_count < prev_ok // 2:
+    if prev_ok >= 20 and merged_ok < prev_ok // 2:
         print(
             f"::warning::SKIPPING PUBLISH — ok collapsed {prev_ok} -> "
             f"{ok_count}. Refusing to overwrite with a sweep that marks most "
@@ -652,14 +707,20 @@ def main() -> int:
         return 0
 
     # Sort by id for stable diffs in the committed health.json.
-    results.sort(key=lambda r: int(r["id"]) if r["id"].isdigit() else 0)
+    merged_list = sorted(
+        merged.values(),
+        key=lambda r: int(r["id"]) if str(r["id"]).isdigit() else 0,
+    )
     payload = {
         "swept_at": int(time.time()),
-        "channels_swept": len(channels),
-        "ok_count": ok_count,
-        "fail_count": fail_count,
+        "channels_swept": len(merged_list),
+        "measured_this_run": ok_count + fail_count,
+        "ok_count": merged_ok,
+        "fail_count": sum(
+            1 for r in merged_list if r.get("status") not in ("ok", "unknown")
+        ),
         "elapsed_seconds": elapsed,
-        "results": results,
+        "results": merged_list,
     }
     Path(args.out).write_text(json.dumps(payload, indent=2), encoding="utf-8")
     print(f"wrote {args.out}", flush=True)

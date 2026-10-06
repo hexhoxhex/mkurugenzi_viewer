@@ -97,6 +97,56 @@ _DONIS_FAILS = 0
 _DONIS_DEAD = False
 
 
+# Same idea as the donis breaker, one level up: if the WRAPPER source is not
+# answering either, there is nothing left to resolve with.
+#
+# Measured on the 2026-10-06 runs: every channel burned its full budget and
+# the run ended "899/899 resolved (0 ok, 0 live)" after 67 minutes, at which
+# point the collapse guard restored the previous catalogue — so the job went
+# green, published nothing new, and channels.json silently stopped changing
+# (last real change 2026-10-04). The source throttles datacentre IPs hard
+# enough that a 644 KB wrapper page cannot be fetched inside any sane budget
+# from a CI runner, while the same page loads fine from home.
+#
+# Spending an hour to learn that is pure waste, and worse, it hides the
+# problem behind a successful run. Notice after this many channels in a row
+# produce nothing, then stop and say so plainly.
+SOURCE_DEAD_LIMIT = 30
+_SOURCE_LOCK = threading.Lock()
+_SOURCE_FAILS = 0
+_SOURCE_DEAD = False
+
+
+def _source_dead() -> bool:
+    with _SOURCE_LOCK:
+        return _SOURCE_DEAD
+
+
+def _note_source(ok: bool) -> None:
+    global _SOURCE_FAILS, _SOURCE_DEAD
+    with _SOURCE_LOCK:
+        if ok:
+            _SOURCE_FAILS = 0
+            _SOURCE_DEAD = False
+            return
+        _SOURCE_FAILS += 1
+        if not _SOURCE_DEAD and _SOURCE_FAILS >= SOURCE_DEAD_LIMIT:
+            _SOURCE_DEAD = True
+            print(
+                f"      !! the wrapper source resolved NOTHING for "
+                f"{_SOURCE_FAILS} channels in a row. It is throttling this "
+                f"runner, not failing per-channel — stopping the walk for the "
+                f"rest of this run rather than spending an hour proving it. "
+                f"The previous catalogue stands.",
+                flush=True,
+            )
+            print(
+                "::warning::catalogue NOT refreshed: the wrapper source would "
+                "not serve this runner. Keeping the last good channels.json.",
+                flush=True,
+            )
+
+
 def _donis_open() -> bool:
     """False once the donis family has proved it is not answering."""
     with _DONIS_LOCK:
@@ -426,6 +476,9 @@ def resolve_via_players(cid: str) -> str | None:
     refusing after sustained fetching, so this stops at the first route whose
     master playlist actually loads rather than collecting them all.
     """
+    # The source has already shown it will not serve this runner.
+    if _source_dead():
+        return None
     base = player_base()
     ref = f"{base}/watch.php?id={cid}"
     deadline = time.monotonic() + PLAYER_RESOLVE_BUDGET_S
@@ -460,9 +513,11 @@ def resolve_via_players(cid: str) -> str | None:
                 mr = SESSION.get(url, headers=hdrs, timeout=12)
                 if mr.ok and (mr.text or "").lstrip().startswith("#EXTM3U"):
                     _remember_headers(url, hdrs)
+                    _note_source(True)
                     return url
             except requests.RequestException:
                 pass
+    _note_source(False)
     return None
 
 
