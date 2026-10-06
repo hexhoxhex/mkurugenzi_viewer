@@ -628,9 +628,15 @@ def main() -> int:
             # Mark those unknown and DROP them, so the previous verdict stands.
             # Only a definite negative from our own route (404, a served
             # playlist that is malformed, a dead segment) is recorded as down.
+            # "resolve" joins them: it means this runner could not get the
+            # player page at all. Since 2026-10 the source does not serve
+            # GitHub's datacenter network, and every channel failed here —
+            # 94 of them were published as "down" in a day and every app
+            # badged them "Often offline" while they played fine at home.
             reason = r.get("fail_reason") or ""
             unverifiable = (
-                "429" in reason
+                reason == "resolve"
+                or "429" in reason
                 or ":503" in reason or ":502" in reason or ":504" in reason
             )
             if unverifiable:
@@ -696,6 +702,19 @@ def main() -> int:
         # Failing the build for that trains everyone to ignore a red sweep,
         # and hides a real breakage when one happens. The warning above is
         # visible on the run; staleness of health.json is the other signal.
+        return 0
+    # BLIND RUN. Not a single channel played from here, so this run measured
+    # the runner's own reach, not the catalogue. The merged-count check below
+    # cannot see it: weeks-old "ok" entries keep merged_ok high while every
+    # fresh verdict is "down" (2026-10-06: 0 ok of 114 measured, published).
+    measured = ok_count + fail_count
+    if measured >= 20 and ok_count == 0:
+        print(
+            f"::warning::SKIPPING PUBLISH — 0 of {measured} channels played "
+            f"from this runner. That is the runner being blocked, not every "
+            f"channel being down. Keeping the previous health.json.",
+            flush=True,
+        )
         return 0
     if prev_ok >= 20 and merged_ok < prev_ok // 2:
         print(
