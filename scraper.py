@@ -354,7 +354,11 @@ def _try_host(cid: str, host: str) -> tuple[tuple[str, str] | None, bool]:
 # Wrapper pages, best-first. /plus was the only route that resolved in
 # testing on 2026-09-20 (3 of 3 channels, epidd via the XOR shape); the rest
 # are tried in turn because which one answers moves around.
-PLAYER_PATHS_RESOLVE = ["plus", "watch", "casting", "stream", "hub", "cast"]
+# Re-measured 2026-10-06: /stream resolved every channel tested (343, 51, 608
+# via dembed.top); /plus now lands on a parked page for most channels ("For
+# business, promotional, or legal inquiries..."). Leading with a dead route
+# costs a 644 KB page per channel against a host that throttles on volume.
+PLAYER_PATHS_RESOLVE = ["stream", "plus", "watch", "casting", "hub", "cast"]
 
 # dlhd.st redirects to whatever domain the site is on today, which is how
 # the app reaches it too. HOME_URL still points at the old dlhd.pk name.
