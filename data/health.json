@@ -1,9 +1,9 @@
 {
-  "swept_at": 1791360414,
-  "channels_swept": 678,
+  "swept_at": 1791373139,
+  "channels_swept": 731,
   "measured_this_run": 114,
-  "ok_count": 595,
-  "fail_count": 83,
+  "ok_count": 605,
+  "fail_count": 126,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -700,6 +700,17 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9095965697.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010952Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=c2bca5d0bad3521af5db1f1fcb12308e3e62645093b1bf8a8fae96ea5756ce46"
     },
     {
+      "id": "137",
+      "name": "match football 2 russia",
+      "checked_at": 1791373094,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "138",
       "name": "match football 3 russia",
       "checked_at": 1789261821,
@@ -825,6 +836,17 @@
       "checked_at": 1791326938,
       "status": "ok",
       "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "230",
+      "name": "dazn 1 uk",
+      "checked_at": 1791372848,
+      "status": "down",
+      "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
       "host": null,
       "first_segment_url": null,
@@ -1031,6 +1053,17 @@
       "daddy_endpoint": "daddy3.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6388924061.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011114Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=e490733258a2ccc4950d6b0868f72dd7595fea3ccfd442e7ad6bcf057aafa705"
+    },
+    {
+      "id": "278",
+      "name": "law & crime network",
+      "checked_at": 1791373023,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "279",
@@ -1477,11 +1510,11 @@
     {
       "id": "330",
       "name": "nick",
-      "checked_at": 1791331640,
+      "checked_at": 1791372789,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -2209,11 +2242,11 @@
     {
       "id": "414",
       "name": "supersport premier league",
-      "checked_at": 1791330847,
+      "checked_at": 1791368657,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -2387,6 +2420,17 @@
       "daddy_endpoint": "daddy2.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_509062455.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010517Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=16805b25481c49bb63e3b2f0d37531a7f66a6e48c8769c864ef3a71d96ead5bb"
+    },
+    {
+      "id": "446",
+      "name": "dazn 2 spain",
+      "checked_at": 1791372833,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "447",
@@ -2657,6 +2701,17 @@
       "daddy_endpoint": null,
       "host": "xameleon.phantemlis.top",
       "first_segment_url": null
+    },
+    {
+      "id": "480",
+      "name": "nova tv bulgaria",
+      "checked_at": 1791373139,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "482",
@@ -3047,13 +3102,46 @@
       "source": "home"
     },
     {
+      "id": "549",
+      "name": "channel 12 israel",
+      "checked_at": 1791364734,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "550",
       "name": "viaplay sports 2 uk",
-      "checked_at": 1791330892,
+      "checked_at": 1791368759,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "552",
+      "name": "channel 14 israel",
+      "checked_at": 1791364734,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
       "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "553",
+      "name": "hot3 israel",
+      "checked_at": 1791373006,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -3198,6 +3286,17 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_5992482910.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010338Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7a3a742ab1ad70a9aa5d1d57a9ee23f402d09544835c65ad54bc854422ddc7fe"
     },
     {
+      "id": "568",
+      "name": "filmbox premium poland",
+      "checked_at": 1791372933,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "569",
       "name": "hbo poland",
       "checked_at": 1789261747,
@@ -3286,6 +3385,17 @@
       "daddy_endpoint": "daddy.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_8977030986.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011346Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=1fa30ec1784f50ca86f4174140e1e69346f6c6e240427dab899ae44f7dab32ba"
+    },
+    {
+      "id": "582",
+      "name": "nova sport serbia",
+      "checked_at": 1791373079,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "584",
@@ -3418,6 +3528,17 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2875829228.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011523Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=f668146687cb1140ec0542171e39cd22749d17af6c5957ed1db4fc695238e518"
     },
     {
+      "id": "597",
+      "name": "bein sports max ar",
+      "checked_at": 1791373021,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "598",
       "name": "willow 2 cricket",
       "checked_at": 1789262448,
@@ -3466,6 +3587,28 @@
       "daddy_endpoint": "daddy4.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9709317994.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010530Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ec0d2bc86698749f064d7d83ebcb9522681c14945905671edb979f5c3be7eb49"
+    },
+    {
+      "id": "605",
+      "name": "dubai sports 2 uae",
+      "checked_at": 1791372933,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "606",
+      "name": "dubai sports 3 uae",
+      "checked_at": 1791372933,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "607",
@@ -3659,6 +3802,17 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3053553196.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011112Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=0830cf7ed12f1d44089f2be487ef51a58039a451572a54504c753ab20c1ea613"
     },
     {
+      "id": "634",
+      "name": "nova sports 4 greece",
+      "checked_at": 1791373096,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "635",
       "name": "nova sports 5 greece",
       "checked_at": 1789261898,
@@ -3802,11 +3956,11 @@
     {
       "id": "649",
       "name": "nicktoons",
-      "checked_at": 1791360414,
+      "checked_at": 1791372688,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -3959,6 +4113,17 @@
       "daddy_endpoint": "daddy4.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7863835660.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010747Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=67c3928aff8b6efb78adc90313c225ac97366e4d0bb17cf596203d038179b629"
+    },
+    {
+      "id": "666",
+      "name": "nick music",
+      "checked_at": 1791373116,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "669",
@@ -4149,6 +4314,17 @@
       "daddy_endpoint": "daddy5.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3356216650.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010834Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=25cc9cdcdf7f38bad442e4f68e987101445ae6e147568be80d01c9dfaf2f0eb5"
+    },
+    {
+      "id": "688",
+      "name": "film4 uk",
+      "checked_at": 1791372933,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "689",
@@ -4690,6 +4866,17 @@
       "daddy_endpoint": "daddy2.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_5377527404.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010448Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=b45dd312d4559a4f3d26c8f117110e676da68f5deb756f81006edebaad73e9bc"
+    },
+    {
+      "id": "751",
+      "name": "fetv - family entertainment television",
+      "checked_at": 1791372918,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "752",
@@ -5902,6 +6089,28 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7134213257.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012033Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=d6a80dbc6b60fdbe43857fc7961ab82e239b84391844441def9768e135ca3326"
     },
     {
+      "id": "890",
+      "name": "fanduel sports network arizona",
+      "checked_at": 1791372945,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "891",
+      "name": "big brother s28 cam 1",
+      "checked_at": 1791372968,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "892",
       "name": "big brother s28 cam 2",
       "checked_at": 1789261695,
@@ -6192,6 +6401,17 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6585009088.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011841Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=6c531c16b0be1d9bcd1b8cda93ef8fa466c1cecc3597df9e7fb13bd90ae6411e"
     },
     {
+      "id": "924",
+      "name": "las estrellas",
+      "checked_at": 1791373094,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "925",
       "name": "espn 1 mx",
       "checked_at": 1789261643,
@@ -6270,6 +6490,17 @@
       "daddy_endpoint": "daddy.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6376270959.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011915Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=df811ce0c026b543305249ebf33cc04a825df0701c0c9e998128733897de4417"
+    },
+    {
+      "id": "933",
+      "name": "claro sports mx",
+      "checked_at": 1791364734,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "934",
@@ -6441,6 +6672,17 @@
       "daddy_endpoint": null,
       "host": "xameleon.phantemlis.top",
       "first_segment_url": null
+    },
+    {
+      "id": "964",
+      "name": "cnews france",
+      "checked_at": 1791364734,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "965",
@@ -6793,6 +7035,105 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9188729790.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010516Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=5c18bb3166879e843d91e99f8db203861b6275395d7fef2be5d750a0b2bfcaa9"
     },
     {
+      "id": "1034",
+      "name": "nova hd cz",
+      "checked_at": 1791364734,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1035",
+      "name": "ct1 hd cz",
+      "checked_at": 1791364839,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1036",
+      "name": "ct2 hd cz",
+      "checked_at": 1791364839,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1037",
+      "name": "tn live cz",
+      "checked_at": 1791364839,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1038",
+      "name": "oneplay sport 4 cz",
+      "checked_at": 1791364839,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1039",
+      "name": "oneplay md2 cz",
+      "checked_at": 1791364839,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1040",
+      "name": "oneplay md3 cz",
+      "checked_at": 1791364940,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1041",
+      "name": "oneplay md4 cz",
+      "checked_at": 1791364940,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1042",
+      "name": "sport 1 cz",
+      "checked_at": 1791364940,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "1043",
       "name": "canal+ sport 2 cz",
       "checked_at": 1789261515,
@@ -6803,6 +7144,94 @@
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_4603752129.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010525Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=f7b596d10ae7b7d0da5422be6b2e1228ff0646904fdeaa254ea1983223af933d"
     },
     {
+      "id": "1044",
+      "name": "canal+ sport 3 cz",
+      "checked_at": 1791364940,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1045",
+      "name": "canal+ sport 4 cz",
+      "checked_at": 1791364940,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1046",
+      "name": "canal+ sport 5 cz",
+      "checked_at": 1791368774,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1047",
+      "name": "canal+ sport 6 cz",
+      "checked_at": 1791368774,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1048",
+      "name": "canal+ sport 7 cz",
+      "checked_at": 1791368774,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1049",
+      "name": "canal+ sport 8 cz",
+      "checked_at": 1791368774,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1050",
+      "name": "joj sk",
+      "checked_at": 1791368774,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1051",
+      "name": "dajto sk",
+      "checked_at": 1791368876,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "1052",
       "name": "joj \u0160port sk",
       "checked_at": 1789261517,
@@ -6811,6 +7240,160 @@
       "daddy_endpoint": "daddy3.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": null
+    },
+    {
+      "id": "1053",
+      "name": "voyo special 1 sk",
+      "checked_at": 1791368876,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1054",
+      "name": "voyo special 2 sk",
+      "checked_at": 1791368876,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1055",
+      "name": "voyo special 3 sk",
+      "checked_at": 1791368876,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1056",
+      "name": "voyo special 4 sk",
+      "checked_at": 1791368876,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1057",
+      "name": "voyo special 7 sk",
+      "checked_at": 1791368978,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1058",
+      "name": "voyo special 8 sk",
+      "checked_at": 1791368978,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1059",
+      "name": "voyo special 9 sk",
+      "checked_at": 1791368978,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1060",
+      "name": "nova sport 3 sk",
+      "checked_at": 1791368978,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1061",
+      "name": "nova sport 4 sk",
+      "checked_at": 1791368978,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1062",
+      "name": "nova sport 5 sk",
+      "checked_at": 1791372804,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1063",
+      "name": "canal+ sport sk",
+      "checked_at": 1791372804,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1064",
+      "name": "canal+ sport 2 sk",
+      "checked_at": 1791372804,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1065",
+      "name": "canal+ sport 3 sk",
+      "checked_at": 1791372804,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "1066",
+      "name": "canal+ sport 4 sk",
+      "checked_at": 1791372804,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     }
   ]
 }
