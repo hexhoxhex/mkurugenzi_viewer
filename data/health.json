@@ -1,9 +1,9 @@
 {
-  "swept_at": 1791565868,
-  "channels_swept": 872,
+  "swept_at": 1791573425,
+  "channels_swept": 878,
   "measured_this_run": 114,
-  "ok_count": 697,
-  "fail_count": 175,
+  "ok_count": 702,
+  "fail_count": 176,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -2065,7 +2065,7 @@
     {
       "id": "349",
       "name": "bbc news channel hd",
-      "checked_at": 1791565868,
+      "checked_at": 1791573308,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -2132,6 +2132,50 @@
       "daddy_endpoint": "daddy3.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2210917264.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010351Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=c36e1dfe1791ab0806e5aa37e6fe8d0277f7cd837110a90554999843cedb2431"
+    },
+    {
+      "id": "356",
+      "name": "bbc one uk",
+      "checked_at": 1791573325,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "357",
+      "name": "bbc two uk",
+      "checked_at": 1791573342,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "358",
+      "name": "bbc three uk",
+      "checked_at": 1791573406,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "359",
+      "name": "bbc four uk",
+      "checked_at": 1791573391,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "360",
@@ -2507,6 +2551,17 @@
       "daddy_endpoint": "daddy2.php",
       "host": "xameleon.phantemlis.top",
       "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3327643509.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012121Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=671f9f19b7f6988a2fb4320233ff03cd827d455aaa0027bdbcca9b7a79338ba6"
+    },
+    {
+      "id": "397",
+      "name": "big ten network (btn usa)",
+      "checked_at": 1791573408,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "398",
@@ -5601,6 +5656,17 @@
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
       "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "712",
+      "name": "bein sports 1 malaysia",
+      "checked_at": 1791573425,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
