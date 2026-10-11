@@ -1,11 +1,22 @@
 {
-  "swept_at": 1791573425,
-  "channels_swept": 878,
+  "swept_at": 1791739869,
+  "channels_swept": 879,
   "measured_this_run": 114,
-  "ok_count": 702,
+  "ok_count": 703,
   "fail_count": 176,
   "elapsed_seconds": 1800,
   "results": [
+    {
+      "id": "18",
+      "name": "",
+      "checked_at": 1791733974,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
     {
       "id": "31",
       "name": "tnt sports 1 uk",
@@ -1598,11 +1609,11 @@
     {
       "id": "303",
       "name": "amc usa",
-      "checked_at": 1791385227,
+      "checked_at": 1791739869,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -5662,7 +5673,7 @@
     {
       "id": "712",
       "name": "bein sports 1 malaysia",
-      "checked_at": 1791573425,
+      "checked_at": 1791733933,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -5673,12 +5684,13 @@
     {
       "id": "713",
       "name": "bein sports 2 malaysia",
-      "checked_at": 1789261406,
+      "checked_at": 1791733952,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_4893407040.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T010307Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=b6ea19929754ccd81091c9cc8c5bcc36d54a2a6771e462606811717dee3a9213"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "714",
@@ -6240,12 +6252,13 @@
     {
       "id": "769",
       "name": "nbcny usa",
-      "checked_at": 1789261917,
+      "checked_at": 1791735031,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6046784355.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011144Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=899bdc9cfe0b685a5eca29a3ce900b149245719811f0611e88250e3afd9ea8c5"
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "770",
