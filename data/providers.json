@@ -16,9 +16,10 @@
     "would disable every provider is refused \u2014 users can never end up with no",
     "way to play anything because of an edit here.",
     "",
-    "Valid names: MovieBox, VidNest, Icefy, VixSrc, 4KHDHub"
+    "Valid names: 7Movies, MovieBox, VidNest, Icefy, VixSrc, 4KHDHub"
   ],
   "order": [
+    "7Movies",
     "MovieBox",
     "VidNest",
     "VixSrc",
@@ -28,5 +29,5 @@
   "disabled": [
     "Icefy"
   ],
-  "notes": "2026-08-26: Icefy DISABLED \u2014 its host now 403s at the root and every /movie and /tv endpoint 404s, so it can only ever add a dead hop to the failover chain. Verified across 3 titles. Re-enable by clearing 'disabled' if it comes back. VidNest/VixSrc/4KHDHub verified serving playable streams the same day."
+  "notes": "2026-10-11: 7Movies (vidrift API, app v0.1.292+) added FIRST, MovieBox second - MovieBox rations free plays per session (limited=true, freeNum=3), so it is now the backup. Older app versions ignore the name. Disable '7Movies' here if its API breaks. 2026-08-26: Icefy DISABLED \u2014 its host now 403s at the root and every /movie and /tv endpoint 404s, so it can only ever add a dead hop to the failover chain. Verified across 3 titles. Re-enable by clearing 'disabled' if it comes back. VidNest/VixSrc/4KHDHub verified serving playable streams the same day."
 }
