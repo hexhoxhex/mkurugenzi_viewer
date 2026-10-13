@@ -1,9 +1,9 @@
 {
-  "swept_at": 1791880156,
+  "swept_at": 1791890174,
   "channels_swept": 887,
   "measured_this_run": 114,
-  "ok_count": 712,
-  "fail_count": 175,
+  "ok_count": 713,
+  "fail_count": 174,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -900,9 +900,9 @@
     {
       "id": "126",
       "name": "astro supersport 4",
-      "checked_at": 1791385328,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1791890141,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
       "host": null,
       "first_segment_url": null,
@@ -1676,11 +1676,11 @@
     {
       "id": "303",
       "name": "amc usa",
-      "checked_at": 1791810317,
+      "checked_at": 1791889947,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -5322,11 +5322,11 @@
     {
       "id": "649",
       "name": "nicktoons",
-      "checked_at": 1791372688,
+      "checked_at": 1791890174,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
