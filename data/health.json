@@ -1,8 +1,8 @@
 {
-  "swept_at": 1791924042,
-  "channels_swept": 887,
+  "swept_at": 1791924104,
+  "channels_swept": 888,
   "measured_this_run": 114,
-  "ok_count": 714,
+  "ok_count": 715,
   "fail_count": 173,
   "elapsed_seconds": 1800,
   "results": [
@@ -1176,6 +1176,17 @@
       "checked_at": 1791380953,
       "status": "down",
       "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "218",
+      "name": "",
+      "checked_at": 1791924104,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
       "host": null,
       "first_segment_url": null,
@@ -4556,22 +4567,24 @@
     {
       "id": "576",
       "name": "sky sport tennis italy",
-      "checked_at": 1789262065,
+      "checked_at": 1791924064,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_982207950.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011430Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=289c47d540ab060cb1211b0e5595084176bbc523a58c1886ed0ffef69ce1e2bb"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "577",
       "name": "sky sport f1 italy",
-      "checked_at": 1789262067,
+      "checked_at": 1791924089,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_8977030986.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011346Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=1fa30ec1784f50ca86f4174140e1e69346f6c6e240427dab899ae44f7dab32ba"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "578",
