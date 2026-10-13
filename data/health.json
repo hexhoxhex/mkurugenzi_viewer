@@ -1,9 +1,9 @@
 {
-  "swept_at": 1791890174,
+  "swept_at": 1791924042,
   "channels_swept": 887,
   "measured_this_run": 114,
-  "ok_count": 713,
-  "fail_count": 174,
+  "ok_count": 714,
+  "fail_count": 173,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -1239,22 +1239,24 @@
     {
       "id": "240",
       "name": "sky sports 1 de",
-      "checked_at": 1789262058,
+      "checked_at": 1791924038,
       "status": "down",
-      "fail_reason": "segment:bad-sync",
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_1038088542.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011352Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=5a06de7b7d9ae4e192ad33cdd59a55b83d367802b5d733a33a99922f6486d16b"
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "241",
       "name": "sky sports 2 de",
-      "checked_at": 1789262058,
+      "checked_at": 1791924038,
       "status": "down",
-      "fail_reason": "segment:bad-sync",
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6353420545.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011335Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=8952455b808db110d4c672e331322be779f20e0a008cdb7366288a97924257bf"
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "259",
@@ -1676,11 +1678,11 @@
     {
       "id": "303",
       "name": "amc usa",
-      "checked_at": 1791889947,
+      "checked_at": 1791923962,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -2475,9 +2477,9 @@
     {
       "id": "377",
       "name": "mutv uk",
-      "checked_at": 1791855430,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1791906196,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
       "host": null,
       "first_segment_url": null,
@@ -4532,22 +4534,24 @@
     {
       "id": "574",
       "name": "sky sports golf italy",
-      "checked_at": 1789262062,
+      "checked_at": 1791924023,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_4727638266.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011427Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=0d78cdc5165330497676ed4edb24f59ea5a57abcbe121668990e0d17818e58e4"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "575",
       "name": "sky sport motogp italy",
-      "checked_at": 1789262062,
+      "checked_at": 1791924042,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_402005038.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011356Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7312b9d65b85c9e550077912f1a11d3d24f6a087ece4288b403d3fe940688139"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "576",
