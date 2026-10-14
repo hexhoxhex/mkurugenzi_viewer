@@ -1,8 +1,8 @@
 {
-  "swept_at": 1791931232,
-  "channels_swept": 888,
+  "swept_at": 1792010492,
+  "channels_swept": 890,
   "measured_this_run": 114,
-  "ok_count": 715,
+  "ok_count": 717,
   "fail_count": 173,
   "elapsed_seconds": 1800,
   "results": [
@@ -50,12 +50,13 @@
     {
       "id": "34",
       "name": "tnt sports 4 uk",
-      "checked_at": 1789262350,
+      "checked_at": 1792009350,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_878251988.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011851Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=f2771dbb4c8e87236c421e1934d8f89f8d6d4c14c5d43a752c31193ae809cb91"
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "35",
@@ -1156,6 +1157,28 @@
       "fail_reason": null,
       "daddy_endpoint": null,
       "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "168",
+      "name": "",
+      "checked_at": 1792010492,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "171",
+      "name": "",
+      "checked_at": 1792008756,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
