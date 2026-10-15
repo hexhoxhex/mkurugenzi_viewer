@@ -748,6 +748,45 @@ CHAN_RE = re.compile(
     r'<a[^>]+href="/watch\.php\?id=(\d+)"[^>]*title="([^"]*)"'
 )
 
+# The schedule is split into days, each headed e.g.
+#   "Wednesday 14th Oct 2026 - Schedule Time UK GMT"
+# The page keeps yesterday's day on it for a while, and ignoring these
+# headings put yesterday's matches on today (2026-10-15: Roma vs Real Madrid,
+# played the night before, was published as "tonight").
+DAY_RE = re.compile(r'<div class="schedule__dayTitle">([^<]+)</div>')
+_DAY_DATE_RE = re.compile(
+    r"(\d{1,2})(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(\d{4})"
+)
+
+
+def _parse_day_title(text: str) -> "_dt.date | None":
+    """'Wednesday 14th Oct 2026 - Schedule Time UK GMT' -> date(2026, 10, 14)."""
+    m = _DAY_DATE_RE.search(text or "")
+    if not m:
+        return None
+    month = _MONTH_ORDINALS.get(m.group(2)[:3].lower())
+    if not month:
+        return None
+    try:
+        return _dt.date(int(m.group(3)), month, int(m.group(1)))
+    except ValueError:
+        return None
+
+
+def _utc_start(day: "_dt.date", time_str: str) -> int | None:
+    """Unix start of HH:MM on [day]. The page's own headings say "Schedule
+    Time UK GMT", i.e. UTC all year: reading them as UK local time put every
+    kick-off an hour early during British Summer Time (a 21:00 CEST Champions
+    League kick-off is listed 19:00, which is 22:00 in Nairobi, not 21:00)."""
+    try:
+        hh, mm = map(int, time_str.split(":", 1))
+    except (ValueError, AttributeError):
+        return None
+    if not (0 <= hh <= 23 and 0 <= mm <= 59):
+        return None
+    return int(_dt.datetime(day.year, day.month, day.day, hh, mm,
+                            tzinfo=_dt.timezone.utc).timestamp())
+
 
 def _event_start_unix(time_str: str, now_unix: int) -> int | None:
     """Best-guess Unix timestamp of event start. dlhd publishes 'HH:MM' with no
@@ -799,6 +838,10 @@ def fetch_schedule() -> list[dict]:
         return []
     positions = [p for p, _ in cat_pos]
     names = {p: n for p, n in cat_pos}
+    days = [
+        (m.start(), _parse_day_title(_html.unescape(m.group(1))))
+        for m in DAY_RE.finditer(text)
+    ]
 
     now_unix = int(_time.time())
     # Drop events whose start was more than 3 h ago. This catches the
@@ -817,7 +860,16 @@ def fetch_schedule() -> list[dict]:
                 break
         _data_title, data_time, time_text, title, channels_block = m.groups()
         time_str = (data_time or time_text).strip()
-        start_unix = _event_start_unix(time_str, now_unix)
+        # The day heading above this event, when the page has one.
+        day = None
+        for p, d in reversed(days):
+            if p < m.start():
+                day = d
+                break
+        start_unix = (
+            _utc_start(day, time_str) if day is not None
+            else _event_start_unix(time_str, now_unix)
+        )
         if start_unix is not None and start_unix < stale_cutoff:
             dropped_stale += 1
             continue
@@ -836,6 +888,7 @@ def fetch_schedule() -> list[dict]:
             "channels": chans,
             "start_unix": start_unix,
             "scraped_at_unix": now_unix,
+            "day": day.isoformat() if day is not None else None,
         })
     if dropped_stale:
         print(f"      dropped {dropped_stale} stale schedule events (>3h in the past)")
@@ -850,9 +903,10 @@ def fetch_schedule() -> list[dict]:
 # that date out into its own field and clean the category text so the
 # downstream UI can group / tab events by day cleanly.
 #
-# We assume dlhd.pk publishes in UK local time (this matches the times we
-# see on the home page). Events with no date hint default to today's UK
-# date.
+# Times are UTC: every day heading reads "... - Schedule Time UK GMT". (This
+# used to assume UK local time, which is an hour off during summer time.)
+# An event's date comes from its day heading; a dated category ("Upcoming
+# Matches Jun 14") overrides it; with neither, today's UTC date.
 
 _UK_ZONE = ZoneInfo("Europe/London")
 
@@ -901,16 +955,17 @@ def _clean_category_text(s: str) -> str:
     return s.strip()
 
 
-def _resolve_iso_date(today_uk: _dt.date, month_word: str, day: int) -> str:
-    """Combine an extracted (month, day) with today's UK date into an ISO
-    yyyy-MM-dd string. If the resulting date would be earlier than today,
-    roll into next year — guarantees future-event dates always parse to
-    a future date.
+def _resolve_iso_date(base: _dt.date, month_word: str, day: int) -> str:
+    """Combine an extracted (month, day) with the day it is listed under
+    into an ISO yyyy-MM-dd string. Rolls into next year only when the date
+    is well before [base] ("Jan 3" listed in late December) — a date that
+    just passed stays this year, so yesterday's leftovers are dropped as
+    stale instead of becoming next year's fixtures.
     """
     month = _MONTH_ORDINALS[month_word[:3].lower()]
-    candidate = _dt.date(today_uk.year, month, day)
-    if candidate < today_uk:
-        candidate = _dt.date(today_uk.year + 1, month, day)
+    candidate = _dt.date(base.year, month, day)
+    if candidate < base - _dt.timedelta(days=180):
+        candidate = _dt.date(base.year + 1, month, day)
     return candidate.isoformat()
 
 
@@ -928,31 +983,26 @@ def annotate_dates(events: list[dict]) -> list[dict]:
     Returns a new list (does not mutate input).
     """
     import time as _time
-    today_uk = _dt.datetime.now(_UK_ZONE).date()
+    today_utc = _dt.datetime.now(_dt.timezone.utc).date()
     now_unix = int(_time.time())
     out: list[dict] = []
     for e in events:
         cat = e.get("category", "")
+        heading = e.get("day")
+        base_day = _dt.date.fromisoformat(heading) if heading else today_utc
         m = _DATE_IN_CAT_RE.match(cat)
         if m:
             base_cat = _clean_category_text(m.group("lead"))
-            iso = _resolve_iso_date(today_uk, m.group("m"), int(m.group("d")))
+            iso = _resolve_iso_date(base_day, m.group("m"), int(m.group("d")))
         else:
             base_cat = _clean_category_text(cat)
-            iso = today_uk.isoformat()
-        # Compute start_unix from date + time, both UK-localised. Falls back
-        # to None on malformed time strings — the app must handle that.
-        start_unix: int | None = None
+            iso = base_day.isoformat()
+        # start_unix from date + time, UTC. None on a malformed time — the
+        # app must handle that.
+        start_unix: int | None = _utc_start(
+            _dt.date.fromisoformat(iso), e.get("time", ""),
+        )
         time_str = e.get("time", "")
-        try:
-            hh, mm = map(int, time_str.split(":", 1))
-            if 0 <= hh <= 23 and 0 <= mm <= 59:
-                d = _dt.date.fromisoformat(iso)
-                dt_uk = _dt.datetime(d.year, d.month, d.day, hh, mm,
-                                     tzinfo=_UK_ZONE)
-                start_unix = int(dt_uk.timestamp())
-        except (ValueError, AttributeError):
-            pass
         out.append({
             "category": base_cat or "Uncategorized",
             "date": iso,
