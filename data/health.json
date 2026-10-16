@@ -1,9 +1,9 @@
 {
-  "swept_at": 1792073872,
-  "channels_swept": 898,
+  "swept_at": 1792136675,
+  "channels_swept": 900,
   "measured_this_run": 114,
-  "ok_count": 710,
-  "fail_count": 188,
+  "ok_count": 713,
+  "fail_count": 187,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -988,22 +988,24 @@
     {
       "id": "132",
       "name": "univision",
-      "checked_at": 1789262433,
+      "checked_at": 1792081610,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9242148654.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012013Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=660f994284092d53172e8423d94887a6190ddfc6895b7851e0d2c58ed8e90ba9"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "133",
       "name": "unimas",
-      "checked_at": 1789262434,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_5177020259.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012022Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7e4d3cbc1bba737040633ffa878262a586aa7eddb695aab473450469e5608c95"
+      "checked_at": 1792081676,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "134",
@@ -1248,6 +1250,17 @@
       "source": "home"
     },
     {
+      "id": "223",
+      "name": "tv3 max denmark",
+      "checked_at": 1792077736,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "230",
       "name": "dazn 1 uk",
       "checked_at": 1791372848,
@@ -1338,12 +1351,13 @@
     {
       "id": "260",
       "name": "vodafone sport",
-      "checked_at": 1789262440,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy2.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6888845207.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012033Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=99365fa9c851327faa1a0d4a92c0ef22654e09de0dcde2baa5e31a189fb1d292"
+      "checked_at": 1792081761,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "265",
@@ -1392,12 +1406,13 @@
     {
       "id": "270",
       "name": "t sports bd",
-      "checked_at": 1789262409,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_5342220619.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011939Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7ec4efd6871b26bcfa832730c88e343b5d46bf5ffabfdfed7a02a77c5467f2f5"
+      "checked_at": 1792077797,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "271",
@@ -1413,12 +1428,13 @@
     {
       "id": "272",
       "name": "v sport motor sweden",
-      "checked_at": 1789262441,
+      "checked_at": 1792081746,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_848415896.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012023Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=b773fa7b3313e80f4ce15da5f37d72df1dbb7316542f2106793718a08b999ae6"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "273",
@@ -1566,12 +1582,13 @@
     {
       "id": "286",
       "name": "ytv ca",
-      "checked_at": 1789262454,
-      "status": "down",
-      "fail_reason": "master:404",
+      "checked_at": 1792081966,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "287",
@@ -2203,12 +2220,13 @@
     {
       "id": "344",
       "name": "vh1 usa",
-      "checked_at": 1789262442,
+      "checked_at": 1792081763,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7427640921.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012017Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=515a5a8b622f8a02791d662c96ded590afeb121b0f4ef34cdde398fd86548d07"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "345",
@@ -2224,12 +2242,13 @@
     {
       "id": "346",
       "name": "willow cricket",
-      "checked_at": 1789262446,
+      "checked_at": 1792081833,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2736740355.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012027Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=d68171b3dd3d6d538812be90332c7fd1fcb9c964fe5f58f7954fd3aa2bbf44b7"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "347",
@@ -2575,12 +2594,13 @@
     {
       "id": "378",
       "name": "veronica nl netherland",
-      "checked_at": 1789262443,
-      "status": "down",
-      "fail_reason": "master:not-m3u8",
+      "checked_at": 1792081780,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "379",
@@ -2629,12 +2649,13 @@
     {
       "id": "383",
       "name": "ziggo sport 5 nl",
-      "checked_at": 1789262481,
+      "checked_at": 1792136562,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2485417635.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012125Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=c9508d262c893634f70d642e7cdb1a7b8247c9186a9f696fa0fc0c4572c2bed7"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "384",
@@ -2716,32 +2737,35 @@
     {
       "id": "391",
       "name": "vtv+ uruguay",
-      "checked_at": 1789262443,
+      "checked_at": 1792081798,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_4744935382.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012040Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=0782b3a4ae76064f0bf4878052ca4c40c226f760956f08783851c6bd8ea20abf"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "392",
       "name": "win sports+ columbia",
-      "checked_at": 1789262449,
+      "checked_at": 1792081869,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6289239686.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012033Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=413bf3b0242e44723849dfc3180e28dba10ea4fdb3b1d17933a7e207e83e306c"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "393",
       "name": "ziggo sport nl",
-      "checked_at": 1789262473,
+      "checked_at": 1792136482,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_217878959.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012101Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=30418b4a03c4e9652a5a19ec79d60a225208843fbc75d817e521e538bcbed020"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "394",
@@ -2768,12 +2792,13 @@
     {
       "id": "396",
       "name": "ziggo sport 4 nl",
-      "checked_at": 1789262478,
+      "checked_at": 1792136545,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy2.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3327643509.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012121Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=671f9f19b7f6988a2fb4320233ff03cd827d455aaa0027bdbcca9b7a79338ba6"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "397",
@@ -2789,12 +2814,13 @@
     {
       "id": "398",
       "name": "ziggo sport 2 nl",
-      "checked_at": 1789262473,
+      "checked_at": 1792136502,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3102572278.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012117Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ac110f8d0f51d2a86dcba2255909618bc29d916201b614508a7ebc81b5a85732"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "399",
@@ -3371,12 +3397,13 @@
     {
       "id": "451",
       "name": "viaplay sports 1 uk",
-      "checked_at": 1789262436,
+      "checked_at": 1792081661,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy2.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9593194988.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012040Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=826236f27eca626cc7d3fc3feac2f9eb92b9349edc609c3f14cb299bcd152916"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "452",
@@ -4104,12 +4131,13 @@
     {
       "id": "521",
       "name": "#vamos spain",
-      "checked_at": 1789262437,
+      "checked_at": 1792081678,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy2.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7355380179.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012017Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=d5dba808f7465ace586f43516b98ae1048e8dbba1e458b41a9dd6e0cc528a5bd"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "522",
@@ -4345,22 +4373,24 @@
     {
       "id": "543",
       "name": "yes movies action israel",
-      "checked_at": 1789262460,
+      "checked_at": 1792082018,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6883404478.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012104Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=50bfad71c0b857c0bb8906a206650c97dc5a83f322120c9b181be3361673c0c7"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "544",
       "name": "yes movies kids israel",
-      "checked_at": 1789262464,
+      "checked_at": 1792082041,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_1079784337.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012108Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=62f31c2f956a03609503dee07628acd7b1b9189199389d5841517320229c3502"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "545",
@@ -4948,12 +4978,13 @@
     {
       "id": "598",
       "name": "willow 2 cricket",
-      "checked_at": 1789262448,
+      "checked_at": 1792081851,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_808352056.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012052Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=e61e0a0ec30bd771a9ffb39e604ef23d59dec1d67e13f41ecf2ee4d02616e2d0"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "599",
@@ -5519,7 +5550,7 @@
     {
       "id": "650",
       "name": "teennick",
-      "checked_at": 1792073872,
+      "checked_at": 1792077496,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -5574,12 +5605,13 @@
     {
       "id": "655",
       "name": "wetv usa",
-      "checked_at": 1789262450,
+      "checked_at": 1792081890,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2913647801.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012035Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7661cf7c0c8edadc61db3c5bcc7d597ac0bed11a523f3bb8371b3c3d594c2b44"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "656",
@@ -5617,22 +5649,24 @@
     {
       "id": "659",
       "name": "vice tv",
-      "checked_at": 1789262445,
+      "checked_at": 1792081816,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3258506427.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012027Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=d80d73686111e7d95c822412ef4a2a692c80b84cdb851cdcd885b774c4056617"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "660",
       "name": "tv one usa",
-      "checked_at": 1789262397,
+      "checked_at": 1792077513,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3935712057.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011936Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=bd8a737eced263e7eef77bfac042ba1d414711a414af61227ca64384e0d9444e"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "661",
@@ -6066,82 +6100,90 @@
     {
       "id": "700",
       "name": "tv4 hockey",
-      "checked_at": 1789262409,
+      "checked_at": 1792077709,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2995907360.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011935Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ae7123bb726ff4719aa35293038779e2f5d368ede6e5820427cc8297c7d67650"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "701",
       "name": "tv4 tennis",
-      "checked_at": 1789262413,
+      "checked_at": 1792077782,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6750036438.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012017Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=e269ab9940f96874866e0c0bf115dfa28a55464e26829c161e84326284af63d2"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "702",
       "name": "tv4 motor",
-      "checked_at": 1789262413,
+      "checked_at": 1792077800,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7342116826.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011946Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=5182113a4253b3ba5d326649225f45970762b1158660eaa12332b10589716deb"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "703",
       "name": "tv4 sport live 1",
-      "checked_at": 1789262417,
+      "checked_at": 1792077817,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_5958386310.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012021Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=6e25cfc38a2ce186754ab012d2333f679002c982f6e8282ad87c8c87618cf3ab"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "704",
       "name": "tv4 sport live 2",
-      "checked_at": 1789262418,
+      "checked_at": 1792077834,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9597187086.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012021Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=096cbadb3540fea9491308aacf0ad860c8c02f0b8e0cc5b5bd6e40a25d8a998e"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "705",
       "name": "tv4 sport live 3",
-      "checked_at": 1789262422,
+      "checked_at": 1792077852,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_155835290.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012026Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=6b9d5bcbebfccdc47e63da249e3d95d52c0734b4943f5864aba55311438784a0"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "706",
       "name": "tv4 sport live 4",
-      "checked_at": 1789262422,
+      "checked_at": 1792077869,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3081818272.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012026Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=10d3ee63302eea38145dfe45fcafff399a59a544965b97baab37670eae0f9219"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "707",
       "name": "tv4 sportkanalen",
-      "checked_at": 1789262426,
+      "checked_at": 1792077889,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3818258649.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012030Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=2a067754b572e7355608109190e70d376adf9141ca2b6875d9f0faff7df1ffb9"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "708",
@@ -6344,32 +6386,35 @@
     {
       "id": "726",
       "name": "3sat de",
-      "checked_at": 1789262487,
+      "checked_at": 1792136675,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_8292993584.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012131Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=52d2fbf2a9ad03fbe29db8df517fba831c308ee7139239d5cfa16d46872f54ca"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "727",
       "name": "zdf de",
-      "checked_at": 1789262486,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_1681171725.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012130Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7a482bea35ac7c58cb57c25ddfb39d1f9de97352511cf9ed35f9eac9f60bb69d"
+      "checked_at": 1792136651,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "728",
       "name": "zdf info de",
-      "checked_at": 1789262486,
-      "status": "down",
-      "fail_reason": "master:404",
+      "checked_at": 1792136636,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "729",
@@ -6429,12 +6474,13 @@
     {
       "id": "734",
       "name": "wdr de",
-      "checked_at": 1789262452,
-      "status": "down",
-      "fail_reason": "master:404",
+      "checked_at": 1792081922,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "735",
@@ -6571,12 +6617,13 @@
     {
       "id": "747",
       "name": "tv4 football sweden",
-      "checked_at": 1789262427,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9332682858.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012030Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=000f5b04422c8fadd9550e02ffcdfa565b6b4503f4f9556053f4c9070888fd54"
+      "checked_at": 1792077954,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "748",
@@ -6746,12 +6793,13 @@
     {
       "id": "763",
       "name": "yes network usa",
-      "checked_at": 1789262456,
+      "checked_at": 1792081985,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_8379441552.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012037Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=a4f44b51af4633e59cde25182723b043f47ced72db463e3351091a5c77a175e5"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "764",
@@ -7152,12 +7200,13 @@
     {
       "id": "800",
       "name": "6'eren denmark",
-      "checked_at": 1789262486,
+      "checked_at": 1792136655,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7454159329.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012038Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=790e6ab1412cee296837f6387d008aae072aea20b909e3cf111c6f112bde6052"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "801",
@@ -7226,34 +7275,48 @@
       "source": "home"
     },
     {
+      "id": "807",
+      "name": "tv2 bornholm denmark",
+      "checked_at": 1792077537,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "808",
       "name": "tv2 sport x denmark",
-      "checked_at": 1789262398,
-      "status": "down",
-      "fail_reason": "segment:bad-sync",
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_6506933451.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012002Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=2200f33d5e6528ee94eba6e9a034b77a51fe1263c6642f2e94b3ce663c318309"
+      "checked_at": 1792077554,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "809",
       "name": "tv3 sport denmark",
-      "checked_at": 1789262400,
+      "checked_at": 1792077576,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9847548112.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T011926Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=4d1b4cefc28a32fd28f2fcf9688ae3f3c8aef871a2e1ce1ecfc358370436df87"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "810",
       "name": "tv2 sport denmark",
-      "checked_at": 1789262400,
+      "checked_at": 1792077593,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_4355646415.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012004Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ce8c823af95095dccfa2b1ccf08d4c647afdc3ee56c1b02586beb93e931e864d"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "811",
@@ -7313,42 +7376,46 @@
     {
       "id": "816",
       "name": "v film family",
-      "checked_at": 1789262439,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_1310283349.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012043Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=f97d2ec2a058081ebd85c5faa9ec0871df328e27c895b085e970b066e47fc864"
+      "checked_at": 1792081761,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "817",
       "name": "tv2 denmark",
-      "checked_at": 1789262401,
+      "checked_at": 1792077613,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7149118639.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012005Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=440dfa4e7c05b3de78707cb4dbbaa71fadca9e782dc9262cbe4a61b031a0e898"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "818",
       "name": "tv2 zulu",
-      "checked_at": 1789262403,
+      "checked_at": 1792077663,
       "status": "down",
-      "fail_reason": "master:404",
+      "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "819",
       "name": "tv3+ denmark",
-      "checked_at": 1789262404,
+      "checked_at": 1792077648,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_1986584681.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012009Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=0dbd695555b4973de057a48d37fc86a9b114ea3b5da947aa046759471709f7c5"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "820",
@@ -7540,12 +7607,13 @@
     {
       "id": "837",
       "name": "yes tv ca",
-      "checked_at": 1789262468,
-      "status": "down",
-      "fail_reason": "segment:bad-sync",
-      "daddy_endpoint": "daddy4.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7070077063.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012112Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=74975d67e31ab34db1e3596ab7788620221777552ae2493f4a10e7d22879f448"
+      "checked_at": 1792082063,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "838",
@@ -7594,12 +7662,13 @@
     {
       "id": "842",
       "name": "tvo ca",
-      "checked_at": 1789262405,
-      "status": "down",
-      "fail_reason": "master:404",
+      "checked_at": 1792077668,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "843",
@@ -8110,12 +8179,13 @@
     {
       "id": "889",
       "name": "trt spor tr",
-      "checked_at": 1789262430,
+      "checked_at": 1792077939,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy2.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_7134213257.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012033Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=d6a80dbc6b60fdbe43857fc7961ab82e239b84391844441def9768e135ca3326"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "890",
@@ -8241,12 +8311,13 @@
     {
       "id": "901",
       "name": "ziggo sport 6 nl",
-      "checked_at": 1789262482,
+      "checked_at": 1792136579,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3491036170.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012125Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=c82e0fcb42d5a75ac61271172c8c2751a963be1103b12c74efe0f9d07ed3d214"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "902",
@@ -8416,12 +8487,13 @@
     {
       "id": "919",
       "name": "ziggo sport 3 nl",
-      "checked_at": 1789262477,
+      "checked_at": 1792136525,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_4028218965.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012120Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=7d848e83da0582e30fbbd9fe946f18b90bc7e09577c3706a644de1a12e4f0cf5"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "920",
@@ -8822,12 +8894,13 @@
     {
       "id": "959",
       "name": "w9 france",
-      "checked_at": 1789262453,
+      "checked_at": 1792081944,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_3308810713.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012056Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=d45cd8107801342175e4677d048716fa542c1bdda86abf81adb609229401a57b"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "960",
@@ -9283,12 +9356,13 @@
     {
       "id": "1005",
       "name": "tv8 turkey",
-      "checked_at": 1789262406,
+      "checked_at": 1792077691,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_9473675686.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012009Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=ce235f2b46f64a71924a8875b8cb8f1a9f30f6393f8d70055c25ba1b4849a3cd"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "1010",
