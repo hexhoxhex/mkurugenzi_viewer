@@ -1,11 +1,22 @@
 {
-  "swept_at": 1792136675,
-  "channels_swept": 900,
+  "swept_at": 1792246295,
+  "channels_swept": 904,
   "measured_this_run": 114,
-  "ok_count": 713,
-  "fail_count": 187,
+  "ok_count": 716,
+  "fail_count": 188,
   "elapsed_seconds": 1800,
   "results": [
+    {
+      "id": "11",
+      "name": "",
+      "checked_at": 1792239337,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
     {
       "id": "18",
       "name": "",
@@ -20,11 +31,11 @@
     {
       "id": "31",
       "name": "tnt sports 1 uk",
-      "checked_at": 1792069518,
+      "checked_at": 1792241876,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -2209,11 +2220,11 @@
     {
       "id": "343",
       "name": "usa network",
-      "checked_at": 1791317926,
+      "checked_at": 1792246295,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -2990,11 +3001,11 @@
     {
       "id": "414",
       "name": "supersport premier league",
-      "checked_at": 1791368657,
+      "checked_at": 1792243891,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -3958,17 +3969,29 @@
     {
       "id": "502",
       "name": "18+ (player-02)",
-      "checked_at": 1789262490,
-      "status": "ok",
-      "fail_reason": null,
-      "daddy_endpoint": "daddy3.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_1847445394.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012037Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=107ae714fbd8ea86f9f11eb44f40d02bcadd90effa3bd8bf7244e0bcbae7e57a"
+      "checked_at": 1792239278,
+      "status": "down",
+      "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "503",
       "name": "18+ (player-03)",
       "checked_at": 1791384954,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "504",
+      "name": "18+ (player-04)",
+      "checked_at": 1792239263,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -4010,6 +4033,17 @@
       "source": "home"
     },
     {
+      "id": "508",
+      "name": "18+ (player-08)",
+      "checked_at": 1792239283,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "509",
       "name": "18+ (player-09)",
       "checked_at": 1791385023,
@@ -4039,6 +4073,17 @@
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
       "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "512",
+      "name": "18+ (player-12)",
+      "checked_at": 1792239306,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -6386,7 +6431,7 @@
     {
       "id": "726",
       "name": "3sat de",
-      "checked_at": 1792136675,
+      "checked_at": 1792239224,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
