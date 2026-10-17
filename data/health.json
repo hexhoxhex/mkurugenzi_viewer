@@ -1,9 +1,9 @@
 {
-  "swept_at": 1792246295,
+  "swept_at": 1792257743,
   "channels_swept": 904,
   "measured_this_run": 114,
-  "ok_count": 716,
-  "fail_count": 188,
+  "ok_count": 718,
+  "fail_count": 186,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -31,11 +31,11 @@
     {
       "id": "31",
       "name": "tnt sports 1 uk",
-      "checked_at": 1792241876,
+      "checked_at": 1792257728,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -1406,7 +1406,7 @@
     {
       "id": "269",
       "name": "a sport pk",
-      "checked_at": 1791318012,
+      "checked_at": 1792257505,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -2220,11 +2220,11 @@
     {
       "id": "343",
       "name": "usa network",
-      "checked_at": 1792246295,
+      "checked_at": 1792257329,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -3001,11 +3001,11 @@
     {
       "id": "414",
       "name": "supersport premier league",
-      "checked_at": 1792243891,
+      "checked_at": 1792257597,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -3166,11 +3166,11 @@
     {
       "id": "429",
       "name": "arena sport 1 serbia",
-      "checked_at": 1791318012,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1792257382,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -3804,7 +3804,7 @@
     {
       "id": "487",
       "name": "canal+ sport 2 afrique",
-      "checked_at": 1791318344,
+      "checked_at": 1792257505,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3815,7 +3815,7 @@
     {
       "id": "488",
       "name": "canal+ sport 3 afrique",
-      "checked_at": 1791318344,
+      "checked_at": 1792257505,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3826,7 +3826,7 @@
     {
       "id": "489",
       "name": "canal+ sport 4 afrique",
-      "checked_at": 1791318344,
+      "checked_at": 1792257613,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3837,7 +3837,7 @@
     {
       "id": "490",
       "name": "canal+ sport 5 afrique",
-      "checked_at": 1791318344,
+      "checked_at": 1792257613,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3848,7 +3848,7 @@
     {
       "id": "491",
       "name": "bein sports australia 1",
-      "checked_at": 1791318128,
+      "checked_at": 1792257505,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3859,7 +3859,7 @@
     {
       "id": "492",
       "name": "bein sports australia 2",
-      "checked_at": 1791318128,
+      "checked_at": 1792257505,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -4090,12 +4090,13 @@
     {
       "id": "513",
       "name": "18+ (player-13)",
-      "checked_at": 1789262491,
+      "checked_at": 1792257347,
       "status": "ok",
       "fail_reason": null,
-      "daddy_endpoint": "daddy5.php",
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": "https://909266327730.5f05442df109b7bf41429568bde96343.r2.cloudflarestorage.com/IMG_2722667070.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=d3f9375f149eab885b41ac0201f0b889%2F20260913%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260913T012046Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=245bc6ea3b35503e12fd71e55dbdf059c10a722ab730832436de3d57391396d9"
+      "daddy_endpoint": null,
+      "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "514",
@@ -4122,12 +4123,13 @@
     {
       "id": "516",
       "name": "18+ (player-16)",
-      "checked_at": 1789262492,
+      "checked_at": 1792257397,
       "status": "down",
-      "fail_reason": "master:404",
+      "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
-      "host": "xameleon.phantemlis.top",
-      "first_segment_url": null
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
     },
     {
       "id": "517",
@@ -4473,7 +4475,7 @@
     {
       "id": "548",
       "name": "channel 11 israel",
-      "checked_at": 1791318344,
+      "checked_at": 1792257613,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -4484,7 +4486,7 @@
     {
       "id": "549",
       "name": "channel 12 israel",
-      "checked_at": 1791364734,
+      "checked_at": 1792257613,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -4517,7 +4519,7 @@
     {
       "id": "552",
       "name": "channel 14 israel",
-      "checked_at": 1791364734,
+      "checked_at": 1792257613,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -4935,7 +4937,7 @@
     {
       "id": "590",
       "name": "sky sport 3 nz",
-      "checked_at": 1792029573,
+      "checked_at": 1792257490,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -8686,11 +8688,11 @@
     {
       "id": "933",
       "name": "claro sports mx",
-      "checked_at": 1791364734,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1792257619,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -8994,7 +8996,7 @@
     {
       "id": "964",
       "name": "cnews france",
-      "checked_at": 1791364734,
+      "checked_at": 1792257743,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9588,7 +9590,7 @@
     {
       "id": "1034",
       "name": "nova hd cz",
-      "checked_at": 1791364734,
+      "checked_at": 1792257743,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9599,7 +9601,7 @@
     {
       "id": "1035",
       "name": "ct1 hd cz",
-      "checked_at": 1791364839,
+      "checked_at": 1792257743,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9610,7 +9612,7 @@
     {
       "id": "1036",
       "name": "ct2 hd cz",
-      "checked_at": 1791364839,
+      "checked_at": 1792257743,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9621,7 +9623,7 @@
     {
       "id": "1037",
       "name": "tn live cz",
-      "checked_at": 1791364839,
+      "checked_at": 1792257743,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
