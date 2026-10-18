@@ -1,9 +1,9 @@
 {
-  "swept_at": 1792318804,
+  "swept_at": 1792329298,
   "channels_swept": 904,
   "measured_this_run": 114,
-  "ok_count": 720,
-  "fail_count": 184,
+  "ok_count": 722,
+  "fail_count": 182,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -1241,7 +1241,7 @@
     {
       "id": "210",
       "name": "pbs usa",
-      "checked_at": 1791380953,
+      "checked_at": 1792325222,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -2220,7 +2220,7 @@
     {
       "id": "343",
       "name": "usa network",
-      "checked_at": 1792318804,
+      "checked_at": 1792329298,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -2583,7 +2583,7 @@
     {
       "id": "376",
       "name": "wwe network",
-      "checked_at": 1791381243,
+      "checked_at": 1792329298,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3089,7 +3089,7 @@
     {
       "id": "422",
       "name": "supersport golf",
-      "checked_at": 1791381113,
+      "checked_at": 1792325381,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -4442,7 +4442,7 @@
     {
       "id": "545",
       "name": "yes movies comedy israel",
-      "checked_at": 1791381295,
+      "checked_at": 1792329298,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -4860,11 +4860,11 @@
     {
       "id": "583",
       "name": "prima sport 1",
-      "checked_at": 1791377206,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1792325078,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -5223,7 +5223,7 @@
     {
       "id": "616",
       "name": "ssc sport 3",
-      "checked_at": 1791381113,
+      "checked_at": 1792325381,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -5234,7 +5234,7 @@
     {
       "id": "617",
       "name": "ssc sport 4",
-      "checked_at": 1791381113,
+      "checked_at": 1792325382,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -5245,7 +5245,7 @@
     {
       "id": "618",
       "name": "ssc sport 5",
-      "checked_at": 1791381113,
+      "checked_at": 1792325446,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -5795,7 +5795,7 @@
     {
       "id": "668",
       "name": "universal kids usa",
-      "checked_at": 1791381243,
+      "checked_at": 1792329298,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -6246,7 +6246,7 @@
     {
       "id": "709",
       "name": "tennis+ 10",
-      "checked_at": 1791381243,
+      "checked_at": 1792325446,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -6268,11 +6268,11 @@
     {
       "id": "711",
       "name": "tennis+ 12",
-      "checked_at": 1791381243,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1792329130,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.cowedd4855ws.sbs",
       "first_segment_url": null,
       "source": "home"
     },
@@ -7412,7 +7412,7 @@
     {
       "id": "815",
       "name": "v film premiere",
-      "checked_at": 1791381243,
+      "checked_at": 1792329298,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -7720,7 +7720,7 @@
     {
       "id": "843",
       "name": "prima tv ro",
-      "checked_at": 1791377206,
+      "checked_at": 1792325222,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -8688,7 +8688,7 @@
     {
       "id": "933",
       "name": "claro sports mx",
-      "checked_at": 1792269998,
+      "checked_at": 1792325207,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -8886,7 +8886,7 @@
     {
       "id": "954",
       "name": "rmc story france",
-      "checked_at": 1791380953,
+      "checked_at": 1792325381,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -8985,7 +8985,7 @@
     {
       "id": "963",
       "name": "6ter france",
-      "checked_at": 1791381295,
+      "checked_at": 1792329298,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9216,7 +9216,7 @@
     {
       "id": "988",
       "name": "canal+ extra 6 poland",
-      "checked_at": 1791381026,
+      "checked_at": 1792325381,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9524,7 +9524,7 @@
     {
       "id": "1028",
       "name": "oneplay sport 2 cz",
-      "checked_at": 1791377069,
+      "checked_at": 1792325093,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9535,7 +9535,7 @@
     {
       "id": "1029",
       "name": "oneplay sport 3 cz",
-      "checked_at": 1791377069,
+      "checked_at": 1792325093,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9546,7 +9546,7 @@
     {
       "id": "1030",
       "name": "premier sport 1 cz",
-      "checked_at": 1791377206,
+      "checked_at": 1792325222,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9557,7 +9557,7 @@
     {
       "id": "1031",
       "name": "premier sport 2 cz",
-      "checked_at": 1791377206,
+      "checked_at": 1792325222,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9568,7 +9568,7 @@
     {
       "id": "1032",
       "name": "premier sport 3 cz",
-      "checked_at": 1791377206,
+      "checked_at": 1792325222,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9678,7 +9678,7 @@
     {
       "id": "1042",
       "name": "sport 1 cz",
-      "checked_at": 1792269777,
+      "checked_at": 1792329283,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
