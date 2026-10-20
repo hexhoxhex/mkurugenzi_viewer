@@ -2,34 +2,6 @@
   {
     "category": "Upcoming Events",
     "date": "2026-10-19",
-    "time": "20:00",
-    "title": "🏎️🇺🇸 Formula 1 United States Grand Prix | Austin, TX, USA | 25 October 2026",
-    "channels": [
-      {
-        "id": "60",
-        "name": "Sky Sports F1 UK"
-      }
-    ],
-    "start_unix": 1792440000,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-10-19",
-    "time": "20:00",
-    "title": "🏎️🇲🇽 Formula 1 Mexican Grand Prix | Mexico City, Mexico | 1 November 2026",
-    "channels": [
-      {
-        "id": "60",
-        "name": "Sky Sports F1 UK"
-      }
-    ],
-    "start_unix": 1792440000,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-10-19",
     "time": "23:30",
     "title": "🎾🇦🇹 Erste Bank Open | Vienna, Austria | 24 October – 1 November 2026",
     "channels": [
@@ -39,35 +11,7 @@
       }
     ],
     "start_unix": 1792452600,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "TV Shows",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "📺 Monday Night Countdown • Live 🇺🇸",
-    "channels": [
-      {
-        "id": "44",
-        "name": "ESPN USA"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "TV Shows",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "📺 Live From the Orange Carpet: WNBA Finals • Live 🇺🇸",
-    "channels": [
-      {
-        "id": "315",
-        "name": "E! USA"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "TV Shows",
@@ -81,7 +25,7 @@
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "TV Shows",
@@ -95,167 +39,7 @@
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "19:15",
-    "title": "⚽ Iceland League : Fram vs Akranes",
-    "channels": [
-      {
-        "id": "1238",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792437300,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "19:15",
-    "title": "⚽ Portugal - Primeira Liga : Sporting Braga 🇵🇹 vs Gil Vicente 🇵🇹",
-    "channels": [
-      {
-        "id": "49",
-        "name": "Sport TV1 Portugal"
-      },
-      {
-        "id": "1239",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3049",
-        "name": "Sport TV1 Portugal"
-      },
-      {
-        "id": "117",
-        "name": "beIN Sports 2 France"
-      },
-      {
-        "id": "624",
-        "name": "MagentaSport 3 Greece"
-      }
-    ],
-    "start_unix": 1792437300,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "20:00",
-    "title": "⚽ Copa Libertadores Femenina : Cruzeiro W 🇧🇷 vs Bolivar W 🇧🇴",
-    "channels": [
-      {
-        "id": "78",
-        "name": "SporTV BR"
-      }
-    ],
-    "start_unix": 1792440000,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "20:30",
-    "title": "⚽ Ecuador Liga Pro : Mushuc Runa vs Orense",
-    "channels": [
-      {
-        "id": "1201",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792441800,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "21:00",
-    "title": "⚽ Colombia Primera B : Inter Palmira vs U Magdalena",
-    "channels": [
-      {
-        "id": "1202",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792443600,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "⚽ Argentina - Primera División : Sarmiento 🇦🇷 vs Barracas Central 🇦🇷",
-    "channels": [
-      {
-        "id": "387",
-        "name": "ESPN Premium Argentina"
-      },
-      {
-        "id": "1203",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "⚽ Argentina Liga Profesional : Newells Old Boys vs Central Cordoba",
-    "channels": [
-      {
-        "id": "1204",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "⚽ Argentina - Primera División : Newell's Old Boys 🇦🇷 vs Central Córdoba SdE 🇦🇷",
-    "channels": [
-      {
-        "id": "388",
-        "name": "TNT Sports Argentina"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "⚽ Chile - Primera B : Unión Española 🇨🇱 vs Copiapó 🇨🇱",
-    "channels": [
-      {
-        "id": "642",
-        "name": "TNT SPORTS Premium HD Chile"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "⚽ Colombia Primera B : Orsomarso vs Bogota",
-    "channels": [
-      {
-        "id": "1205",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "All Soccer Events",
@@ -273,7 +57,7 @@
       }
     ],
     "start_unix": 1792449000,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "All Soccer Events",
@@ -286,26 +70,58 @@
         "name": "Premiere BR"
       },
       {
+        "id": "1210",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "78",
         "name": "SporTV BR"
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "All Soccer Events",
     "date": "2026-10-19",
     "time": "23:00",
-    "title": "⚽ Men's College Soccer : Creighton 🇺🇸 vs Iowa State 🇺🇸 Pittsburgh vs. Georgetown 🇺🇸",
+    "title": "⚽ Uruguay Liga AUF : Nacional vs Maldonado",
     "channels": [
       {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "1211",
+        "name": "Event SD Stream"
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-10-19",
+    "time": "23:00",
+    "title": "⚽ Colombia Primera B : Cartagena vs Patriotas",
+    "channels": [
+      {
+        "id": "1212",
+        "name": "Event SD Stream"
+      }
+    ],
+    "start_unix": 1792450800,
+    "scraped_at_unix": 1792458577
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-10-19",
+    "time": "23:00",
+    "title": "⚽ Men's College Soccer : Pittsburgh vs. Georgetown 🇺🇸",
+    "channels": [
+      {
+        "id": "29",
+        "name": "ACCNX USA"
+      }
+    ],
+    "start_unix": 1792450800,
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "All Soccer Events",
@@ -319,7 +135,7 @@
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "All Soccer Events",
@@ -333,7 +149,7 @@
       }
     ],
     "start_unix": 1792452600,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "Cricket",
@@ -347,49 +163,7 @@
       }
     ],
     "start_unix": 1792452600,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "Golf",
-    "date": "2026-10-19",
-    "time": "20:00",
-    "title": "⛳ College Golf Abilene Christian Intercollegiate, First Round 🇺🇸",
-    "channels": [
-      {
-        "id": "318",
-        "name": "GOLF Channel USA"
-      }
-    ],
-    "start_unix": 1792440000,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-10-19",
-    "time": "22:00",
-    "title": "🏀 Women's College Basketball : Maryland 🇺🇸 vs Virginia Tech 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792447200,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "Futsal",
-    "date": "2026-10-19",
-    "time": "20:00",
-    "title": "⚽ Futsal Africa Cup of Nations 2026 🌍",
-    "channels": [
-      {
-        "id": "495",
-        "name": "beIN Sports MAX 5 France"
-      }
-    ],
-    "start_unix": 1792440000,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "Ice Hockey (NHL",
@@ -400,6 +174,10 @@
       {
         "id": "6",
         "name": "NHL Gamecenter"
+      },
+      {
+        "id": "1209",
+        "name": "Event SD Stream"
       },
       {
         "id": "765",
@@ -423,7 +201,7 @@
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "Ice Hockey (NHL",
@@ -434,6 +212,10 @@
       {
         "id": "7",
         "name": "NHL Gamecenter"
+      },
+      {
+        "id": "1208",
+        "name": "Event SD Stream"
       },
       {
         "id": "550",
@@ -473,7 +255,7 @@
       }
     ],
     "start_unix": 1792450800,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   },
   {
     "category": "Ice Hockey (NHL",
@@ -484,6 +266,10 @@
       {
         "id": "8",
         "name": "NHL Gamecenter"
+      },
+      {
+        "id": "1213",
+        "name": "Event SD Stream"
       },
       {
         "id": "755",
@@ -511,20 +297,6 @@
       }
     ],
     "start_unix": 1792452600,
-    "scraped_at_unix": 1792447606
-  },
-  {
-    "category": "Volleyball",
-    "date": "2026-10-19",
-    "time": "21:30",
-    "title": "🏐 Brazil Superliga Women : Sesi Vôlei Bauru 🇧🇷 vs Batavo Mackenzie 🇧🇷",
-    "channels": [
-      {
-        "id": "79",
-        "name": "Sportv2 Brazil"
-      }
-    ],
-    "start_unix": 1792445400,
-    "scraped_at_unix": 1792447606
+    "scraped_at_unix": 1792458577
   }
 ]
