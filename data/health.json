@@ -1,15 +1,15 @@
 {
-  "swept_at": 1792842231,
-  "channels_swept": 905,
+  "swept_at": 1792852173,
+  "channels_swept": 906,
   "measured_this_run": 114,
-  "ok_count": 723,
+  "ok_count": 724,
   "fail_count": 182,
   "elapsed_seconds": 1800,
   "results": [
     {
       "id": "8",
       "name": "",
-      "checked_at": 1792841850,
+      "checked_at": 1792844101,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -40,9 +40,20 @@
       "source": "home"
     },
     {
+      "id": "29",
+      "name": "",
+      "checked_at": 1792850927,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
       "id": "31",
       "name": "tnt sports 1 uk",
-      "checked_at": 1792842231,
+      "checked_at": 1792849135,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -2231,11 +2242,11 @@
     {
       "id": "343",
       "name": "usa network",
-      "checked_at": 1792828432,
+      "checked_at": 1792852173,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -5003,11 +5014,11 @@
     {
       "id": "595",
       "name": "sky sport 8 nz",
-      "checked_at": 1792029690,
+      "checked_at": 1792844293,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
