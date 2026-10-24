@@ -1,11 +1,22 @@
 {
-  "swept_at": 1792828866,
-  "channels_swept": 904,
+  "swept_at": 1792842231,
+  "channels_swept": 905,
   "measured_this_run": 114,
-  "ok_count": 722,
+  "ok_count": 723,
   "fail_count": 182,
   "elapsed_seconds": 1800,
   "results": [
+    {
+      "id": "8",
+      "name": "",
+      "checked_at": 1792841850,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
     {
       "id": "11",
       "name": "",
@@ -31,11 +42,11 @@
     {
       "id": "31",
       "name": "tnt sports 1 uk",
-      "checked_at": 1792269567,
+      "checked_at": 1792842231,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
