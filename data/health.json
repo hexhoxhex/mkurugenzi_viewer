@@ -1,8 +1,8 @@
 {
-  "swept_at": 1792852173,
-  "channels_swept": 906,
+  "swept_at": 1792860325,
+  "channels_swept": 907,
   "measured_this_run": 114,
-  "ok_count": 724,
+  "ok_count": 725,
   "fail_count": 182,
   "elapsed_seconds": 1800,
   "results": [
@@ -999,11 +999,11 @@
     {
       "id": "130",
       "name": "sky sports premier league",
-      "checked_at": 1791871823,
+      "checked_at": 1792860325,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -2242,7 +2242,7 @@
     {
       "id": "343",
       "name": "usa network",
-      "checked_at": 1792852173,
+      "checked_at": 1792859569,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -3023,11 +3023,11 @@
     {
       "id": "414",
       "name": "supersport premier league",
-      "checked_at": 1792269885,
+      "checked_at": 1792856972,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -5014,7 +5014,7 @@
     {
       "id": "595",
       "name": "sky sport 8 nz",
-      "checked_at": 1792844293,
+      "checked_at": 1792854116,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -9967,6 +9967,17 @@
       "checked_at": 1792828552,
       "status": "down",
       "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "3005",
+      "name": "",
+      "checked_at": 1792854795,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
       "host": null,
       "first_segment_url": null,
