@@ -2,62 +2,6 @@
   {
     "category": "PPV Events",
     "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏁 World of Outlaws Late Models Modoc Speedway",
-    "channels": [
-      {
-        "id": "204",
-        "name": "Event PPV"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "PPV Events",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏁 Volusia Speedway Sprint Cars",
-    "channels": [
-      {
-        "id": "205",
-        "name": "Dirtvision"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "PPV Events",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏁 2026 NASCAR Halloween Speedfest at Langley Speedway",
-    "channels": [
-      {
-        "id": "206",
-        "name": "Floracing"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "PPV Events",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏁 2026 Harvest Hustle at Marshalltown Speedway",
-    "channels": [
-      {
-        "id": "207",
-        "name": "Floracing"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "PPV Events",
-    "date": "2026-10-24",
     "time": "23:00",
     "title": "🥊 Peter Welchs Athletics Rising Stars Boxing",
     "channels": [
@@ -67,7 +11,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "PPV Events",
@@ -81,7 +25,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "PPV Events",
@@ -95,7 +39,7 @@
       }
     ],
     "start_unix": 1792885200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Upcoming Events",
@@ -109,33 +53,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Major League Soccer",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "⚽ Major League Soccer : New York RB 🇺🇸 vs Inter Miami 🇺🇸",
-    "channels": [
-      {
-        "id": "153",
-        "name": "Apple TV"
-      },
-      {
-        "id": "1217",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "5040",
-        "name": "Apple TV"
-      },
-      {
-        "id": "3031",
-        "name": "Apple TV"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Major League Soccer",
@@ -161,7 +79,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Major League Soccer",
@@ -187,7 +105,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Major League Soccer",
@@ -213,7 +131,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Major League Soccer",
@@ -243,203 +161,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "21:15",
-    "title": "⚽ Bolivia Division Profesional : SA Bulo Bulo vs Real Potosi",
-    "channels": [
-      {
-        "id": "1216",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792876500,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "⚽ Brazil - Serie B : Ponte Preta 🇧🇷 vs Fortaleza 🇧🇷",
-    "channels": [
-      {
-        "id": "81",
-        "name": "ESPN Brasil"
-      },
-      {
-        "id": "1238",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "⚽ Brazil Serie B : CRB vs Londrina",
-    "channels": [
-      {
-        "id": "1239",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "⚽ Ecuador Liga Pro : LDU Quito vs Macara",
-    "channels": [
-      {
-        "id": "1240",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ Uruguay Liga AUF : Maldonado vs Danubio",
-    "channels": [
-      {
-        "id": "1243",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "⚽ Brazil - Brasileirão : Palmeiras 🇧🇷 vs RB Bragantino 🇧🇷",
-    "channels": [
-      {
-        "id": "88",
-        "name": "Premiere BR"
-      },
-      {
-        "id": "1219",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "550",
-        "name": "Viaplay Sports 2 UK"
-      },
-      {
-        "id": "799",
-        "name": "Premier Sports 2 Ireland"
-      },
-      {
-        "id": "2",
-        "name": "Movistar Liga de Campeones 2"
-      },
-      {
-        "id": "521",
-        "name": "#Vamos ES"
-      },
-      {
-        "id": "571",
-        "name": "Sportdigital FUSSBALL DE"
-      },
-      {
-        "id": "540",
-        "name": "Canal 11 Portugal"
-      },
-      {
-        "id": "138",
-        "name": "Match! Football 3 Russia"
-      },
-      {
-        "id": "135",
-        "name": "Arena 2 Premium Serbia"
-      },
-      {
-        "id": "141",
-        "name": "Sport 2 Israel"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "⚽ Brazil - Brasileirão : Vasco da Gama 🇧🇷 vs Corinthians 🇧🇷",
-    "channels": [
-      {
-        "id": "29",
-        "name": "Premiere 2 BR"
-      },
-      {
-        "id": "1218",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "22:15",
-    "title": "⚽ Argentina - Primera División : San Lorenzo 🇦🇷 vs Newell's Old Boys 🇦🇷",
-    "channels": [
-      {
-        "id": "388",
-        "name": "TNT Sports Argentina"
-      },
-      {
-        "id": "1246",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "3085",
-        "name": "TNT Sports Argentina"
-      }
-    ],
-    "start_unix": 1792880100,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "⚽ Brazil Serie A : Chapecoense-SC vs Fluminense",
-    "channels": [
-      {
-        "id": "1248",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "⚽ Paraguay Primera Division : 2 de Mayo vs Recoleta",
-    "channels": [
-      {
-        "id": "1249",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -453,7 +175,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -467,7 +189,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -485,7 +207,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -499,7 +221,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -517,7 +239,7 @@
       }
     ],
     "start_unix": 1792883100,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -531,7 +253,7 @@
       }
     ],
     "start_unix": 1792883700,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "All Soccer Events",
@@ -545,57 +267,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "NWSL Soccer",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "⚽ NWSL : Denver Summit W 🇺🇸 vs Racing Louisville FC W 🇺🇸",
-    "channels": [
-      {
-        "id": "325",
-        "name": "ion USA"
-      },
-      {
-        "id": "111",
-        "name": "TSN1"
-      },
-      {
-        "id": "1247",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "USL Championship",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "⚽ USL Championship : Loudoun United 🇺🇸 vs Brooklyn 🇺🇸",
-    "channels": [
-      {
-        "id": "169",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "USL Championship",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ USL Championship : Charleston Battery 🇺🇸 vs Indy Eleven 🇺🇸",
-    "channels": [
-      {
-        "id": "170",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL Championship",
@@ -609,7 +281,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL Championship",
@@ -623,7 +295,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL Championship",
@@ -637,7 +309,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL Championship",
@@ -651,49 +323,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "USL League One",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "⚽ USL League One : Portland Hearts of Pine 🇺🇸 vs Charlotte Independence 🇺🇸",
-    "channels": [
-      {
-        "id": "180",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "USL League One",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ USL League One : Forward Madison 🇺🇸 vs Union Omaha 🇺🇸",
-    "channels": [
-      {
-        "id": "181",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "USL League One",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ USL League One : Richmond Kickers 🇺🇸 vs Greenville Triumph 🇺🇸",
-    "channels": [
-      {
-        "id": "182",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL League One",
@@ -707,7 +337,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL League One",
@@ -721,7 +351,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "USL League One",
@@ -735,175 +365,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "⚽ College Soccer : Colgate 🇺🇸 vs Holy Cross 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "⚽ College Soccer : Denver 🇺🇸 vs Pacific 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : UConn 🇺🇸 vs Providence 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Akron 🇺🇸 vs Xavier 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : California 🇺🇸 vs SMU 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Merrimack 🇺🇸 vs Manhattan 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : NC State 🇺🇸 vs Stanford 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Seton Hall 🇺🇸 vs St. John's (NY) 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : UAlbany 🇺🇸 vs Vermont 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : UMass Lowell 🇺🇸 vs NJIT 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Winthrop 🇺🇸 vs Gardner-Webb 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Wofford 🇺🇸 vs UNC Greensboro 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -917,7 +379,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -931,7 +393,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -945,7 +407,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -959,7 +421,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -973,7 +435,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -987,7 +449,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -1001,7 +463,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -1015,7 +477,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "College Soccer",
@@ -1029,35 +491,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "⚽ Women's College Soccer : Duke 🇺🇸 vs NC State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "⚽ Women's College Soccer : Sacramento State 🇺🇸 vs CSU Northridge 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1071,7 +505,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1085,7 +519,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1099,7 +533,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1113,7 +547,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1127,7 +561,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1141,7 +575,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Soccer",
@@ -1155,231 +589,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Motorsport",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏎️ Formula 1 : MSC Cruises United States GP - Qualifying",
-    "channels": [
-      {
-        "id": "60",
-        "name": "Sky Sports F1 UK"
-      },
-      {
-        "id": "1213",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "115",
-        "name": "TSN5"
-      },
-      {
-        "id": "839",
-        "name": "RDS CA"
-      },
-      {
-        "id": "274",
-        "name": "Sky Sport F1 DE"
-      },
-      {
-        "id": "38",
-        "name": "Sky Sports Main Event UK"
-      },
-      {
-        "id": "537",
-        "name": "DAZN F1 ES"
-      },
-      {
-        "id": "122",
-        "name": "Canal+ Sport France"
-      },
-      {
-        "id": "72",
-        "name": "Eleven Sports 2 Poland"
-      },
-      {
-        "id": "273",
-        "name": "Canal+ Formula 1"
-      },
-      {
-        "id": "588",
-        "name": "Sky Sport 1 NZ"
-      },
-      {
-        "id": "577",
-        "name": "Sky Sports F1 Italy"
-      },
-      {
-        "id": "712",
-        "name": "beIN Sports 1 Malaysia"
-      },
-      {
-        "id": "824",
-        "name": "FOX Sports 506 AU"
-      },
-      {
-        "id": "1025",
-        "name": "Nova Sport 5 CZ"
-      },
-      {
-        "id": "787",
-        "name": "Fox Sports 1 Argentina"
-      },
-      {
-        "id": "265",
-        "name": "M4 Sports Hungary"
-      },
-      {
-        "id": "774",
-        "name": "ANT+ F1 Greece"
-      },
-      {
-        "id": "260",
-        "name": "Arena Adrenalin"
-      },
-      {
-        "id": "101",
-        "name": "Sport Klub 1 Croatia"
-      },
-      {
-        "id": "819",
-        "name": "TV3+ Denmark"
-      },
-      {
-        "id": "272",
-        "name": "V Sport Motor Sweden"
-      },
-      {
-        "id": "80",
-        "name": "Sportv3 Brazil"
-      },
-      {
-        "id": "929",
-        "name": "Fox Sports 1 MX"
-      },
-      {
-        "id": "450",
-        "name": "PTV Sports"
-      },
-      {
-        "id": "146",
-        "name": "5 Live Israel"
-      },
-      {
-        "id": "3007",
-        "name": "Sky Sports F1 UK"
-      },
-      {
-        "id": "3020",
-        "name": "Sky Sport F1 DE"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Motorsport",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "🏎️ MotoGP | Round 18 | Australia Warm Up",
-    "channels": [
-      {
-        "id": "32",
-        "name": "TNT Sports 2 UK"
-      },
-      {
-        "id": "575",
-        "name": "Sky Sport MotoGP Italy"
-      },
-      {
-        "id": "271",
-        "name": "CANAL+ MotoGP France"
-      },
-      {
-        "id": "557",
-        "name": "Sky Sport Mix DE"
-      },
-      {
-        "id": "556",
-        "name": "Sky Sport Top Event DE"
-      },
-      {
-        "id": "445",
-        "name": "DAZN1 ES"
-      },
-      {
-        "id": "464",
-        "name": "Canal+ Sport 360"
-      },
-      {
-        "id": "289",
-        "name": "Sport TV4 Portugal"
-      },
-      {
-        "id": "149",
-        "name": "ESPN Argentina"
-      },
-      {
-        "id": "918",
-        "name": "DAZN MotoGP ES"
-      },
-      {
-        "id": "626",
-        "name": "Cosmote Sport 5 Greece"
-      },
-      {
-        "id": "992",
-        "name": "Polsat Sport Premium 2 Poland"
-      },
-      {
-        "id": "439",
-        "name": "SRF zwei"
-      },
-      {
-        "id": "260",
-        "name": "Arena Adrenalin"
-      },
-      {
-        "id": "272",
-        "name": "V Sport Motor Sweden"
-      },
-      {
-        "id": "85",
-        "name": "ESPN4 Brazil"
-      },
-      {
-        "id": "103",
-        "name": "SportKlub 3 Croatia"
-      },
-      {
-        "id": "393",
-        "name": "Ziggo Sport 1 NL"
-      },
-      {
-        "id": "473",
-        "name": "MAX Sport 2 Bulgaria"
-      },
-      {
-        "id": "5023",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5024",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5025",
-        "name": "Event Stream [ESP]"
-      },
-      {
-        "id": "5026",
-        "name": "Event Stream [ESP]"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Motorsport",
@@ -1393,7 +603,7 @@
       }
     ],
     "start_unix": 1792881900,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Motorsport",
@@ -1415,7 +625,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Motorsport",
@@ -1505,173 +715,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Motorsport",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "🏎️ MotoGP | Round 18 | Australia Race",
-    "channels": [
-      {
-        "id": "32",
-        "name": "TNT Sports 2 UK"
-      },
-      {
-        "id": "575",
-        "name": "Sky Sport MotoGP Italy"
-      },
-      {
-        "id": "271",
-        "name": "CANAL+ MotoGP France"
-      },
-      {
-        "id": "557",
-        "name": "Sky Sport Mix DE"
-      },
-      {
-        "id": "556",
-        "name": "Sky Sport Top Event DE"
-      },
-      {
-        "id": "123",
-        "name": "Astro Grandstand"
-      },
-      {
-        "id": "992",
-        "name": "Polsat Sport Premium 2 Poland"
-      },
-      {
-        "id": "445",
-        "name": "DAZN1 ES"
-      },
-      {
-        "id": "464",
-        "name": "Canal+ Sport 360"
-      },
-      {
-        "id": "289",
-        "name": "Sport TV4 Portugal"
-      },
-      {
-        "id": "918",
-        "name": "DAZN MotoGP ES"
-      },
-      {
-        "id": "85",
-        "name": "ESPN4 Brasil"
-      },
-      {
-        "id": "149",
-        "name": "ESPN Argentina"
-      },
-      {
-        "id": "626",
-        "name": "Cosmote Sport 5 Greece"
-      },
-      {
-        "id": "439",
-        "name": "SRF zwei"
-      },
-      {
-        "id": "272",
-        "name": "V Sport Motor Sweden"
-      },
-      {
-        "id": "260",
-        "name": "Arena Adrenalin"
-      },
-      {
-        "id": "160",
-        "name": "Sportklub 9 Croatia"
-      },
-      {
-        "id": "393",
-        "name": "Ziggo Sport 1 NL"
-      },
-      {
-        "id": "402",
-        "name": "Digi Sport 3 Romania"
-      },
-      {
-        "id": "473",
-        "name": "MAX Sport 2 Bulgaria"
-      },
-      {
-        "id": "146",
-        "name": "5 Live Israel"
-      },
-      {
-        "id": "3002",
-        "name": "TNT Sports 2 UK"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "20:45",
-    "title": "🏈 NCAA FBS : Kansas State Wildcats 🇺🇸 vs Arizona State Sun Devils 🇺🇸",
-    "channels": [
-      {
-        "id": "45",
-        "name": "ESPN2 USA"
-      }
-    ],
-    "start_unix": 1792874700,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏈 NCAA FBS : Eastern Michigan Eagles 🇺🇸 vs Ohio Bobcats 🇺🇸",
-    "channels": [
-      {
-        "id": "316",
-        "name": "ESPNU USA"
-      },
-      {
-        "id": "1212",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏈 NCAA FBS : Nevada vs San Jose State",
-    "channels": [
-      {
-        "id": "1214",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "🏈 NCAA FBS : No. 21 Boise State Broncos 🇺🇸 vs Washington State Cougars 🇺🇸",
-    "channels": [
-      {
-        "id": "343",
-        "name": "USA Network USA"
-      },
-      {
-        "id": "1245",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1685,7 +729,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1703,7 +747,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1725,141 +769,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏈 NCAA FBS : UL Monroe Warhawks 🇺🇸 vs Troy Trojans 🇺🇸",
-    "channels": [
-      {
-        "id": "255",
-        "name": "ESPN+ USA"
-      },
-      {
-        "id": "1211",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏈 NCAA FCS : Utah Tech Trailblazers 🇺🇸 vs Cal Poly Mustangs 🇺🇸",
-    "channels": [
-      {
-        "id": "1134",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏈 NCAA FCS : Southern Utah Thunderbirds 🇺🇸 vs Idaho Vandals 🇺🇸",
-    "channels": [
-      {
-        "id": "1135",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏈 NCAA FCS : UT Rio Grande Valley Vaqueros 🇺🇸 vs Central Arkansas Bears 🇺🇸",
-    "channels": [
-      {
-        "id": "1136",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏈 NCAA FCS : McNeese Cowboys 🇺🇸 vs UIW Cardinals 🇺🇸",
-    "channels": [
-      {
-        "id": "1137",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏈 NCAA FBS : Louisiana Ragin' Cajuns 🇺🇸 vs Southern Miss Golden Eagles 🇺🇸",
-    "channels": [
-      {
-        "id": "256",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏈 NCAA FBS : Old Dominion Monarchs 🇺🇸 vs Louisiana Tech Bulldogs 🇺🇸",
-    "channels": [
-      {
-        "id": "257",
-        "name": "ESPN+ USA"
-      },
-      {
-        "id": "1215",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "🏈 NCAA FCS : Portland State Vikings 🇺🇸 vs Idaho State Bengals 🇺🇸",
-    "channels": [
-      {
-        "id": "1138",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Am. Football (NCAAF",
-    "date": "2026-10-24",
-    "time": "22:30",
-    "title": "🏈 NCAA FCS : SE Louisiana Lions 🇺🇸 vs SFA Lumberjacks 🇺🇸",
-    "channels": [
-      {
-        "id": "1139",
-        "name": "ESPN+ USA"
-      }
-    ],
-    "start_unix": 1792881000,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1873,7 +783,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1891,7 +801,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1905,7 +815,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Am. Football (NCAAF",
@@ -1923,77 +833,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "NBA",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏀 NBA : Charlotte Hornets 🇺🇸 vs Miami Heat 🇺🇸",
-    "channels": [
-      {
-        "id": "4",
-        "name": "NBA League Pass"
-      },
-      {
-        "id": "1244",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "36",
-        "name": "Sky Sports+"
-      },
-      {
-        "id": "116",
-        "name": "beIN Sports 1 France"
-      },
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      },
-      {
-        "id": "625",
-        "name": "Cosmote Sport 4 Greece"
-      },
-      {
-        "id": "227",
-        "name": "DAZN Baloncesto"
-      },
-      {
-        "id": "466",
-        "name": "Diema Sport 2 Bulgaria"
-      },
-      {
-        "id": "97",
-        "name": "beIN SPORTS MENA 7"
-      },
-      {
-        "id": "61",
-        "name": "beIN SPORTS MENA English 1"
-      },
-      {
-        "id": "101",
-        "name": "Sportklub 1 Croatia"
-      },
-      {
-        "id": "3001",
-        "name": "NBA Game Pass"
-      },
-      {
-        "id": "5027",
-        "name": "Event Stream [Home Feed]"
-      },
-      {
-        "id": "5028",
-        "name": "Event Stream [Away Feed]"
-      },
-      {
-        "id": "4065",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NBA",
@@ -2035,7 +875,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NBA",
@@ -2093,53 +933,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Climbing",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🧗 World Series | Chile Men's and Women's Speed | Final",
-    "channels": [
-      {
-        "id": "34",
-        "name": "TNT Sports 4 UK"
-      },
-      {
-        "id": "58",
-        "name": "EuroSport 2 Poland"
-      },
-      {
-        "id": "525",
-        "name": "EuroSport 2 Spain"
-      },
-      {
-        "id": "773",
-        "name": "EuroSport 2 France"
-      },
-      {
-        "id": "232",
-        "name": "Eurosport 2 SE"
-      },
-      {
-        "id": "879",
-        "name": "EuroSport 2 Italy"
-      },
-      {
-        "id": "42",
-        "name": "EuroSport 2 Greece"
-      },
-      {
-        "id": "904",
-        "name": "EuroSport 2 PT"
-      },
-      {
-        "id": "895",
-        "name": "EuroSport 2 CZ"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Horse Racing",
@@ -2153,7 +947,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2199,7 +993,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2229,7 +1023,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2251,7 +1045,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2289,7 +1083,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2311,7 +1105,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2337,7 +1131,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "NHL Ice Hockey",
@@ -2363,105 +1157,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Men's College Ice Hockey",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏒 Men's College Ice Hockey : UConn 🇺🇸 vs Boston University 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Men's College Ice Hockey",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏒 Men's College Ice Hockey : Colgate 🇺🇸 vs Maine 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Men's College Ice Hockey",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏒 Men's College Ice Hockey : Michigan State 🇺🇸 vs New Hampshire 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏒 Women's College Ice Hockey : Saint Michael's 🇺🇸 vs Merrimack 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏒 Women's College Ice Hockey : Holy Cross 🇺🇸 vs Dartmouth 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏒 AHL : Springfield Thunderbirds 🇺🇸 vs Charlotte Checkers 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:05",
-    "title": "🏒 AHL : Hartford Wolf Pack 🇺🇸 vs Wilkes-Barre/Scranton 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879500,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "AHL Ice Hockey",
@@ -2475,7 +1171,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "AHL Ice Hockey",
@@ -2489,7 +1185,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "AHL Ice Hockey",
@@ -2503,7 +1199,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "AHL Ice Hockey",
@@ -2517,7 +1213,7 @@
       }
     ],
     "start_unix": 1792883100,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "AHL Ice Hockey",
@@ -2531,21 +1227,7 @@
       }
     ],
     "start_unix": 1792883100,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏒 ECHL : Adirondack Thunder 🇺🇸 vs Trenton Ironhawks 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2559,7 +1241,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2573,7 +1255,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2587,7 +1269,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2601,7 +1283,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2615,7 +1297,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2629,7 +1311,7 @@
       }
     ],
     "start_unix": 1792883100,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2643,7 +1325,7 @@
       }
     ],
     "start_unix": 1792883100,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2657,7 +1339,7 @@
       }
     ],
     "start_unix": 1792883400,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "ECHL Ice Hockey",
@@ -2671,49 +1353,7 @@
       }
     ],
     "start_unix": 1792884900,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "QMJHL Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏒 QMJHL : Charlottetown Islanders 🇨🇦 vs Halifax Mooseheads 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-10-24",
-    "time": "21:30",
-    "title": "🏒 OHL : Victoriaville Tigres 🇨🇦 vs Newfoundland 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792877400,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏒 OHL : Niagara IceDogs 🇨🇦 vs Erie Otters 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "OHL Ice Hockey",
@@ -2727,7 +1367,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "OHL Ice Hockey",
@@ -2741,7 +1381,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "OHL Ice Hockey",
@@ -2755,7 +1395,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "OHL Ice Hockey",
@@ -2769,7 +1409,7 @@
       }
     ],
     "start_unix": 1792883100,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "OHL Ice Hockey",
@@ -2783,7 +1423,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "WHL Ice Hockey",
@@ -2797,21 +1437,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Men's Volleyball Super League : Guarulhos 🇧🇷 vs Monte Carmelo 🇧🇷",
-    "channels": [
-      {
-        "id": "79",
-        "name": "Sportv2 Brazil"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Volleyball",
@@ -2825,217 +1451,7 @@
       }
     ],
     "start_unix": 1792884600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : Florida Gulf Coast 🇺🇸 vs Bellarmine 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : San Diego 🇺🇸 vs St. Mary's 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : Utah Tech 🇺🇸 vs Eastern Washington 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : Brown 🇺🇸 vs Yale 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : Long Beach State 🇺🇸 vs CSU Fullerton 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : West Florida 🇺🇸 vs Jacksonville 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : Tennessee Tech 🇺🇸 vs Samford 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792875600,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Queens University 🇺🇸 vs North Florida 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Xavier 🇺🇸 vs DePaul 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : St. John's 🇺🇸 vs Georgetown 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Bradley 🇺🇸 vs Northern Iowa 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Evansville 🇺🇸 vs Drake 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Murray State 🇺🇸 vs Southern Illinois 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Cornell 🇺🇸 vs Columbia 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-10-24",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Manhattan 🇺🇸 vs Sacred Heart 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1792879200,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Volleyball",
@@ -3049,7 +1465,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Volleyball",
@@ -3063,7 +1479,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Volleyball",
@@ -3077,7 +1493,7 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   },
   {
     "category": "Women's College Volleyball",
@@ -3091,6 +1507,6 @@
       }
     ],
     "start_unix": 1792882800,
-    "scraped_at_unix": 1792884791
+    "scraped_at_unix": 1792891866
   }
 ]
