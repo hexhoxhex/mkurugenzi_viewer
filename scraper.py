@@ -955,6 +955,28 @@ def _clean_category_text(s: str) -> str:
     return s.strip()
 
 
+# dlhd.pk names the German league three ways in one month: "Germany -
+# Bundesliga", plain "Bundesliga", "Bundesliga 2" / "Germany - Bundesliga 2".
+# The app's league grouping and its home-screen picks key on the
+# country-qualified name (a bare "bundesliga" would also catch Austria's
+# league and the handball one), so on 2026-10-31 all six Bundesliga games,
+# Bayern v Dortmund among them, landed under "Other leagues" and were never
+# recommended. Put the country back on the bare names of FOOTBALL events
+# only: volleyball and handball are listed as plain "Bundesliga" too (their
+# own icon, their own category), and "Austria - Bundesliga" or
+# "Frauen-Bundesliga" are untouched.
+_BARE_BUNDESLIGA_RE = re.compile(r"^(?P<lead>[^\w]*)(?P<comp>Bundesliga(?: 2)?)(?=\s*:)")
+
+
+def _normalise_title(title: str, category: str) -> str:
+    m = _BARE_BUNDESLIGA_RE.match(title)
+    if m is None:
+        return title
+    if "\u26bd" not in m.group("lead") and not re.search(r"\bsoccer\b", category, re.I):
+        return title
+    return f"{m.group('lead')}Germany - {m.group('comp')}{title[m.end():]}"
+
+
 def _resolve_iso_date(base: _dt.date, month_word: str, day: int) -> str:
     """Combine an extracted (month, day) with the day it is listed under
     into an ISO yyyy-MM-dd string. Rolls into next year only when the date
@@ -1007,7 +1029,7 @@ def annotate_dates(events: list[dict]) -> list[dict]:
             "category": base_cat or "Uncategorized",
             "date": iso,
             "time": time_str,
-            "title": e.get("title", ""),
+            "title": _normalise_title(e.get("title", ""), cat),
             "channels": e.get("channels", []),
             "start_unix": start_unix,
             "scraped_at_unix": now_unix,
