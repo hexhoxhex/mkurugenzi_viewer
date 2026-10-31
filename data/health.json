@@ -1,9 +1,9 @@
 {
-  "swept_at": 1793379943,
+  "swept_at": 1793447166,
   "channels_swept": 908,
   "measured_this_run": 114,
-  "ok_count": 732,
-  "fail_count": 176,
+  "ok_count": 733,
+  "fail_count": 175,
   "elapsed_seconds": 1800,
   "results": [
     {
@@ -581,7 +581,7 @@
     {
       "id": "84",
       "name": "movistar laliga",
-      "checked_at": 1793269630,
+      "checked_at": 1793447045,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -1087,7 +1087,7 @@
     {
       "id": "137",
       "name": "match football 2 russia",
-      "checked_at": 1793269521,
+      "checked_at": 1793447151,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -1439,7 +1439,7 @@
     {
       "id": "269",
       "name": "a sport pk",
-      "checked_at": 1793261416,
+      "checked_at": 1793447166,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -2275,7 +2275,7 @@
     {
       "id": "345",
       "name": "cnn usa",
-      "checked_at": 1793379943,
+      "checked_at": 1793446779,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -3320,7 +3320,7 @@
     {
       "id": "440",
       "name": "orange sport 2 romania",
-      "checked_at": 1793257685,
+      "checked_at": 1793447060,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3331,7 +3331,7 @@
     {
       "id": "441",
       "name": "orange sport 3 romania",
-      "checked_at": 1793257685,
+      "checked_at": 1793447060,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3342,7 +3342,7 @@
     {
       "id": "442",
       "name": "orange sport 4 romania",
-      "checked_at": 1793257685,
+      "checked_at": 1793447166,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -3441,7 +3441,7 @@
     {
       "id": "451",
       "name": "viaplay sports 1 uk",
-      "checked_at": 1793269738,
+      "checked_at": 1793446940,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -5047,7 +5047,7 @@
     {
       "id": "597",
       "name": "bein sports max ar",
-      "checked_at": 1793257457,
+      "checked_at": 1793446955,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -5135,7 +5135,7 @@
     {
       "id": "605",
       "name": "dubai sports 2 uae",
-      "checked_at": 1793257457,
+      "checked_at": 1793446848,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -5146,7 +5146,7 @@
     {
       "id": "606",
       "name": "dubai sports 3 uae",
-      "checked_at": 1793257457,
+      "checked_at": 1793446848,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -6048,11 +6048,11 @@
     {
       "id": "688",
       "name": "film4 uk",
-      "checked_at": 1793257457,
-      "status": "down",
-      "fail_reason": "resolve-failed",
+      "checked_at": 1793446833,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "edge.wedd48c.top",
       "first_segment_url": null,
       "source": "home"
     },
@@ -8622,7 +8622,7 @@
     {
       "id": "924",
       "name": "las estrellas",
-      "checked_at": 1793257567,
+      "checked_at": 1793446955,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9480,7 +9480,7 @@
     {
       "id": "1021",
       "name": "nova sport 1 cz",
-      "checked_at": 1793257567,
+      "checked_at": 1793446955,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9491,7 +9491,7 @@
     {
       "id": "1022",
       "name": "nova sport 2 cz",
-      "checked_at": 1793257567,
+      "checked_at": 1793446955,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9502,7 +9502,7 @@
     {
       "id": "1023",
       "name": "nova sport 3 cz",
-      "checked_at": 1793257567,
+      "checked_at": 1793446955,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9513,7 +9513,7 @@
     {
       "id": "1024",
       "name": "nova sport 4 cz",
-      "checked_at": 1793257567,
+      "checked_at": 1793447060,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9524,7 +9524,7 @@
     {
       "id": "1025",
       "name": "nova sport 5 cz",
-      "checked_at": 1793257684,
+      "checked_at": 1793447060,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9535,7 +9535,7 @@
     {
       "id": "1026",
       "name": "nova sport 6 cz",
-      "checked_at": 1793257685,
+      "checked_at": 1793447060,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9546,7 +9546,7 @@
     {
       "id": "1027",
       "name": "oneplay sport 1 cz",
-      "checked_at": 1793261416,
+      "checked_at": 1793447166,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9557,7 +9557,7 @@
     {
       "id": "1028",
       "name": "oneplay sport 2 cz",
-      "checked_at": 1793261416,
+      "checked_at": 1793447166,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
@@ -9568,7 +9568,7 @@
     {
       "id": "1029",
       "name": "oneplay sport 3 cz",
-      "checked_at": 1793261416,
+      "checked_at": 1793447166,
       "status": "down",
       "fail_reason": "resolve-failed",
       "daddy_endpoint": null,
