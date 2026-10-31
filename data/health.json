@@ -1,11 +1,22 @@
 {
-  "swept_at": 1793447166,
-  "channels_swept": 908,
+  "swept_at": 1793456239,
+  "channels_swept": 909,
   "measured_this_run": 114,
-  "ok_count": 733,
+  "ok_count": 734,
   "fail_count": 175,
   "elapsed_seconds": 1800,
   "results": [
+    {
+      "id": "7",
+      "name": "",
+      "checked_at": 1793454734,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
     {
       "id": "8",
       "name": "",
@@ -64,7 +75,7 @@
     {
       "id": "31",
       "name": "tnt sports 1 uk",
-      "checked_at": 1792849135,
+      "checked_at": 1793449926,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -933,11 +944,11 @@
     {
       "id": "123",
       "name": "astro supersport 1",
-      "checked_at": 1791317944,
+      "checked_at": 1793456239,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -2253,11 +2264,11 @@
     {
       "id": "343",
       "name": "usa network",
-      "checked_at": 1792894599,
+      "checked_at": 1793451834,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
