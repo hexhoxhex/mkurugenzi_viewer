@@ -1,8 +1,8 @@
 {
-  "swept_at": 1793822537,
-  "channels_swept": 909,
+  "swept_at": 1793830136,
+  "channels_swept": 910,
   "measured_this_run": 114,
-  "ok_count": 736,
+  "ok_count": 737,
   "fail_count": 173,
   "elapsed_seconds": 1800,
   "results": [
@@ -1246,6 +1246,17 @@
       "fail_reason": null,
       "daddy_endpoint": null,
       "host": "edge.cowedd4855ws.sbs",
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "163",
+      "name": "",
+      "checked_at": 1793826024,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -2506,11 +2517,11 @@
     {
       "id": "365",
       "name": "rte 2",
-      "checked_at": 1791867697,
+      "checked_at": 1793830136,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
