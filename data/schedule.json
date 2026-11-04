@@ -1,17 +1,17 @@
 [
   {
-    "category": "Upcoming Events",
+    "category": "PPV Events",
     "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🎾🇫🇷 Rolex Paris Masters | Paris, France | 31 October – 8 November 2026",
+    "time": "20:15",
+    "title": "🏁 The Dirt Track at Charlotte Speedway",
     "channels": [
       {
-        "id": "40",
-        "name": "Tennis Channel"
+        "id": "26",
+        "name": "DIRTVision PPV"
       }
     ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
+    "start_unix": 1793823300,
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Upcoming Events",
@@ -25,21 +25,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "TV Shows",
-    "date": "2026-11-04",
-    "time": "17:30",
-    "title": "📺 Golden State Valkyries Championship Parade • Live",
-    "channels": [
-      {
-        "id": "753",
-        "name": "NBCS Bay Area"
-      }
-    ],
-    "start_unix": 1793813400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "TV Shows",
@@ -53,7 +39,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "TV Shows",
@@ -67,7 +53,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "TV Shows",
@@ -81,7 +67,7 @@
       }
     ],
     "start_unix": 1793829600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "England - Championship",
@@ -99,7 +85,7 @@
       }
     ],
     "start_unix": 1793821500,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "England - Championship",
@@ -117,7 +103,7 @@
       }
     ],
     "start_unix": 1793821500,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "England - League One",
@@ -135,495 +121,7 @@
       }
     ],
     "start_unix": 1793821500,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "⚽ Czechia Czech First League : SK Artis Brno 🇨🇿 vs Bohemians Praha 1905 🇨🇿",
-    "channels": [
-      {
-        "id": "1027",
-        "name": "Oneplay Sport 1 CZ"
-      },
-      {
-        "id": "1219",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "⚽ Portugal - Liga Revelação : Penafiel U23 🇵🇹 vs Famalicão U23 🇵🇹",
-    "channels": [
-      {
-        "id": "540",
-        "name": "Canal 11 Portugal"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "17:45",
-    "title": "⚽ UEFA Champions League : Simulcast",
-    "channels": [
-      {
-        "id": "156",
-        "name": "Paramount+"
-      },
-      {
-        "id": "559",
-        "name": "Sky Sport Austria 1"
-      },
-      {
-        "id": "30",
-        "name": "Sky Sport 251 IT"
-      },
-      {
-        "id": "461",
-        "name": "Sky Sport Uno IT"
-      }
-    ],
-    "start_unix": 1793814300,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "17:45",
-    "title": "⚽ UEFA Champions League : Fenerbahçe 🇹🇷 vs Liverpool 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "channels": [
-      {
-        "id": "157",
-        "name": "Paramount+"
-      },
-      {
-        "id": "1220",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "31",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "1012",
-        "name": "TRT 1 Turkey"
-      },
-      {
-        "id": "3",
-        "name": "Sky Sport Austria 3"
-      },
-      {
-        "id": "426",
-        "name": "DAZN1 DE"
-      },
-      {
-        "id": "2",
-        "name": "Movistar Liga de Campeones 3"
-      },
-      {
-        "id": "885",
-        "name": "SONY TEN 1"
-      },
-      {
-        "id": "456",
-        "name": "DAZN Eleven 2 Portugal"
-      },
-      {
-        "id": "984",
-        "name": "Canal+ Extra 2 Poland"
-      },
-      {
-        "id": "122",
-        "name": "Canal+ Sport France"
-      },
-      {
-        "id": "59",
-        "name": "Canal+ Live 3 France"
-      },
-      {
-        "id": "393",
-        "name": "Ziggo Sport 1 NL"
-      },
-      {
-        "id": "398",
-        "name": "Ziggo Sport 2 NL"
-      },
-      {
-        "id": "712",
-        "name": "beIN Sports Malaysia"
-      },
-      {
-        "id": "68",
-        "name": "Blue Sport 8 Live"
-      },
-      {
-        "id": "462",
-        "name": "Sky Sport Arena IT"
-      },
-      {
-        "id": "4",
-        "name": "Sky Sport 254 IT"
-      },
-      {
-        "id": "1026",
-        "name": "Nova Sport 6 CZ"
-      },
-      {
-        "id": "401",
-        "name": "Digi Sport 2 Romania"
-      },
-      {
-        "id": "584",
-        "name": "Prima Sport 2 Romania"
-      },
-      {
-        "id": "914",
-        "name": "Cytavision Sports 4 Cyprus"
-      },
-      {
-        "id": "626",
-        "name": "MagentaSport 5 Greece"
-      },
-      {
-        "id": "433",
-        "name": "Arena Sport 2 Croatia"
-      },
-      {
-        "id": "819",
-        "name": "TV3+ Denmark"
-      },
-      {
-        "id": "572",
-        "name": "V Sport Premium"
-      },
-      {
-        "id": "471",
-        "name": "Ring bg"
-      },
-      {
-        "id": "135",
-        "name": "Arena 2 Premium Serbia"
-      },
-      {
-        "id": "5",
-        "name": "Space Brazil"
-      },
-      {
-        "id": "149",
-        "name": "ESPN Argentina"
-      },
-      {
-        "id": "414",
-        "name": "SuperSport Premier League"
-      },
-      {
-        "id": "94",
-        "name": "beIN Sports MENA 4"
-      },
-      {
-        "id": "61",
-        "name": "beIN Sports MENA English 1"
-      },
-      {
-        "id": "90",
-        "name": "beIN Sports MENA English 2"
-      },
-      {
-        "id": "3001",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "3017",
-        "name": "DAZN1 DE"
-      },
-      {
-        "id": "3028",
-        "name": "M. Liga de Campeones 3"
-      },
-      {
-        "id": "4101",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4109",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5011",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1793814300,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "17:45",
-    "title": "⚽ UEFA Champions League : AEK Athens 🇬🇷 vs Real Madrid 🇪🇸",
-    "channels": [
-      {
-        "id": "158",
-        "name": "Paramount+"
-      },
-      {
-        "id": "1221",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "33",
-        "name": "TNT Sports 3 UK"
-      },
-      {
-        "id": "618",
-        "name": "TNT Sports 9 UK"
-      },
-      {
-        "id": "6",
-        "name": "Sky Sport Austria 4"
-      },
-      {
-        "id": "435",
-        "name": "Movistar Liga de Campeones"
-      },
-      {
-        "id": "427",
-        "name": "DAZN2 DE"
-      },
-      {
-        "id": "455",
-        "name": "DAZN Eleven 1 Portugal"
-      },
-      {
-        "id": "983",
-        "name": "Canal+ Extra 1 Poland"
-      },
-      {
-        "id": "463",
-        "name": "Canal+ Foot France"
-      },
-      {
-        "id": "69",
-        "name": "Canal+ Live 2 France"
-      },
-      {
-        "id": "1061",
-        "name": "Nova Sport 4 SK"
-      },
-      {
-        "id": "1024",
-        "name": "Nova Sport 4 CZ"
-      },
-      {
-        "id": "155",
-        "name": "Sport 1 Hungary"
-      },
-      {
-        "id": "887",
-        "name": "SONY TEN 3"
-      },
-      {
-        "id": "400",
-        "name": "Digi Sport 1 Romania"
-      },
-      {
-        "id": "583",
-        "name": "Prima Sport 1 Romania"
-      },
-      {
-        "id": "66",
-        "name": "TUDN USA"
-      },
-      {
-        "id": "133",
-        "name": "UniMás"
-      },
-      {
-        "id": "870",
-        "name": "Sky Sport Calcio IT"
-      },
-      {
-        "id": "7",
-        "name": "Sky Sport 253 IT"
-      },
-      {
-        "id": "913",
-        "name": "Cytavision Sports 3 Cyprus"
-      },
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      },
-      {
-        "id": "714",
-        "name": "beIN Sports 3 Malaysia"
-      },
-      {
-        "id": "919",
-        "name": "Ziggo Sport 3 NL"
-      },
-      {
-        "id": "809",
-        "name": "TV3 Sport Denmark"
-      },
-      {
-        "id": "623",
-        "name": "MagentaSport 2 Greece"
-      },
-      {
-        "id": "434",
-        "name": "Arena Sport 3 Croatia"
-      },
-      {
-        "id": "481",
-        "name": "bTV Action Bulgaria"
-      },
-      {
-        "id": "87",
-        "name": "TNT Brasil"
-      },
-      {
-        "id": "787",
-        "name": "Fox Sports Argentina"
-      },
-      {
-        "id": "92",
-        "name": "beIN Sports MENA 2"
-      },
-      {
-        "id": "144",
-        "name": "5Sport Israel"
-      },
-      {
-        "id": "3003",
-        "name": "TNT Sports 3 UK"
-      },
-      {
-        "id": "3023",
-        "name": "MagentaSport 2 Greece"
-      },
-      {
-        "id": "3030",
-        "name": "M. Liga de Campeones"
-      },
-      {
-        "id": "3040",
-        "name": "TUDN USA"
-      },
-      {
-        "id": "4105",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4106",
-        "name": "Event Stream"
-      },
-      {
-        "id": "4113",
-        "name": "Event Stream"
-      },
-      {
-        "id": "5012",
-        "name": "Event Stream"
-      }
-    ],
-    "start_unix": 1793814300,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "⚽ FIFA U-17 Women's World Cup : Brazil U17 🇧🇷 vs Nigeria U17 🇳🇬",
-    "channels": [
-      {
-        "id": "758",
-        "name": "Fox Sports 2 USA"
-      },
-      {
-        "id": "113",
-        "name": "TSN3"
-      },
-      {
-        "id": "839",
-        "name": "RDS CA"
-      },
-      {
-        "id": "845",
-        "name": "NBC Universo"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "⚽ Brazil U20 Copa do Brasil : Atlético Mineiro U20 🇧🇷 vs Santa Cruz U20 🇧🇷",
-    "channels": [
-      {
-        "id": "78",
-        "name": "Sportv Brazil"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "⚽ Argentina - Reserve League : Aldosivi Res. 🇦🇷 vs Barracas Central Res. 🇦🇷",
-    "channels": [
-      {
-        "id": "187",
-        "name": "ESPN Premium Argentina"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "18:15",
-    "title": "⚽ AFC Champions League Two : Muharraq 🇧🇭 vs Al Jazira 🇦🇪",
-    "channels": [
-      {
-        "id": "467",
-        "name": "Diema Sport 3 Bulgaria"
-      }
-    ],
-    "start_unix": 1793816100,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-04",
-    "time": "18:15",
-    "title": "⚽ AFC Champions League Two : Al Taawon 🇸🇦 vs Al Faisaly 🇯🇴",
-    "channels": [
-      {
-        "id": "468",
-        "name": "Nova Sport Bulgaria"
-      },
-      {
-        "id": "167",
-        "name": "Sportklub 6 Croatia"
-      }
-    ],
-    "start_unix": 1793816100,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -641,7 +139,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -659,7 +157,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -677,7 +175,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -723,7 +221,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -769,7 +267,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -787,7 +285,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -801,7 +299,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -919,7 +417,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1025,7 +523,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1103,7 +601,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1177,7 +675,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1323,7 +821,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1453,7 +951,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1503,7 +1001,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1517,7 +1015,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1551,7 +1049,7 @@
       }
     ],
     "start_unix": 1793831400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1565,7 +1063,7 @@
       }
     ],
     "start_unix": 1793831400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1579,7 +1077,7 @@
       }
     ],
     "start_unix": 1793831400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "All Soccer Events",
@@ -1593,21 +1091,7 @@
       }
     ],
     "start_unix": 1793835000,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Men's College Soccer",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "⚽ Men's College Soccer : Iona 🇺🇸 vs Manhattan 🇺🇸",
-    "channels": [
-      {
-        "id": "759",
-        "name": "SportsNet New York USA (SNY USA)"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1621,7 +1105,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1635,7 +1119,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1649,7 +1133,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1663,7 +1147,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1677,7 +1161,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1691,7 +1175,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1705,7 +1189,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1719,7 +1203,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1733,7 +1217,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1747,7 +1231,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1761,7 +1245,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Men's College Soccer",
@@ -1775,35 +1259,7 @@
       }
     ],
     "start_unix": 1793822400,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "⚽ Women's College Soccer : Mount St. Mary's 🇺🇸 vs Canisius 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Women's College Soccer",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "⚽ Women's College Soccer : American 🇺🇸 vs Bucknell 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Soccer",
@@ -1817,7 +1273,7 @@
       }
     ],
     "start_unix": 1793829600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Soccer",
@@ -1831,7 +1287,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Soccer",
@@ -1845,7 +1301,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Soccer",
@@ -1859,47 +1315,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Tennis",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "🎾 ATP Masters Paris 🇫🇷",
-    "channels": [
-      {
-        "id": "102",
-        "name": "Sportklub 2 Croatia"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Tennis 🎾 ATP - Singles: Paris (France",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "🎾 ATP - Singles: 🇺🇸 Alex Michelsen vs 🇪🇸 Carlos Alcaraz",
-    "channels": [
-      {
-        "id": "1089",
-        "name": "Tennis HD Stream"
-      },
-      {
-        "id": "1507",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1520",
-        "name": "Tennis Stream"
-      },
-      {
-        "id": "1691",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Tennis 🎾 ATP - Singles: Paris (France",
@@ -1925,39 +1341,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Tennis 🎾 Challenger Men - Singles: Bratislava 2 (Slovakia",
-    "date": "2026-11-04",
-    "time": "17:30",
-    "title": "🎾 Challenger Men - Singles: 🇺🇸 Nishesh Basavareddy vs 🇨🇭 Mika Brunold",
-    "channels": [
-      {
-        "id": "1112",
-        "name": "Tennis HD Stream"
-      },
-      {
-        "id": "1690",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1793813400,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Field Hockey",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "🏑 College Field Hockey ACC Tournament, First Semifinal: Teams TBA",
-    "channels": [
-      {
-        "id": "664",
-        "name": "ACC Network USA"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Field Hockey",
@@ -1971,109 +1355,7 @@
       }
     ],
     "start_unix": 1793824200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Champions League : Legia 🇵🇱 vs Galatasaray 🇹🇷",
-    "channels": [
-      {
-        "id": "128",
-        "name": "TVP Sport Poland"
-      },
-      {
-        "id": "1217",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "429",
-        "name": "Arena Sport 1 Serbia"
-      },
-      {
-        "id": "1022",
-        "name": "Nova SPORT 2 CZ"
-      },
-      {
-        "id": "171",
-        "name": "Sportklub 10 Croatia"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Champions League : Szombathely 🇭🇺 vs AEK Athens 🇬🇷",
-    "channels": [
-      {
-        "id": "1021",
-        "name": "Nova SPORT 1 CZ"
-      },
-      {
-        "id": "1216",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "625",
-        "name": "Cosmote Sport 4 Greece"
-      },
-      {
-        "id": "170",
-        "name": "Sportklub 9 Croatia"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Gulf Club Champions League : Erbil vs Kazma SC",
-    "channels": [
-      {
-        "id": "1218",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 ABA League 2 : Hercegovac 🇧🇦 vs TFT Skopje 🇲🇰",
-    "channels": [
-      {
-        "id": "944",
-        "name": "Arena Sport 9 Serbia"
-      },
-      {
-        "id": "680",
-        "name": "Arena Sport 4 Croatia"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 EuroCup Women : MBK Ružomberok 🇸🇰 vs Perfumerías Avenida 🇪🇸",
-    "channels": [
-      {
-        "id": "1052",
-        "name": "JOJ Šport SK"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Basketball",
@@ -2095,7 +1377,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Basketball",
@@ -2109,7 +1391,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Basketball",
@@ -2123,113 +1405,7 @@
       }
     ],
     "start_unix": 1793834100,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Eurocup Basketball",
-    "date": "2026-11-04",
-    "time": "16:30",
-    "title": "🏀 Eurocup : Turk Telekom 🇹🇷 vs Frankfurt 🇩🇪",
-    "channels": [
-      {
-        "id": "26",
-        "name": "Magenta Sport 301"
-      },
-      {
-        "id": "11",
-        "name": "Arena 5 Premium Serbia"
-      },
-      {
-        "id": "166",
-        "name": "Sportklub 5 Croatia"
-      },
-      {
-        "id": "3012",
-        "name": "Magenta Sport 301"
-      }
-    ],
-    "start_unix": 1793809800,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Eurocup Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Eurocup : Rigas Zelli 🇱🇻 vs Le Mans 🇫🇷",
-    "channels": [
-      {
-        "id": "169",
-        "name": "Sportklub 8 Croatia"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Eurocup Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Eurocup : Lietkabelis 🇱🇹 vs Manresa 🇪🇸",
-    "channels": [
-      {
-        "id": "521",
-        "name": "#Vamos ES"
-      },
-      {
-        "id": "181",
-        "name": "M+ Baloncesto Spain"
-      },
-      {
-        "id": "633",
-        "name": "Nova Sports 3 Greece"
-      },
-      {
-        "id": "19",
-        "name": "Arena 4 Premium Serbia"
-      },
-      {
-        "id": "103",
-        "name": "Sportklub 3 Croatia"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Eurocup Basketball",
-    "date": "2026-11-04",
-    "time": "17:30",
-    "title": "🏀 Eurocup : Cedevita Olimpija 🇸🇮 vs Tortona 🇮🇹",
-    "channels": [
-      {
-        "id": "139",
-        "name": "Arena 3 Premium Serbia"
-      },
-      {
-        "id": "635",
-        "name": "Nova Sports 5 Greece"
-      },
-      {
-        "id": "101",
-        "name": "Sportklub 1 Croatia"
-      }
-    ],
-    "start_unix": 1793813400,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Eurocup Basketball",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "🏀 Eurocup : Slask Wroclaw 🇵🇱 vs JL Bourg 🇫🇷",
-    "channels": [
-      {
-        "id": "996",
-        "name": "Polsat Sport Extra 4 Poland"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Eurocup Basketball",
@@ -2251,7 +1427,7 @@
       }
     ],
     "start_unix": 1793817000,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Eurocup Basketball",
@@ -2285,7 +1461,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Eurocup Basketball",
@@ -2299,7 +1475,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Eurocup Basketball",
@@ -2313,7 +1489,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Eurocup Basketball",
@@ -2339,7 +1515,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Euroleague Basketball",
@@ -2389,63 +1565,7 @@
       }
     ],
     "start_unix": 1793821500,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Women's College Basketball : LeTourneau 🇺🇸 vs Houston Christian 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Women's College Basketball : Wingate 🇺🇸 vs High Point 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Women's College Basketball : Arkansas-Pine Bluff 🇺🇸 vs Tarleton State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🏀 Women's College Basketball : University of Dallas 🇺🇸 vs Stephen F. Austin 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "📢 Channel Not Listed 💬 #JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2459,7 +1579,7 @@
       }
     ],
     "start_unix": 1793827800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2473,7 +1593,7 @@
       }
     ],
     "start_unix": 1793829600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2487,7 +1607,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2501,7 +1621,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2515,7 +1635,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2529,7 +1649,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2543,7 +1663,7 @@
       }
     ],
     "start_unix": 1793835000,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Basketball",
@@ -2557,7 +1677,7 @@
       }
     ],
     "start_unix": 1793835000,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Futsal",
@@ -2571,35 +1691,7 @@
       }
     ],
     "start_unix": 1793824200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "🤾 Handball-Bundesliga Women : Halle-Neustadt W 🇩🇪 vs Oldenburg W 🇩🇪",
-    "channels": [
-      {
-        "id": "152",
-        "name": "DYN DE"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "18:00",
-    "title": "🤾 Handball-Bundesliga Women : Blomberg-Lippe W 🇩🇪 vs Bensheim-Auerbach W 🇩🇪",
-    "channels": [
-      {
-        "id": "153",
-        "name": "DYN DE"
-      }
-    ],
-    "start_unix": 1793815200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Handball",
@@ -2613,85 +1705,7 @@
       }
     ],
     "start_unix": 1793817000,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🤾 European Championship : Slovenia 🇸🇮 vs Bosnia & Herzegovina 🇧🇦",
-    "channels": [
-      {
-        "id": "579",
-        "name": "Arena Sport 1 BIH"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🤾 European Championship : Poland 🇵🇱 vs Latvia 🇱🇻",
-    "channels": [
-      {
-        "id": "50",
-        "name": "Polsat Sport 2 Poland"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🤾 European Championship : Czech Republic 🇨🇿 vs Israel 🇮🇱",
-    "channels": [
-      {
-        "id": "1033",
-        "name": "ČT Sport CZ"
-      },
-      {
-        "id": "141",
-        "name": "Sport 2 Israel"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "17:00",
-    "title": "🤾 European Championship : Austria 🇦🇹 vs Turkey 🇹🇷",
-    "channels": [
-      {
-        "id": "8891",
-        "name": "TRT Spor Turkey"
-      },
-      {
-        "id": "183",
-        "name": "ORF SPORT+"
-      }
-    ],
-    "start_unix": 1793811600,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-04",
-    "time": "17:15",
-    "title": "🤾 Norway Eliteserien Women : Sola 🇳🇴 vs Larvik HK 🇳🇴",
-    "channels": [
-      {
-        "id": "666",
-        "name": "TV2 Sport2 Norway"
-      }
-    ],
-    "start_unix": 1793812500,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Handball",
@@ -2705,7 +1719,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Handball",
@@ -2719,7 +1733,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Handball",
@@ -2733,7 +1747,7 @@
       }
     ],
     "start_unix": 1793819700,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "OHL Ice Hockey",
@@ -2747,7 +1761,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Squash",
@@ -2761,25 +1775,7 @@
       }
     ],
     "start_unix": 1793818800,
-    "scraped_at_unix": 1793819941
-  },
-  {
-    "category": "Volleyball",
-    "date": "2026-11-04",
-    "time": "16:30",
-    "title": "🏐 PlusLiga : Aluron Warta 🇵🇱 vs Olsztyn 🇵🇱",
-    "channels": [
-      {
-        "id": "47",
-        "name": "Polsat Sport 1 Poland"
-      },
-      {
-        "id": "994",
-        "name": "Polsat Sport Extra 2 Poland"
-      }
-    ],
-    "start_unix": 1793809800,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Volleyball",
@@ -2797,7 +1793,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Volleyball",
@@ -2811,7 +1807,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Volleyball",
@@ -2825,7 +1821,7 @@
       }
     ],
     "start_unix": 1793820600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Volleyball",
@@ -2839,7 +1835,7 @@
       }
     ],
     "start_unix": 1793829600,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Volleyball",
@@ -2853,7 +1849,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Volleyball",
@@ -2867,7 +1863,7 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   },
   {
     "category": "Women's College Volleyball",
@@ -2881,6 +1877,6 @@
       }
     ],
     "start_unix": 1793833200,
-    "scraped_at_unix": 1793819941
+    "scraped_at_unix": 1793827602
   }
 ]
