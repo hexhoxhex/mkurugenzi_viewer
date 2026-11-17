@@ -1,8 +1,8 @@
 {
-  "swept_at": 1794806867,
-  "channels_swept": 912,
+  "swept_at": 1794956858,
+  "channels_swept": 914,
   "measured_this_run": 114,
-  "ok_count": 741,
+  "ok_count": 743,
   "fail_count": 171,
   "elapsed_seconds": 1800,
   "results": [
@@ -43,6 +43,17 @@
       "id": "18",
       "name": "",
       "checked_at": 1791733974,
+      "status": "ok",
+      "fail_reason": null,
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "22",
+      "name": "",
+      "checked_at": 1794949438,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -163,7 +174,7 @@
     {
       "id": "38",
       "name": "sky sports main event",
-      "checked_at": 1794650839,
+      "checked_at": 1794953195,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -229,7 +240,7 @@
     {
       "id": "44",
       "name": "espn usa",
-      "checked_at": 1794650972,
+      "checked_at": 1794956858,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -1032,7 +1043,7 @@
     {
       "id": "130",
       "name": "sky sports premier league",
-      "checked_at": 1794806867,
+      "checked_at": 1794949182,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -2308,7 +2319,7 @@
     {
       "id": "345",
       "name": "cnn usa",
-      "checked_at": 1794650906,
+      "checked_at": 1794956533,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -2440,11 +2451,11 @@
     {
       "id": "357",
       "name": "bbc two uk",
-      "checked_at": 1791573342,
+      "checked_at": 1794949476,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -2627,7 +2638,7 @@
     {
       "id": "374",
       "name": "cinemax usa",
-      "checked_at": 1791926295,
+      "checked_at": 1794956436,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -3067,7 +3078,7 @@
     {
       "id": "414",
       "name": "supersport premier league",
-      "checked_at": 1794651210,
+      "checked_at": 1794956683,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
@@ -5883,11 +5894,11 @@
     {
       "id": "670",
       "name": "s4c uk",
-      "checked_at": 1792037880,
+      "checked_at": 1794949522,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": "edge.cowedd4855ws.sbs",
+      "host": null,
       "first_segment_url": null,
       "source": "home"
     },
@@ -10011,6 +10022,17 @@
       "checked_at": 1794087891,
       "status": "down",
       "fail_reason": "resolve-failed",
+      "daddy_endpoint": null,
+      "host": null,
+      "first_segment_url": null,
+      "source": "home"
+    },
+    {
+      "id": "3002",
+      "name": "",
+      "checked_at": 1794949717,
+      "status": "ok",
+      "fail_reason": null,
       "daddy_endpoint": null,
       "host": null,
       "first_segment_url": null,
