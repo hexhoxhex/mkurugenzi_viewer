@@ -1,827 +1,5 @@
 [
   {
-    "category": "PPV Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏁 Georgia State Race Championship Sunday",
-    "channels": [
-      {
-        "id": "59",
-        "name": "FloRacing PPV"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏎️🇶🇦 Formula 1 Qatar Grand Prix – Qualifying | Lusail, Qatar | 28 November 2026",
-    "channels": [
-      {
-        "id": "60",
-        "name": "Sky Sports F1 UK"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🥊 Boxing WBA : Tyson Fury vs Anthony Joshua Fight live on Friday, December 11, 2026",
-    "channels": [
-      {
-        "id": "5000",
-        "name": "Netflix"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Upcoming Events",
-    "date": "2026-11-22",
-    "time": "21:30",
-    "title": "⚽🇨🇴 Copa Sudamericana Final – Boca Juniors vs Atlético Mineiro | Barranquilla, Colombia | 22 November 2026",
-    "channels": [
-      {
-        "id": "149",
-        "name": "ESPN SUR"
-      }
-    ],
-    "start_unix": 1795383000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "⚽ Spain - Primera División Femenina : Barcelona 🇪🇸 vs Athletic Club 🇪🇸",
-    "channels": [
-      {
-        "id": "446",
-        "name": "DAZN2 Spain"
-      },
-      {
-        "id": "1241",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "⚽ Portugal - Taça de Portugal : Estrela 🇵🇹 vs Portimonense 🇵🇹",
-    "channels": [
-      {
-        "id": "49",
-        "name": "Sport TV1 Portugal"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:15",
-    "title": "⚽ Belgium - Pro League : Lommel United 🇧🇪 vs Standard Liège 🇧🇪",
-    "channels": [
-      {
-        "id": "105",
-        "name": "DAZN Belgium"
-      },
-      {
-        "id": "1242",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795371300,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:15",
-    "title": "⚽ Belgium Challenger Pro League : Gent U23 vs Francs Borains",
-    "channels": [
-      {
-        "id": "1243",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795371300,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:15",
-    "title": "⚽ Norway - Eliteserien : Sarpsborg 08 🇳🇴 vs Lillestrøm 🇳🇴",
-    "channels": [
-      {
-        "id": "812",
-        "name": "TV 2 Sport Norway"
-      },
-      {
-        "id": "1244",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795371300,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "⚽ Romania - Liga I : SCM Argeşul Piteşti 🇷🇴 vs FCSB 🇷🇴",
-    "channels": [
-      {
-        "id": "400",
-        "name": "Digi Sport 1 Romania"
-      },
-      {
-        "id": "1239",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "583",
-        "name": "Prima Sport 1 Romania"
-      },
-      {
-        "id": "571",
-        "name": "Sportdigital FUSSBALL DE"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "⚽ Poland - II Liga : Zawisza Bydgoszcz 🇵🇱 vs Podhale Nowy Targ 🇵🇱",
-    "channels": [
-      {
-        "id": "106",
-        "name": "TVP3 Poland"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "⚽ Germany 3. Liga : MSV Duisburg 🇩🇪 vs Hansa Rostock 🇩🇪",
-    "channels": [
-      {
-        "id": "8",
-        "name": "Magenta Sport 301"
-      },
-      {
-        "id": "1240",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "14",
-        "name": "Kanal 1 Xtra Slovakia"
-      },
-      {
-        "id": "104",
-        "name": "Sportklub 4 Croatia"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ Brazil - Brasileirão : Athletico-PR 🇧🇷 vs Remo 🇧🇷",
-    "channels": [
-      {
-        "id": "88",
-        "name": "Premiere BR"
-      },
-      {
-        "id": "1212",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ Brazil Serie B : Criciuma vs Fortaleza",
-    "channels": [
-      {
-        "id": "1213",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ Bolivia Division Profesional : Real Potosi vs Bolivar",
-    "channels": [
-      {
-        "id": "1214",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ Ecuador Liga Pro : Orense vs Mushuc Runa",
-    "channels": [
-      {
-        "id": "1215",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ Argentina - Primera División : Rosario Central 🇦🇷 vs Gimnasia Mendoza 🇦🇷",
-    "channels": [
-      {
-        "id": "387",
-        "name": "ESPN Premium Argentina"
-      },
-      {
-        "id": "1211",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "454",
-        "name": "Sport TV3 Portugal"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ Brazil - Serie B : Criciúma 🇧🇷 vs Fortaleza 🇧🇷",
-    "channels": [
-      {
-        "id": "81",
-        "name": "ESPN Brazil"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:30",
-    "title": "⚽ Portugal - Taça de Portugal : União de Leiria 🇵🇹 vs Leça 🇵🇹",
-    "channels": [
-      {
-        "id": "540",
-        "name": "Canal 11 Portugal"
-      }
-    ],
-    "start_unix": 1795375800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:45",
-    "title": "⚽ Italy - Serie A : Atalanta 🇮🇹 vs Internazionale 🇮🇹",
-    "channels": [
-      {
-        "id": "107",
-        "name": "Paramount+"
-      },
-      {
-        "id": "1222",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "31",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "877",
-        "name": "DAZN ZONA 1 IT"
-      },
-      {
-        "id": "108",
-        "name": "DAZN IT"
-      },
-      {
-        "id": "910",
-        "name": "CBS Sports Golazo Network"
-      },
-      {
-        "id": "74",
-        "name": "Sport TV2 Portugal"
-      },
-      {
-        "id": "71",
-        "name": "Eleven Sports 1 Poland"
-      },
-      {
-        "id": "127",
-        "name": "Match TV Russia"
-      },
-      {
-        "id": "136",
-        "name": "Match! Football 1 Russia"
-      },
-      {
-        "id": "398",
-        "name": "Ziggo Sport 2 NL"
-      },
-      {
-        "id": "124",
-        "name": "Astro Football"
-      },
-      {
-        "id": "131",
-        "name": "Telemundo"
-      },
-      {
-        "id": "401",
-        "name": "Digi Sport 2 Romania"
-      },
-      {
-        "id": "584",
-        "name": "Prima Sport 2 Romania"
-      },
-      {
-        "id": "1034",
-        "name": "Sport 1 CZ"
-      },
-      {
-        "id": "135",
-        "name": "Arena 2 Premium Serbia"
-      },
-      {
-        "id": "622",
-        "name": "MagentaSport 1 Greece"
-      },
-      {
-        "id": "808",
-        "name": "TV2 Sport X Denmark"
-      },
-      {
-        "id": "914",
-        "name": "Cytavision Sports 4 Cyprus"
-      },
-      {
-        "id": "150",
-        "name": "ESPN2 Argentina"
-      },
-      {
-        "id": "432",
-        "name": "Arena Sport 1 Croatia"
-      },
-      {
-        "id": "747",
-        "name": "TV4 Fotball"
-      },
-      {
-        "id": "474",
-        "name": "MAX Sport 3 Bulgaria"
-      },
-      {
-        "id": "81",
-        "name": "ESPN Brazil"
-      },
-      {
-        "id": "4009",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5022",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "2002",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795376700,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "19:45",
-    "title": "⚽ France - Ligue 1 : Olympique Marseille 🇫🇷 vs Le Mans 🇫🇷",
-    "channels": [
-      {
-        "id": "960",
-        "name": "Ligue1+ France"
-      },
-      {
-        "id": "1223",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "425",
-        "name": "beIN SPORTS USA"
-      },
-      {
-        "id": "372",
-        "name": "beIN SPORTS en Español"
-      },
-      {
-        "id": "64",
-        "name": "beIN Sports 3 Turkey"
-      },
-      {
-        "id": "289",
-        "name": "Sport TV4 Portugal"
-      },
-      {
-        "id": "72",
-        "name": "Eleven Sports 2 Poland"
-      },
-      {
-        "id": "1060",
-        "name": "Nova Sport 3 SK"
-      },
-      {
-        "id": "572",
-        "name": "V Sport Premium"
-      },
-      {
-        "id": "1023",
-        "name": "Nova Sport 3 CZ"
-      },
-      {
-        "id": "6",
-        "name": "Arena 4 Premium Serbia"
-      },
-      {
-        "id": "434",
-        "name": "Arena Sport 3 Croatia"
-      },
-      {
-        "id": "466",
-        "name": "Diema Sport 2 Bulgaria"
-      },
-      {
-        "id": "92",
-        "name": "beIN Sports MENA 2"
-      },
-      {
-        "id": "61",
-        "name": "beIN Sports MENA English 1"
-      },
-      {
-        "id": "147",
-        "name": "5Stars Israel"
-      },
-      {
-        "id": "4007",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "2003",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795376700,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "⚽ Spain - La Liga : Getafe 🇪🇸 vs Atlético Madrid 🇪🇸",
-    "channels": [
-      {
-        "id": "84",
-        "name": "M+ LALIGA TV"
-      },
-      {
-        "id": "1218",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "109",
-        "name": "ESPN+ USA"
-      },
-      {
-        "id": "451",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "771",
-        "name": "Premier Sports 1 Ireland"
-      },
-      {
-        "id": "455",
-        "name": "DAZN Eleven 1 Portugal"
-      },
-      {
-        "id": "48",
-        "name": "Canal+ Sport Poland"
-      },
-      {
-        "id": "11",
-        "name": "Canal+ Sport 6 Poland"
-      },
-      {
-        "id": "393",
-        "name": "Ziggo Sport 1 NL"
-      },
-      {
-        "id": "712",
-        "name": "beIN Sports Malaysia"
-      },
-      {
-        "id": "375",
-        "name": "ESPN Deportes"
-      },
-      {
-        "id": "1061",
-        "name": "Nova Sport 4 SK"
-      },
-      {
-        "id": "1024",
-        "name": "Nova Sport 4 CZ"
-      },
-      {
-        "id": "137",
-        "name": "Match! Football 2 Russia"
-      },
-      {
-        "id": "149",
-        "name": "ESPN Argentina"
-      },
-      {
-        "id": "139",
-        "name": "Arena 3 Premium Serbia"
-      },
-      {
-        "id": "402",
-        "name": "Digi Sport 3 Romania"
-      },
-      {
-        "id": "585",
-        "name": "Prima Sport 3 Romania"
-      },
-      {
-        "id": "12",
-        "name": "MagentaSport 3 League Greece"
-      },
-      {
-        "id": "488",
-        "name": "Canal+ Sport 3 Afrique"
-      },
-      {
-        "id": "475",
-        "name": "MAX Sport 4 Bulgaria"
-      },
-      {
-        "id": "415",
-        "name": "SuperSport Laliga"
-      },
-      {
-        "id": "91",
-        "name": "beIN Sports MENA 1"
-      },
-      {
-        "id": "101",
-        "name": "Sportklub 1 Croatia"
-      },
-      {
-        "id": "4006",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "2004",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "⚽ Spain - Segunda Division : Burgos 🇪🇸 vs Albacete 🇪🇸",
-    "channels": [
-      {
-        "id": "539",
-        "name": "LALIGA TV Hypermotion"
-      },
-      {
-        "id": "1219",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "⚽ Peru Liga 1 Apertura : Sporting Cristal vs Cienciano",
-    "channels": [
-      {
-        "id": "1220",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "⚽ Peru Liga 1 Apertura : Sport Huancayo vs U de Deportes",
-    "channels": [
-      {
-        "id": "1221",
-        "name": "Event SD Stream"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "20:45",
-    "title": "⚽ Portugal - Taça de Portugal : Torreense 🇵🇹 vs Benfica 🇵🇹",
-    "channels": [
-      {
-        "id": "49",
-        "name": "Sport TV1 Portugal"
-      },
-      {
-        "id": "1225",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "719",
-        "name": "RTP 1 Portugal"
-      },
-      {
-        "id": "100",
-        "name": "beIN SPORTS XTRA"
-      },
-      {
-        "id": "102",
-        "name": "Sportklub 2 Croatia"
-      },
-      {
-        "id": "142",
-        "name": "Sport 3 Israel"
-      }
-    ],
-    "start_unix": 1795380300,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "⚽ Chile - Primera Division : Colo-Colo 🇨🇱 vs Universidad Católica 🇨🇱",
-    "channels": [
-      {
-        "id": "642",
-        "name": "TNT SPORTS Premium HD Chile"
-      }
-    ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "21:30",
-    "title": "⚽ Brazil - Brasileirão : Fluminense 🇧🇷 vs Mirassol 🇧🇷",
-    "channels": [
-      {
-        "id": "7",
-        "name": "Premiere 2 BR"
-      },
-      {
-        "id": "138",
-        "name": "Match! Football 3 Russia"
-      }
-    ],
-    "start_unix": 1795383000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "21:30",
-    "title": "⚽ Brazil - Serie B : Atlético Goianiense 🇧🇷 vs Vila Nova 🇧🇷",
-    "channels": [
-      {
-        "id": "81",
-        "name": "ESPN Brazil"
-      }
-    ],
-    "start_unix": 1795383000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "⚽ Costa Rica - Primera Division : Inter San Carlos 🇨🇷 vs Sporting San José 🇨🇷",
-    "channels": [
-      {
-        "id": "2",
-        "name": "FUTV"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "⚽ Argentina - Primera División : River Plate 🇦🇷 vs Lanús 🇦🇷",
-    "channels": [
-      {
-        "id": "388",
-        "name": "TNT Sports Argentina"
-      },
-      {
-        "id": "550",
-        "name": "Viaplay Sports 2 UK"
-      },
-      {
-        "id": "799",
-        "name": "Premier Sports 2 Ireland"
-      },
-      {
-        "id": "571",
-        "name": "Sportdigital FUSSBALL DE"
-      },
-      {
-        "id": "435",
-        "name": "Movistar Liga de Campeones"
-      },
-      {
-        "id": "521",
-        "name": "#Vamos ES"
-      },
-      {
-        "id": "454",
-        "name": "Sport TV3 Portugal"
-      },
-      {
-        "id": "135",
-        "name": "Arena 2 Premium Serbia"
-      },
-      {
-        "id": "81",
-        "name": "ESPN Brazil"
-      },
-      {
-        "id": "141",
-        "name": "Sport 2 Israel"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
     "category": "All Soccer Events",
     "date": "2026-11-22",
     "time": "22:30",
@@ -832,12 +10,16 @@
         "name": "Premiere BR"
       },
       {
+        "id": "1214",
+        "name": "Event SD Stream"
+      },
+      {
         "id": "540",
         "name": "Canal 11 Portugal"
       }
     ],
     "start_unix": 1795386600,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "All Soccer Events",
@@ -855,7 +37,7 @@
       }
     ],
     "start_unix": 1795388820,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "All Soccer Events",
@@ -869,7 +51,7 @@
       }
     ],
     "start_unix": 1795390200,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "All Soccer Events",
@@ -892,152 +74,14 @@
       {
         "id": "643",
         "name": "FOX Deportes"
+      },
+      {
+        "id": "3081",
+        "name": "Fox Sports 1 USA"
       }
     ],
     "start_unix": 1795390200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "All Soccer Events",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "⚽ Major League Soccer : Nashville SC 🇺🇸 vs FC Cincinnati 🇺🇸",
-    "channels": [
-      {
-        "id": "39",
-        "name": "Fox Sports 1 USA"
-      },
-      {
-        "id": "643",
-        "name": "FOX Deportes"
-      },
-      {
-        "id": "839",
-        "name": "RDS CA"
-      },
-      {
-        "id": "112",
-        "name": "TSN2 CA"
-      },
-      {
-        "id": "841",
-        "name": "RDS Info"
-      }
-    ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "⚽ College Soccer : Akron 🇺🇸 vs Wake Forest 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "⚽ College Soccer : Maryland 🇺🇸 vs NC State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "⚽ College Soccer : Michigan State 🇺🇸 vs Marshall 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "⚽ College Soccer : Wisconsin 🇺🇸 vs Charlotte 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "⚽ College Soccer : West Virginia 🇺🇸 vs Washington 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Georgetown 🇺🇸 vs Syracuse 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "⚽ College Soccer : North Carolina 🇺🇸 vs UNC Wilmington 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "College Soccer",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "⚽ College Soccer : Pittsburgh 🇺🇸 vs Grand Canyon 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "College Soccer",
@@ -1051,7 +95,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "College Soccer",
@@ -1065,7 +109,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "College Soccer",
@@ -1079,7 +123,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "College Soccer",
@@ -1093,41 +137,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Cricket",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏏 1st Test Day-5 : New Zealand 🇳🇿 vs India 🇮🇳",
-    "channels": [
-      {
-        "id": "31",
-        "name": "TNT Sports 1 UK"
-      },
-      {
-        "id": "32",
-        "name": "TNT Sports 2 UK"
-      },
-      {
-        "id": "370",
-        "name": "Astro Cricket"
-      },
-      {
-        "id": "588",
-        "name": "Sky Sport 1 NZ"
-      },
-      {
-        "id": "368",
-        "name": "SuperSport Cricket"
-      },
-      {
-        "id": "412",
-        "name": "SuperSport Grandstand"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Cricket",
@@ -1141,797 +151,7 @@
       }
     ],
     "start_unix": 1795390200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Tennis Billie Jean King Cup",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "🎾 WTA Billie Jean King Cup : USA W 🇺🇸 vs Hungary 🇭🇺",
-    "channels": [
-      {
-        "id": "291",
-        "name": "Sport TV6 Portugal"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Tennis 🎾 WTA - Singles: Billie Jean King Cup - World Group (World",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🎾 WTA - Singles: 🇺🇸 Coco Gauff vs 🇭🇺 Anna Bondar",
-    "channels": [
-      {
-        "id": "1083",
-        "name": "Tennis HD Stream"
-      },
-      {
-        "id": "1663",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Tennis 🎾 WTA - Singles: Billie Jean King Cup - World Group (World",
-    "date": "2026-11-22",
-    "time": "21:30",
-    "title": "🎾 WTA - Singles: 🇺🇸 Ann Li vs 🇭🇺 Dalma Galfi",
-    "channels": [
-      {
-        "id": "1084",
-        "name": "Tennis HD Stream"
-      },
-      {
-        "id": "1664",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1795383000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Tennis 🎾 WTA - Doubles: Billie Jean King Cup - World Group (World",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "🎾 WTA - Doubles: 🇺🇸 Desirae Krawczyk / 🇺🇸 Taylor Townsend vs 🇭🇺 Anna Bondar / 🇭🇺 Fanny Stollar",
-    "channels": [
-      {
-        "id": "1082",
-        "name": "Tennis HD Stream"
-      },
-      {
-        "id": "1662",
-        "name": "Tennis Stream"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Redzone 🇺🇸",
-    "channels": [
-      {
-        "id": "667",
-        "name": "NFL Redzone Feed"
-      },
-      {
-        "id": "449",
-        "name": "Sky Sports Mix UK"
-      },
-      {
-        "id": "1245",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "35",
-        "name": "Sky Sports Football UK"
-      },
-      {
-        "id": "557",
-        "name": "Sky Sport Mix DE"
-      },
-      {
-        "id": "494",
-        "name": "beIN Sports MAX 4 France"
-      },
-      {
-        "id": "612",
-        "name": "Arena Sport 1x2 Serbia"
-      },
-      {
-        "id": "85",
-        "name": "ESPN4 Brazil"
-      },
-      {
-        "id": "4041",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5021",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5060",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5048",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Buffalo Bills 🇺🇸 vs Miami Dolphins 🇺🇸",
-    "channels": [
-      {
-        "id": "4",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1252",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "52",
-        "name": "CBS USA"
-      },
-      {
-        "id": "767",
-        "name": "CBSNY USA"
-      },
-      {
-        "id": "4032",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5014",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5049",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5061",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Chicago Bears 🇺🇸 vs New Orleans Saints 🇺🇸",
-    "channels": [
-      {
-        "id": "10",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1250",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "156",
-        "name": "5 Action UK"
-      },
-      {
-        "id": "113",
-        "name": "TSN3"
-      },
-      {
-        "id": "111",
-        "name": "TSN1"
-      },
-      {
-        "id": "4033",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5015",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5050",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5062",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Dallas Cowboys 🇺🇸 vs Tennessee Titans 🇺🇸",
-    "channels": [
-      {
-        "id": "15",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1249",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "4035",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5016",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5051",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5063",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Detroit Lions 🇺🇸 vs Tampa Bay Buccaneers 🇺🇸",
-    "channels": [
-      {
-        "id": "16",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1248",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "36",
-        "name": "Sky Sports+ UK"
-      },
-      {
-        "id": "840",
-        "name": "RDS 2 CA"
-      },
-      {
-        "id": "738",
-        "name": "RTL DE"
-      },
-      {
-        "id": "1062",
-        "name": "Nova SPORT 5 SK"
-      },
-      {
-        "id": "1025",
-        "name": "Nova SPORT 5 CZ"
-      },
-      {
-        "id": "13",
-        "name": "Arena 5 Premium Serbia"
-      },
-      {
-        "id": "83",
-        "name": "ESPN3 Brazil"
-      },
-      {
-        "id": "473",
-        "name": "MAX Sport 2 Bulgaria"
-      },
-      {
-        "id": "4034",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5017",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5052",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5064",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Kansas City Chiefs 🇺🇸 vs Arizona Cardinals 🇺🇸",
-    "channels": [
-      {
-        "id": "17",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1247",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "37",
-        "name": "Sky Sports NFL UK"
-      },
-      {
-        "id": "117",
-        "name": "beIN Sports 2 France"
-      },
-      {
-        "id": "79",
-        "name": "Sportv2 Brazil"
-      },
-      {
-        "id": "90",
-        "name": "beIN SPORTS MENA English 2"
-      },
-      {
-        "id": "98",
-        "name": "beIN SPORTS MENA 8"
-      },
-      {
-        "id": "4030",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5018",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5053",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5065",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Philadelphia Eagles 🇺🇸 vs Pittsburgh Steelers 🇺🇸",
-    "channels": [
-      {
-        "id": "18",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1246",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "4036",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5019",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5054",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5066",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏈 NFL : Carolina Panthers 🇺🇸 vs Baltimore Ravens 🇺🇸",
-    "channels": [
-      {
-        "id": "22",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "1251",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "54",
-        "name": "FOX USA"
-      },
-      {
-        "id": "4031",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5020",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5055",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5067",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "21:05",
-    "title": "🏈 NFL : Los Angeles Chargers 🇺🇸 vs New York Jets 🇺🇸",
-    "channels": [
-      {
-        "id": "1",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "54",
-        "name": "FOX USA"
-      },
-      {
-        "id": "768",
-        "name": "FOXNY USA"
-      },
-      {
-        "id": "4037",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5056",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5067",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795381500,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "21:25",
-    "title": "🏈 NFL : Denver Broncos 🇺🇸 vs Las Vegas Raiders 🇺🇸",
-    "channels": [
-      {
-        "id": "3",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "355",
-        "name": "Channel 5 UK"
-      },
-      {
-        "id": "36",
-        "name": "Sky Sports+ UK"
-      },
-      {
-        "id": "113",
-        "name": "TSN3"
-      },
-      {
-        "id": "111",
-        "name": "TSN1"
-      },
-      {
-        "id": "82",
-        "name": "ESPN2 BR"
-      },
-      {
-        "id": "4039",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5057",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795382700,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Am. Football (NFL",
-    "date": "2026-11-22",
-    "time": "21:25",
-    "title": "🏈 NFL : New York Giants 🇺🇸 vs Jacksonville Jaguars 🇺🇸",
-    "channels": [
-      {
-        "id": "5",
-        "name": "NFL Sunday Ticket"
-      },
-      {
-        "id": "52",
-        "name": "CBS USA"
-      },
-      {
-        "id": "767",
-        "name": "CBSNY USA"
-      },
-      {
-        "id": "38",
-        "name": "Sky Sports Main Event UK"
-      },
-      {
-        "id": "37",
-        "name": "Sky Sports NFL UK"
-      },
-      {
-        "id": "738",
-        "name": "RTL DE"
-      },
-      {
-        "id": "840",
-        "name": "RDS 2 CA"
-      },
-      {
-        "id": "445",
-        "name": "DAZN Spain"
-      },
-      {
-        "id": "457",
-        "name": "DAZN Eleven 3 Portugal"
-      },
-      {
-        "id": "117",
-        "name": "beIN Sports 2 France"
-      },
-      {
-        "id": "1062",
-        "name": "Nova SPORT 5 SK"
-      },
-      {
-        "id": "1025",
-        "name": "Nova SPORT 5 CZ"
-      },
-      {
-        "id": "13",
-        "name": "Arena 5 Premium Serbia"
-      },
-      {
-        "id": "79",
-        "name": "Sportv2 Brazil"
-      },
-      {
-        "id": "810",
-        "name": "TV2 Sport Denmark"
-      },
-      {
-        "id": "90",
-        "name": "beIN SPORTS MENA English 2"
-      },
-      {
-        "id": "98",
-        "name": "beIN SPORTS MENA 8"
-      },
-      {
-        "id": "473",
-        "name": "MAX Sport 2 Bulgaria"
-      },
-      {
-        "id": "4038",
-        "name": "Backup Stream"
-      },
-      {
-        "id": "5058",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795382700,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 LNB : Lyon-Villeurbanne 🇫🇷 vs JL Bourg 🇫🇷",
-    "channels": [
-      {
-        "id": "943",
-        "name": "Arena Sport 8 Serbia"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 ACB : Real Madrid 🇪🇸 vs Joventut Badalona 🇪🇸",
-    "channels": [
-      {
-        "id": "172",
-        "name": "DAZN Baloncesto"
-      },
-      {
-        "id": "430",
-        "name": "Arena Sport 2 Serbia"
-      },
-      {
-        "id": "103",
-        "name": "Sportklub 3 Croatia"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 NBA G-League : Maine Celtics 🇺🇸 vs Capital City Go-Go 🇺🇸",
-    "channels": [
-      {
-        "id": "404",
-        "name": "NBA TV USA"
-      },
-      {
-        "id": "754",
-        "name": "NBCS Boston USA"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "🏀 LPB : FC Porto 🇵🇹 vs CD Povoa 🇵🇹",
-    "channels": [
-      {
-        "id": "458",
-        "name": "DAZN Eleven 4 Portugal"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "🏀 ABA League : Partizan 🇷🇸 vs Dubai 🇦🇪",
-    "channels": [
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Kls : Metalac 🇷🇸 vs Tamiš 🇷🇸",
-    "channels": [
-      {
-        "id": "945",
-        "name": "Arena Sport 10 Serbia"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 NBA G-League : Raptors 905 🇨🇦 vs Westchester 🇺🇸",
-    "channels": [
-      {
-        "id": "765",
-        "name": "MSG USA"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "19:30",
-    "title": "🏀 Serie A2 : Libertas Livorno 🇮🇹 vs Sassari 🇮🇹",
-    "channels": [
-      {
-        "id": "882",
-        "name": "Rai Sport 1 IT"
-      }
-    ],
-    "start_unix": 1795375800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 NBA G-League : Oklahoma City Blue 🇺🇸 vs Austin Toros Spurs 🇺🇸",
-    "channels": [
-      {
-        "id": "404",
-        "name": "NBA TV USA"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "NBA Basketball",
-    "date": "2026-11-22",
-    "time": "20:30",
-    "title": "🏀 NBA : Atlanta Hawks 🇺🇸 vs Detroit Pistons 🇺🇸",
-    "channels": [
-      {
-        "id": "23",
-        "name": "NBA League Pass"
-      },
-      {
-        "id": "1224",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "128",
-        "name": "TVP Sport Poland"
-      },
-      {
-        "id": "134",
-        "name": "Arena 1 Premium Serbia"
-      },
-      {
-        "id": "625",
-        "name": "Cosmote Sport 4 Greece"
-      },
-      {
-        "id": "1021",
-        "name": "Nova SPORT 1 CZ"
-      },
-      {
-        "id": "465",
-        "name": "Diema Sport Bulgaria"
-      },
-      {
-        "id": "103",
-        "name": "Sportklub 3 Croatia"
-      },
-      {
-        "id": "4065",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795379400,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "NBA Basketball",
@@ -1942,6 +162,10 @@
       {
         "id": "9",
         "name": "NBA League Pass"
+      },
+      {
+        "id": "1215",
+        "name": "Event SD Stream"
       },
       {
         "id": "74",
@@ -1982,10 +206,14 @@
       {
         "id": "4066",
         "name": "Backup Stream"
+      },
+      {
+        "id": "3003",
+        "name": "NBA League Pass"
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "High School Basketball",
@@ -1999,313 +227,7 @@
       }
     ],
     "start_unix": 1795386600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 College Basketball : Lancaster Bible College 🇺🇸 vs UMBC 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 College Basketball : Western Illinois 🇺🇸 vs Canisius 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 College Basketball : Northwestern 🇺🇸 vs Dayton 🇺🇸",
-    "channels": [
-      {
-        "id": "45",
-        "name": "ESPN2 USA"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 College Basketball : Towson 🇺🇸 vs American 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 College Basketball : Chicago State 🇺🇸 vs Marquette 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 College Basketball : UMass Lowell 🇺🇸 vs Cincinnati 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 College Basketball : Evansville 🇺🇸 vs Memphis 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 College Basketball : William & Mary 🇺🇸 vs Youngstown State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 College Basketball : Western Kentucky 🇺🇸 vs George Washington 🇺🇸",
-    "channels": [
-      {
-        "id": "308",
-        "name": "CBSSN USA"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 College Basketball : Southern Indiana 🇺🇸 vs Texas 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 College Basketball : West Florida 🇺🇸 vs South Alabama 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:30",
-    "title": "🏀 College Basketball : McNeese 🇺🇸 vs Texas State 🇺🇸",
-    "channels": [
-      {
-        "id": "300",
-        "name": "CW USA"
-      },
-      {
-        "id": "280",
-        "name": "CW PIX 11 USA"
-      }
-    ],
-    "start_unix": 1795379400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:30",
-    "title": "🏀 College Basketball : Oklahoma State 🇺🇸 vs Virginia Tech 🇺🇸",
-    "channels": [
-      {
-        "id": "44",
-        "name": "ESPN USA"
-      },
-      {
-        "id": "114",
-        "name": "TSN4"
-      },
-      {
-        "id": "115",
-        "name": "TSN5"
-      }
-    ],
-    "start_unix": 1795379400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:30",
-    "title": "🏀 College Basketball : UAlbany 🇺🇸 vs Mercyhurst 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795379400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏀 College Basketball : Alice Lloyd 🇺🇸 vs Eastern Kentucky 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "21:30",
-    "title": "🏀 College Basketball : Maryland Eastern Shore 🇺🇸 vs IU Indianapolis 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795383000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "21:30",
-    "title": "🏀 College Basketball : Liberty 🇺🇸 vs Richmond 🇺🇸",
-    "channels": [
-      {
-        "id": "308",
-        "name": "CBSSN USA"
-      }
-    ],
-    "start_unix": 1795383000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 College Basketball : UNC Asheville 🇺🇸 vs Samford 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 College Basketball : Milligan 🇺🇸 vs Lipscomb 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 College Basketball : CSU Fullerton 🇺🇸 vs Portland State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Men's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 College Basketball : NJIT 🇺🇸 vs Boston College 🇺🇸",
-    "channels": [
-      {
-        "id": "664",
-        "name": "ACC Network USA"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Men's College Basketball",
@@ -2319,7 +241,7 @@
       }
     ],
     "start_unix": 1795386600,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Men's College Basketball",
@@ -2333,557 +255,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : Texas 🇺🇸 vs Ohio State 🇺🇸",
-    "channels": [
-      {
-        "id": "44",
-        "name": "ESPN USA"
-      },
-      {
-        "id": "114",
-        "name": "TSN4"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : Drexel 🇺🇸 vs Loyola Maryland 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : South Florida 🇺🇸 vs Texas Tech 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : UMass Lowell 🇺🇸 vs Merrimack 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : Georgia Tech 🇺🇸 vs Princeton 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : Louisiana Tech 🇺🇸 vs University of Georgia 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : Buffalo 🇺🇸 vs Fordham 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏀 Women's College Basketball : Saint Joseph's 🇺🇸 vs Penn State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Mercer 🇺🇸 vs Gardner-Webb 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Morehead State 🇺🇸 vs Western Carolina 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Hampton 🇺🇸 vs University of Delaware 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Wright State 🇺🇸 vs Stetson 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Central Connecticut 🇺🇸 vs Vermont 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Eastern Michigan 🇺🇸 vs Butler 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Valparaiso 🇺🇸 vs SIU Edwardsville 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Louisiana 🇺🇸 vs SE Louisiana 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : New Hampshire 🇺🇸 vs Boston University 🇺🇸",
-    "channels": [
-      {
-        "id": "762",
-        "name": "NESN"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Holy Cross 🇺🇸 vs Richmond 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Lees-McRae 🇺🇸 vs Liberty 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Georgetown 🇺🇸 vs Temple 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Abilene Christian 🇺🇸 vs Samford 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Nebraska 🇺🇸 vs Creighton 🇺🇸",
-    "channels": [
-      {
-        "id": "39",
-        "name": "FOX Sports 1 USA"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏀 Women's College Basketball : Southern Indiana 🇺🇸 vs Indiana 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "19:30",
-    "title": "🏀 Women's College Basketball : South Dakota State 🇺🇸 vs Kansas 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795375800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Coastal Carolina 🇺🇸 vs NC State 🇺🇸",
-    "channels": [
-      {
-        "id": "664",
-        "name": "ACC Network USA"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Alabama A&M 🇺🇸 vs Mississippi 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Eastern Washington 🇺🇸 vs Southern Utah 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : UT Arlington 🇺🇸 vs Tennessee State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Mississippi State 🇺🇸 vs Southern Mississippi 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Northern Kentucky 🇺🇸 vs Baylor 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Drake 🇺🇸 vs Iowa State 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏀 Women's College Basketball : Central Michigan 🇺🇸 vs Minnesota 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "20:30",
-    "title": "🏀 Women's College Basketball : TCU 🇺🇸 vs Utah State 🇺🇸",
-    "channels": [
-      {
-        "id": "45",
-        "name": "ESPN2 USA"
-      }
-    ],
-    "start_unix": 1795379400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏀 Women's College Basketball : Montana 🇺🇸 vs Montana 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 Women's College Basketball : Idaho State 🇺🇸 vs UC Riverside 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 Women's College Basketball : CSU Bakersfield 🇺🇸 vs San Francisco 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 Women's College Basketball : Stanford 🇺🇸 vs Portland 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 Women's College Basketball : Northwest Indian 🇺🇸 vs Idaho 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Basketball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏀 Women's College Basketball : Cal Poly 🇺🇸 vs Washington 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Women's College Basketball",
@@ -2901,245 +273,7 @@
       }
     ],
     "start_unix": 1795386600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Darts",
-    "date": "2026-11-22",
-    "time": "18:30",
-    "title": "🎯 Grand Slam of Darts final 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-    "channels": [
-      {
-        "id": "38",
-        "name": "Sky Sports Main Event UK"
-      },
-      {
-        "id": "1216",
-        "name": "Event SD Stream"
-      },
-      {
-        "id": "36",
-        "name": "Sky Sports+"
-      },
-      {
-        "id": "590",
-        "name": "Sky Sport 3 NZ"
-      },
-      {
-        "id": "1022",
-        "name": "Nova SPORT 2 CZ"
-      },
-      {
-        "id": "75",
-        "name": "CANAL+ SPORT 5 Poland"
-      },
-      {
-        "id": "940",
-        "name": "Arena Sport 5 Serbia"
-      }
-    ],
-    "start_unix": 1795372200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Floorball",
-    "date": "2026-11-22",
-    "time": "19:30",
-    "title": "🏑 National Championship : Sporting CP 🇵🇹 vs Benfica 🇵🇹",
-    "channels": [
-      {
-        "id": "456",
-        "name": "DAZN Eleven 2 Portugal"
-      }
-    ],
-    "start_unix": 1795375800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🤾 888ligaen : Bjerringbro/Silkeborg 🇩🇰 vs GOG 🇩🇰",
-    "channels": [
-      {
-        "id": "810",
-        "name": "TV2 Sport Denmark"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Handball",
-    "date": "2026-11-22",
-    "time": "19:20",
-    "title": "🤾 Austria WHA Meisterliga Women : Hypo Niederosterreich 🇦🇹 vs Uhc Tulln 🇦🇹",
-    "channels": [
-      {
-        "id": "158",
-        "name": "ORF SPORT PLUS"
-      }
-    ],
-    "start_unix": 1795375200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏒 DEL : Krefeld Pinguine 🇩🇪 vs Grizzly Wolfsburg 🇩🇪",
-    "channels": [
-      {
-        "id": "154",
-        "name": "Magenta Sport 303"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Ice Hockey",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏒 Austria ICE Hockey League : HK Olimpija 🇸🇮 vs HC Pustertal 🇮🇹",
-    "channels": [
-      {
-        "id": "151",
-        "name": "ŠTV 1 Slovenia"
-      }
-    ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "NHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏒 NHL : Buffalo Sabres 🇺🇸 vs Tampa Bay Lightning 🇺🇸",
-    "channels": [
-      {
-        "id": "18",
-        "name": "NHL Gamecenter"
-      },
-      {
-        "id": "663",
-        "name": "NHL Network USA"
-      },
-      {
-        "id": "451",
-        "name": "Viaplay Sports 1 UK"
-      },
-      {
-        "id": "406",
-        "name": "Sportsnet Ontario"
-      },
-      {
-        "id": "408",
-        "name": "Sportsnet East"
-      },
-      {
-        "id": "833",
-        "name": "TVA Sports"
-      },
-      {
-        "id": "433",
-        "name": "Arena Sport 1 Croatia"
-      },
-      {
-        "id": "386",
-        "name": "ESPN 2 NL"
-      },
-      {
-        "id": "4051",
-        "name": "Backup Stream"
-      }
-    ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏒 AHL Ice Hockey : Rockford IceHogs 🇺🇸 vs Manitoba Moose 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 AHL Ice Hockey : Utica Comets 🇺🇸 vs Cleveland Monsters 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 AHL Ice Hockey : Springfield Thunderbirds 🇺🇸 vs Hartford Wolf Pack 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 AHL Ice Hockey : Calgary Wranglers 🇨🇦 vs Laval Rocket 🇨🇦",
-    "channels": [
-      {
-        "id": "839",
-        "name": "RDS CA"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:05",
-    "title": "🏒 AHL Ice Hockey : Milwaukee Admirals 🇺🇸 vs Providence Bruins 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377900,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "AHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏒 AHL Ice Hockey : Chicago Wolves 🇺🇸 vs Toronto Marlies 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "AHL Ice Hockey",
@@ -3153,161 +287,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:05",
-    "title": "🏒 ECHL Ice Hockey : Greensboro Gargoyles 🇺🇸 vs Greenville Swamp Rabbits 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377900,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:05",
-    "title": "🏒 ECHL Ice Hockey : Reading Royals 🇺🇸 vs Worcester Railers 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377900,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:10",
-    "title": "🏒 ECHL Ice Hockey : Indy Fuel 🇺🇸 vs Atlanta Gladiators 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795378200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "21:05",
-    "title": "🏒 ECHL Ice Hockey : Kansas City 🇺🇸 vs Wichita Thunder 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795381500,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "21:10",
-    "title": "🏒 ECHL Ice Hockey : Kalamazoo Wings 🇺🇸 vs Wheeling Nailers 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795381800,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "ECHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "22:05",
-    "title": "🏒 ECHL Ice Hockey : Bloomington Bison 🇺🇸 vs Fort Wayne Komets 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795385100,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏒 OHL Ice Hockey : Brantford Bulldogs 🇨🇦 vs Brampton Steelheads 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏒 OHL Ice Hockey : Niagara IceDogs 🇨🇦 vs North Bay Battalion 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "19:05",
-    "title": "🏒 OHL Ice Hockey : Sault Ste. Marie Greyhounds 🇨🇦 vs Sarnia Sting 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374300,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "19:05",
-    "title": "🏒 OHL Ice Hockey : Blainville-Boisbriand Armada 🇨🇦 vs Kingston Frontenacs 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795374300,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "OHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 OHL Ice Hockey : Gatineau Olympiques 🇨🇦 vs Ottawa 67s 🇨🇦",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "OHL Ice Hockey",
@@ -3321,7 +301,7 @@
       }
     ],
     "start_unix": 1795388400,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "OHL Ice Hockey",
@@ -3335,347 +315,3897 @@
       }
     ],
     "start_unix": 1795388700,
-    "scraped_at_unix": 1795380441
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "QMJHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 QMJHL Ice Hockey : Newfoundland 🇨🇦 vs Moncton Wildcats 🇨🇦",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "12:30",
+    "title": "⚽🇶🇦 FIFA U-17 World Cup | Qatar | 19 November – 13 December 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "61",
+        "name": "beIN SPORTS 1 English"
       }
     ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795437000,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "QMJHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 QMJHL Ice Hockey : Quebec Remparts 🇨🇦 vs Rimouski Oceanic 🇨🇦",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "13:30",
+    "title": "🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 1 | Lusail, Qatar | 27 November 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "60",
+        "name": "Sky Sports F1 UK"
       }
     ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795440600,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "QMJHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 QMJHL Ice Hockey : Victoriaville Tigres 🇨🇦 vs Sherbrooke Phoenix 🇨🇦",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "14:00",
+    "title": "🎾🇮🇹 Davis Cup Finals – Final | Bologna, Italy | 29 November 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "40",
+        "name": "Tennis Channel"
       }
     ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795442400,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "QMJHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏒 QMJHL Ice Hockey : Rouyn-Noranda Huskies 🇨🇦 vs Chicoutimi Sagueneens 🇨🇦",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "🎾🇮🇹 Davis Cup Finals – Quarter-Final: Czechia vs Canada | Bologna, Italy | 24 November 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "40",
+        "name": "Tennis Channel"
       }
     ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "QMJHL Ice Hockey",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏒 QMJHL Ice Hockey : Halifax Mooseheads 🇨🇦 vs Drummondville Voltigeurs 🇨🇦",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "🎾🇮🇹 Davis Cup Finals – Semi-Final | Bologna, Italy | 27 November 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "40",
+        "name": "Tennis Channel"
       }
     ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "College Ice Hockey",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏒 College Ice Hockey : Air Force 🇺🇸 vs Princeton 🇺🇸",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "🏎️🇶🇦 Formula 1 Qatar Grand Prix – Race | Lusail, Qatar | 29 November 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "60",
+        "name": "Sky Sports F1 UK"
       }
     ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Ice Hockey",
-    "date": "2026-11-22",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "🏎️🇶🇦 Formula 1 Qatar Grand Prix – Practice 2 | Lusail, Qatar | 27 November 2026",
+    "channels": [
+      {
+        "id": "60",
+        "name": "Sky Sports F1 UK"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽🇺🇾 Copa Libertadores Final – Palmeiras vs Estudiantes | Montevideo, Uruguay | 28 November 2026",
+    "channels": [
+      {
+        "id": "149",
+        "name": "ESPN SUR"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "17:45",
+    "title": "⚽🇪🇺 UEFA Champions League – Matchday 5 | Europe | 25 November 2026",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sport 1"
+      }
+    ],
+    "start_unix": 1795455900,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
     "time": "18:00",
-    "title": "🏒 Women's College Ice Hockey : Bemidji State 🇺🇸 vs Wisconsin 🇺🇸",
+    "title": "🏎️🇶🇦 Formula 1 Qatar Grand Prix – Qualifying | Lusail, Qatar | 28 November 2026",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "60",
+        "name": "Sky Sports F1 UK"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 Women's College Ice Hockey : Brown 🇺🇸 vs Union 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Ice Hockey",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏒 Women's College Ice Hockey : Yale 🇺🇸 vs Rensselaer 🇺🇸",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Squash",
-    "date": "2026-11-22",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
     "time": "19:00",
-    "title": "🎾 Pro Padel League Las Vegas, Finals",
+    "title": "🥊 Boxing WBA : Tyson Fury vs Anthony Joshua Fight live on Friday, December 11, 2026",
     "channels": [
       {
-        "id": "309",
-        "name": "CNBC USA"
+        "id": "5000",
+        "name": "Netflix"
       }
     ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Volleyball",
-    "date": "2026-11-22",
-    "time": "19:30",
-    "title": "🏐 I. Liga : Sparta Grodzisk 🇵🇱 vs Spala 🇵🇱",
+    "category": "Upcoming Events",
+    "date": "2026-11-23",
+    "time": "03:30",
+    "title": "📺🇺🇸 Saturday Night Live (SNL USA)",
     "channels": [
       {
-        "id": "47",
-        "name": "Polsat Sport 1 Poland"
+        "id": "708",
+        "name": "Sky One USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      },
+      {
+        "id": "769",
+        "name": "NBCNY USA"
       }
     ],
-    "start_unix": 1795375800,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795404600,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "23:00",
+    "title": "📺 Monday Night Countdown S? • Live",
+    "channels": [
+      {
+        "id": "44",
+        "name": "ESPN USA"
+      }
+    ],
+    "start_unix": 1795474800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "📺 Jeopardy! S43, E51",
+    "channels": [
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 Pillsbury Bake-off Classic • New",
+    "channels": [
+      {
+        "id": "767",
+        "name": "CBSNY USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 St. Denis Medical S3, E4",
+    "channels": [
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 Name That Tune S6, E9",
+    "channels": [
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "54",
+        "name": "FOX USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 Truth and Lies: The Accused • New",
+    "channels": [
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 Private Eyes West Coast S1, E8",
+    "channels": [
+      {
+        "id": "300",
+        "name": "CW USA"
+      },
+      {
+        "id": "280",
+        "name": "CW PIX 11 USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 Holiday Baking Championship S13, E4",
+    "channels": [
+      {
+        "id": "384",
+        "name": "The Food Network"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 Below Deck S13, E7",
+    "channels": [
+      {
+        "id": "307",
+        "name": "Bravo USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 How the Tudors Lost Their Heads S1, E4",
+    "channels": [
+      {
+        "id": "328",
+        "name": "National Geographic (NGC)"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 90 Day: Hunt for Love S2, E8",
+    "channels": [
+      {
+        "id": "337",
+        "name": "TLC USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "📺 How Did They Fix That? S5, E7",
+    "channels": [
+      {
+        "id": "603",
+        "name": "Smithsonian Channel"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "01:30",
+    "title": "📺 The Fall and Rise of Reggie Dinkins S2, E4",
+    "channels": [
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1795397400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 The Voice S30, E14 • Live",
+    "channels": [
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 The Weakest Link S2, E9",
+    "channels": [
+      {
+        "id": "768",
+        "name": "FOXNY USA"
+      },
+      {
+        "id": "54",
+        "name": "FOX USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 Poker Night in America • New",
+    "channels": [
+      {
+        "id": "308",
+        "name": "CBSSN USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 Sweet Deceit S2, E3",
+    "channels": [
+      {
+        "id": "384",
+        "name": "The Food Network"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 The Wolves of Real Estate: The Alexander Brothers S1, E1",
+    "channels": [
+      {
+        "id": "307",
+        "name": "Bravo USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 Foul Play With Anthony Davis S1, E12",
+    "channels": [
+      {
+        "id": "336",
+        "name": "TBS USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 Live PD: Greatest Shifts S3, E6",
+    "channels": [
+      {
+        "id": "302",
+        "name": "A&E TV USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 Rachael Ray's Meals in Minutes S6, E15",
+    "channels": [
+      {
+        "id": "665",
+        "name": "FYI USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 All Access PD: Grand Rapids S1, E6",
+    "channels": [
+      {
+        "id": "313",
+        "name": "Discovery USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 Fatal Attraction S17, E16",
+    "channels": [
+      {
+        "id": "660",
+        "name": "TV ONE USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "📺 America's Funniest People S1, E3",
+    "channels": [
+      {
+        "id": "344",
+        "name": "VH1 USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "📺 Line of Fire S1, E9",
+    "channels": [
+      {
+        "id": "769",
+        "name": "NBCNY USA"
+      },
+      {
+        "id": "53",
+        "name": "NBC USA"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "📺 Equestrian: FEI Jumping World Cup North American League",
+    "channels": [
+      {
+        "id": "308",
+        "name": "CBSSN USA"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "📺 Murder University • New",
+    "channels": [
+      {
+        "id": "324",
+        "name": "ID USA"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "03:30",
+    "title": "📺 Family Feud Favorites S2, E102",
+    "channels": [
+      {
+        "id": "654",
+        "name": "FOX 5+ USA"
+      }
+    ],
+    "start_unix": 1795404600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "TV Shows",
+    "date": "2026-11-23",
+    "time": "04:30",
+    "title": "📺 Jimmy Kimmel Live! S25, E40",
+    "channels": [
+      {
+        "id": "766",
+        "name": "ABC NY USA"
+      }
+    ],
+    "start_unix": 1795408200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "12:30",
+    "title": "⚽ FIFA U-17 World Cup : Spain U17 🇪🇸 vs Fiji U17 🇫🇯",
+    "channels": [
+      {
+        "id": "758",
+        "name": "Fox Sports 2 USA"
+      },
+      {
+        "id": "529",
+        "name": "Teledeporte Spain"
+      },
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "142",
+        "name": "Sport 3 Israel"
+      }
+    ],
+    "start_unix": 1795437000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "12:30",
+    "title": "⚽ FIFA U-17 World Cup : Tajikistan U17 🇹🇯 vs Croatia U17 🇭🇷",
+    "channels": [
+      {
+        "id": "141",
+        "name": "Sport 2 Israel"
+      }
+    ],
+    "start_unix": 1795437000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "12:40",
+    "title": "⚽ Omani League : Saham 🇴🇲 vs Oman FC 🇴🇲",
+    "channels": [
+      {
+        "id": "1",
+        "name": "Oman TV Sport"
+      }
+    ],
+    "start_unix": 1795437600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "12:45",
+    "title": "⚽ Greece - Super League 2 : Pyrgos 1968 🇬🇷 vs Marko 🇬🇷",
+    "channels": [
+      {
+        "id": "2",
+        "name": "ERT 2 Greece"
+      }
+    ],
+    "start_unix": 1795437900,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "13:30",
+    "title": "⚽ FIFA U-17 World Cup : Senegal U17 🇸🇳 vs Cuba U17 🇨🇺",
+    "channels": [
+      {
+        "id": "756",
+        "name": "Fox Soccer Plus"
+      },
+      {
+        "id": "143",
+        "name": "Sport 4 Israel"
+      }
+    ],
+    "start_unix": 1795440600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "13:45",
+    "title": "⚽ AFC Champions League Elite : Neftchi 🇦🇿 vs Al Hilal 🇸🇦",
+    "channels": [
+      {
+        "id": "379",
+        "name": "ESPN 1 NL"
+      },
+      {
+        "id": "925",
+        "name": "ESPN Mexico"
+      },
+      {
+        "id": "63",
+        "name": "beIN Sports 2 Turkey"
+      },
+      {
+        "id": "123",
+        "name": "Astro Grandstand"
+      },
+      {
+        "id": "468",
+        "name": "Nova Sport Bulgaria"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 Brazil"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "61",
+        "name": "beIN Sports MENA English 1"
+      },
+      {
+        "id": "101",
+        "name": "Sportklub 1 Croatia"
+      }
+    ],
+    "start_unix": 1795441500,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "⚽ Saudi Arabia - Division 1 : Al Jeel 🇸🇦 vs Al Saqer 🇸🇦",
+    "channels": [
+      {
+        "id": "9",
+        "name": "Thmanyah 2"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "⚽ FIFA U-17 World Cup : Italy U17 🇮🇹 vs Côte d'Ivoire U17 🇨🇮",
+    "channels": [
+      {
+        "id": "758",
+        "name": "Fox Sports 2 USA"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "619",
+        "name": "DSports 1 Argentina"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "⚽ Omani League : Bahla 🇴🇲 vs Smail 🇴🇲",
+    "channels": [
+      {
+        "id": "1",
+        "name": "Oman TV Sport"
+      }
+    ],
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "⚽ FIFA U-17 World Cup : Morocco U17 🇲🇦 vs China PR U17 🇨🇳",
+    "channels": [
+      {
+        "id": "935",
+        "name": "TUDN MX"
+      },
+      {
+        "id": "141",
+        "name": "Sport 2 Israel"
+      }
+    ],
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "⚽ Greece - Super League : Asteras Tripolis 🇬🇷 vs Aris 🇬🇷",
+    "channels": [
+      {
+        "id": "8",
+        "name": "MagentaSport 1 League Greece"
+      },
+      {
+        "id": "466",
+        "name": "Diema Sport 2 Bulgaria"
+      },
+      {
+        "id": "102",
+        "name": "Sportklub 2 Croatia"
+      }
+    ],
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "⚽ Romania - Liga II : Steaua Bucureşti 🇷🇴 vs Chindia Târgovişte 🇷🇴",
+    "channels": [
+      {
+        "id": "400",
+        "name": "Digi Sport 1 Romania"
+      },
+      {
+        "id": "583",
+        "name": "Prima Sport 1 Romania"
+      }
+    ],
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:15",
+    "title": "⚽ Saudi Arabia - Division 1 : Jeddah 🇸🇦 vs Damac 🇸🇦",
+    "channels": [
+      {
+        "id": "10",
+        "name": "Thmanyah 1"
+      }
+    ],
+    "start_unix": 1795446900,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:30",
+    "title": "⚽ FIFA U-17 World Cup : Mali U17 🇲🇱 vs Belgium U17 🇧🇪",
+    "channels": [
+      {
+        "id": "756",
+        "name": "Fox Soccer Plus"
+      }
+    ],
+    "start_unix": 1795447800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "15:30",
+    "title": "⚽ FIFA U-17 World Cup : Vietnam U17 🇻🇳 vs New Zealand U17 🇳🇿",
+    "channels": [
+      {
+        "id": "142",
+        "name": "Sport 3 Israel"
+      }
+    ],
+    "start_unix": 1795447800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "⚽ AFC Champions League Elite : Al Ain 🇦🇪 vs Esteghlal 🇮🇷",
+    "channels": [
+      {
+        "id": "92",
+        "name": "beIN Sports MENA 2"
+      },
+      {
+        "id": "104",
+        "name": "Sportklub 4 Croatia"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "⚽ AFC Champions League Elite : Al Shamal 🇶🇦 vs Al-Ahli 🇸🇦",
+    "channels": [
+      {
+        "id": "123",
+        "name": "Astro Grandstand"
+      },
+      {
+        "id": "468",
+        "name": "Nova Sport Bulgaria"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "90",
+        "name": "beIN Sports MENA English 2"
+      },
+      {
+        "id": "101",
+        "name": "Sportklub 1 Croatia"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "⚽ AFC Champions League Elite : Tractor Sazi 🇮🇷 vs Al Wasl 🇦🇪",
+    "channels": [
+      {
+        "id": "93",
+        "name": "beIN Sports MENA 3"
+      },
+      {
+        "id": "61",
+        "name": "beIN Sports MENA English 1"
+      },
+      {
+        "id": "103",
+        "name": "Sportklub 3 Croatia"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "⚽ Bulgaria - Parva Liga : Ludogorets 🇧🇬 vs Dunav 2010 🇧🇬",
+    "channels": [
+      {
+        "id": "465",
+        "name": "Diema Sport Bulgaria"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "16:30",
+    "title": "⚽ Slovenia - Prva Liga : Koper 🇸🇮 vs Aluminij 🇸🇮",
+    "channels": [
+      {
+        "id": "3",
+        "name": "SportKlub 1 Slovenia"
+      }
+    ],
+    "start_unix": 1795451400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Turkey - 1. Lig : Bodrumspor 🇹🇷 vs Van BB 🇹🇷",
+    "channels": [
+      {
+        "id": "889",
+        "name": "TRT Spor Turkey"
+      },
+      {
+        "id": "63",
+        "name": "beIN Sports 2 Turkey"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Croatia - 1. HNL : Slaven Koprivnica 🇭🇷 vs Osijek 🇭🇷",
+    "channels": [
+      {
+        "id": "779",
+        "name": "MAX Sport 1 Croatia"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Frauen-Bundesliga : Bayern 🇩🇪 vs Hoffenheim 🇩🇪",
+    "channels": [
+      {
+        "id": "4",
+        "name": "Magenta Sport"
+      },
+      {
+        "id": "641",
+        "name": "Sport1 DE"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Turkey - Super Lig : İstanbul Başakşehir 🇹🇷 vs Çorum Belediyespor 🇹🇷",
+    "channels": [
+      {
+        "id": "62",
+        "name": "beIN Sports 1 Turkey"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Poland - I Liga : Podbeskidzie 🇵🇱 vs Nieciecza 🇵🇱",
+    "channels": [
+      {
+        "id": "128",
+        "name": "TVP Sport Poland"
+      },
+      {
+        "id": "560",
+        "name": "TVP1 Poland"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Cyprus - First Division : Krasava Odintsovo 🇨🇾 vs Anorthosis 🇨🇾",
+    "channels": [
+      {
+        "id": "911",
+        "name": "Cytavision Sports 1 Cyprus"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
     "time": "18:00",
-    "title": "🏐 Women's College Volleyball : NC State vs Louisville",
+    "title": "⚽ Romania - Liga I : Sepsi 🇷🇴 vs Rapid Bucureşti 🇷🇴",
+    "channels": [
+      {
+        "id": "400",
+        "name": "Digi Sport 1 Romania"
+      },
+      {
+        "id": "583",
+        "name": "Prima Sport 1 Romania"
+      },
+      {
+        "id": "434",
+        "name": "Arena Sport 3 Croatia"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "⚽ Poland - Ekstraklasa : Wieczysta Kraków 🇵🇱 vs Motor Lublin 🇵🇱",
+    "channels": [
+      {
+        "id": "259",
+        "name": "Canal+ Sport 3 Poland"
+      },
+      {
+        "id": "75",
+        "name": "Canal+ Sport 5 Poland"
+      },
+      {
+        "id": "48",
+        "name": "Canal+ Sport Poland"
+      },
+      {
+        "id": "425",
+        "name": "beIN SPORTS USA"
+      },
+      {
+        "id": "372",
+        "name": "beIN SPORTS en Español"
+      },
+      {
+        "id": "612",
+        "name": "Arena Sport 1x2 Serbia"
+      },
+      {
+        "id": "432",
+        "name": "Arena Sport 1 Croatia"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "⚽ Denmark - Super Liga : Brøndby 🇩🇰 vs Midtjylland 🇩🇰",
+    "channels": [
+      {
+        "id": "808",
+        "name": "TV2 Sport X Denmark"
+      },
+      {
+        "id": "429",
+        "name": "Arena Sport 1 Serbia"
+      },
+      {
+        "id": "102",
+        "name": "Sportklub 2 Croatia"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "⚽ Sweden - Allsvenskan : Hammarby 🇸🇪 vs IFK Göteborg 🇸🇪",
+    "channels": [
+      {
+        "id": "747",
+        "name": "TV4 Fotball"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "⚽ Sweden - Allsvenskan : Örgryte 🇸🇪 vs Kalmar 🇸🇪",
+    "channels": [
+      {
+        "id": "703",
+        "name": "TV4 Sport Live 1"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "18:15",
+    "title": "⚽ AFC Champions League Elite : Al Ittihad 🇸🇦 vs Pakhtakor 🇺🇿",
+    "channels": [
+      {
+        "id": "124",
+        "name": "Astro Football"
+      },
+      {
+        "id": "5",
+        "name": "ESPN 4 NL"
+      },
+      {
+        "id": "467",
+        "name": "Diema Sport 3 Bulgaria"
+      },
+      {
+        "id": "93",
+        "name": "beIN Sports MENA 3"
+      },
+      {
+        "id": "101",
+        "name": "Sportklub 1 Croatia"
+      }
+    ],
+    "start_unix": 1795457700,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "18:15",
+    "title": "⚽ AFC Champions League Elite : Al Quwa Al Jawiya 🇮🇶 vs Al Gharafa 🇶🇦",
+    "channels": [
+      {
+        "id": "468",
+        "name": "Nova Sport Bulgaria"
+      },
+      {
+        "id": "91",
+        "name": "beIN Sports MENA 1"
+      },
+      {
+        "id": "90",
+        "name": "beIN Sports MENA English 2"
+      },
+      {
+        "id": "104",
+        "name": "Sportklub 4 Croatia"
+      }
+    ],
+    "start_unix": 1795457700,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "title": "⚽ Portugal - Campeonato Nacional Feminino : Sporting Braga 🇵🇹 vs SL Benfica 🇵🇹",
+    "channels": [
+      {
+        "id": "540",
+        "name": "Canal 11 Portugal"
+      }
+    ],
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "title": "⚽ Netherlands - Eerste Divisie : Ajax II 🇳🇱 vs AZ II 🇳🇱",
+    "channels": [
+      {
+        "id": "386",
+        "name": "ESPN 2 NL"
+      }
+    ],
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "title": "⚽ Netherlands - Eerste Divisie : PSV II 🇳🇱 vs Utrecht II 🇳🇱",
+    "channels": [
+      {
+        "id": "888",
+        "name": "ESPN 3 NL"
+      }
+    ],
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "title": "⚽ Netherlands - Eerste Divisie : Vitesse 🇳🇱 vs De Graafschap 🇳🇱",
+    "channels": [
+      {
+        "id": "379",
+        "name": "ESPN 1 NL"
+      }
+    ],
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "title": "⚽ Spain - Primera División Femenina : Espanyol 🇪🇸 vs Valencia 🇪🇸",
+    "channels": [
+      {
+        "id": "446",
+        "name": "DAZN2 Spain"
+      }
+    ],
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "⚽ Italy - Serie C : Grosseto 🇮🇹 vs Nuova Monterosi 🇮🇹",
+    "channels": [
+      {
+        "id": "461",
+        "name": "Sky Sport Uno IT"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "⚽ Spain - Segunda Division : Ceuta 🇪🇸 vs Almería 🇪🇸",
+    "channels": [
+      {
+        "id": "539",
+        "name": "LALIGA TV Hypermotion"
+      },
+      {
+        "id": "457",
+        "name": "DAZN Eleven 3 Portugal"
+      },
+      {
+        "id": "1060",
+        "name": "Nova Sport 3 SK"
+      },
+      {
+        "id": "1023",
+        "name": "Nova Sport 3 CZ"
+      },
+      {
+        "id": "138",
+        "name": "Match! Football 3 Russia"
+      },
+      {
+        "id": "713",
+        "name": "beIN Sports 2 Malaysia"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      },
+      {
+        "id": "95",
+        "name": "beIN Sports MENA 5"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:45",
+    "title": "⚽ France - Ligue 2 : Nantes 🇫🇷 vs Grenoble Foot 38 🇫🇷",
+    "channels": [
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      }
+    ],
+    "start_unix": 1795463100,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:45",
+    "title": "⚽ France - Ligue 2 : Sochaux 🇫🇷 vs Dunkerque 🇫🇷",
+    "channels": [
+      {
+        "id": "117",
+        "name": "beIN Sports 2 France"
+      }
+    ],
+    "start_unix": 1795463100,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:45",
+    "title": "⚽ France - Ligue 3 : Orléans 🇫🇷 vs Thionville Lusitanos 🇫🇷",
+    "channels": [
+      {
+        "id": "960",
+        "name": "Ligue1+ France"
+      }
+    ],
+    "start_unix": 1795463100,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:45",
+    "title": "⚽ Italy - Serie A : Monza 🇮🇹 vs Fiorentina 🇮🇹",
+    "channels": [
+      {
+        "id": "55",
+        "name": "Paramount+"
+      },
+      {
+        "id": "6",
+        "name": "Sky Sport 251 IT"
+      },
+      {
+        "id": "870",
+        "name": "Sky Sport Calcio IT"
+      },
+      {
+        "id": "59",
+        "name": "DAZN IT"
+      },
+      {
+        "id": "845",
+        "name": "NBC Universo"
+      },
+      {
+        "id": "910",
+        "name": "CBS Sports Golazo Network"
+      },
+      {
+        "id": "49",
+        "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "71",
+        "name": "Eleven Sports 1 Poland"
+      },
+      {
+        "id": "401",
+        "name": "Digi Sport 2 Romania"
+      },
+      {
+        "id": "584",
+        "name": "Prima Sport 2 Romania"
+      },
+      {
+        "id": "926",
+        "name": "ESPN2 Mexico"
+      },
+      {
+        "id": "914",
+        "name": "Cytavision Sports 4 Cyprus"
+      },
+      {
+        "id": "139",
+        "name": "Arena 3 Premium Serbia"
+      },
+      {
+        "id": "622",
+        "name": "MagentaSport 1 Greece"
+      },
+      {
+        "id": "136",
+        "name": "Match! Football 1 Russia"
+      },
+      {
+        "id": "127",
+        "name": "Match TV Russia"
+      },
+      {
+        "id": "798",
+        "name": "ESPN3 Argentina"
+      },
+      {
+        "id": "1034",
+        "name": "Sport 1 CZ"
+      },
+      {
+        "id": "433",
+        "name": "Arena Sport 2 Croatia"
+      },
+      {
+        "id": "810",
+        "name": "TV2 Sport Denmark"
+      },
+      {
+        "id": "707",
+        "name": "TV4 Sportkanalen"
+      },
+      {
+        "id": "474",
+        "name": "MAX Sport 3 Bulgaria"
+      },
+      {
+        "id": "141",
+        "name": "Sport 2 Israel"
+      }
+    ],
+    "start_unix": 1795463100,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "19:45",
+    "title": "⚽ Italy - Serie C : Lecco 🇮🇹 vs Lumezzane 🇮🇹",
+    "channels": [
+      {
+        "id": "7",
+        "name": "Sky Sport 253 IT"
+      },
+      {
+        "id": "882",
+        "name": "Rai Sport IT"
+      },
+      {
+        "id": "460",
+        "name": "Sky Sport Max IT"
+      }
+    ],
+    "start_unix": 1795463100,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "20:00",
+    "title": "⚽ England - Premier League : Brentford 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs Everton 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "channels": [
+      {
+        "id": "8",
+        "name": "Hub Premier"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event UK"
+      },
+      {
+        "id": "130",
+        "name": "Sky Sports Premier League UK"
+      },
+      {
+        "id": "343",
+        "name": "USA Network"
+      },
+      {
+        "id": "595",
+        "name": "Sky Sport 8 NZ"
+      },
+      {
+        "id": "559",
+        "name": "Sky Sport Austria 1"
+      },
+      {
+        "id": "64",
+        "name": "beIN Sports 3 Turkey"
+      },
+      {
+        "id": "445",
+        "name": "DAZN1 Spain"
+      },
+      {
+        "id": "9",
+        "name": "Sky Sport Premier League DE"
+      },
+      {
+        "id": "455",
+        "name": "DAZN Eleven 1 Portugal"
+      },
+      {
+        "id": "983",
+        "name": "Canal+ Extra 1 Poland"
+      },
+      {
+        "id": "1063",
+        "name": "Canal+ Sport SK"
+      },
+      {
+        "id": "1020",
+        "name": "Canal+ Sport CZ"
+      },
+      {
+        "id": "463",
+        "name": "Canal+ Foot France"
+      },
+      {
+        "id": "462",
+        "name": "Sky Sport Arena IT"
+      },
+      {
+        "id": "125",
+        "name": "Astro Premier League"
+      },
+      {
+        "id": "123",
+        "name": "Astro Grandstand"
+      },
+      {
+        "id": "488",
+        "name": "Canal+ Sport 3 Afrique"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "638",
+        "name": "Nova Sports Prime Greece"
+      },
+      {
+        "id": "913",
+        "name": "Cytavision Sports 3 Cyprus"
+      },
+      {
+        "id": "599",
+        "name": "Nova Sports Premier League Greece"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "811",
+        "name": "See Denmark"
+      },
+      {
+        "id": "432",
+        "name": "Arena Sport 1 Croatia"
+      },
+      {
+        "id": "572",
+        "name": "V Sport Premium"
+      },
+      {
+        "id": "466",
+        "name": "Diema Sport 2 Bulgaria"
+      },
+      {
+        "id": "81",
+        "name": "ESPN Brazil"
+      },
+      {
+        "id": "414",
+        "name": "SuperSport Premier League"
+      },
+      {
+        "id": "412",
+        "name": "Supersport Grandstand"
+      },
+      {
+        "id": "92",
+        "name": "beIN Sports MENA 2"
+      },
+      {
+        "id": "61",
+        "name": "beIN Sports MENA English 1"
+      },
+      {
+        "id": "140",
+        "name": "Sport 1 Israel"
+      }
+    ],
+    "start_unix": 1795464000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "20:00",
+    "title": "⚽ Argentina - Primera División : Gimnasia La Plata 🇦🇷 vs Newell's Old Boys 🇦🇷",
+    "channels": [
+      {
+        "id": "388",
+        "name": "TNT Sports Argentina"
+      },
+      {
+        "id": "434",
+        "name": "Arena Sport 3 Croatia"
+      }
+    ],
+    "start_unix": 1795464000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "20:00",
+    "title": "⚽ Spain - La Liga : Levante 🇪🇸 vs Elche 🇪🇸",
+    "channels": [
+      {
+        "id": "538",
+        "name": "DAZN LaLiga"
+      },
+      {
+        "id": "68",
+        "name": "ESPN+ USA"
+      },
+      {
+        "id": "451",
+        "name": "Viaplay Sports 1 UK"
+      },
+      {
+        "id": "771",
+        "name": "Premier Sports 1 Ireland"
+      },
+      {
+        "id": "456",
+        "name": "DAZN Eleven 2 Portugal"
+      },
+      {
+        "id": "10",
+        "name": "Canal+ Sport 6 Poland"
+      },
+      {
+        "id": "137",
+        "name": "Match! Football 2 Russia"
+      },
+      {
+        "id": "1061",
+        "name": "Nova Sport 4 SK"
+      },
+      {
+        "id": "398",
+        "name": "Ziggo Sport 2 NL"
+      },
+      {
+        "id": "1024",
+        "name": "Nova Sport 4 CZ"
+      },
+      {
+        "id": "712",
+        "name": "beIN Sports Malaysia"
+      },
+      {
+        "id": "620",
+        "name": "DSports 2 Argentina"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "403",
+        "name": "Digi Sport 4 Romania"
+      },
+      {
+        "id": "585",
+        "name": "Prima Sport 3 Romania"
+      },
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      },
+      {
+        "id": "11",
+        "name": "MagentaSport 3 League Greece"
+      },
+      {
+        "id": "475",
+        "name": "MAX Sport 4 Bulgaria"
+      },
+      {
+        "id": "415",
+        "name": "SuperSport Laliga"
+      },
+      {
+        "id": "94",
+        "name": "beIN Sports MENA 4"
+      },
+      {
+        "id": "103",
+        "name": "Sportklub 3 Croatia"
+      }
+    ],
+    "start_unix": 1795464000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "22:30",
+    "title": "⚽ Brazil - Brasileirão : Internacional 🇧🇷 vs Vitória 🇧🇷",
+    "channels": [
+      {
+        "id": "88",
+        "name": "Premiere BR"
+      }
+    ],
+    "start_unix": 1795473000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "23:00",
+    "title": "⚽ Brazil - Brasileirão : Botafogo 🇧🇷 vs São Paulo 🇧🇷",
+    "channels": [
+      {
+        "id": "138",
+        "name": "Match! Football 3 Russia"
+      }
+    ],
+    "start_unix": 1795474800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "⚽ Brazil - Brasileirão : Santos 🇧🇷 vs Grêmio 🇧🇷",
+    "channels": [
+      {
+        "id": "24",
+        "name": "Premiere 3 BR"
+      },
+      {
+        "id": "78",
+        "name": "SporTV Brazil"
+      },
+      {
+        "id": "143",
+        "name": "Sport 4 Israel"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "⚽ Major League Soccer : St. Louis City 🇺🇸 vs Los Angeles FC 🇺🇸",
+    "channels": [
+      {
+        "id": "39",
+        "name": "Fox Sports 1 USA"
+      },
+      {
+        "id": "112",
+        "name": "TSN2"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "643",
+        "name": "FOX Deportes"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "⚽ Argentina - Primera División : Instituto 🇦🇷 vs Huracán 🇦🇷",
+    "channels": [
+      {
+        "id": "387",
+        "name": "ESPN Premium Argentina"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "All Soccer Events",
+    "date": "2026-11-23",
+    "time": "01:10",
+    "title": "⚽ Liga MX : Querétaro 🇲🇽 vs Necaxa 🇲🇽",
+    "channels": [
+      {
+        "id": "66",
+        "name": "TUDN USA"
+      }
+    ],
+    "start_unix": 1795396200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "06:00",
+    "title": "🏏 Asia Cup Rising Stars : Afghanistan A 🇦🇫 vs Hong Kong 🇭🇰",
+    "channels": [
+      {
+        "id": "6",
+        "name": "Sony Max"
+      }
+    ],
+    "start_unix": 1795413600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "06:00",
+    "title": "🏏 ACC Men's Asia Cup Rising Stars 2026 - Afghanistan A 🇦🇫 vs HK China 🇭🇰",
+    "channels": [
+      {
+        "id": "598",
+        "name": "Willow 2 Cricket"
+      },
+      {
+        "id": "370",
+        "name": "Astro Cricket"
+      }
+    ],
+    "start_unix": 1795413600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "08:00",
+    "title": "🏏 2nd Test Day 1 : South Africa 🇿🇦 vs Bangladesh 🇧🇩",
+    "channels": [
+      {
+        "id": "346",
+        "name": "Willow Cricket"
+      },
+      {
+        "id": "65",
+        "name": "Sky Sports Cricket UK"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event UK"
+      },
+      {
+        "id": "368",
+        "name": "SuperSport Cricket"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      }
+    ],
+    "start_unix": 1795420800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "10:00",
+    "title": "🏏 Asia Cup Rising Stars : Sri Lanka A 🇱🇰 vs Bangladesh A 🇧🇩",
+    "channels": [
+      {
+        "id": "6",
+        "name": "Sony Max"
+      },
+      {
+        "id": "370",
+        "name": "Astro Cricket"
+      }
+    ],
+    "start_unix": 1795428000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "14:00",
+    "title": "🏏 International League T20 : Sharjah Warriors 🇦🇪 vs Desert Vipers 🇦🇪",
+    "channels": [
+      {
+        "id": "598",
+        "name": "Willow 2 Cricket"
+      },
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1795442400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "23:30",
+    "title": "🏏 Sheffield Shield : New South Wales 🇦🇺 vs Queensland Bulls 🇦🇺",
+    "channels": [
+      {
+        "id": "591",
+        "name": "Sky Sport 4 NZ"
+      }
+    ],
+    "start_unix": 1795476600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏏 Sheffield Shield : South Australia 🇦🇺 vs Victorian Bushrangers 🇦🇺",
+    "channels": [
+      {
+        "id": "592",
+        "name": "Sky Sport 5 NZ"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Cricket",
+    "date": "2026-11-23",
+    "time": "02:30",
+    "title": "🏏 Sheffield Shield : Western Australia 🇦🇺 vs Tasmanian Tigers 🇦🇺",
+    "channels": [
+      {
+        "id": "593",
+        "name": "Sky Sport 6 NZ"
+      }
+    ],
+    "start_unix": 1795401000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Wrestling (RAW",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🤼 WWE Monday Night Raw",
+    "channels": [
+      {
+        "id": "1",
+        "name": "RAW Netflix PPV"
+      },
+      {
+        "id": "419",
+        "name": "SuperSport Variety 4"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "420",
+        "name": "SuperSport Action"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker UK Championship",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 UK Championship | Qualifying",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker UK Championship",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 UK Championship | Qualifying",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker UK Championship",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 UK Championship | Qualifying",
+    "channels": [
+      {
+        "id": "31",
+        "name": "TNT Sports 1 UK"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Ultimate Pool",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "🎱 Ultimate Pool Pairs Cup | Last 16",
+    "channels": [
+      {
+        "id": "32",
+        "name": "TNT Sports 2 UK"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Jordan Brown vs Thanawat Tirapongpaiboon",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Sam Craigie vs Julien Leclercq",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : David Lilley vs Luo Zetao",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Ross Muir vs Wang Xinbo",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Liam Pullen vs Deng Haohui",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Ricky Walden vs Fergal Quinn",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Robbie Williams vs Alexander Ursenbacher",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "09:30",
+    "title": "🎱 Snooker UK Championship : Gao Yang vs Reanne Evans",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795426200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Ian Burns vs Xu Yichen",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Ishpreet Singh Chadha vs Si Jiahui",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Scott Donaldson vs Anton Kazakov",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Dylan Emery vs Liam Graham",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Steven Hallworth vs Mina Awad",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Oliver Lines vs Oliver Sykes",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Ben Mertens vs Jimmy White",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "14:30",
+    "title": "🎱 Snooker UK Championship : Ben Woollaston vs Mark Joyce",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795444200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 Snooker UK Championship : Jak Jones vs Joshua Thomond",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 Snooker UK Championship : Joe O'Connor vs Gong Chenzhi",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 Snooker UK Championship : Noppon Saengkham vs Jamie Jones",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 Snooker UK Championship : Matthew Selt vs He Guoqiang",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 Snooker UK Championship : Si Jiahui vs Iulian Boiko",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Snooker Qualifying",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🎱 Snooker UK Championship : Elliot Slessor vs Artemijs Zizins",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Am. Football (NFL",
+    "date": "2026-11-23",
+    "time": "01:15",
+    "title": "🏈 NFL : Washington Commanders 🇺🇸 vs Cincinnati Bengals 🇺🇸",
+    "channels": [
+      {
+        "id": "2",
+        "name": "NFL Sunday Ticket"
+      },
+      {
+        "id": "44",
+        "name": "ESPN USA"
+      },
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event UK"
+      },
+      {
+        "id": "37",
+        "name": "Sky Sports NFL UK"
+      },
+      {
+        "id": "111",
+        "name": "TSN1"
+      },
+      {
+        "id": "839",
+        "name": "RDS CA"
+      },
+      {
+        "id": "113",
+        "name": "TSN3"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "3",
+        "name": "Sky Sports NFL DE"
+      },
+      {
+        "id": "740",
+        "name": "RTL DE"
+      },
+      {
+        "id": "556",
+        "name": "Sky Sport Top Event DE"
+      },
+      {
+        "id": "117",
+        "name": "beIN Sports 2 France"
+      },
+      {
+        "id": "1025",
+        "name": "Nova SPORT 5 CZ"
+      },
+      {
+        "id": "150",
+        "name": "ESPN2 Argentina"
+      },
+      {
+        "id": "379",
+        "name": "ESPN 1 NL"
+      },
+      {
+        "id": "375",
+        "name": "ESPN Deportes"
+      },
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      },
+      {
+        "id": "82",
+        "name": "ESPN 2 BR"
+      },
+      {
+        "id": "83",
+        "name": "ESPN3 BR"
+      },
+      {
+        "id": "146",
+        "name": "Sport 5 Live Israel"
+      }
+    ],
+    "start_unix": 1795396500,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "🏀 Israeli Women Premier League : Hapoel Petach Tikva 🇮🇱 vs Hapoel Lev Jerusalem 🇮🇱",
+    "channels": [
+      {
+        "id": "145",
+        "name": "Sport 5 Plus Israel"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "🏀 KLS : Vojvodina Novi Sad 🇷🇸 vs Sloboda 🇷🇸",
+    "channels": [
+      {
+        "id": "945",
+        "name": "Arena Sport 10 Serbia"
+      },
+      {
+        "id": "12",
+        "name": "Arena 4 Premium Serbia"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "🏀 Elite League : Panionios 🇬🇷 vs AE Psychikoy 🇬🇷",
+    "channels": [
+      {
+        "id": "2",
+        "name": "ERT 2 Greece"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Basketball",
+    "date": "2026-11-23",
+    "time": "19:00",
+    "title": "🏀 Kls Ž : Vojvodina 🇷🇸 vs Korać Akademija 🇷🇸",
+    "channels": [
+      {
+        "id": "945",
+        "name": "Arena Sport 10 Serbia"
+      }
+    ],
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 NBA : Charlotte Hornets 🇺🇸 vs Memphis Grizzlies 🇺🇸",
+    "channels": [
+      {
+        "id": "4",
+        "name": "NBA League Pass"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 NBA : Philadelphia 76ers 🇺🇸 vs Portland Trail Blazers 🇺🇸",
+    "channels": [
+      {
+        "id": "5",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "777",
+        "name": "NBCS Philadelphia USA"
+      },
+      {
+        "id": "144",
+        "name": "Sport 5 Israel"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 NBA : Minnesota Timberwolves 🇺🇸 vs Brooklyn Nets 🇺🇸",
+    "channels": [
+      {
+        "id": "6",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "36",
+        "name": "Sky Sports+ UK"
+      },
+      {
+        "id": "38",
+        "name": "Sky Sports Main Event UK"
+      },
+      {
+        "id": "115",
+        "name": "TSN5"
+      },
+      {
+        "id": "114",
+        "name": "TSN4"
+      },
+      {
+        "id": "116",
+        "name": "beIN Sports 1 France"
+      },
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      },
+      {
+        "id": "412",
+        "name": "SuperSport Grandstand"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 Brazil"
+      },
+      {
+        "id": "420",
+        "name": "SuperSport Action"
+      },
+      {
+        "id": "91",
+        "name": "beIN SPORTS MENA 1"
+      },
+      {
+        "id": "61",
+        "name": "beIN SPORTS MENA English 1"
+      },
+      {
+        "id": "101",
+        "name": "Sportklub 1 Croatia"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 NBA : Indiana Pacers 🇺🇸 vs Oklahoma City Thunder 🇺🇸",
+    "channels": [
+      {
+        "id": "7",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "49",
+        "name": "Sport TV1 Portugal"
+      },
+      {
+        "id": "625",
+        "name": "Cosmote Sport 4 Greece"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 NBA : Toronto Raptors 🇨🇦 vs Milwaukee Bucks 🇺🇸",
+    "channels": [
+      {
+        "id": "8",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "411",
+        "name": "Sportsnet One"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 NBA : Chicago Bulls 🇺🇸 vs Cleveland Cavaliers 🇺🇸",
+    "channels": [
+      {
+        "id": "9",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "776",
+        "name": "Chicago Sports Network"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 NBA : New Orleans Pelicans 🇺🇸 vs Phoenix Suns 🇺🇸",
+    "channels": [
+      {
+        "id": "10",
+        "name": "NBA League Pass"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "01:30",
+    "title": "🏀 NBA : Houston Rockets 🇺🇸 vs Los Angeles Clippers 🇺🇸",
+    "channels": [
+      {
+        "id": "11",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "921",
+        "name": "Space City Home Network"
+      }
+    ],
+    "start_unix": 1795397400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "🏀 NBA : Los Angeles Lakers 🇺🇸 vs Utah Jazz 🇺🇸",
+    "channels": [
+      {
+        "id": "12",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "982",
+        "name": "Spectrum SportsNet USA"
+      },
+      {
+        "id": "404",
+        "name": "NBA TV USA"
+      },
+      {
+        "id": "411",
+        "name": "Sportsnet One"
+      },
+      {
+        "id": "144",
+        "name": "Sport 5 Israel"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NBA Basketball",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "🏀 NBA : Sacramento Kings 🇺🇸 vs San Antonio Spurs 🇺🇸",
+    "channels": [
+      {
+        "id": "13",
+        "name": "NBA League Pass"
+      },
+      {
+        "id": "755",
+        "name": "NBCS California USA"
+      },
+      {
+        "id": "85",
+        "name": "ESPN4 Brazil"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "🏀 College Basketball : Appalachian State 🇺🇸 vs St. Bonaventure 🇺🇸",
+    "channels": [
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "🏀 College Basketball : Long Beach State 🇺🇸 vs Florida International 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "🏀 College Basketball : Indiana U South Bend 🇺🇸 vs Eastern Illinois 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "18:30",
+    "title": "🏀 College Basketball : Wright State 🇺🇸 vs Akron 🇺🇸",
+    "channels": [
+      {
+        "id": "316",
+        "name": "ESPNU USA"
+      }
+    ],
+    "start_unix": 1795458600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "19:30",
+    "title": "🏀 College Basketball : Clemson 🇺🇸 vs Mississippi 🇺🇸",
+    "channels": [
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      }
+    ],
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "20:30",
+    "title": "🏀 College Basketball : Southern Utah 🇺🇸 vs Arkansas State 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795465800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "20:30",
+    "title": "🏀 College Basketball : IU Indianapolis 🇺🇸 vs William & Mary 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795465800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "21:00",
+    "title": "🏀 College Basketball : Belmont 🇺🇸 vs Yale 🇺🇸",
+    "channels": [
+      {
+        "id": "316",
+        "name": "ESPNU USA"
+      }
+    ],
+    "start_unix": 1795467600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "22:00",
+    "title": "🏀 College Basketball : BYU 🇺🇸 vs Washington 🇺🇸",
+    "channels": [
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      }
+    ],
+    "start_unix": 1795471200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "23:30",
+    "title": "🏀 College Basketball : Maryland Eastern Shore 🇺🇸 vs Youngstown State 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795476600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "23:30",
+    "title": "🏀 College Basketball : RIT 🇺🇸 vs Buffalo 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795476600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 College Basketball : Spalding 🇺🇸 vs Ball State 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 College Basketball : Kentucky State 🇺🇸 vs East Tennessee State 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 College Basketball : Penn State Brandywine 🇺🇸 vs La Salle 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 College Basketball : Fairleigh Dickinson 🇺🇸 vs Iona 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 College Basketball : Central Arkansas 🇺🇸 vs North Florida 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 College Basketball : Texas A&M-CC 🇺🇸 vs Wichita State 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 College Basketball : Winthrop 🇺🇸 vs Illinois 🇺🇸",
+    "channels": [
+      {
+        "id": "397",
+        "name": "BTN USA"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 College Basketball : Denver 🇺🇸 vs Kansas 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 College Basketball : Monmouth 🇺🇸 vs North Carolina 🇺🇸",
     "channels": [
       {
         "id": "664",
         "name": "ACC Network USA"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : SMU vs Virginia",
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "🏀 College Basketball : Dickinson State 🇺🇸 vs Idaho 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : Florida State vs North Carolina",
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "🏀 College Basketball : Providence 🇺🇸 vs VCU 🇺🇸",
+    "channels": [
+      {
+        "id": "316",
+        "name": "ESPNU USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "🏀 College Basketball : Carroll (MT) 🇺🇸 vs Montana 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : Miami vs Duke",
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "02:30",
+    "title": "🏀 College Basketball : UNC Greensboro 🇺🇸 vs Pepperdine 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795401000,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : Wake Forest vs Notre Dame",
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "🏀 College Basketball : Alabama State 🇺🇸 vs California 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : TBD vs TBD",
+    "category": "College Basketball",
+    "date": "2026-11-23",
+    "time": "04:30",
+    "title": "🏀 College Basketball : Arizona 🇺🇸 vs Colorado State 🇺🇸",
+    "channels": [
+      {
+        "id": "45",
+        "name": "ESPN2 USA"
+      }
+    ],
+    "start_unix": 1795408200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "23:00",
+    "title": "🏀 Women's College Basketball : Morgan State 🇺🇸 vs VCU 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795474800,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : Colorado vs UCF",
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "23:00",
+    "title": "🏀 Women's College Basketball : Canisius 🇺🇸 vs Duquesne 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795474800,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "18:00",
-    "title": "🏐 Women's College Volleyball : West Virginia vs Kansas State",
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "23:00",
+    "title": "🏀 Women's College Basketball : Wofford 🇺🇸 vs Wake Forest 🇺🇸",
+    "channels": [
+      {
+        "id": "664",
+        "name": "ACC Network USA"
+      }
+    ],
+    "start_unix": 1795474800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "23:30",
+    "title": "🏀 Women's College Basketball : Radford 🇺🇸 vs Furman 🇺🇸",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795370400,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795476600,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Texas 🇺🇸 vs Incarnate Word 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Green Bay 🇺🇸 vs Northern Iowa 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Marquette 🇺🇸 vs Milwaukee 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Binghamton 🇺🇸 vs Marist 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Tennessee Tech 🇺🇸 vs Lipscomb 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Rider 🇺🇸 vs Seton Hall 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Xavier 🇺🇸 vs Dayton 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Grace College 🇺🇸 vs Purdue Fort Wayne 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏀 Women's College Basketball : Oakland 🇺🇸 vs Northwestern 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 Women's College Basketball : Jackson State 🇺🇸 vs North Alabama 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 Women's College Basketball : Clayton State 🇺🇸 vs South Alabama 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏀 Women's College Basketball : University of Ozarks 🇺🇸 vs Central Arkansas 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 Women's College Basketball : Belmont 🇺🇸 vs LSU 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "01:00",
+    "title": "🏀 Women's College Basketball : Prairie View A&M 🇺🇸 vs Houston 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795395600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Basketball",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "🏀 Women's College Basketball : Northern Arizona 🇺🇸 vs Southern Cal 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Futsal",
+    "date": "2026-11-23",
+    "time": "10:00",
+    "title": "⚽ Nis Champions League Final",
+    "channels": [
+      {
+        "id": "134",
+        "name": "Arena 1 Premium Serbia"
+      }
+    ],
+    "start_unix": 1795428000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Futsal",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "⚽ Slovakia Extraliga : Nove Zamky 🇸🇰 vs Lucenec 🇸🇰",
+    "channels": [
+      {
+        "id": "1052",
+        "name": "JOJ Sport Slovakia"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Futsal",
+    "date": "2026-11-23",
     "time": "19:00",
-    "title": "🏐 Women's College Volleyball : TBD vs TBD",
+    "title": "⚽ Prva liga : Partizan 🇷🇸 vs Smederevo 🇷🇸",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "944",
+        "name": "Arena Sport 9 Serbia"
       }
     ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏐 Women's College Volleyball : Houston vs Texas Tech",
+    "category": "Floorball",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "🏑 Livesport Superliga : Tatran Střešovice 🇨🇿 vs FAT PIPE FLOORBALL CHODOV 🇨🇿",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "1033",
+        "name": "CT Sport CZ"
       }
     ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "19:00",
-    "title": "🏐 Women's College Volleyball : Southeast Missouri State vs SIU Edwardsville",
+    "category": "Handball",
+    "date": "2026-11-23",
+    "time": "15:00",
+    "title": "🤾 Greece Premier 1 : Diomidis Argous 🇬🇷 vs Aris Nikaia 🇬🇷",
     "channels": [
       {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+        "id": "2",
+        "name": "ERT 2 Greece"
       }
     ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795446000,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
+    "category": "Handball",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "🤾 Serbia ARKUS Liga : Dinamo Pančevo 🇷🇸 vs RK Metaloplastika Elixir 🇷🇸",
+    "channels": [
+      {
+        "id": "14",
+        "name": "Arena 5 Premium Serbia"
+      }
+    ],
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Handball",
+    "date": "2026-11-23",
+    "time": "18:30",
+    "title": "🤾 Handball 2. Bundesliga : Dormagen 🇩🇪 vs Dessauer 🇩🇪",
+    "channels": [
+      {
+        "id": "13",
+        "name": "DYN DE"
+      }
+    ],
+    "start_unix": 1795458600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-11-23",
+    "time": "12:00",
+    "title": "🏇 Live racing from Kempton and Ludlow",
+    "channels": [
+      {
+        "id": "555",
+        "name": "Racing TV UK"
+      }
+    ],
+    "start_unix": 1795435200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Horse Racing",
+    "date": "2026-11-23",
+    "time": "12:30",
+    "title": "🏇 Live racing from around the UK",
+    "channels": [
+      {
+        "id": "554",
+        "name": "Sky Sports Racing UK"
+      }
+    ],
+    "start_unix": 1795437000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "KHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "12:30",
+    "title": "🏒 KHL : Sibir Novosibirsk 🇷🇺 vs Severstal Cherepovets 🇷🇺",
+    "channels": [
+      {
+        "id": "7",
+        "name": "KHL TV"
+      }
+    ],
+    "start_unix": 1795437000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏒 NHL : New Jersey Devils 🇺🇸 vs Columbus Blue Jackets 🇺🇸",
+    "channels": [
+      {
+        "id": "14",
+        "name": "NHL Gamecenter"
+      },
+      {
+        "id": "765",
+        "name": "MSG USA"
+      },
+      {
+        "id": "451",
+        "name": "Viaplay Sports 1 UK"
+      },
+      {
+        "id": "663",
+        "name": "NHL Network USA"
+      },
+      {
+        "id": "118",
+        "name": "beIN Sports 3 France"
+      },
+      {
+        "id": "1023",
+        "name": "Nova Sport 3 CZ"
+      },
+      {
+        "id": "473",
+        "name": "MAX Sport 2 Bulgaria"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏒 NHL : Toronto Maple Leafs 🇨🇦 vs New York Islanders 🇺🇸",
+    "channels": [
+      {
+        "id": "15",
+        "name": "NHL Gamecenter"
+      },
+      {
+        "id": "550",
+        "name": "Viaplay Sports 2 UK"
+      },
+      {
+        "id": "21",
+        "name": "V Sport Vinter"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏒 NHL : Utah Mammoth 🇺🇸 vs Winnipeg Jets 🇨🇦",
+    "channels": [
+      {
+        "id": "16",
+        "name": "NHL Gamecenter"
+      },
+      {
+        "id": "22",
+        "name": "V Sport 1"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏒 NHL : Los Angeles Kings 🇺🇸 vs Montreal Canadiens 🇨🇦",
+    "channels": [
+      {
+        "id": "17",
+        "name": "NHL Gamecenter"
+      },
+      {
+        "id": "833",
+        "name": "TVA Sports"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "00:30",
+    "title": "🏒 NHL : Calgary Flames 🇨🇦 vs Ottawa Senators 🇨🇦",
+    "channels": [
+      {
+        "id": "18",
+        "name": "NHL Gamecenter"
+      }
+    ],
+    "start_unix": 1795393800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "02:40",
+    "title": "🏒 NHL : Anaheim Ducks 🇺🇸 vs Seattle Kraken 🇺🇸",
+    "channels": [
+      {
+        "id": "19",
+        "name": "NHL Gamecenter"
+      },
+      {
+        "id": "572",
+        "name": "V Sport Premium"
+      }
+    ],
+    "start_unix": 1795401600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "NHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "🏒 NHL : Minnesota Wild 🇺🇸 vs San Jose Sharks 🇺🇸",
+    "channels": [
+      {
+        "id": "20",
+        "name": "NHL Gamecenter"
+      },
+      {
+        "id": "451",
+        "name": "Viaplay Sports 1 UK"
+      },
+      {
+        "id": "409",
+        "name": "Sportsnet 360"
+      },
+      {
+        "id": "23",
+        "name": "V Sport Extra"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "ECHL Ice Hockey",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏒 ECHL : South Carolina Stingrays 🇺🇸 vs Orlando Solar Bears 🇺🇸",
+    "channels": [
+      {
+        "id": "69",
+        "name": "FloHockey"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-11-23",
+    "time": "16:00",
+    "title": "🏐 Russia Superliga, Women : Dinamo Moscow 🇷🇺 vs Dinamo Kazan 🇷🇺",
+    "channels": [
+      {
+        "id": "127",
+        "name": "Match TV Russia"
+      },
+      {
+        "id": "135",
+        "name": "Arena 2 Premium Serbia"
+      }
+    ],
+    "start_unix": 1795449600,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-11-23",
+    "time": "16:30",
+    "title": "🏐 Orlen Liga Women : Chemik Police W 🇵🇱 vs Mielec W 🇵🇱",
+    "channels": [
+      {
+        "id": "47",
+        "name": "Polsat Sport 1 Poland"
+      },
+      {
+        "id": "994",
+        "name": "Polsat Sport Extra 2 Poland"
+      }
+    ],
+    "start_unix": 1795451400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-11-23",
+    "time": "18:00",
+    "title": "🏐 Israel Premier League, Women : Hapoel Kfar Saba 🇮🇱 vs Neve Shanan Haifa 🇮🇱",
+    "channels": [
+      {
+        "id": "144",
+        "name": "Sport 5 Israel"
+      }
+    ],
+    "start_unix": 1795456800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-11-23",
     "time": "19:30",
-    "title": "🏐 Women's College Volleyball : Texas vs TBD",
+    "title": "🏐 PlusLiga : Politechnika Lublin 🇵🇱 vs Slepsk Suwalki 🇵🇱",
     "channels": [
       {
-        "id": "385",
-        "name": "SEC Network USA"
+        "id": "47",
+        "name": "Polsat Sport 1 Poland"
+      },
+      {
+        "id": "994",
+        "name": "Polsat Sport Extra 2 Poland"
+      },
+      {
+        "id": "472",
+        "name": "MAX Sport 1 Bulgaria"
       }
     ],
-    "start_unix": 1795375800,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795462200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-11-23",
+    "time": "21:30",
+    "title": "🏐 Brazil Superliga : Sesi Bauru 🇧🇷 vs Norde Vôle 🇧🇷",
+    "channels": [
+      {
+        "id": "79",
+        "name": "Sportv2 Brazil"
+      }
+    ],
+    "start_unix": 1795469400,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Volleyball",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏐 Brazil Superliga, Women : Sesc RJ Flamengo 🇧🇷 vs Osasco São Cristóvão Saúde 🇧🇷",
+    "channels": [
+      {
+        "id": "79",
+        "name": "Sportv2 Brazil"
+      }
+    ],
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏐 Women's College Volleyball : Boston College vs Stanford",
+    "date": "2026-11-23",
+    "time": "17:00",
+    "title": "🏐 Women's College Volleyball : TBD vs TBD",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795453200,
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Women's College Volleyball",
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "time": "20:00",
     "title": "🏐 Women's College Volleyball : TBD vs TBD",
     "channels": [
@@ -3684,54 +4214,12 @@
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795464000,
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏐 Women's College Volleyball : Arizona State vs Baylor",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "20:00",
-    "title": "🏐 Women's College Volleyball : Iowa State vs TCU",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795377600,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "21:00",
-    "title": "🏐 Women's College Volleyball : Syracuse vs California",
-    "channels": [
-      {
-        "id": "00",
-        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
-      }
-    ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
-  },
-  {
-    "category": "Women's College Volleyball",
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "time": "21:00",
     "title": "🏐 Women's College Volleyball : TBD vs TBD",
     "channels": [
@@ -3740,49 +4228,105 @@
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795381200,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795467600,
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Kentucky vs TBD",
+    "date": "2026-11-23",
+    "time": "23:00",
+    "title": "🏐 Women's College Volleyball : TBD vs TBD",
     "channels": [
       {
         "id": "385",
         "name": "SEC Network USA"
       }
     ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795474800,
+    "scraped_at_unix": 1795397146
   },
   {
     "category": "Women's College Volleyball",
-    "date": "2026-11-22",
-    "time": "22:00",
-    "title": "🏐 Women's College Volleyball : Southern Indiana vs Morehead State",
+    "date": "2026-11-23",
+    "time": "00:00",
+    "title": "🏐 Women's College Volleyball : TBD vs TBD",
     "channels": [
       {
         "id": "00",
         "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
       }
     ],
-    "start_unix": 1795384800,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795392000,
+    "scraped_at_unix": 1795397146
   },
   {
-    "category": "Winter Sports",
-    "date": "2026-11-22",
+    "category": "Women's College Volleyball",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "🏐 Women's College Volleyball : TBD vs TBD",
+    "channels": [
+      {
+        "id": "385",
+        "name": "SEC Network USA"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Volleyball",
+    "date": "2026-11-23",
+    "time": "02:00",
+    "title": "🏐 Women's College Volleyball : Denver 🇺🇸 vs San Francisco 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795399200,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Volleyball",
+    "date": "2026-11-23",
+    "time": "03:00",
+    "title": "🏐 Women's College Volleyball : San Diego 🇺🇸 vs Santa Clara 🇺🇸",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795402800,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Women's College Volleyball",
+    "date": "2026-11-23",
+    "time": "05:00",
+    "title": "🏐 Women's College Volleyball : TBD vs TBD",
+    "channels": [
+      {
+        "id": "00",
+        "name": "Channel Not Listed 💬#JustAsk in Chat — our Mods & Staff will provide a Working Stream Link. 🔗"
+      }
+    ],
+    "start_unix": 1795410000,
+    "scraped_at_unix": 1795397146
+  },
+  {
+    "category": "Water polo",
+    "date": "2026-11-23",
     "time": "19:00",
-    "title": "🥌 The Grand Slam of Curling : National (Men's Final)",
+    "title": "🤽 Regional water polo league : Novi Beograd 🇷🇸 vs Budva 🇲🇪",
     "channels": [
       {
-        "id": "832",
-        "name": "CBC CA"
+        "id": "14",
+        "name": "Arena 5 Premium Serbia"
       }
     ],
-    "start_unix": 1795374000,
-    "scraped_at_unix": 1795380441
+    "start_unix": 1795460400,
+    "scraped_at_unix": 1795397146
   }
 ]
