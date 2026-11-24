@@ -1,5 +1,5 @@
 {
-  "swept_at": 1794956858,
+  "swept_at": 1795531814,
   "channels_swept": 914,
   "measured_this_run": 114,
   "ok_count": 743,
@@ -240,11 +240,11 @@
     {
       "id": "44",
       "name": "espn usa",
-      "checked_at": 1794956858,
+      "checked_at": 1795529614,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
-      "host": null,
+      "host": "cdn.hdm1.net",
       "first_segment_url": null,
       "source": "home"
     },
@@ -2319,7 +2319,7 @@
     {
       "id": "345",
       "name": "cnn usa",
-      "checked_at": 1794956533,
+      "checked_at": 1795531814,
       "status": "ok",
       "fail_reason": null,
       "daddy_endpoint": null,
